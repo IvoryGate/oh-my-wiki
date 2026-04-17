@@ -4,14 +4,14 @@
 
 ## 统计概览
 
-|| 类型 | 数量 |
-||------|------|
-|| 概念 (concepts) | 27 |
-|| 实体 (entities) | 4 |
-|| 主题 (topics) | 0 |
-|| 洞察 (insights) | 0 |
-|| 指南 (howto) | 0 |
-|| **总计** | **31** |
+| 类型 | 数量 |
+|------|------|
+| 概念 (concepts) | 27 |
+| 实体 (entities) | 4 |
+| 主题 (topics) | 0 |
+| 洞察 (insights) | 0 |
+| 指南 (howto) | 0 |
+| **总计** | **31** |
 
 ---
 
@@ -55,59 +55,59 @@ LIMIT 10
 
 #### Agent 架构与工程
 
-|| 概念 | 描述 | 更新日期 |
-||------|------|----------|
-|| [[Agent-Loop]] | Agent 核心循环模式：感知-决策-行动-反馈 | 2026-04-18 |
-|| [[Workflow-vs-Agent]] | 工作流与智能体的核心区别 | 2026-04-18 |
-|| [[Agent-Control-Patterns]] | 五种 Agent 控制模式 | 2026-04-18 |
-|| [[Harness-Engineering]] | 验收基础设施：测试、验证与约束 | 2026-04-18 |
-|| [[Context-Engineering]] | 上下文工程：防止 Context Rot | 2026-04-18 |
-|| [[Skills-System]] | Skills 按需加载系统 | 2026-04-18 |
-|| [[ACI]] | Agent-Computer Interface：工具设计原则 | 2026-04-18 |
-|| [[Memory-System]] | Agent 记忆系统：四种记忆类型 | 2026-04-18 |
-|| [[Multi-Agent-Organization]] | 多 Agent 组织与协作模式 | 2026-04-18 |
-|| [[Agent-Evaluation]] | Agent 评测体系 | 2026-04-18 |
-|| [[Agent-Tracing]] | Agent 追踪与可观测性 | 2026-04-18 |
-|| [[Long-Task-Management]] | 长任务管理与跨 Session 恢复 | 2026-04-18 |
+| 概念 | 描述 | 更新日期 |
+|------|------|----------|
+| [[Agent-Loop]] | Agent 核心循环模式：感知-决策-行动-反馈 | 2026-04-18 |
+| [[Workflow-vs-Agent]] | 工作流与智能体的核心区别 | 2026-04-18 |
+| [[Agent-Control-Patterns]] | 五种 Agent 控制模式 | 2026-04-18 |
+| [[Harness-Engineering]] | 验收基础设施：测试、验证与约束 | 2026-04-18 |
+| [[Context-Engineering]] | 上下文工程：防止 Context Rot | 2026-04-18 |
+| [[Skills-System]] | Skills 按需加载系统 | 2026-04-18 |
+| [[ACI]] | Agent-Computer Interface：工具设计原则 | 2026-04-18 |
+| [[Memory-System]] | Agent 记忆系统：四种记忆类型 | 2026-04-18 |
+| [[Multi-Agent-Organization]] | 多 Agent 组织与协作模式 | 2026-04-18 |
+| [[Agent-Evaluation]] | Agent 评测体系 | 2026-04-18 |
+| [[Agent-Tracing]] | Agent 追踪与可观测性 | 2026-04-18 |
+| [[Long-Task-Management]] | 长任务管理与跨 Session 恢复 | 2026-04-18 |
 
 #### Agent-First 开发
 
-|| 概念 | 描述 | 更新日期 |
-||------|------|----------|
-|| [[Agent-First-Development]] | 智能体优先开发模式 | 2026-04-18 |
-|| [[Architecture-Constraints]] | 架构约束与不变量 | 2026-04-18 |
-|| [[Progressive-Disclosure]] | 渐进式披露原则 | 2026-04-18 |
+| 概念 | 描述 | 更新日期 |
+|------|------|----------|
+| [[Agent-First-Development]] | 智能体优先开发模式 | 2026-04-18 |
+| [[Architecture-Constraints]] | 架构约束与不变量 | 2026-04-18 |
+| [[Progressive-Disclosure]] | 渐进式披露原则 | 2026-04-18 |
 
 #### LLM 与知识管理
 
-|| 概念 | 描述 | 更新日期 |
-||------|------|----------|
-|| [[LLM-Wiki]] | 使用 LLM 构建个人知识库的模式 | 2026-04-17 |
-|| [[RAG]] | 检索增强生成技术 | 2026-04-17 |
+| 概念 | 描述 | 更新日期 |
+|------|------|----------|
+| [[LLM-Wiki]] | 使用 LLM 构建个人知识库的模式 | 2026-04-17 |
+| [[RAG]] | 检索增强生成技术 | 2026-04-17 |
 
 #### 增长与营销
 
-|| 概念 | 描述 | 更新日期 |
-||------|------|----------|
-|| [[MMP-Attribution]] | 第三方归因解决方案 | 2026-04-18 |
-|| [[SKAN-Attribution]] | Apple 官方归因体系 (iOS) | 2026-04-18 |
-|| [[Last-Click-Rule]] | 广告归因核心规则 | 2026-04-18 |
-|| [[Duplicate-Attribution]] | 一个激活付多份钱的问题 | 2026-04-18 |
-|| [[Attribution-Gap]] | MMP 与大媒体归因差异 | 2026-04-18 |
-|| [[User-App-Pair]] | 用户覆盖模型 (人货场) | 2026-04-18 |
-|| [[Audience-Definition]] | 受众定义三问 | 2026-04-18 |
-|| [[High-Value-Channel]] | 高价值渠道识别 | 2026-04-18 |
-|| [[Channel-Launch-Strategy]] | 渠道起量六要素 | 2026-04-18 |
-|| [[Network-Cognition-Gap]] | 渠道能力差异 | 2026-04-18 |
+| 概念 | 描述 | 更新日期 |
+|------|------|----------|
+| [[MMP-Attribution]] | 第三方归因解决方案 | 2026-04-18 |
+| [[SKAN-Attribution]] | Apple 官方归因体系 (iOS) | 2026-04-18 |
+| [[Last-Click-Rule]] | 广告归因核心规则 | 2026-04-18 |
+| [[Duplicate-Attribution]] | 一个激活付多份钱的问题 | 2026-04-18 |
+| [[Attribution-Gap]] | MMP 与大媒体归因差异 | 2026-04-18 |
+| [[User-App-Pair]] | 用户覆盖模型 (人货场) | 2026-04-18 |
+| [[Audience-Definition]] | 受众定义三问 | 2026-04-18 |
+| [[High-Value-Channel]] | 高价值渠道识别 | 2026-04-18 |
+| [[Channel-Launch-Strategy]] | 渠道起量六要素 | 2026-04-18 |
+| [[Network-Cognition-Gap]] | 渠道能力差异 | 2026-04-18 |
 
 ### 实体 (entities)
 
-|| 实体 | 描述 | 更新日期 |
-||------|------|----------|
-|| [[erickfang]] | 出海增长专家，《出海增长浅谈》作者 | 2026-04-18 |
-|| [[Codex]] | OpenAI 代码生成智能体 | 2026-04-18 |
-|| [[OpenAI]] | AI 研究和部署公司 | 2026-04-18 |
-|| [[Karpathy]] | AI 研究员，LLM Wiki 提出者 | 2026-04-17 |
+| 实体 | 描述 | 更新日期 |
+|------|------|----------|
+| [[erickfang]] | 出海增长专家，《出海增长浅谈》作者 | 2026-04-18 |
+| [[Codex]] | OpenAI 代码生成智能体 | 2026-04-18 |
+| [[OpenAI]] | AI 研究和部署公司 | 2026-04-18 |
+| [[Karpathy]] | AI 研究员，LLM Wiki 提出者 | 2026-04-17 |
 
 ---
 
@@ -147,8 +147,8 @@ wiki/atoms/         # 原子知识（概念、实体）
   ↓ 你实践使用
   │
 workplace/          # 实践过程
-├── Done/           # 单篇完成 → wiki/synthesis/howto 或 insights
-└── topics/         # 话题积累 → wiki/synthesis/topics
+  ├── Done/         # 单篇完成 → wiki/synthesis/howto 或 insights
+  └── topics/       # 话题积累 → wiki/synthesis/topics
   │
   ↓ 沉淀成熟
   │
