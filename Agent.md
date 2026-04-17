@@ -99,8 +99,15 @@ wiki/
 workplace/
 ├── Todo/          # 待办
 ├── Doing/         # 进行中
-└── Done/          # 已完成 → 流入 wiki
+├── Done/          # 已完成 → 单篇流入 wiki/synthesis/howto 或 insights
+└── topics/        # 新话题积累 → 成熟后流入 wiki/synthesis/topics
 ```
+
+**topics/ 目录用途**：
+- 用于**新话题**的知识积累（还没沉淀过的领域）
+- 每个话题一个目录，包含 `_tracker.md` 和 `notes/`
+- 成熟后沉淀到 `wiki/synthesis/topics/`
+- **已有内容的更新**：直接在 `wiki/synthesis/` 中更新，不回流到 workplace
 
 ---
 
@@ -241,17 +248,26 @@ git commit -m "lint: [修复内容简述]"
 
 ### 四、Flow（知识流入）
 
-**触发条件**：用户判断 workplace/Done 中的内容时机成熟，决定流入 wiki
+**触发条件**：用户判断 workplace 中的内容时机成熟，决定流入 wiki
+
+**两条路径**：
+
+```
+路径 A：单篇文章解决一个问题
+  workplace/Done/xxx.md → wiki/synthesis/howto/ 或 insights/
+
+路径 B：系列文章积累一个话题
+  workplace/topics/xxx/ → wiki/synthesis/topics/xxx-guide.md
+```
 
 **执行流程**：
 
 ```
 1. 用户指明要流入的内容
 
-2. 理解内容
-   ├── 读取 Done 中的文件
-   ├── 判断属于 atoms 还是 synthesis
-   └── 确定需要创建/更新的页面
+2. 判断路径
+   ├── Done 中的单篇 → 流入 howto/ 或 insights/
+   └── topics 中的话题 → 流入 synthesis/topics/
 
 3. 讨论确认
    └── 与用户确认流入方式和位置
@@ -262,7 +278,7 @@ git commit -m "lint: [修复内容简述]"
    └── 追加 log.md
 
 5. 清理 workplace
-   └── 删除或归档 Done 中的原文件
+   └── 删除或归档原文件
 
 6. Git 提交
    git commit -m "flow: [内容名称] 流入 wiki"
@@ -426,6 +442,48 @@ Obsidian 内置的知识图谱视图。
 
 ---
 
+## 知识更新机制
+
+### 已有内容的更新
+
+当认知深化需要更新 `wiki/synthesis/` 中的内容时：
+
+```
+1. 直接在 wiki/synthesis/xxx.md 中更新
+   ├── 更新 status: evolving
+   ├── 更新内容
+   └── 记录变更日志
+
+2. 更新完成后
+   └── 改回 status: stable
+```
+
+**不要**回流到 `workplace/topics/`，那是用于**新话题积累**的。
+
+### Frontmatter 状态标记
+
+```yaml
+status: stable        # stable | evolving | outdated
+version: 1.2
+updated: YYYY-MM-DD
+next_review: YYYY-MM-DD  # 可选，提醒定期审视
+confidence: medium    # low | medium | high
+```
+
+### 变更日志格式
+
+在每个综合页面底部维护：
+
+```markdown
+## 变更日志
+
+| 日期 | 版本 | 变更内容 |
+|------|------|----------|
+| 2026-04-18 | 1.0 | 初版 |
+```
+
+---
+
 ## 注意事项
 
 1. **永远不要修改 raw/ 目录中的任何文件**
@@ -442,4 +500,5 @@ Obsidian 内置的知识图谱视图。
 
 | 版本 | 日期 | 说明 |
 |------|------|------|
+| 1.1 | 2026-04-18 | 添加知识沉淀规则、话题追踪机制、知识更新机制 |
 | 1.0 | 2026-04-17 | 初始版本 |

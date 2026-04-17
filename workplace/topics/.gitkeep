@@ -1,0 +1,21 @@
+# 话题追踪目录
+
+此目录用于**新话题**的知识积累。
+
+## 使用说明
+
+- 当你开始学习一个新领域/话题时，在此创建目录
+- 积累完成后，沉淀到 `wiki/synthesis/topics/`
+- **已有内容的更新**：直接在 `wiki/synthesis/` 中更新，不回流到这里
+
+## 目录结构示例
+
+```
+topics/
+├── prompt-engineering/
+│   ├── _tracker.md    # 进度追踪
+│   └── notes/         # 学习笔记
+└── rag-optimization/
+    ├── _tracker.md
+    └── notes/
+```
