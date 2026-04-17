@@ -1,0 +1,16 @@
+{
+  "theme": "default",
+  "paginate": true,
+  "size": "16:9",
+  "exportDir": "export/",
+  "autoExport": false,
+  "pdfFormat": true,
+  "pptxFormat": false,
+  "htmlFormat": false,
+  "imageFormat": false,
+  "backgroundColor": "#fff",
+  "color": "#333",
+  "codeBackground": "#f6f8fa",
+  "showLineNumber": false,
+  "enableKroki": false
+}

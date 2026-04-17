@@ -25,6 +25,10 @@
 # Obsidian 插件数据（个人偏好）
 # ============================================
 .obsidian/plugins/*/data.json
+!.obsidian/plugins/homepage/data.json
+!.obsidian/plugins/dataview/data.json
+!.obsidian/plugins/marp-slides/data.json
+!.obsidian/plugins/heatmap-tracker/data.json
 .obsidian/plugins/*/workspace.json
 
 # ============================================
