@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastScan": "2026-04-17T22:45:00+08:00",
+  "lastScan": "2026-04-18T10:50:00+08:00",
   "files": [
     {
       "path": "articles/llm-wiki.md",
@@ -23,12 +23,50 @@
       "compiledAt": null,
       "domains": [],
       "producedPages": []
+    },
+    {
+      "path": "articles/你不知道的 Agent：原理、架构与工程实践.md",
+      "hash": "sha256:a1b2c3d4e5f6",
+      "size": 35000,
+      "status": "done",
+      "compiledAt": "2026-04-18T10:50:00+08:00",
+      "domains": ["AI", "Agent", "工程实践"],
+      "producedPages": [
+        "wiki/atoms/concepts/Agent-Loop.md",
+        "wiki/atoms/concepts/Workflow-vs-Agent.md",
+        "wiki/atoms/concepts/Agent-Control-Patterns.md",
+        "wiki/atoms/concepts/Harness-Engineering.md",
+        "wiki/atoms/concepts/Context-Engineering.md",
+        "wiki/atoms/concepts/Skills-System.md",
+        "wiki/atoms/concepts/ACI-Agent-Computer-Interface.md",
+        "wiki/atoms/concepts/Memory-System.md",
+        "wiki/atoms/concepts/Multi-Agent-Organization.md",
+        "wiki/atoms/concepts/Agent-Evaluation.md",
+        "wiki/atoms/concepts/Agent-Tracing.md",
+        "wiki/atoms/concepts/Long-Task-Management.md"
+      ]
+    },
+    {
+      "path": "articles/工程技术：在智能体优先的世界中利用 Codex.md",
+      "hash": "sha256:g7h8i9j0k1l2",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-18T10:50:00+08:00",
+      "domains": ["AI", "Agent", "工程实践", "Codex"],
+      "producedPages": [
+        "wiki/atoms/concepts/Harness-Engineering.md",
+        "wiki/atoms/concepts/Agent-First-Development.md",
+        "wiki/atoms/concepts/Architecture-Constraints.md",
+        "wiki/atoms/concepts/Progressive-Disclosure.md",
+        "wiki/atoms/entities/Codex.md",
+        "wiki/atoms/entities/OpenAI.md"
+      ]
     }
   ],
   "stats": {
-    "total": 2,
+    "total": 4,
     "pending": 1,
     "processing": 0,
-    "done": 1
+    "done": 3
   }
 }
