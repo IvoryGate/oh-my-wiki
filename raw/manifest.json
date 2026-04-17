@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "lastScan": "2026-04-17T22:45:00+08:00",
+  "files": [
+    {
+      "path": "articles/llm-wiki.md",
+      "hash": "sha256:156ef9d71b75aebcd64e6c7b5616c540a12660e76d5b3a7dfc3217ca2fc34826",
+      "size": 12228,
+      "status": "done",
+      "compiledAt": "2026-04-17T22:40:00+08:00",
+      "domains": ["AI", "知识管理", "LLM"],
+      "producedPages": [
+        "wiki/atoms/concepts/LLM-Wiki.md",
+        "wiki/atoms/concepts/RAG.md",
+        "wiki/atoms/entities/Karpathy.md"
+      ]
+    },
+    {
+      "path": "videos/BV1ju6QBzENE.md",
+      "hash": "sha256:72716ac3e8a9fe9b81e840afd62e4ae1ae5633315505e91d8b41d199eecc7d86",
+      "size": 1893,
+      "status": "pending",
+      "compiledAt": null,
+      "domains": [],
+      "producedPages": []
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "pending": 1,
+    "processing": 0,
+    "done": 1
+  }
+}
