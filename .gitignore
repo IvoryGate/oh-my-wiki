@@ -1,0 +1,91 @@
+# Oh-My-Wiki Git 忽略规则
+
+# ============================================
+# Obsidian 核心配置（需要保留）
+# ============================================
+# 以下文件保留，便于团队共享设置
+# .obsidian/app.json
+# .obsidian/appearance.json
+# .obsidian/community-plugins.json
+# .obsidian/core-plugins.json
+# .obsidian/themes/
+# .obsidian/snippets/
+# .obsidian/plugins/*/manifest.json
+
+# ============================================
+# Obsidian 工作区配置（个人偏好，不共享）
+# ============================================
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/page-preview.json
+
+# ============================================
+# Obsidian 插件数据（个人偏好）
+# ============================================
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/workspace.json
+
+# ============================================
+# 系统文件
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# 编辑器和 IDE
+# ============================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ============================================
+# 临时文件
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# ============================================
+# Python（如果有脚本）
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+
+# ============================================
+# 导出文件（Marp 等）
+# ============================================
+export/
+*.pdf
+*.pptx
+*.html
+!wiki/templates/*.html
+
+# ============================================
+# 日志和调试
+# ============================================
+*.log
+logs/
+.obsidian/plugins/*/debug.log
+
+# ============================================
+# 其他
+# ============================================
+.trash/
+.smart-connections/
+.context/
+.prompt-cache/
