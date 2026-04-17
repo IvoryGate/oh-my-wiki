@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-17T22:40:00+08:00",
+  "lastUpdated": "2026-04-18T10:45:00+08:00",
   "nodes": [
     {
       "id": "LLM-Wiki",
@@ -22,6 +22,125 @@
       "path": "wiki/atoms/entities/Karpathy.md",
       "aliases": ["Andrej Karpathy"],
       "sources": ["raw/articles/llm-wiki.md"]
+    },
+    {
+      "id": "Agent-Loop",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-Loop.md",
+      "aliases": ["Agent循环", "AI Agent主循环"],
+      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+    },
+    {
+      "id": "Workflow-vs-Agent",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Workflow-vs-Agent.md",
+      "aliases": ["工作流与智能体"],
+      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+    },
+    {
+      "id": "Agent-Control-Patterns",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-Control-Patterns.md",
+      "aliases": ["Agent控制模式", "五种控制模式"],
+      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+    },
+    {
+      "id": "Harness-Engineering",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Harness-Engineering.md",
+      "aliases": ["Harness工程", "验收基础设施"],
+      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md", "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"]
+    },
+    {
+      "id": "Context-Engineering",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Context-Engineering.md",
+      "aliases": ["上下文工程"],
+      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+    },
+    {
+      "id": "Skills-System",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Skills-System.md",
+      "aliases": ["Skills系统", "Agent Skills"],
+      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+    },
+    {
+      "id": "ACI",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/ACI-Agent-Computer-Interface.md",
+      "aliases": ["Agent-Computer Interface", "Agent计算机接口"],
+      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+    },
+    {
+      "id": "Memory-System",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Memory-System.md",
+      "aliases": ["记忆系统", "Agent记忆"],
+      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+    },
+    {
+      "id": "Multi-Agent-Organization",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Multi-Agent-Organization.md",
+      "aliases": ["多Agent组织", "Agent协作模式"],
+      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+    },
+    {
+      "id": "Agent-Evaluation",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-Evaluation.md",
+      "aliases": ["Agent评测"],
+      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+    },
+    {
+      "id": "Agent-Tracing",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-Tracing.md",
+      "aliases": ["Agent追踪", "可观测性"],
+      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+    },
+    {
+      "id": "Long-Task-Management",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Long-Task-Management.md",
+      "aliases": ["长任务管理"],
+      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+    },
+    {
+      "id": "Agent-First-Development",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-First-Development.md",
+      "aliases": ["智能体优先开发"],
+      "sources": ["raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"]
+    },
+    {
+      "id": "Architecture-Constraints",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Architecture-Constraints.md",
+      "aliases": ["架构约束", "架构不变量"],
+      "sources": ["raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"]
+    },
+    {
+      "id": "Progressive-Disclosure",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Progressive-Disclosure.md",
+      "aliases": ["渐进式披露"],
+      "sources": ["raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"]
+    },
+    {
+      "id": "Codex",
+      "type": "entity",
+      "path": "wiki/atoms/entities/Codex.md",
+      "aliases": ["OpenAI Codex", "Codex CLI"],
+      "sources": ["raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"]
+    },
+    {
+      "id": "OpenAI",
+      "type": "entity",
+      "path": "wiki/atoms/entities/OpenAI.md",
+      "aliases": ["OpenAI公司"],
+      "sources": ["raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"]
     }
   ],
   "edges": [
@@ -36,14 +155,98 @@
       "to": "RAG",
       "relation": "compares_to",
       "context": "LLM Wiki 是 RAG 的替代方案"
+    },
+    {
+      "from": "Agent-Loop",
+      "to": "Agent-Control-Patterns",
+      "relation": "implements",
+      "context": "Agent Loop 通过不同模式实现控制流"
+    },
+    {
+      "from": "Agent-Loop",
+      "to": "Workflow-vs-Agent",
+      "relation": "relates_to",
+      "context": "Agent Loop 是 Agent 的核心特征"
+    },
+    {
+      "from": "Context-Engineering",
+      "to": "Skills-System",
+      "relation": "uses",
+      "context": "Skills System 是上下文工程的核心实践"
+    },
+    {
+      "from": "Context-Engineering",
+      "to": "Memory-System",
+      "relation": "includes",
+      "context": "记忆系统是上下文分层的一部分"
+    },
+    {
+      "from": "Harness-Engineering",
+      "to": "Agent-Evaluation",
+      "relation": "includes",
+      "context": "评测是 Harness 的重要组成部分"
+    },
+    {
+      "from": "Harness-Engineering",
+      "to": "Agent-Tracing",
+      "relation": "includes",
+      "context": "追踪是 Harness 的重要组成部分"
+    },
+    {
+      "from": "Agent-First-Development",
+      "to": "Harness-Engineering",
+      "relation": "requires",
+      "context": "Agent-First 开发依赖完善的 Harness"
+    },
+    {
+      "from": "Agent-First-Development",
+      "to": "Progressive-Disclosure",
+      "relation": "uses",
+      "context": "渐进式披露是 Agent-First 的信息架构原则"
+    },
+    {
+      "from": "Agent-First-Development",
+      "to": "Architecture-Constraints",
+      "relation": "requires",
+      "context": "架构约束是 Agent-First 开发的基础"
+    },
+    {
+      "from": "Codex",
+      "to": "OpenAI",
+      "relation": "developed_by",
+      "context": "Codex 由 OpenAI 开发"
+    },
+    {
+      "from": "Codex",
+      "to": "Agent-First-Development",
+      "relation": "enables",
+      "context": "Codex 使 Agent-First 开发成为可能"
+    },
+    {
+      "from": "Progressive-Disclosure",
+      "to": "Context-Engineering",
+      "relation": "relates_to",
+      "context": "渐进式披露是上下文管理的核心原则"
+    },
+    {
+      "from": "Multi-Agent-Organization",
+      "to": "Agent-Loop",
+      "relation": "extends",
+      "context": "多 Agent 组织是对单 Agent Loop 的扩展"
+    },
+    {
+      "from": "ACI",
+      "to": "Agent-Loop",
+      "relation": "supports",
+      "context": "ACI 工具设计支持 Agent Loop 的行动阶段"
     }
   ],
   "stats": {
-    "totalNodes": 3,
-    "totalEdges": 2,
+    "totalNodes": 20,
+    "totalEdges": 16,
     "byType": {
-      "concept": 2,
-      "entity": 1,
+      "concept": 17,
+      "entity": 3,
       "topic": 0,
       "insight": 0,
       "howto": 0,
