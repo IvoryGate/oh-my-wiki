@@ -10,20 +10,28 @@ type: homepage
 ## 知识贡献
 
 ```contributionGraph
-title: 知识贡献图
 graphType: default
-dateRangeValue: 365
-dateRangeType: LAST_DAYS
+days: 365
 startOfWeek: 1
-showCellRuleIndicators: true
-showTitle: false
+fillTheScreen: false
+cellStyle:
+  borderRadius: ""
+  minWidth: 12px
+  minHeight: 12px
+fixedScaleSize: 1
 dataSource:
-   type: PAGE
-   value: 'wiki'
-   dateField:
-     type: FILE_MTIME
-fixedScaleSize: 1.5
-fillTheScreen: true
+  type: PAGE
+  value: '"wiki" or "workplace"'
+  dateField:
+    type: FILE_MTIME
+dateRangeType: LATEST_DAYS
+dateRangeValue: 365
+titleStyle:
+  fontSize: 16px
+cellStyleRules: []
+enableMainContainerShadow: true
+showCellRuleIndicators: true
+
 ```
 
 ## 最近更新
