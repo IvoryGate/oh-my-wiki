@@ -1,160 +1,9 @@
 /* Oh-My-Wiki 知识库样式优化 */
 
 /* ============================================
-   首页极客风格
-   ============================================ */
-
-/* 首页特殊样式 */
-.markdown-preview-view[data-path="Home.md"] {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-  color: #e0e0e0;
-}
-
-/* 首页标题发光效果 */
-.markdown-preview-view[data-path="Home.md"] h1 {
-  text-align: center;
-  font-size: 3em;
-  background: linear-gradient(90deg, #00d4ff, #7b2cbf, #ff006e);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
-  animation: glow 2s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-  from { filter: drop-shadow(0 0 5px #00d4ff); }
-  to { filter: drop-shadow(0 0 20px #7b2cbf); }
-}
-
-/* 首页引用块 */
-.markdown-preview-view[data-path="Home.md"] blockquote {
-  background: rgba(0, 212, 255, 0.1);
-  border-left: 4px solid #00d4ff;
-  border-radius: 8px;
-  padding: 16px 24px;
-  margin: 20px auto;
-  max-width: 600px;
-  text-align: center;
-  font-style: italic;
-  color: #a0d2db;
-}
-
-/* 首页表格 */
-.markdown-preview-view[data-path="Home.md"] table {
-  border-collapse: collapse;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.markdown-preview-view[data-path="Home.md"] th {
-  background: linear-gradient(90deg, #00d4ff33, #7b2cbf33);
-  color: #00d4ff;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.markdown-preview-view[data-path="Home.md"] td {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  color: #e0e0e0;
-}
-
-.markdown-preview-view[data-path="Home.md"] tr:hover td {
-  background: rgba(0, 212, 255, 0.1);
-}
-
-/* 首页 Dataview 表格 */
-.markdown-preview-view[data-path="Home.md"] .dataview.table-view-table {
-  background: transparent;
-}
-
-.markdown-preview-view[data-path="Home.md"] .dataview.table-view-table th {
-  background: rgba(0, 212, 255, 0.2);
-  color: #00d4ff;
-  border-bottom: 2px solid #00d4ff;
-}
-
-.markdown-preview-view[data-path="Home.md"] .dataview.table-view-table td {
-  color: #e0e0e0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* 首页链接 */
-.markdown-preview-view[data-path="Home.md"] a {
-  color: #00d4ff;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.markdown-preview-view[data-path="Home.md"] a:hover {
-  color: #ff006e;
-  text-shadow: 0 0 10px currentColor;
-}
-
-/* 首页复选框 */
-.markdown-preview-view[data-path="Home.md"] input[type="checkbox"] {
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  border: 2px solid #00d4ff;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.markdown-preview-view[data-path="Home.md"] input[type="checkbox"]:checked {
-  background: linear-gradient(135deg, #00d4ff, #7b2cbf);
-  border-color: #00d4ff;
-}
-
-.markdown-preview-view[data-path="Home.md"] input[type="checkbox"]:checked::after {
-  content: "✓";
-  color: white;
-  display: block;
-  text-align: center;
-  line-height: 16px;
-  font-weight: bold;
-}
-
-/* 首页代码块 */
-.markdown-preview-view[data-path="Home.md"] code {
-  background: rgba(0, 212, 255, 0.2);
-  color: #00d4ff;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
-}
-
-.markdown-preview-view[data-path="Home.md"] pre {
-  background: rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 8px;
-  padding: 16px;
-}
-
-/* 首页分隔线 */
-.markdown-preview-view[data-path="Home.md"] hr {
-  border: none;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #00d4ff, #7b2cbf, #ff006e, transparent);
-  margin: 32px 0;
-}
-
-/* 首页统计数字 */
-.markdown-preview-view[data-path="Home.md"] table td:first-child {
-  font-size: 2em;
-  font-weight: bold;
-  background: linear-gradient(90deg, #00d4ff, #7b2cbf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* ============================================
    Frontmatter 显示优化
    ============================================ */
 
-/* 隐藏 frontmatter 的 YAML 代码，只显示属性面板 */
 .markdown-source-view .metadata-container {
   background: var(--background-secondary);
   border-radius: 8px;
@@ -188,7 +37,6 @@
   background: var(--background-secondary);
 }
 
-/* Dataview 列表样式 */
 .dataview.dataview-container.list-view-ul {
   list-style: none;
   padding-left: 0;
@@ -199,69 +47,6 @@
   border-left: 3px solid var(--interactive-accent);
   margin-bottom: 4px;
   background: var(--background-secondary);
-}
-
-/* ============================================
-   知识库目录特殊样式
-   ============================================ */
-
-/* wiki 目录高亮 */
-.nav-folder:has(.nav-folder-title:contains("wiki")) .nav-folder-title {
-  color: var(--text-accent);
-  font-weight: 600;
-}
-
-/* raw 目录标记 */
-.nav-folder:has(.nav-folder-title:contains("raw")) .nav-folder-title::before {
-  content: "📁 ";
-}
-
-/* workplace 目录标记 */
-.nav-folder:has(.nav-folder-title:contains("workplace")) .nav-folder-title::before {
-  content: "📝 ";
-}
-
-/* ============================================
-   页面类型标识
-   ============================================ */
-
-/* 概念页 */
-.markdown-preview-view[data-type="concept"] .markdown-preview-sizer::before {
-  content: "💡 概念";
-  display: block;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 4px 12px;
-  border-radius: 4px;
-  font-size: 12px;
-  font-weight: 600;
-  margin-bottom: 16px;
-}
-
-/* 实体页 */
-.markdown-preview-view[data-type="entity"] .markdown-preview-sizer::before {
-  content: "👤 实体";
-  display: block;
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  color: white;
-  padding: 4px 12px;
-  border-radius: 4px;
-  font-size: 12px;
-  font-weight: 600;
-  margin-bottom: 16px;
-}
-
-/* 主题页 */
-.markdown-preview-view[data-type="topic"] .markdown-preview-sizer::before {
-  content: "🎯 主题";
-  display: block;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-  color: white;
-  padding: 4px 12px;
-  border-radius: 4px;
-  font-size: 12px;
-  font-weight: 600;
-  margin-bottom: 16px;
 }
 
 /* ============================================
@@ -279,7 +64,6 @@
   background: var(--background-modifier-hover);
 }
 
-/* 未创建的链接 */
 .internal-link.is-unresolved {
   color: var(--text-muted);
   border-bottom-style: dotted;
@@ -304,19 +88,6 @@
 }
 
 /* ============================================
-   Marp 幻灯片预览优化
-   ============================================ */
-
-.marp-preview {
-  background: #fff;
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 8px;
-  padding: 16px;
-  margin: 16px 0;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* ============================================
    响应式布局
    ============================================ */
 
@@ -324,7 +95,7 @@
   .dataview.table-view-table {
     font-size: 0.9em;
   }
-  
+
   .dataview.table-view-table th,
   .dataview.table-view-table td {
     padding: 6px 8px;
@@ -342,7 +113,7 @@
   .status-bar {
     display: none !important;
   }
-  
+
   .markdown-preview-view {
     width: 100% !important;
     padding: 0 !important;
