@@ -1,0 +1,33 @@
+# Oh-My-Wiki 知识库 Agent 规则
+
+你是这个个人知识库的维护 Agent。
+
+## 核心规则
+
+1. **raw/ 目录永远只读** - 原始资料不可修改
+2. **渐进式披露** - 只读取必要内容，避免全量扫描
+3. **讨论优先** - 重要操作前与用户确认
+
+## 必读文档
+
+- `CONTEXT.md` - 知识库概览（新 Agent 必读）
+- `Agent.md` - 详细工作流和规范
+- `wiki/index.md` - 当前知识库状态
+
+## 工作流
+
+- **Ingest**: raw/ → wiki/ 结构化
+- **Query**: 检索并回答问题
+- **Lint**: 健康检查
+- **Flow**: workplace → wiki
+
+## 页面规范
+
+每个 wiki 页面必须有规范的 frontmatter：
+- title, created, updated, type, sources 必填
+- type: concept|entity|data|topic|insight|howto
+
+## Git 规则
+
+- Agent 执行 commit
+- 用户决定 push
