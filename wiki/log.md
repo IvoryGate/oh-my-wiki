@@ -24,6 +24,45 @@
 
 ## 2026年4月
 
+## [2026-04-18 11:30] update | 知识库架构升级
+- 添加 `workplace/topics/` 目录用于新话题积累
+- 创建话题追踪模板: [[wiki/templates/topic-tracker.md]]
+- 创建综合知识模板: [[wiki/templates/synthesis-template.md]]
+- 更新 Agent.md: 添加知识沉淀规则、更新机制
+- 更新 wiki/index.md: 反映新的知识流转规则
+
+**核心变更**：
+1. **两条沉淀路径**：
+   - 单篇: `Done/` → `wiki/synthesis/howto` 或 `insights`
+   - 系列: `topics/` → `wiki/synthesis/topics`
+2. **更新机制**：已有内容直接在 `wiki/synthesis/` 更新，不回流
+3. **状态标记**：`status: stable|evolving|outdated` + 变更日志
+
+## [2026-04-18 10:50] ingest | Agent 工程实践文章
+- 来源: [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
+- 来源: [[raw/articles/工程技术：在智能体优先的世界中利用 Codex.md]]
+- 创建概念页:
+  - [[Agent-Loop]] - Agent 核心循环模式
+  - [[Workflow-vs-Agent]] - 工作流与智能体区分
+  - [[Agent-Control-Patterns]] - 五种控制模式
+  - [[Harness-Engineering]] - 验收基础设施
+  - [[Context-Engineering]] - 上下文工程
+  - [[Skills-System]] - Skills 按需加载系统
+  - [[ACI]] - Agent-Computer Interface
+  - [[Memory-System]] - 记忆系统
+  - [[Multi-Agent-Organization]] - 多 Agent 组织
+  - [[Agent-Evaluation]] - Agent 评测
+  - [[Agent-Tracing]] - Agent 追踪
+  - [[Long-Task-Management]] - 长任务管理
+  - [[Agent-First-Development]] - 智能体优先开发
+  - [[Architecture-Constraints]] - 架构约束
+  - [[Progressive-Disclosure]] - 渐进式披露
+- 创建实体页:
+  - [[Codex]] - OpenAI 代码生成智能体
+  - [[OpenAI]] - OpenAI 公司
+- 建立知识链接 16 条
+- 更新 graph.json: 节点 20 个，边 16 条
+
 ## [2026-04-17 23:20] create | .gitignore
 - 创建 .gitignore 文件
 - 忽略 Obsidian 个人偏好配置（workspace.json, data.json）
