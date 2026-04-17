@@ -1,0 +1,200 @@
+/* Oh-My-Wiki 知识库样式优化 */
+
+/* ============================================
+   Frontmatter 显示优化
+   ============================================ */
+
+/* 隐藏 frontmatter 的 YAML 代码，只显示属性面板 */
+.markdown-source-view .metadata-container {
+  background: var(--background-secondary);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+/* ============================================
+   Dataview 表格样式
+   ============================================ */
+
+.dataview.table-view-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dataview.table-view-table th {
+  background: var(--background-secondary-alt);
+  padding: 8px 12px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid var(--interactive-accent);
+}
+
+.dataview.table-view-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.dataview.table-view-table tr:hover td {
+  background: var(--background-secondary);
+}
+
+/* Dataview 列表样式 */
+.dataview.dataview-container.list-view-ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.dataview.dataview-container.list-view-ul li {
+  padding: 4px 8px;
+  border-left: 3px solid var(--interactive-accent);
+  margin-bottom: 4px;
+  background: var(--background-secondary);
+}
+
+/* ============================================
+   知识库目录特殊样式
+   ============================================ */
+
+/* wiki 目录高亮 */
+.nav-folder:has(.nav-folder-title:contains("wiki")) .nav-folder-title {
+  color: var(--text-accent);
+  font-weight: 600;
+}
+
+/* raw 目录标记 */
+.nav-folder:has(.nav-folder-title:contains("raw")) .nav-folder-title::before {
+  content: "📁 ";
+}
+
+/* workplace 目录标记 */
+.nav-folder:has(.nav-folder-title:contains("workplace")) .nav-folder-title::before {
+  content: "📝 ";
+}
+
+/* ============================================
+   页面类型标识
+   ============================================ */
+
+/* 概念页 */
+.markdown-preview-view[data-type="concept"] .markdown-preview-sizer::before {
+  content: "💡 概念";
+  display: block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* 实体页 */
+.markdown-preview-view[data-type="entity"] .markdown-preview-sizer::before {
+  content: "👤 实体";
+  display: block;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* 主题页 */
+.markdown-preview-view[data-type="topic"] .markdown-preview-sizer::before {
+  content: "🎯 主题";
+  display: block;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* ============================================
+   双向链接样式增强
+   ============================================ */
+
+.internal-link {
+  color: var(--text-accent);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--text-accent);
+}
+
+.internal-link:hover {
+  color: var(--text-accent-hover);
+  background: var(--background-modifier-hover);
+}
+
+/* 未创建的链接 */
+.internal-link.is-unresolved {
+  color: var(--text-muted);
+  border-bottom-style: dotted;
+}
+
+/* ============================================
+   标签样式
+   ============================================ */
+
+.tag {
+  background: var(--background-secondary-alt);
+  color: var(--text-accent);
+  border: 1px solid var(--interactive-accent);
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.85em;
+}
+
+.tag:hover {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+/* ============================================
+   Marp 幻灯片预览优化
+   ============================================ */
+
+.marp-preview {
+  background: #fff;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================================
+   响应式布局
+   ============================================ */
+
+@media (max-width: 768px) {
+  .dataview.table-view-table {
+    font-size: 0.9em;
+  }
+  
+  .dataview.table-view-table th,
+  .dataview.table-view-table td {
+    padding: 6px 8px;
+  }
+}
+
+/* ============================================
+   打印优化
+   ============================================ */
+
+@media print {
+  .nav-folder,
+  .nav-file,
+  .side-dock,
+  .status-bar {
+    display: none !important;
+  }
+  
+  .markdown-preview-view {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+}
