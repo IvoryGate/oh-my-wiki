@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastScan": "2026-04-18T10:50:00+08:00",
+  "lastScan": "2026-04-18T15:30:00+08:00",
   "files": [
     {
       "path": "articles/llm-wiki.md",
@@ -61,12 +61,87 @@
         "wiki/atoms/entities/Codex.md",
         "wiki/atoms/entities/OpenAI.md"
       ]
+    },
+    {
+      "path": "articles/关于归因你可能不知道的那些事(一）.md",
+      "size": 8500,
+      "status": "done",
+      "compiledAt": "2026-04-18T15:30:00+08:00",
+      "domains": ["增长", "营销", "归因", "广告"],
+      "producedPages": [
+        "wiki/atoms/concepts/MMP-Attribution.md",
+        "wiki/atoms/concepts/Last-Click-Rule.md",
+        "wiki/atoms/concepts/Duplicate-Attribution.md",
+        "wiki/atoms/concepts/Attribution-Gap.md"
+      ]
+    },
+    {
+      "path": "articles/关于归因你可能不知道的那些事（二）-Skan篇.md",
+      "size": 7800,
+      "status": "done",
+      "compiledAt": "2026-04-18T15:30:00+08:00",
+      "domains": ["增长", "营销", "归因", "iOS", "隐私"],
+      "producedPages": [
+        "wiki/atoms/concepts/SKAN-Attribution.md"
+      ]
+    },
+    {
+      "path": "articles/关于归因你可能不知道的那些事（三）-策略篇.md",
+      "size": 9200,
+      "status": "done",
+      "compiledAt": "2026-04-18T15:30:00+08:00",
+      "domains": ["增长", "营销", "归因", "渠道策略"],
+      "producedPages": [
+        "wiki/atoms/concepts/High-Value-Channel.md"
+      ]
+    },
+    {
+      "path": "articles/增长从确定目标开始.md",
+      "size": 4500,
+      "status": "done",
+      "compiledAt": "2026-04-18T15:30:00+08:00",
+      "domains": ["增长", "营销", "目标", "哲学"],
+      "producedPages": [
+        "wiki/atoms/concepts/Audience-Definition.md"
+      ]
+    },
+    {
+      "path": "articles/如何定义受众-正篇.md",
+      "size": 11000,
+      "status": "done",
+      "compiledAt": "2026-04-18T15:30:00+08:00",
+      "domains": ["增长", "营销", "受众", "渠道"],
+      "producedPages": [
+        "wiki/atoms/concepts/Audience-Definition.md",
+        "wiki/atoms/concepts/User-App-Pair.md",
+        "wiki/atoms/concepts/Network-Cognition-Gap.md"
+      ]
+    },
+    {
+      "path": "articles/如何定义受众-科普篇.md",
+      "size": 5200,
+      "status": "done",
+      "compiledAt": "2026-04-18T15:30:00+08:00",
+      "domains": ["增长", "营销", "受众", "科普"],
+      "producedPages": [
+        "wiki/atoms/concepts/User-App-Pair.md"
+      ]
+    },
+    {
+      "path": "articles/渠道不起量的原因都在这里了！.md",
+      "size": 8800,
+      "status": "done",
+      "compiledAt": "2026-04-18T15:30:00+08:00",
+      "domains": ["增长", "营销", "渠道", "起量"],
+      "producedPages": [
+        "wiki/atoms/concepts/Channel-Launch-Strategy.md"
+      ]
     }
   ],
   "stats": {
-    "total": 4,
+    "total": 11,
     "pending": 1,
     "processing": 0,
-    "done": 3
+    "done": 10
   }
 }

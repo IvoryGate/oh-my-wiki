@@ -24,6 +24,32 @@
 
 ## 2026年4月
 
+## [2026-04-18 15:30] ingest | 增长营销系列文章
+- 来源: erickfang《出海增长浅谈》系列
+- 来源文章:
+  - [[raw/articles/关于归因你可能不知道的那些事(一）.md]]
+  - [[raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md]]
+  - [[raw/articles/关于归因你可能不知道的那些事（三）-策略篇.md]]
+  - [[raw/articles/增长从确定目标开始.md]]
+  - [[raw/articles/如何定义受众-正篇.md]]
+  - [[raw/articles/如何定义受众-科普篇.md]]
+  - [[raw/articles/渠道不起量的原因都在这里了！.md]]
+- 创建概念页:
+  - [[MMP-Attribution]] - 第三方归因解决方案
+  - [[SKAN-Attribution]] - Apple 官方归因体系
+  - [[Last-Click-Rule]] - 广告归因核心规则
+  - [[Duplicate-Attribution]] - 重复计费问题
+  - [[Attribution-Gap]] - MMP 与大媒体归因差异
+  - [[User-App-Pair]] - 用户覆盖模型
+  - [[Audience-Definition]] - 受众定义三问
+  - [[High-Value-Channel]] - 高价值渠道识别
+  - [[Channel-Launch-Strategy]] - 渠道起量六要素
+  - [[Network-Cognition-Gap]] - 渠道能力差异
+- 创建实体页:
+  - [[erickfang]] - 出海增长专家
+- 建立知识链接 10 条
+- 更新 graph.json: 节点 31 个，边 26 条
+
 ## [2026-04-18 11:30] update | 知识库架构升级
 - 添加 `workplace/topics/` 目录用于新话题积累
 - 创建话题追踪模板: [[wiki/templates/topic-tracker.md]]

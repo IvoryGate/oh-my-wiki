@@ -6,12 +6,12 @@
 
 || 类型 | 数量 |
 ||------|------|
-|| 概念 (concepts) | 17 |
-|| 实体 (entities) | 3 |
+|| 概念 (concepts) | 27 |
+|| 实体 (entities) | 4 |
 || 主题 (topics) | 0 |
 || 洞察 (insights) | 0 |
 || 指南 (howto) | 0 |
-|| **总计** | **20** |
+|| **总计** | **31** |
 
 ---
 
@@ -85,10 +85,26 @@ LIMIT 10
 || [[LLM-Wiki]] | 使用 LLM 构建个人知识库的模式 | 2026-04-17 |
 || [[RAG]] | 检索增强生成技术 | 2026-04-17 |
 
+#### 增长与营销
+
+|| 概念 | 描述 | 更新日期 |
+||------|------|----------|
+|| [[MMP-Attribution]] | 第三方归因解决方案 | 2026-04-18 |
+|| [[SKAN-Attribution]] | Apple 官方归因体系 (iOS) | 2026-04-18 |
+|| [[Last-Click-Rule]] | 广告归因核心规则 | 2026-04-18 |
+|| [[Duplicate-Attribution]] | 一个激活付多份钱的问题 | 2026-04-18 |
+|| [[Attribution-Gap]] | MMP 与大媒体归因差异 | 2026-04-18 |
+|| [[User-App-Pair]] | 用户覆盖模型 (人货场) | 2026-04-18 |
+|| [[Audience-Definition]] | 受众定义三问 | 2026-04-18 |
+|| [[High-Value-Channel]] | 高价值渠道识别 | 2026-04-18 |
+|| [[Channel-Launch-Strategy]] | 渠道起量六要素 | 2026-04-18 |
+|| [[Network-Cognition-Gap]] | 渠道能力差异 | 2026-04-18 |
+
 ### 实体 (entities)
 
 || 实体 | 描述 | 更新日期 |
 ||------|------|----------|
+|| [[erickfang]] | 出海增长专家，《出海增长浅谈》作者 | 2026-04-18 |
 || [[Codex]] | OpenAI 代码生成智能体 | 2026-04-18 |
 || [[OpenAI]] | AI 研究和部署公司 | 2026-04-18 |
 || [[Karpathy]] | AI 研究员，LLM Wiki 提出者 | 2026-04-17 |
@@ -169,6 +185,20 @@ Agent-First-Development ──requires──> Harness-Engineering
 Codex ──enables──> Agent-First-Development
   │
   └──developed_by──> OpenAI
+
+MMP-Attribution ──compares_to──> SKAN-Attribution
+      │
+      ├──uses──> Last-Click-Rule
+      │
+      └──measures──> Attribution-Gap
+
+User-App-Pair ──foundation_of──> Audience-Definition
+      │
+      └──explains──> Network-Cognition-Gap
+
+Audience-Definition ──identifies──> High-Value-Channel
+        │
+        └──requires──> Channel-Launch-Strategy
 ```
 
 ---
@@ -177,6 +207,7 @@ Codex ──enables──> Agent-First-Development
 
 > 详细日志见 [[log.md]]
 
-1. [2026-04-18] 架构升级：添加知识沉淀机制、话题追踪、更新机制
-2. [2026-04-18] 入库 Agent 工程实践文章，创建 17 个概念页、2 个实体页
-3. [2026-04-17] 入库 [[raw/articles/llm-wiki.md]]，创建 LLM Wiki 相关知识页
+1. [2026-04-18] 入库增长营销系列文章（6 篇），创建 10 个概念页、1 个实体页
+2. [2026-04-18] 架构升级：添加知识沉淀机制、话题追踪、更新机制
+3. [2026-04-18] 入库 Agent 工程实践文章，创建 17 个概念页、2 个实体页
+4. [2026-04-17] 入库 [[raw/articles/llm-wiki.md]]，创建 LLM Wiki 相关知识页

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-18T10:45:00+08:00",
+  "lastUpdated": "2026-04-18T15:30:00+08:00",
   "nodes": [
     {
       "id": "LLM-Wiki",
@@ -141,6 +141,83 @@
       "path": "wiki/atoms/entities/OpenAI.md",
       "aliases": ["OpenAI公司"],
       "sources": ["raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"]
+    },
+    {
+      "id": "erickfang",
+      "type": "entity",
+      "path": "wiki/atoms/entities/erickfang.md",
+      "aliases": ["Erick Fang"],
+      "sources": ["raw/articles/关于归因你可能不知道的那些事(一）.md"]
+    },
+    {
+      "id": "MMP-Attribution",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/MMP-Attribution.md",
+      "aliases": ["第三方归因", "MMP Attribution", "Mobile Measurement Partner"],
+      "sources": ["raw/articles/关于归因你可能不知道的那些事(一）.md"]
+    },
+    {
+      "id": "SKAN-Attribution",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/SKAN-Attribution.md",
+      "aliases": ["SKAdNetwork", "Apple归因", "SKAN"],
+      "sources": ["raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md"]
+    },
+    {
+      "id": "Last-Click-Rule",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Last-Click-Rule.md",
+      "aliases": ["Last Click", "最后点击归因"],
+      "sources": ["raw/articles/关于归因你可能不知道的那些事(一）.md"]
+    },
+    {
+      "id": "Duplicate-Attribution",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Duplicate-Attribution.md",
+      "aliases": ["重复计费", "Duplicate Attribution"],
+      "sources": ["raw/articles/关于归因你可能不知道的那些事(一）.md"]
+    },
+    {
+      "id": "Attribution-Gap",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Attribution-Gap.md",
+      "aliases": ["归因差异", "Attribution Gap"],
+      "sources": ["raw/articles/关于归因你可能不知道的那些事(一）.md"]
+    },
+    {
+      "id": "User-App-Pair",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/User-App-Pair.md",
+      "aliases": ["人货场", "用户覆盖模型"],
+      "sources": ["raw/articles/如何定义受众-科普篇.md"]
+    },
+    {
+      "id": "Audience-Definition",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Audience-Definition.md",
+      "aliases": ["定义受众", "目标受众", "Audience Definition"],
+      "sources": ["raw/articles/增长从确定目标开始.md"]
+    },
+    {
+      "id": "High-Value-Channel",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/High-Value-Channel.md",
+      "aliases": ["高价值渠道识别", "High Value Channel"],
+      "sources": ["raw/articles/关于归因你可能不知道的那些事（三）-策略篇.md"]
+    },
+    {
+      "id": "Channel-Launch-Strategy",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Channel-Launch-Strategy.md",
+      "aliases": ["起量策略", "冷启动", "Channel Launch Strategy"],
+      "sources": ["raw/articles/渠道不起量的原因都在这里了！.md"]
+    },
+    {
+      "id": "Network-Cognition-Gap",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Network-Cognition-Gap.md",
+      "aliases": ["渠道能力差异", "Network Cognition Gap"],
+      "sources": ["raw/articles/如何定义受众-正篇.md"]
     }
   ],
   "edges": [
@@ -239,14 +316,74 @@
       "to": "Agent-Loop",
       "relation": "supports",
       "context": "ACI 工具设计支持 Agent Loop 的行动阶段"
+    },
+    {
+      "from": "MMP-Attribution",
+      "to": "SKAN-Attribution",
+      "relation": "compares_to",
+      "context": "MMP 和 SKAN 是两套平行的归因体系"
+    },
+    {
+      "from": "MMP-Attribution",
+      "to": "Last-Click-Rule",
+      "relation": "uses",
+      "context": "MMP 归因遵循 Last Click 原则"
+    },
+    {
+      "from": "SKAN-Attribution",
+      "to": "Last-Click-Rule",
+      "relation": "uses",
+      "context": "SKAN 也遵循 Last Click 原则"
+    },
+    {
+      "from": "Duplicate-Attribution",
+      "to": "MMP-Attribution",
+      "relation": "occurs_in",
+      "context": "重复归因发生在 MMP 体系中"
+    },
+    {
+      "from": "Attribution-Gap",
+      "to": "MMP-Attribution",
+      "relation": "measures",
+      "context": "归因 Gap 衡量 MMP 与大媒体归因差异"
+    },
+    {
+      "from": "User-App-Pair",
+      "to": "Audience-Definition",
+      "relation": "foundation_of",
+      "context": "User-App Pair 是受众定义的基础模型"
+    },
+    {
+      "from": "Audience-Definition",
+      "to": "High-Value-Channel",
+      "relation": "identifies",
+      "context": "受众定义帮助识别高价值渠道"
+    },
+    {
+      "from": "High-Value-Channel",
+      "to": "Channel-Launch-Strategy",
+      "relation": "requires",
+      "context": "高价值渠道需要正确的起量策略"
+    },
+    {
+      "from": "Network-Cognition-Gap",
+      "to": "User-App-Pair",
+      "relation": "explains",
+      "context": "认知差解释了不同 Network 对同一用户的判断差异"
+    },
+    {
+      "from": "erickfang",
+      "to": "MMP-Attribution",
+      "relation": "authored",
+      "context": "erickfang 撰写了归因系列文章"
     }
   ],
   "stats": {
-    "totalNodes": 20,
-    "totalEdges": 16,
+    "totalNodes": 31,
+    "totalEdges": 26,
     "byType": {
-      "concept": 17,
-      "entity": 3,
+      "concept": 27,
+      "entity": 4,
       "topic": 0,
       "insight": 0,
       "howto": 0,
