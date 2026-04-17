@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-17T22:40:00+08:00",
+  "nodes": [
+    {
+      "id": "LLM-Wiki",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/LLM-Wiki.md",
+      "aliases": ["LLM Wiki", "LLM Wiki 模式"],
+      "sources": ["raw/articles/llm-wiki.md"]
+    },
+    {
+      "id": "RAG",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/RAG.md",
+      "aliases": ["检索增强生成", "Retrieval-Augmented Generation"],
+      "sources": ["raw/articles/llm-wiki.md"]
+    },
+    {
+      "id": "Karpathy",
+      "type": "entity",
+      "path": "wiki/atoms/entities/Karpathy.md",
+      "aliases": ["Andrej Karpathy"],
+      "sources": ["raw/articles/llm-wiki.md"]
+    }
+  ],
+  "edges": [
+    {
+      "from": "LLM-Wiki",
+      "to": "Karpathy",
+      "relation": "proposed_by",
+      "context": "Karpathy 提出了 LLM Wiki 模式"
+    },
+    {
+      "from": "LLM-Wiki",
+      "to": "RAG",
+      "relation": "compares_to",
+      "context": "LLM Wiki 是 RAG 的替代方案"
+    }
+  ],
+  "stats": {
+    "totalNodes": 3,
+    "totalEdges": 2,
+    "byType": {
+      "concept": 2,
+      "entity": 1,
+      "topic": 0,
+      "insight": 0,
+      "howto": 0,
+      "data": 0
+    }
+  }
+}
