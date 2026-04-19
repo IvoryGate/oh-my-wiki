@@ -24,11 +24,15 @@
 
 ## 2026年4月
 
+## [2026-04-20] update | raw 路径修正（鹅厂技术写作）
+- 资料已移至 `raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md`
+- 已同步：[[MECE]]、[[Pyramid-Principle]]、[[Title-4U-Formula]] 的 `sources`、`wiki/graph.json`、`raw/manifest.json`、`wiki/log.md` 历史条目中的链接
+
 ## [2026-04-20 12:00] ingest | 写作方法论与 DDD 视频稿
 - 新入库 raw（manifest 登记）:
   - [[raw/articles/如何撰写一篇阅读10w+博文（10个成功秘诀）.md]]
   - [[raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md]]
-  - [[raw/鹅厂多位技术同学关于如何写好技术文章的经验.md]]
+  - [[raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md]]
   - [[raw/videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md]]
 - 创建概念页:
   - [[Blog-Content-Writing-Practices]] — 通用博文写作要点（受众、结构、SEO、引用、校对、CTA）

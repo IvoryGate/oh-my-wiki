@@ -5,7 +5,7 @@ updated: 2026-04-20
 type: concept
 tags: [结构化表达, 写作, 技术文档, 方法论]
 sources:
-  - [[raw/鹅厂多位技术同学关于如何写好技术文章的经验.md]]
+  - [[raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md]]
 status: active
 ---
 
@@ -35,4 +35,4 @@ status: active
 
 ## 来源
 
-- [[raw/鹅厂多位技术同学关于如何写好技术文章的经验.md]]
+- [[raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md]]

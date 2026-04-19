@@ -287,14 +287,14 @@
       "type": "concept",
       "path": "wiki/atoms/concepts/MECE.md",
       "aliases": ["MECE原则", "相互独立完全穷尽"],
-      "sources": ["raw/鹅厂多位技术同学关于如何写好技术文章的经验.md"]
+      "sources": ["raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md"]
     },
     {
       "id": "Pyramid-Principle",
       "type": "concept",
       "path": "wiki/atoms/concepts/Pyramid-Principle.md",
       "aliases": ["金字塔原理", "写作大纲"],
-      "sources": ["raw/鹅厂多位技术同学关于如何写好技术文章的经验.md"]
+      "sources": ["raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md"]
     },
     {
       "id": "Tech-Blog-Article-Types",
@@ -308,7 +308,7 @@
       "type": "concept",
       "path": "wiki/atoms/concepts/Title-4U-Formula.md",
       "aliases": ["标题4U", "4U公式"],
-      "sources": ["raw/鹅厂多位技术同学关于如何写好技术文章的经验.md"]
+      "sources": ["raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md"]
     },
     {
       "id": "Blog-Content-Writing-Practices",
