@@ -157,12 +157,23 @@
       "producedPages": [
         "wiki/atoms/concepts/Channel-Launch-Strategy.md"
       ]
+    },
+    {
+      "path": "articles/Linux tmux 基础使用教程.md",
+      "hash": "sha256:b9f8e7d6c5a4",
+      "size": 17308,
+      "status": "done",
+      "compiledAt": "2026-04-19T15:30:00+08:00",
+      "domains": ["Linux", "CLI", "工具", "终端复用"],
+      "producedPages": [
+        "wiki/atoms/concepts/Tmux.md"
+      ]
     }
   ],
   "stats": {
-    "total": 11,
+    "total": 12,
     "pending": 0,
     "processing": 0,
-    "done": 11
+    "done": 12
   }
 }

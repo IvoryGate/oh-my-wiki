@@ -267,6 +267,13 @@
       "path": "wiki/atoms/entities/ZhangPeng.md",
       "aliases": ["张鹏"],
       "sources": ["raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md", "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"]
+    },
+    {
+      "id": "Tmux",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Tmux.md",
+      "aliases": ["Linux tmux", "终端复用器"],
+      "sources": ["raw/articles/Linux tmux 基础使用教程.md"]
     }
   ],
   "edges": [
@@ -485,13 +492,43 @@
       "to": "ZhangPeng",
       "relation": "proposed_by",
       "context": "张鹏提出了 OPTM 框架"
+    },
+    {
+      "from": "Tmux",
+      "to": "Linux",
+      "relation": "part_of",
+      "context": "Tmux 是 Linux 的一个工具"
+    },
+    {
+      "from": "Tmux",
+      "to": "CLI",
+      "relation": "is_a",
+      "context": "Tmux 是一个命令行工具"
+    },
+    {
+      "from": "Tmux",
+      "to": "Session",
+      "relation": "manages",
+      "context": "Tmux 管理 Session"
+    },
+    {
+      "from": "Tmux",
+      "to": "Window",
+      "relation": "manages",
+      "context": "Tmux 管理 Window"
+    },
+    {
+      "from": "Tmux",
+      "to": "Pane",
+      "relation": "manages",
+      "context": "Tmux 管理 Pane"
     }
   ],
   "stats": {
-    "totalNodes": 38,
-    "totalEdges": 37,
+    "totalNodes": 39,
+    "totalEdges": 42,
     "byType": {
-      "concept": 33,
+      "concept": 34,
       "entity": 5,
       "topic": 0,
       "insight": 0,
