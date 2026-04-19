@@ -7,7 +7,7 @@ aliases:
   - Audience Definition
 type: concept
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-04-20
 sources:
   - [[raw/articles/增长从确定目标开始.md]]
   - [[raw/articles/如何定义受众-正篇.md]]
@@ -62,7 +62,7 @@ tags:
 ## 相关概念
 
 - [[User-App-Pair]]
-- [[Channel-Strategy]]
+- [[Channel-Launch-Strategy]]
 
 ## 来源
 

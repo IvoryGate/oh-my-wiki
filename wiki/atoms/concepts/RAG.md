@@ -1,7 +1,7 @@
 ---
 title: RAG
 created: 2026-04-17
-updated: 2026-04-17
+updated: 2026-04-20
 type: concept
 tags: [AI, 检索, 知识管理]
 sources:
@@ -41,4 +41,4 @@ RAG 让 LLM 在生成回答前先检索相关文档，将检索到的内容作�
 ## 相关概念
 
 - [[LLM-Wiki]]：编译器模式的知识管理
-- [[知识图谱]]：另一种知识组织方式
+- 知识图谱（Knowledge Graph）：另一种知识组织方式（库内未单独建页，可用 Obsidian Graph View 浏览链接网络）

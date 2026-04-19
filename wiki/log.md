@@ -24,6 +24,11 @@
 
 ## 2026年4月
 
+## [2026-04-20] lint | 知识库健康检查
+- 修正 `graph.json` 中 `stats.totalEdges` 与实有边数不一致；补 `Pyramid-Principle` → `MECE` 边并同步统计
+- 修复断裂或不当 wikilink：`RAG` 中「知识图谱」、`Audience-Definition`/`User-App-Pair` 中 `Channel-Strategy` → `Channel-Launch-Strategy`、`OpenAI` 中 `Aardvark`
+- 说明：多处正文仍用 `[[文章标题]]` 指代 raw，Obsidian 需依赖同名解析；建议逐步改为 `[[raw/articles/….md]]`（与 2026-04-19 lint 口径一致）
+
 ## [2026-04-20] update | raw 路径修正（鹅厂技术写作）
 - 资料已移至 `raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md`
 - 已同步：[[MECE]]、[[Pyramid-Principle]]、[[Title-4U-Formula]] 的 `sources`、`wiki/graph.json`、`raw/manifest.json`、`wiki/log.md` 历史条目中的链接

@@ -6,7 +6,7 @@ aliases:
   - 用户覆盖模型
 type: concept
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-04-20
 sources:
   - [[raw/articles/如何定义受众-科普篇.md]]
   - [[raw/articles/如何定义受众-正篇.md]]
@@ -61,7 +61,7 @@ tags:
 ## 相关概念
 
 - [[Audience-Definition]]
-- [[Channel-Strategy]]
+- [[Channel-Launch-Strategy]]
 
 ## 来源
 
