@@ -7,7 +7,7 @@ type: entity
 created: 2026-04-18
 updated: 2026-04-18
 sources:
-  - "[[工程技术：在智能体优先的世界中利用 Codex]]"
+  - [[raw/articles/工程技术：在智能体优先的世界中利用 Codex.md]]
 tags:
   - AI
   - 公司

@@ -9,8 +9,8 @@ type: concept
 created: 2026-04-18
 updated: 2026-04-18
 sources:
-  - "[[你不知道的 Agent：原理、架构与工程实践]]"
-  - "[[工程技术：在智能体优先的世界中利用 Codex]]"
+  - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
+  - [[raw/articles/工程技术：在智能体优先的世界中利用 Codex.md]]
 tags:
   - AI
   - Agent

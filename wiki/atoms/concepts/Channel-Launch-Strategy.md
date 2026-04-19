@@ -9,7 +9,7 @@ type: concept
 created: 2026-04-18
 updated: 2026-04-18
 sources:
-  - "[[渠道不起量的原因都在这里了！]]"
+  - [[raw/articles/渠道不起量的原因都在这里了！.md]]
 tags:
   - 增长
   - 营销

@@ -9,7 +9,7 @@ type: concept
 created: 2026-04-18
 updated: 2026-04-18
 sources:
-  - "[[你不知道的 Agent：原理、架构与工程实践]]"
+  - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
 tags:
   - AI
   - Agent

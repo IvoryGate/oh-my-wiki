@@ -9,7 +9,7 @@ type: concept
 created: 2026-04-18
 updated: 2026-04-18
 sources:
-  - "[[关于归因你可能不知道的那些事（二）-Skan篇]]"
+  - [[raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md]]
 tags:
   - 增长
   - 营销

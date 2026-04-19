@@ -9,9 +9,9 @@ type: concept
 created: 2026-04-18
 updated: 2026-04-18
 sources:
-  - "[[增长从确定目标开始]]"
-  - "[[如何定义受众-正篇]]"
-  - "[[如何定义受众-科普篇]]"
+  - [[raw/articles/增长从确定目标开始.md]]
+  - [[raw/articles/如何定义受众-正篇.md]]
+  - [[raw/articles/如何定义受众-科普篇.md]]
 tags:
   - 增长
   - 营销

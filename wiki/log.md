@@ -24,6 +24,20 @@
 
 ## 2026年4月
 
+## [2026-04-19 15:00] lint | 知识库健康检查与修复
+- 删除未处理的视频文件: `raw/videos/BV1ju6QBzENE.md`
+- 更新 manifest.json 状态:
+  - 两篇复盘文章状态从 `processing` 改为 `done`
+  - 统计: total 11, pending 0, processing 0, done 11
+- 统一 sources 链接格式:
+  - 28 个页面的 sources 从 `"[[标题]]"` 改为 `[[raw/articles/文件名.md]]`
+  - 涉及 Agent 系列、归因系列、受众系列所有页面
+- 修复断裂链接:
+  - `[[知识图谱]]` 改为内联说明（不创建独立页面）
+- 修复范围:
+  - concepts: 23 个页面
+  - entities: 3 个页面 (Codex, OpenAI, erickfang)
+
 ## [2026-04-19 10:00] ingest | 复盘方法论文章
 - 来源: 张鹏《跟着高手学复盘》专栏
 - 来源文章:

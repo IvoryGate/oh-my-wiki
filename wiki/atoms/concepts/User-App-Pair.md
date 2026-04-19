@@ -8,8 +8,8 @@ type: concept
 created: 2026-04-18
 updated: 2026-04-18
 sources:
-  - "[[如何定义受众-科普篇]]"
-  - "[[如何定义受众-正篇]]"
+  - [[raw/articles/如何定义受众-科普篇.md]]
+  - [[raw/articles/如何定义受众-正篇.md]]
 tags:
   - 增长
   - 营销
