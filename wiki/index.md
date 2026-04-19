@@ -1,17 +1,17 @@
 # 知识库索引
 
-> 最后更新: 2026-04-18
+> 最后更新: 2026-04-19
 
 ## 统计概览
 
 | 类型 | 数量 |
 |------|------|
-| 概念 (concepts) | 27 |
-| 实体 (entities) | 4 |
+| 概念 (concepts) | 33 |
+| 实体 (entities) | 5 |
 | 主题 (topics) | 0 |
 | 洞察 (insights) | 0 |
 | 指南 (howto) | 0 |
-| **总计** | **31** |
+| **总计** | **38** |
 
 ---
 
@@ -100,10 +100,22 @@ LIMIT 10
 | [[Channel-Launch-Strategy]] | 渠道起量六要素 | 2026-04-18 |
 | [[Network-Cognition-Gap]] | 渠道能力差异 | 2026-04-18 |
 
+#### 复盘与方法论
+
+| 概念 | 描述 | 更新日期 |
+|------|------|----------|
+| [[FuPan]] | 复盘方法论：通过对过去的分析优化未来 | 2026-04-19 |
+| [[CLAP-Model]] | 复盘四环节：对比-逻辑-认知-规划 | 2026-04-19 |
+| [[OPTM-Framework]] | 复盘三层框架：组织-流程-工具方法 | 2026-04-19 |
+| [[PDCA-Model]] | 戴明环：质量管理经典模型 | 2026-04-19 |
+| [[PDF-Model]] | 柳传志环：沙盘推演-执行-复盘 | 2026-04-19 |
+| [[AAR-Model]] | 任务后检视：美军敏捷复盘方法 | 2026-04-19 |
+
 ### 实体 (entities)
 
 | 实体 | 描述 | 更新日期 |
 |------|------|----------|
+| [[ZhangPeng]] | 复盘专家，《跟着高手学复盘》专栏作者 | 2026-04-19 |
 | [[erickfang]] | 出海增长专家，《出海增长浅谈》作者 | 2026-04-18 |
 | [[Codex]] | OpenAI 代码生成智能体 | 2026-04-18 |
 | [[OpenAI]] | AI 研究和部署公司 | 2026-04-18 |
@@ -199,6 +211,22 @@ User-App-Pair ──foundation_of──> Audience-Definition
 Audience-Definition ──identifies──> High-Value-Channel
         │
         └──requires──> Channel-Launch-Strategy
+
+CLAP-Model ──improves──> PDCA-Model
+    │
+    ├──improves──> PDF-Model
+    │
+    ├──belongs_to──> FuPan
+    │
+    └──supported_by──> OPTM-Framework
+
+AAR-Model ──simplifies──> CLAP-Model
+    │
+    └──belongs_to──> FuPan
+
+ZhangPeng ──proposed──> CLAP-Model
+    │
+    └──proposed──> OPTM-Framework
 ```
 
 ---
@@ -207,7 +235,8 @@ Audience-Definition ──identifies──> High-Value-Channel
 
 > 详细日志见 [[log.md]]
 
-1. [2026-04-18] 入库增长营销系列文章（6 篇），创建 10 个概念页、1 个实体页
-2. [2026-04-18] 架构升级：添加知识沉淀机制、话题追踪、更新机制
-3. [2026-04-18] 入库 Agent 工程实践文章，创建 17 个概念页、2 个实体页
-4. [2026-04-17] 入库 [[raw/articles/llm-wiki.md]]，创建 LLM Wiki 相关知识页
+1. [2026-04-19] 入库复盘方法论文章（2 篇），创建 6 个概念页、1 个实体页
+2. [2026-04-18] 入库增长营销系列文章（6 篇），创建 10 个概念页、1 个实体页
+3. [2026-04-18] 架构升级：添加知识沉淀机制、话题追踪、更新机制
+4. [2026-04-18] 入库 Agent 工程实践文章，创建 17 个概念页、2 个实体页
+5. [2026-04-17] 入库 [[raw/articles/llm-wiki.md]]，创建 LLM Wiki 相关知识页

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastScan": "2026-04-18T15:30:00+08:00",
+  "lastScan": "2026-04-19T10:00:00+08:00",
   "files": [
     {
       "path": "articles/llm-wiki.md",
@@ -23,6 +23,36 @@
       "compiledAt": null,
       "domains": [],
       "producedPages": []
+    },
+    {
+      "path": "articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
+      "hash": "sha256:2efe2387823c4472a2435018daff03cef8b1afbfdbc516c602dd67d1f7b78972",
+      "size": 15162,
+      "status": "processing",
+      "compiledAt": "2026-04-19T10:00:00+08:00",
+      "domains": ["复盘", "方法论", "管理"],
+      "producedPages": [
+        "wiki/atoms/concepts/CLAP-Model.md",
+        "wiki/atoms/concepts/OPTM-Framework.md",
+        "wiki/atoms/concepts/PDCA-Model.md",
+        "wiki/atoms/concepts/PDF-Model.md",
+        "wiki/atoms/concepts/AAR-Model.md",
+        "wiki/atoms/concepts/FuPan.md",
+        "wiki/atoms/entities/ZhangPeng.md"
+      ]
+    },
+    {
+      "path": "articles/02 OPTM框架：怎么使用CLAP模型？.md",
+      "hash": "sha256:4f6dce066dcbcf418e8febf1b018e2bb041d05e6053e317c24e45ef69962ecef",
+      "size": 16036,
+      "status": "processing",
+      "compiledAt": "2026-04-19T10:00:00+08:00",
+      "domains": ["复盘", "方法论", "管理"],
+      "producedPages": [
+        "wiki/atoms/concepts/CLAP-Model.md",
+        "wiki/atoms/concepts/OPTM-Framework.md",
+        "wiki/atoms/concepts/AAR-Model.md"
+      ]
     },
     {
       "path": "articles/你不知道的 Agent：原理、架构与工程实践.md",
@@ -139,9 +169,9 @@
     }
   ],
   "stats": {
-    "total": 11,
+    "total": 13,
     "pending": 1,
-    "processing": 0,
+    "processing": 2,
     "done": 10
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-18T15:30:00+08:00",
+  "lastUpdated": "2026-04-19T10:00:00+08:00",
   "nodes": [
     {
       "id": "LLM-Wiki",
@@ -218,6 +218,55 @@
       "path": "wiki/atoms/concepts/Network-Cognition-Gap.md",
       "aliases": ["渠道能力差异", "Network Cognition Gap"],
       "sources": ["raw/articles/如何定义受众-正篇.md"]
+    },
+    {
+      "id": "CLAP-Model",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/CLAP-Model.md",
+      "aliases": ["CLAP模型", "对比-逻辑-认知-规划"],
+      "sources": ["raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md", "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"]
+    },
+    {
+      "id": "OPTM-Framework",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/OPTM-Framework.md",
+      "aliases": ["OPTM框架", "组织-流程-工具方法"],
+      "sources": ["raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md", "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"]
+    },
+    {
+      "id": "PDCA-Model",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/PDCA-Model.md",
+      "aliases": ["PDCA模型", "戴明环", "Plan-Do-Check-Act"],
+      "sources": ["raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md"]
+    },
+    {
+      "id": "PDF-Model",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/PDF-Model.md",
+      "aliases": ["PDF模型", "柳传志环", "Preview-Do-FuPan"],
+      "sources": ["raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md"]
+    },
+    {
+      "id": "AAR-Model",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/AAR-Model.md",
+      "aliases": ["AAR模型", "After Action Review", "任务后检视"],
+      "sources": ["raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"]
+    },
+    {
+      "id": "FuPan",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/FuPan.md",
+      "aliases": ["复盘", "复盘方法论"],
+      "sources": ["raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md", "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"]
+    },
+    {
+      "id": "ZhangPeng",
+      "type": "entity",
+      "path": "wiki/atoms/entities/ZhangPeng.md",
+      "aliases": ["张鹏"],
+      "sources": ["raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md", "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"]
     }
   ],
   "edges": [
@@ -376,14 +425,74 @@
       "to": "MMP-Attribution",
       "relation": "authored",
       "context": "erickfang 撰写了归因系列文章"
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "PDCA-Model",
+      "relation": "improves",
+      "context": "CLAP 弥补了 PDCA 缺乏战略调整机制的局限"
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "PDF-Model",
+      "relation": "improves",
+      "context": "CLAP 在 OPTM 框架下提高了 PDF 的可复制性"
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "FuPan",
+      "relation": "belongs_to",
+      "context": "CLAP 是复盘方法论的一种模型"
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "OPTM-Framework",
+      "relation": "supported_by",
+      "context": "OPTM 框架是 CLAP 的实践框架"
+    },
+    {
+      "from": "AAR-Model",
+      "to": "CLAP-Model",
+      "relation": "simplifies",
+      "context": "AAR 是 CLAP 的敏捷简化版本"
+    },
+    {
+      "from": "PDCA-Model",
+      "to": "FuPan",
+      "relation": "belongs_to",
+      "context": "PDCA 是复盘方法论的一种模型"
+    },
+    {
+      "from": "PDF-Model",
+      "to": "FuPan",
+      "relation": "belongs_to",
+      "context": "PDF 是复盘方法论的一种模型"
+    },
+    {
+      "from": "AAR-Model",
+      "to": "FuPan",
+      "relation": "belongs_to",
+      "context": "AAR 是复盘方法论的一种模型"
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "ZhangPeng",
+      "relation": "proposed_by",
+      "context": "张鹏提出了 CLAP 模型"
+    },
+    {
+      "from": "OPTM-Framework",
+      "to": "ZhangPeng",
+      "relation": "proposed_by",
+      "context": "张鹏提出了 OPTM 框架"
     }
   ],
   "stats": {
-    "totalNodes": 31,
-    "totalEdges": 26,
+    "totalNodes": 38,
+    "totalEdges": 37,
     "byType": {
-      "concept": 27,
-      "entity": 4,
+      "concept": 33,
+      "entity": 5,
       "topic": 0,
       "insight": 0,
       "howto": 0,
