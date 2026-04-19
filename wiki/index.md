@@ -1,17 +1,17 @@
 # 知识库索引
 
-> 最后更新: 2026-04-19
+> 最后更新: 2026-04-20
 
 ## 统计概览
 
 | 类型 | 数量 |
 |------|------|
-| 概念 (concepts) | 34 |
-| 实体 (entities) | 5 |
+| 概念 (concepts) | 40 |
+| 实体 (entities) | 6 |
 | 主题 (topics) | 0 |
 | 洞察 (insights) | 0 |
 | 指南 (howto) | 0 |
-| **总计** | **39** |
+| **总计** | **46** |
 
 ---
 
@@ -111,6 +111,22 @@ LIMIT 10
 | [[PDF-Model]] | 柳传志环：沙盘推演-执行-复盘 | 2026-04-19 |
 | [[AAR-Model]] | 任务后检视：美军敏捷复盘方法 | 2026-04-19 |
 
+#### 写作与技术博客
+
+| 概念 | 描述 | 更新日期 |
+|------|------|----------|
+| [[Blog-Content-Writing-Practices]] | 博文写作的通用实践要点（受众、结构、SEO、引用与校对等） | 2026-04-20 |
+| [[Tech-Blog-Article-Types]] | 技术博客四类：细节型、干货型、实践总结型、杂谈型及流量特征 | 2026-04-20 |
+| [[Pyramid-Principle]] | 金字塔原理在技术大纲中的三个「上下」 | 2026-04-20 |
+| [[MECE]] | 相互独立、完全穷尽的分类原则 | 2026-04-20 |
+| [[Title-4U-Formula]] | 标题 4U：紧迫、独特、明确、有用 | 2026-04-20 |
+
+#### 软件架构与建模
+
+| 概念 | 描述 | 更新日期 |
+|------|------|----------|
+| [[DDD]] | 领域驱动设计：分层、战术模式与模块化要点 | 2026-04-20 |
+
 ### 实体 (entities)
 
 | 实体 | 描述 | 更新日期 |
@@ -120,6 +136,7 @@ LIMIT 10
 | [[Codex]] | OpenAI 代码生成智能体 | 2026-04-18 |
 | [[OpenAI]] | AI 研究和部署公司 | 2026-04-18 |
 | [[Karpathy]] | AI 研究员，LLM Wiki 提出者 | 2026-04-17 |
+| [[Phodal]] | 技术写作者（黄峰达），Phodal 博客 | 2026-04-20 |
 
 ---
 
@@ -227,6 +244,16 @@ AAR-Model ──simplifies──> CLAP-Model
 ZhangPeng ──proposed──> CLAP-Model
     │
     └──proposed──> OPTM-Framework
+
+MECE ──supports──> Pyramid-Principle
+
+Phodal ──authored──> Tech-Blog-Article-Types
+    │
+    └──relates_to──> Blog-Content-Writing-Practices
+            │
+            └──relates_to──> Title-4U-Formula
+
+DDD ──relates_to──> Architecture-Constraints
 ```
 
 ---
@@ -235,7 +262,8 @@ ZhangPeng ──proposed──> CLAP-Model
 
 > 详细日志见 [[log.md]]
 
-1. [2026-04-19] 入库复盘方法论文章（2 篇），创建 6 个概念页、1 个实体页
+1. [2026-04-20] 入库写作与 DDD 资料（4 篇 raw），创建 6 个概念页、1 个实体页；修正 graph 中 Tmux 的悬空边
+2. [2026-04-19] 入库复盘方法论文章（2 篇），创建 6 个概念页、1 个实体页
 2. [2026-04-18] 入库增长营销系列文章（6 篇），创建 10 个概念页、1 个实体页
 3. [2026-04-18] 架构升级：添加知识沉淀机制、话题追踪、更新机制
 4. [2026-04-18] 入库 Agent 工程实践文章，创建 17 个概念页、2 个实体页

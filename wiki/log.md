@@ -24,6 +24,24 @@
 
 ## 2026年4月
 
+## [2026-04-20 12:00] ingest | 写作方法论与 DDD 视频稿
+- 新入库 raw（manifest 登记）:
+  - [[raw/articles/如何撰写一篇阅读10w+博文（10个成功秘诀）.md]]
+  - [[raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md]]
+  - [[raw/鹅厂多位技术同学关于如何写好技术文章的经验.md]]
+  - [[raw/videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md]]
+- 创建概念页:
+  - [[Blog-Content-Writing-Practices]] — 通用博文写作要点（受众、结构、SEO、引用、校对、CTA）
+  - [[Tech-Blog-Article-Types]] — 程序员技术博客四类与流量/分发
+  - [[Pyramid-Principle]] — 金字塔大纲三「上下」
+  - [[MECE]] — 分类不重叠不遗漏
+  - [[Title-4U-Formula]] — 标题 4U
+  - [[DDD]] — 领域驱动设计分层与战术概念精要
+- 创建实体页:
+  - [[Phodal]]
+- 更新 `wiki/graph.json`: 新增节点 7；边新增 6、移除 Tmux 悬空边 5，合计 43 条
+- 更新 `wiki/index.md` 统计与索引区块
+
 ## [2026-04-19 15:00] lint | 知识库健康检查与修复
 - 删除未处理的视频文件: `raw/videos/BV1ju6QBzENE.md`
 - 更新 manifest.json 状态:

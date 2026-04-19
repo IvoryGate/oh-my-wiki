@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastScan": "2026-04-19T15:00:00+08:00",
+  "lastScan": "2026-04-20T12:00:00+08:00",
   "files": [
     {
       "path": "articles/llm-wiki.md",
@@ -168,12 +168,55 @@
       "producedPages": [
         "wiki/atoms/concepts/Tmux.md"
       ]
+    },
+    {
+      "path": "articles/如何撰写一篇阅读10w+博文（10个成功秘诀）.md",
+      "hash": "sha256:e2288e4a4b8cd402ca89b1296d6b4bb303e6e8f5acf560b57ab212dd7fe596bf",
+      "size": 27626,
+      "status": "done",
+      "compiledAt": "2026-04-20T12:00:00+08:00",
+      "domains": ["写作", "内容营销", "博客", "SEO"],
+      "producedPages": ["wiki/atoms/concepts/Blog-Content-Writing-Practices.md"]
+    },
+    {
+      "path": "articles/程序员怎样才能写出一篇好的博客或者技术文章.md",
+      "hash": "sha256:9628239534ef47bd7dd39383e74dd3f477a5581872493838461d55976ea3ede4",
+      "size": 12971,
+      "status": "done",
+      "compiledAt": "2026-04-20T12:00:00+08:00",
+      "domains": ["写作", "技术博客", "程序员"],
+      "producedPages": [
+        "wiki/atoms/concepts/Tech-Blog-Article-Types.md",
+        "wiki/atoms/entities/Phodal.md"
+      ]
+    },
+    {
+      "path": "鹅厂多位技术同学关于如何写好技术文章的经验.md",
+      "hash": "sha256:bf0772bb735f3799932c3c0515ca21757eb570e480a05fb43496f2b153333319",
+      "size": 31937,
+      "status": "done",
+      "compiledAt": "2026-04-20T12:00:00+08:00",
+      "domains": ["写作", "技术文档", "方法论"],
+      "producedPages": [
+        "wiki/atoms/concepts/MECE.md",
+        "wiki/atoms/concepts/Pyramid-Principle.md",
+        "wiki/atoms/concepts/Title-4U-Formula.md"
+      ]
+    },
+    {
+      "path": "videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md",
+      "hash": "sha256:cb707408031910ca252c4054d7240e00cc0ffc083b137d986b2616a20c77676b",
+      "size": 35595,
+      "status": "done",
+      "compiledAt": "2026-04-20T12:00:00+08:00",
+      "domains": ["软件架构", "DDD", "后端", "领域建模"],
+      "producedPages": ["wiki/atoms/concepts/DDD.md"]
     }
   ],
   "stats": {
-    "total": 12,
+    "total": 16,
     "pending": 0,
     "processing": 0,
-    "done": 12
+    "done": 16
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-19T10:00:00+08:00",
+  "lastUpdated": "2026-04-20T12:00:00+08:00",
   "nodes": [
     {
       "id": "LLM-Wiki",
@@ -274,6 +274,55 @@
       "path": "wiki/atoms/concepts/Tmux.md",
       "aliases": ["Linux tmux", "终端复用器"],
       "sources": ["raw/articles/Linux tmux 基础使用教程.md"]
+    },
+    {
+      "id": "DDD",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/DDD.md",
+      "aliases": ["领域驱动设计", "Domain-Driven Design"],
+      "sources": ["raw/videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md"]
+    },
+    {
+      "id": "MECE",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/MECE.md",
+      "aliases": ["MECE原则", "相互独立完全穷尽"],
+      "sources": ["raw/鹅厂多位技术同学关于如何写好技术文章的经验.md"]
+    },
+    {
+      "id": "Pyramid-Principle",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Pyramid-Principle.md",
+      "aliases": ["金字塔原理", "写作大纲"],
+      "sources": ["raw/鹅厂多位技术同学关于如何写好技术文章的经验.md"]
+    },
+    {
+      "id": "Tech-Blog-Article-Types",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Tech-Blog-Article-Types.md",
+      "aliases": ["技术博客类型", "程序员博客分类"],
+      "sources": ["raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md"]
+    },
+    {
+      "id": "Title-4U-Formula",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Title-4U-Formula.md",
+      "aliases": ["标题4U", "4U公式"],
+      "sources": ["raw/鹅厂多位技术同学关于如何写好技术文章的经验.md"]
+    },
+    {
+      "id": "Blog-Content-Writing-Practices",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Blog-Content-Writing-Practices.md",
+      "aliases": ["博文写作要点", "博客内容实践"],
+      "sources": ["raw/articles/如何撰写一篇阅读10w+博文（10个成功秘诀）.md"]
+    },
+    {
+      "id": "Phodal",
+      "type": "entity",
+      "path": "wiki/atoms/entities/Phodal.md",
+      "aliases": ["黄峰达"],
+      "sources": ["raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md"]
     }
   ],
   "edges": [
@@ -494,42 +543,42 @@
       "context": "张鹏提出了 OPTM 框架"
     },
     {
-      "from": "Tmux",
-      "to": "Linux",
-      "relation": "part_of",
-      "context": "Tmux 是 Linux 的一个工具"
+      "from": "MECE",
+      "to": "Pyramid-Principle",
+      "relation": "supports",
+      "context": "MECE 常用于金字塔大纲的以上统下展开"
     },
     {
-      "from": "Tmux",
-      "to": "CLI",
-      "relation": "is_a",
-      "context": "Tmux 是一个命令行工具"
+      "from": "Phodal",
+      "to": "Tech-Blog-Article-Types",
+      "relation": "authored",
+      "context": "Phodal 归纳了技术博客四类与流量特征"
     },
     {
-      "from": "Tmux",
-      "to": "Session",
-      "relation": "manages",
-      "context": "Tmux 管理 Session"
+      "from": "Tech-Blog-Article-Types",
+      "to": "Blog-Content-Writing-Practices",
+      "relation": "relates_to",
+      "context": "程序员向与通用博文写作要点互补"
     },
     {
-      "from": "Tmux",
-      "to": "Window",
-      "relation": "manages",
-      "context": "Tmux 管理 Window"
+      "from": "Blog-Content-Writing-Practices",
+      "to": "Title-4U-Formula",
+      "relation": "relates_to",
+      "context": "标题方法论可配合通用博文要点使用"
     },
     {
-      "from": "Tmux",
-      "to": "Pane",
-      "relation": "manages",
-      "context": "Tmux 管理 Pane"
+      "from": "DDD",
+      "to": "Architecture-Constraints",
+      "relation": "relates_to",
+      "context": "DDD 通过分层与依赖方向表达架构约束"
     }
   ],
   "stats": {
-    "totalNodes": 39,
-    "totalEdges": 42,
+    "totalNodes": 46,
+    "totalEdges": 43,
     "byType": {
-      "concept": 34,
-      "entity": 5,
+      "concept": 40,
+      "entity": 6,
       "topic": 0,
       "insight": 0,
       "howto": 0,
