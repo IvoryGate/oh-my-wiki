@@ -16,7 +16,7 @@
 - `ingest`: 处理原始资料
 - `query`: 知识查询归档
 - `lint`: 健康检查修复
-- `flow`: workplace 流入 wiki
+- `flow`: workspace 流入 wiki
 - `create`: 直接创建内容
 - `update`: 更新内容
 
@@ -72,7 +72,7 @@
 - 更新 graph.json: 节点 31 个，边 26 条
 
 ## [2026-04-18 11:30] update | 知识库架构升级
-- 添加 `workplace/topics/` 目录用于新话题积累
+- 添加 `workspace/topics/` 目录用于新话题积累
 - 创建话题追踪模板: [[wiki/templates/topic-tracker.md]]
 - 创建综合知识模板: [[wiki/templates/synthesis-template.md]]
 - 更新 Agent.md: 添加知识沉淀规则、更新机制

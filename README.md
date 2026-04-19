@@ -44,7 +44,7 @@ oh-my-wiki/
 │   ├── log.md                    # 操作日志
 │   └── graph.json                # 知识关系图谱
 │
-├── workplace/                    # 个人创作
+├── workspace/                    # 个人创作
 │   ├── Todo/                     # 待办
 │   ├── Doing/                    # 进行中
 │   └── Done/                     # 已完成 → 流入 wiki
@@ -60,7 +60,7 @@ oh-my-wiki/
 |------|------|--------|------|
 | **raw** | 原始资料存储 | 人类入库，Agent 索引 | 只读、不可变 |
 | **wiki** | 结构化知识 | Agent 维护 | 可更新、交叉引用 |
-| **workplace** | 个人创作 | 人类 | 按时间流转 |
+| **workspace** | 个人创作 | 人类 | 按时间流转 |
 
 ---
 
@@ -72,7 +72,7 @@ oh-my-wiki/
     ┌───────┼───────┐
     ▼       ▼       ▼
   入库    创作    流入
-raw/   workplace  wiki
+raw/   workspace  wiki
     │       │       │
     └───────┴───────┘
             │
@@ -98,7 +98,7 @@ raw/   workplace  wiki
 定期健康检查 → 发现矛盾、孤立、过时 → 修复或标记
 
 ### Flow（流入）
-workplace/Done → 人工判断时机 → 流入 wiki
+workspace/Done → 人工判断时机 → 流入 wiki
 
 ---
 
@@ -116,7 +116,7 @@ workplace/Done → 人工判断时机 → 流入 wiki
 ### 领域边界清晰
 - raw：物理边界（来源类型天然互斥）
 - wiki：逻辑边界（知识领域 Agent 判断）
-- workplace：时间边界（Todo/Doing/Done）
+- workspace：时间边界（Todo/Doing/Done）
 
 ---
 
@@ -154,9 +154,9 @@ cp article.md raw/articles/
 
 ### 个人创作
 ```
-1. 在 workplace/Todo/ 创建想法
-2. 移动到 workplace/Doing/ 开始工作
-3. 完成后移动到 workplace/Done/
+1. 在 workspace/Todo/ 创建想法
+2. 移动到 workspace/Doing/ 开始工作
+3. 完成后移动到 workspace/Done/
 4. 判断时机成熟后，让 Agent 流入 wiki
 ```
 
@@ -215,14 +215,14 @@ Obsidian 内置功能：
 
 ### 你可以直接做什么
 
-- ✅ 直接编辑 `workplace/`（你的创作空间）
+- ✅ 直接编辑 `workspace/`（你的创作空间）
 - ✅ 直接放入资料到 `raw/`（入库新内容）
 - ✅ 直接修改 wiki 中的错别字、标签（小改动）
 
 ### 你需要让 Agent 做什么
 
 - 🔄 `raw/` → `wiki/`：说"入库这个资料"
-- 🔄 `workplace/Done` → `wiki/`：说"可以流入 wiki 了"
+- 🔄 `workspace/Done` → `wiki/`：说"可以流入 wiki 了"
 - 🔍 查询知识：直接提问
 - 📊 维护结构：让 Agent 创建/删除 wiki 页面
 
@@ -232,7 +232,7 @@ Obsidian 内置功能：
 你：我剪藏了一篇文章到 raw/articles/，帮我入库
 Agent：[读取] [讨论] [确认] [创建页面] [commit]
 
-你：workplace/Done 里的学习笔记可以流入 wiki 了
+你：workspace/Done 里的学习笔记可以流入 wiki 了
 Agent：[读取] [讨论] [确认] [创建页面] [清理] [commit]
 
 你：知识库里有哪些关于 AI 的内容？

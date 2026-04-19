@@ -21,7 +21,7 @@ raw/        → 原始资料（只读，按来源类型组织）
 wiki/       → 结构化知识（可维护，按知识逻辑组织）
   atoms/    → 原子知识（稳定：概念、实体、数据）
   synthesis/→ 综合知识（活跃：主题、洞察、指南）
-workplace/  → 个人创作（用户维护，按时间状态流转）
+workspace/  → 个人创作（用户维护，按时间状态流转）
 ```
 
 ### 3. 渐进式披露
@@ -33,25 +33,25 @@ workplace/  → 个人创作（用户维护，按时间状态流转）
 
 ### 5. 创作边界（关键原则）
 
-**workplace/ 是用户的私人创作空间，Agent 必须遵守以下边界：**
+**workspace/ 是用户的私人创作空间，Agent 必须遵守以下边界：**
 
 | 区域 | Agent 权限 | 说明 |
 |------|-----------|------|
 | `raw/` | 只读 | 永远不可修改 |
-| `workplace/` | 仅限 YAML 元数据 | 用户创作内容不可修改 |
+| `workspace/` | 仅限 YAML 元数据 | 用户创作内容不可修改 |
 | `wiki/` | 完全读写 | Agent 维护区域 |
 
-**workplace/ 边界细则：**
+**workspace/ 边界细则：**
 
-1. **内容禁区**：Agent 禁止修改 `workplace/` 下任何文件的正文内容
+1. **内容禁区**：Agent 禁止修改 `workspace/` 下任何文件的正文内容
 2. **YAML 例外**：Agent 只能在以下情况修改 YAML frontmatter：
    - 按用户明确请求添加/修改元数据
    - 严格遵循本文档定义的 frontmatter 规范
    - 不得添加规范之外的字段
 3. **参考角色**：Agent 可以：
-   - 读取 workplace/ 内容理解用户创作
+   - 读取 workspace/ 内容理解用户创作
    - 提供参考建议（如相关概念链接、结构建议）
-   - 回答用户关于 workplace 内容的问题
+   - 回答用户关于 workspace 内容的问题
    - 但建议以对话形式给出，不直接写入文件
 
 ### 6. 讨论优先
@@ -67,7 +67,7 @@ workplace/  → 个人创作（用户维护，按时间状态流转）
 oh-my-wiki/
 ├── raw/           # 原始资料（只读）
 ├── wiki/          # 结构化知识（Agent 维护）
-├── workplace/     # 个人创作（用户维护，Agent 仅限 YAML）
+├── workspace/     # 个人创作（用户维护，Agent 仅限 YAML）
 └── Agent.md       # 本配置文档
 ```
 
@@ -114,7 +114,7 @@ wiki/
 └── graph.json     # 知识关系图谱
 ```
 
-### workplace/ 目录（个人创作）
+### workspace/ 目录（个人创作）
 
 **核心原则**：这是用户的私人创作空间，Agent **不得侵入**。
 
@@ -125,7 +125,7 @@ wiki/
 
 **目录结构**：
 ```
-workplace/
+workspace/
 ├── Todo/          # 待办
 ├── Doing/         # 进行中
 ├── Done/          # 已完成 → 单篇流入 wiki/synthesis/howto 或 insights
@@ -136,9 +136,9 @@ workplace/
 - 用于**新话题**的知识积累（还没沉淀过的领域）
 - 每个话题一个目录，包含 `_tracker.md` 和 `notes/`
 - 成熟后沉淀到 `wiki/synthesis/topics/`
-- **已有内容的更新**：直接在 `wiki/synthesis/` 中更新，不回流到 workplace
+- **已有内容的更新**：直接在 `wiki/synthesis/` 中更新，不回流到 workspace
 
-**workplace/ frontmatter 规范**：
+**workspace/ frontmatter 规范**：
 ```yaml
 ---
 title: 文章标题           # 必填
@@ -152,7 +152,7 @@ related:                 # 可选，Agent 可建议相关概念
 ---
 ```
 
-**Agent 可修改的 workplace YAML 字段**：
+**Agent 可修改的 workspace YAML 字段**：
 
 | 字段 | 权限 | 条件 |
 |------|------|------|
@@ -300,18 +300,18 @@ git commit -m "lint: [修复内容简述]"
 
 ### 四、Flow（知识流入）
 
-**触发条件**：用户判断 workplace 中的内容时机成熟，决定流入 wiki
+**触发条件**：用户判断 workspace 中的内容时机成熟，决定流入 wiki
 
-**重要原则**：Flow 是**复制而非移动**。workplace 原文件保留，用户自行决定是否删除。
+**重要原则**：Flow 是**复制而非移动**。workspace 原文件保留，用户自行决定是否删除。
 
 **两条路径**：
 
 ```
 路径 A：单篇文章解决一个问题
-  workplace/Done/xxx.md → 复制并结构化到 → wiki/synthesis/howto/ 或 insights/
+  workspace/Done/xxx.md → 复制并结构化到 → wiki/synthesis/howto/ 或 insights/
 
 路径 B：系列文章积累一个话题
-  workplace/topics/xxx/ → 整合并结构化到 → wiki/synthesis/topics/xxx-guide.md
+  workspace/topics/xxx/ → 整合并结构化到 → wiki/synthesis/topics/xxx-guide.md
 ```
 
 **执行流程**：
@@ -324,26 +324,26 @@ git commit -m "lint: [修复内容简述]"
    └── topics 中的话题 → 流入 synthesis/topics/
 
 3. 讨论确认
-   ├── 展示从 workplace 内容中提取的结构
+   ├── 展示从 workspace 内容中提取的结构
    ├── 与用户确认流入方式和位置
    └── 用户确认后才执行
 
 4. 执行流入（复制模式）
-   ├── 读取 workplace 内容（只读）
-   ├── 在 wiki/ 创建新页面（不修改 workplace 原文件）
+   ├── 读取 workspace 内容（只读）
+   ├── 在 wiki/ 创建新页面（不修改 workspace 原文件）
    ├── 更新 index.md 和 graph.json
    └── 追加 log.md
 
 5. 通知用户
-   └── 告知用户可在 workplace 中删除原文件（用户决定）
+   └── 告知用户可在 workspace 中删除原文件（用户决定）
 
 6. Git 提交
    git commit -m "flow: [内容名称] 流入 wiki"
 ```
 
 **Flow 过程中的 Agent 边界**：
-- ❌ 不修改 workplace 原文件
-- ❌ 不删除 workplace 原文件
+- ❌ 不修改 workspace 原文件
+- ❌ 不删除 workspace 原文件
 - ✅ 读取内容用于理解和结构化
 - ✅ 在 wiki/ 中创建新页面
 
@@ -471,7 +471,7 @@ status: draft|active|archived  # 可选
 **使用场景**：
 - 用户请求生成演示文稿时
 - Agent 可将 wiki 内容组装成 Marp 格式
-- 输出文件建议放在 `workplace/` 或用户指定位置
+- 输出文件建议放在 `workspace/` 或用户指定位置
 
 **Marp 格式示例**：
 ```markdown
@@ -521,7 +521,7 @@ Obsidian 内置的知识图谱视图。
    └── 改回 status: stable
 ```
 
-**不要**回流到 `workplace/topics/`，那是用于**新话题积累**的。
+**不要**回流到 `workspace/topics/`，那是用于**新话题积累**的。
 
 ### Frontmatter 状态标记
 
@@ -552,8 +552,8 @@ confidence: medium    # low | medium | high
 ### 绝对禁区
 
 1. **永远不要修改 raw/ 目录中的任何文件**
-2. **永远不要修改 workplace/ 目录中任何文件的正文内容**
-3. **workplace/ 的 YAML frontmatter 只能按规范修改指定字段**
+2. **永远不要修改 workspace/ 目录中任何文件的正文内容**
+3. **workspace/ 的 YAML frontmatter 只能按规范修改指定字段**
 
 ### 协作原则
 
@@ -564,10 +564,10 @@ confidence: medium    # low | medium | high
 8. **遵循最简原则：能用列表就不用表格，能用树就不用图**
 9. **Frontmatter 必须规范，以支持 Dataview 查询**
 
-### 当用户请求修改 workplace 内容时
+### 当用户请求修改 workspace 内容时
 
-如果用户请求 Agent 修改 workplace 正文内容，Agent 应该：
-1. 礼貌说明：workplace/ 是用户的创作空间，Agent 不应修改正文
+如果用户请求 Agent 修改 workspace 正文内容，Agent 应该：
+1. 礼貌说明：workspace/ 是用户的创作空间，Agent 不应修改正文
 2. 提供替代方案：可以以对话形式给出建议或参考内容
 3. 如果用户坚持，可以问用户是否确认要 Agent 修改（作为例外）
 
@@ -577,6 +577,6 @@ confidence: medium    # low | medium | high
 
 | 版本 | 日期 | 说明 |
 |------|------|------|
-| 1.2 | 2026-04-19 | 明确 workplace 边界原则：Agent 仅限修改 YAML 元数据 |
+| 1.2 | 2026-04-19 | 明确 workspace 边界原则：Agent 仅限修改 YAML 元数据 |
 | 1.1 | 2026-04-18 | 添加知识沉淀规则、话题追踪机制、知识更新机制 |
 | 1.0 | 2026-04-17 | 初始版本 |

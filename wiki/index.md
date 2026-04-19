@@ -129,19 +129,19 @@ LIMIT 10
 
 ### 主题 (topics)
 
-> 领域性的综合指南，从 `workplace/topics/` 沉淀而来
+> 领域性的综合指南，从 `workspace/topics/` 沉淀而来
 
 *暂无内容*
 
 ### 洞察 (insights)
 
-> 跨越多个领域的个人洞察，从 `workplace/Done/` 沉淀而来
+> 跨越多个领域的个人洞察，从 `workspace/Done/` 沉淀而来
 
 *暂无内容*
 
 ### 指南 (howto)
 
-> 可操作的步骤指南，从 `workplace/Done/` 沉淀而来
+> 可操作的步骤指南，从 `workspace/Done/` 沉淀而来
 
 *暂无内容*
 
@@ -158,7 +158,7 @@ wiki/atoms/         # 原子知识（概念、实体）
   │
   ↓ 你实践使用
   │
-workplace/          # 实践过程
+workspace/          # 实践过程
   ├── Done/         # 单篇完成 → wiki/synthesis/howto 或 insights
   └── topics/       # 话题积累 → wiki/synthesis/topics
   │

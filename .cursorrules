@@ -19,7 +19,7 @@
 - **Ingest**: raw/ → wiki/ 结构化
 - **Query**: 检索并回答问题
 - **Lint**: 健康检查
-- **Flow**: workplace → wiki
+- **Flow**: workspace → wiki
 
 ## 页面规范
 

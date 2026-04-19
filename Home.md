@@ -21,7 +21,7 @@ cellStyle:
 fixedScaleSize: 1
 dataSource:
   type: PAGE
-  value: '"wiki" or "workplace"'
+  value: '"wiki" or "workspace"'
   dateField:
     type: FILE_MTIME
 dateRangeType: LATEST_DAYS

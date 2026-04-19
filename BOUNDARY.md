@@ -17,7 +17,7 @@
 │  ✅ 策展资料来源             ✅ 提取概念实体                  │
 │  ✅ 判断创作成熟度           ✅ 建立知识关联                  │
 │  ✅ 决定何时 push           ✅ 维护索引日志                  │
-│  ✅ 直接编辑 workplace       ✅ 维护 wiki 结构                │
+│  ✅ 直接编辑 workspace       ✅ 维护 wiki 结构                │
 │  ✅ 直接编辑 raw            ✅ 执行 Git commit               │
 │  ✅ 最终决策权              ✅ 建议和提醒                    │
 │                                                             │
@@ -34,12 +34,12 @@
 
 ## 你可以直接做什么？
 
-### ✅ 完全自由：workplace/
+### ✅ 完全自由：workspace/
 
-`workplace/` 是你的个人创作空间，Agent 不会主动干涉。
+`workspace/` 是你的个人创作空间，Agent 不会主动干涉。
 
 ```
-workplace/
+workspace/
 ├── Todo/     → 你的想法、计划、灵感
 ├── Doing/    → 正在进行的工作
 └── Done/     → 完成的作品
@@ -82,20 +82,20 @@ workplace/
 4. 更新索引和图谱
 5. Git commit
 
-### 🔄 workplace/Done → wiki（Flow）
+### 🔄 workspace/Done → wiki（Flow）
 
 **场景**：你的创作完成了，想永久保存到知识库
 
 **你的操作**：
 ```
-对话："workplace/Done 里的 xxx 可以流入 wiki 了"
+对话："workspace/Done 里的 xxx 可以流入 wiki 了"
 ```
 
 **Agent 会**：
 1. 理解你的创作内容
 2. 讨论放入 wiki 的哪个位置
 3. 创建或更新 wiki 页面
-4. 清理 workplace
+4. 清理 workspace
 5. Git commit
 
 ### 🔍 查询知识（Query）
@@ -161,9 +161,9 @@ workplace/
 ### 示例 2：完成一篇文章
 
 ```
-1. 你：在 workplace/Doing/ 写了一篇学习笔记
+1. 你：在 workspace/Doing/ 写了一篇学习笔记
 
-2. 你：移动到 workplace/Done/
+2. 你：移动到 workspace/Done/
 
 3. 你：告诉 Agent "这篇笔记可以流入 wiki 了"
 
@@ -176,7 +176,7 @@ workplace/
 6. Agent：
    - 创建 wiki/synthesis/topics/React学习笔记.md
    - 更新相关概念页面
-   - 清理 workplace/Done
+   - 清理 workspace/Done
    - Git commit
 ```
 
@@ -209,11 +209,11 @@ Agent：
 │  白天（学习/工作）                                       │
 │  ├── 遇到好文章 → Chrome 插件剪藏 → raw/articles/       │
 │  ├── 告诉 Agent "入库"                                  │
-│  ├── 有想法 → 写到 workplace/Todo/                      │
-│  └── 开始工作 → 移到 workplace/Doing/                   │
+│  ├── 有想法 → 写到 workspace/Todo/                      │
+│  └── 开始工作 → 移到 workspace/Doing/                   │
 │                                                         │
 │  晚上                                                   │
-│  ├── 完成的创作 → 移到 workplace/Done/                  │
+│  ├── 完成的创作 → 移到 workspace/Done/                  │
 │  ├── 告诉 Agent "流入 wiki"                             │
 │  └── 决定是否 Git push                                  │
 │                                                         │
@@ -234,7 +234,7 @@ Agent：
 
 ✅ 决定学什么、读什么
 ✅ 把好资料放入 raw/
-✅ 在 workplace/ 创作你的想法
+✅ 在 workspace/ 创作你的想法
 ✅ 判断什么时候可以让 Agent 处理
 ✅ 和 Agent 讨论、确认方向
 

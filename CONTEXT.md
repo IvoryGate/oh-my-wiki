@@ -24,14 +24,14 @@
 ```
 raw/        → 原始资料（只读，不可变）
 wiki/       → 结构化知识（Agent 维护）
-workplace/  → 个人创作（用户维护）
+workspace/  → 个人创作（用户维护）
 ```
 
 | 层级 | 职责 | 维护者 |
 |------|------|--------|
 | raw | 原始资料存储 | 人类入库，Agent 索引 |
 | wiki | 结构化知识 | Agent 维护 |
-| workplace | 个人创作 | 人类 |
+| workspace | 个人创作 | 人类 |
 
 ---
 
@@ -90,7 +90,7 @@ workplace/  → 个人创作（用户维护）
 
 ### Flow（流入）
 
-`workplace/Done` → 人工判断时机 → 流入 `wiki`
+`workspace/Done` → 人工判断时机 → 流入 `wiki`
 
 ---
 
@@ -187,7 +187,7 @@ status: draft|active|archived  # 可选
 - 用户最常用的知识来源：技术博客、微信公众号、X/Twitter
 - `raw/` 可自由扩展新子目录，Agent 会自动发现
 - `wiki/` 结构固定，不建议用户修改
-- `workplace` 流入 `wiki` 的时机由人工判断
+- `workspace` 流入 `wiki` 的时机由人工判断
 - Agent 负责 Git commit，用户决定 Git push
 
 ---
