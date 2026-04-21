@@ -68,10 +68,13 @@ while (true) {
 
 ## 相关概念
 
+- [[ACI]] - Agent-Computer Interface，支持 Agent Loop 的行动阶段
+- [[Multi-Agent-Organization]] - 多 Agent 组织与协作模式
+
 - [[Workflow-vs-Agent]]
 - [[Agent-Control-Patterns]]
 - [[Harness-Engineering]]
 
 ## 来源
 
-- [[你不知道的 Agent：原理、架构与工程实践]] §1
+- [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]] §1

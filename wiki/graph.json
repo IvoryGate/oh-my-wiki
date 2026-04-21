@@ -1,328 +1,571 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-21T18:00:00+08:00",
+  "lastUpdated": "2026-04-21T23:27:15+08:00",
   "nodes": [
     {
       "id": "LLM-Wiki",
       "type": "concept",
       "path": "wiki/atoms/concepts/LLM-Wiki.md",
-      "aliases": ["LLM Wiki", "LLM Wiki 模式"],
-      "sources": ["raw/articles/llm-wiki.md"]
+      "aliases": [
+        "LLM Wiki",
+        "LLM Wiki 模式"
+      ],
+      "sources": [
+        "raw/articles/llm-wiki.md"
+      ]
     },
     {
       "id": "RAG",
       "type": "concept",
       "path": "wiki/atoms/concepts/RAG.md",
-      "aliases": ["检索增强生成", "Retrieval-Augmented Generation"],
-      "sources": ["raw/articles/llm-wiki.md"]
+      "aliases": [
+        "检索增强生成",
+        "Retrieval-Augmented Generation"
+      ],
+      "sources": [
+        "raw/articles/llm-wiki.md"
+      ]
     },
     {
       "id": "Karpathy",
       "type": "entity",
       "path": "wiki/atoms/entities/Karpathy.md",
-      "aliases": ["Andrej Karpathy"],
-      "sources": ["raw/articles/llm-wiki.md"]
+      "aliases": [
+        "Andrej Karpathy"
+      ],
+      "sources": [
+        "raw/articles/llm-wiki.md"
+      ]
     },
     {
       "id": "Agent-Loop",
       "type": "concept",
       "path": "wiki/atoms/concepts/Agent-Loop.md",
-      "aliases": ["Agent循环", "AI Agent主循环"],
-      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+      "aliases": [
+        "Agent循环",
+        "AI Agent主循环"
+      ],
+      "sources": [
+        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
+      ]
     },
     {
       "id": "Workflow-vs-Agent",
       "type": "concept",
       "path": "wiki/atoms/concepts/Workflow-vs-Agent.md",
-      "aliases": ["工作流与智能体"],
-      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+      "aliases": [
+        "工作流与智能体"
+      ],
+      "sources": [
+        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
+      ]
     },
     {
       "id": "Agent-Control-Patterns",
       "type": "concept",
       "path": "wiki/atoms/concepts/Agent-Control-Patterns.md",
-      "aliases": ["Agent控制模式", "五种控制模式"],
-      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+      "aliases": [
+        "Agent控制模式",
+        "五种控制模式"
+      ],
+      "sources": [
+        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
+      ]
     },
     {
       "id": "Harness-Engineering",
       "type": "concept",
       "path": "wiki/atoms/concepts/Harness-Engineering.md",
-      "aliases": ["Harness工程", "验收基础设施"],
-      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md", "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"]
+      "aliases": [
+        "Harness工程",
+        "验收基础设施"
+      ],
+      "sources": [
+        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md",
+        "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"
+      ]
     },
     {
       "id": "Context-Engineering",
       "type": "concept",
       "path": "wiki/atoms/concepts/Context-Engineering.md",
-      "aliases": ["上下文工程"],
-      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+      "aliases": [
+        "上下文工程"
+      ],
+      "sources": [
+        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
+      ]
     },
     {
       "id": "Skills-System",
       "type": "concept",
       "path": "wiki/atoms/concepts/Skills-System.md",
-      "aliases": ["Skills系统", "Agent Skills"],
-      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+      "aliases": [
+        "Skills系统",
+        "Agent Skills"
+      ],
+      "sources": [
+        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
+      ]
     },
     {
       "id": "ACI",
       "type": "concept",
       "path": "wiki/atoms/concepts/ACI-Agent-Computer-Interface.md",
-      "aliases": ["Agent-Computer Interface", "Agent计算机接口"],
-      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+      "aliases": [
+        "Agent-Computer Interface",
+        "Agent计算机接口"
+      ],
+      "sources": [
+        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
+      ]
     },
     {
       "id": "Memory-System",
       "type": "concept",
       "path": "wiki/atoms/concepts/Memory-System.md",
-      "aliases": ["记忆系统", "Agent记忆"],
-      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+      "aliases": [
+        "记忆系统",
+        "Agent记忆"
+      ],
+      "sources": [
+        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
+      ]
     },
     {
       "id": "Multi-Agent-Organization",
       "type": "concept",
       "path": "wiki/atoms/concepts/Multi-Agent-Organization.md",
-      "aliases": ["多Agent组织", "Agent协作模式"],
-      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+      "aliases": [
+        "多Agent组织",
+        "Agent协作模式"
+      ],
+      "sources": [
+        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
+      ]
     },
     {
       "id": "Agent-Evaluation",
       "type": "concept",
       "path": "wiki/atoms/concepts/Agent-Evaluation.md",
-      "aliases": ["Agent评测"],
-      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+      "aliases": [
+        "Agent评测"
+      ],
+      "sources": [
+        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
+      ]
     },
     {
       "id": "Agent-Tracing",
       "type": "concept",
       "path": "wiki/atoms/concepts/Agent-Tracing.md",
-      "aliases": ["Agent追踪", "可观测性"],
-      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+      "aliases": [
+        "Agent追踪",
+        "可观测性"
+      ],
+      "sources": [
+        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
+      ]
     },
     {
       "id": "Long-Task-Management",
       "type": "concept",
       "path": "wiki/atoms/concepts/Long-Task-Management.md",
-      "aliases": ["长任务管理"],
-      "sources": ["raw/articles/你不知道的 Agent：原理、架构与工程实践.md"]
+      "aliases": [
+        "长任务管理"
+      ],
+      "sources": [
+        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
+      ]
     },
     {
       "id": "Agent-First-Development",
       "type": "concept",
       "path": "wiki/atoms/concepts/Agent-First-Development.md",
-      "aliases": ["智能体优先开发"],
-      "sources": ["raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"]
+      "aliases": [
+        "智能体优先开发"
+      ],
+      "sources": [
+        "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"
+      ]
     },
     {
       "id": "Architecture-Constraints",
       "type": "concept",
       "path": "wiki/atoms/concepts/Architecture-Constraints.md",
-      "aliases": ["架构约束", "架构不变量"],
-      "sources": ["raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"]
+      "aliases": [
+        "架构约束",
+        "架构不变量"
+      ],
+      "sources": [
+        "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"
+      ]
     },
     {
       "id": "Progressive-Disclosure",
       "type": "concept",
       "path": "wiki/atoms/concepts/Progressive-Disclosure.md",
-      "aliases": ["渐进式披露"],
-      "sources": ["raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"]
+      "aliases": [
+        "渐进式披露"
+      ],
+      "sources": [
+        "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"
+      ]
     },
     {
       "id": "Codex",
       "type": "entity",
       "path": "wiki/atoms/entities/Codex.md",
-      "aliases": ["OpenAI Codex", "Codex CLI"],
-      "sources": ["raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"]
+      "aliases": [
+        "OpenAI Codex",
+        "Codex CLI"
+      ],
+      "sources": [
+        "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"
+      ]
     },
     {
       "id": "OpenAI",
       "type": "entity",
       "path": "wiki/atoms/entities/OpenAI.md",
-      "aliases": ["OpenAI公司"],
-      "sources": ["raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"]
+      "aliases": [
+        "OpenAI公司"
+      ],
+      "sources": [
+        "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"
+      ]
     },
     {
       "id": "erickfang",
       "type": "entity",
       "path": "wiki/atoms/entities/erickfang.md",
-      "aliases": ["Erick Fang"],
-      "sources": ["raw/articles/关于归因你可能不知道的那些事(一）.md"]
+      "aliases": [
+        "Erick Fang"
+      ],
+      "sources": [
+        "raw/articles/关于归因你可能不知道的那些事(一）.md"
+      ]
     },
     {
       "id": "MMP-Attribution",
       "type": "concept",
       "path": "wiki/atoms/concepts/MMP-Attribution.md",
-      "aliases": ["第三方归因", "MMP Attribution", "Mobile Measurement Partner"],
-      "sources": ["raw/articles/关于归因你可能不知道的那些事(一）.md"]
+      "aliases": [
+        "第三方归因",
+        "MMP Attribution",
+        "Mobile Measurement Partner"
+      ],
+      "sources": [
+        "raw/articles/关于归因你可能不知道的那些事(一）.md"
+      ]
     },
     {
       "id": "SKAN-Attribution",
       "type": "concept",
       "path": "wiki/atoms/concepts/SKAN-Attribution.md",
-      "aliases": ["SKAdNetwork", "Apple归因", "SKAN"],
-      "sources": ["raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md"]
+      "aliases": [
+        "SKAdNetwork",
+        "Apple归因",
+        "SKAN"
+      ],
+      "sources": [
+        "raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md"
+      ]
     },
     {
       "id": "Last-Click-Rule",
       "type": "concept",
       "path": "wiki/atoms/concepts/Last-Click-Rule.md",
-      "aliases": ["Last Click", "最后点击归因"],
-      "sources": ["raw/articles/关于归因你可能不知道的那些事(一）.md"]
+      "aliases": [
+        "Last Click",
+        "最后点击归因"
+      ],
+      "sources": [
+        "raw/articles/关于归因你可能不知道的那些事(一）.md"
+      ]
     },
     {
       "id": "Duplicate-Attribution",
       "type": "concept",
       "path": "wiki/atoms/concepts/Duplicate-Attribution.md",
-      "aliases": ["重复计费", "Duplicate Attribution"],
-      "sources": ["raw/articles/关于归因你可能不知道的那些事(一）.md"]
+      "aliases": [
+        "重复计费",
+        "Duplicate Attribution"
+      ],
+      "sources": [
+        "raw/articles/关于归因你可能不知道的那些事(一）.md"
+      ]
     },
     {
       "id": "Attribution-Gap",
       "type": "concept",
       "path": "wiki/atoms/concepts/Attribution-Gap.md",
-      "aliases": ["归因差异", "Attribution Gap"],
-      "sources": ["raw/articles/关于归因你可能不知道的那些事(一）.md"]
+      "aliases": [
+        "归因差异",
+        "Attribution Gap"
+      ],
+      "sources": [
+        "raw/articles/关于归因你可能不知道的那些事(一）.md"
+      ]
     },
     {
       "id": "User-App-Pair",
       "type": "concept",
       "path": "wiki/atoms/concepts/User-App-Pair.md",
-      "aliases": ["人货场", "用户覆盖模型"],
-      "sources": ["raw/articles/如何定义受众-科普篇.md"]
+      "aliases": [
+        "人货场",
+        "用户覆盖模型"
+      ],
+      "sources": [
+        "raw/articles/如何定义受众-科普篇.md"
+      ]
     },
     {
       "id": "Audience-Definition",
       "type": "concept",
       "path": "wiki/atoms/concepts/Audience-Definition.md",
-      "aliases": ["定义受众", "目标受众", "Audience Definition"],
-      "sources": ["raw/articles/增长从确定目标开始.md"]
+      "aliases": [
+        "定义受众",
+        "目标受众",
+        "Audience Definition"
+      ],
+      "sources": [
+        "raw/articles/增长从确定目标开始.md"
+      ]
     },
     {
       "id": "High-Value-Channel",
       "type": "concept",
       "path": "wiki/atoms/concepts/High-Value-Channel.md",
-      "aliases": ["高价值渠道识别", "High Value Channel"],
-      "sources": ["raw/articles/关于归因你可能不知道的那些事（三）-策略篇.md"]
+      "aliases": [
+        "高价值渠道识别",
+        "High Value Channel"
+      ],
+      "sources": [
+        "raw/articles/关于归因你可能不知道的那些事（三）-策略篇.md"
+      ]
     },
     {
       "id": "Channel-Launch-Strategy",
       "type": "concept",
       "path": "wiki/atoms/concepts/Channel-Launch-Strategy.md",
-      "aliases": ["起量策略", "冷启动", "Channel Launch Strategy"],
-      "sources": ["raw/articles/渠道不起量的原因都在这里了！.md"]
+      "aliases": [
+        "起量策略",
+        "冷启动",
+        "Channel Launch Strategy"
+      ],
+      "sources": [
+        "raw/articles/渠道不起量的原因都在这里了！.md"
+      ]
     },
     {
       "id": "Network-Cognition-Gap",
       "type": "concept",
       "path": "wiki/atoms/concepts/Network-Cognition-Gap.md",
-      "aliases": ["渠道能力差异", "Network Cognition Gap"],
-      "sources": ["raw/articles/如何定义受众-正篇.md"]
+      "aliases": [
+        "渠道能力差异",
+        "Network Cognition Gap"
+      ],
+      "sources": [
+        "raw/articles/如何定义受众-正篇.md"
+      ]
     },
     {
       "id": "CLAP-Model",
       "type": "concept",
       "path": "wiki/atoms/concepts/CLAP-Model.md",
-      "aliases": ["CLAP模型", "对比-逻辑-认知-规划"],
-      "sources": ["raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md", "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"]
+      "aliases": [
+        "CLAP模型",
+        "对比-逻辑-认知-规划"
+      ],
+      "sources": [
+        "raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
+        "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"
+      ]
     },
     {
       "id": "OPTM-Framework",
       "type": "concept",
       "path": "wiki/atoms/concepts/OPTM-Framework.md",
-      "aliases": ["OPTM框架", "组织-流程-工具方法"],
-      "sources": ["raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md", "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"]
+      "aliases": [
+        "OPTM框架",
+        "组织-流程-工具方法"
+      ],
+      "sources": [
+        "raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
+        "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"
+      ]
     },
     {
       "id": "PDCA-Model",
       "type": "concept",
       "path": "wiki/atoms/concepts/PDCA-Model.md",
-      "aliases": ["PDCA模型", "戴明环", "Plan-Do-Check-Act"],
-      "sources": ["raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md"]
+      "aliases": [
+        "PDCA模型",
+        "戴明环",
+        "Plan-Do-Check-Act"
+      ],
+      "sources": [
+        "raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md"
+      ]
     },
     {
       "id": "PDF-Model",
       "type": "concept",
       "path": "wiki/atoms/concepts/PDF-Model.md",
-      "aliases": ["PDF模型", "柳传志环", "Preview-Do-FuPan"],
-      "sources": ["raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md"]
+      "aliases": [
+        "PDF模型",
+        "柳传志环",
+        "Preview-Do-FuPan"
+      ],
+      "sources": [
+        "raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md"
+      ]
     },
     {
       "id": "AAR-Model",
       "type": "concept",
       "path": "wiki/atoms/concepts/AAR-Model.md",
-      "aliases": ["AAR模型", "After Action Review", "任务后检视"],
-      "sources": ["raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"]
+      "aliases": [
+        "AAR模型",
+        "After Action Review",
+        "任务后检视"
+      ],
+      "sources": [
+        "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"
+      ]
     },
     {
       "id": "FuPan",
       "type": "concept",
       "path": "wiki/atoms/concepts/FuPan.md",
-      "aliases": ["复盘", "复盘方法论"],
-      "sources": ["raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md", "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"]
+      "aliases": [
+        "复盘",
+        "复盘方法论"
+      ],
+      "sources": [
+        "raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
+        "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"
+      ]
     },
     {
       "id": "ZhangPeng",
       "type": "entity",
       "path": "wiki/atoms/entities/ZhangPeng.md",
-      "aliases": ["张鹏"],
-      "sources": ["raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md", "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"]
+      "aliases": [
+        "张鹏"
+      ],
+      "sources": [
+        "raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
+        "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"
+      ]
     },
     {
       "id": "Tmux",
       "type": "concept",
       "path": "wiki/atoms/concepts/Tmux.md",
-      "aliases": ["Linux tmux", "终端复用器"],
-      "sources": ["raw/articles/Linux tmux 基础使用教程.md"]
+      "aliases": [
+        "Linux tmux",
+        "终端复用器"
+      ],
+      "sources": [
+        "raw/articles/Linux tmux 基础使用教程.md"
+      ]
     },
     {
       "id": "DDD",
       "type": "concept",
       "path": "wiki/atoms/concepts/DDD.md",
-      "aliases": ["领域驱动设计", "Domain-Driven Design"],
-      "sources": ["raw/videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md"]
+      "aliases": [
+        "领域驱动设计",
+        "Domain-Driven Design"
+      ],
+      "sources": [
+        "raw/videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md"
+      ]
     },
     {
       "id": "MECE",
       "type": "concept",
       "path": "wiki/atoms/concepts/MECE.md",
-      "aliases": ["MECE原则", "相互独立完全穷尽"],
-      "sources": ["raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md"]
+      "aliases": [
+        "MECE原则",
+        "相互独立完全穷尽"
+      ],
+      "sources": [
+        "raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md"
+      ]
     },
     {
       "id": "Pyramid-Principle",
       "type": "concept",
       "path": "wiki/atoms/concepts/Pyramid-Principle.md",
-      "aliases": ["金字塔原理", "写作大纲"],
-      "sources": ["raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md"]
+      "aliases": [
+        "金字塔原理",
+        "写作大纲"
+      ],
+      "sources": [
+        "raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md"
+      ]
     },
     {
       "id": "Tech-Blog-Article-Types",
       "type": "concept",
       "path": "wiki/atoms/concepts/Tech-Blog-Article-Types.md",
-      "aliases": ["技术博客类型", "程序员博客分类"],
-      "sources": ["raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md"]
+      "aliases": [
+        "技术博客类型",
+        "程序员博客分类"
+      ],
+      "sources": [
+        "raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md"
+      ]
     },
     {
       "id": "Title-4U-Formula",
       "type": "concept",
       "path": "wiki/atoms/concepts/Title-4U-Formula.md",
-      "aliases": ["标题4U", "4U公式"],
-      "sources": ["raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md"]
+      "aliases": [
+        "标题4U",
+        "4U公式"
+      ],
+      "sources": [
+        "raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md"
+      ]
     },
     {
       "id": "Blog-Content-Writing-Practices",
       "type": "concept",
       "path": "wiki/atoms/concepts/Blog-Content-Writing-Practices.md",
-      "aliases": ["博文写作要点", "博客内容实践"],
-      "sources": ["raw/articles/如何撰写一篇阅读10w+博文（10个成功秘诀）.md"]
+      "aliases": [
+        "博文写作要点",
+        "博客内容实践"
+      ],
+      "sources": [
+        "raw/articles/如何撰写一篇阅读10w+博文（10个成功秘诀）.md"
+      ]
     },
     {
       "id": "Phodal",
       "type": "entity",
       "path": "wiki/atoms/entities/Phodal.md",
-      "aliases": ["黄峰达"],
-      "sources": ["raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md"]
+      "aliases": [
+        "黄峰达"
+      ],
+      "sources": [
+        "raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md"
+      ]
+    },
+    {
+      "id": "马尔可夫链归因",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/马尔可夫链归因.md",
+      "aliases": [
+        "马尔可夫链",
+        "Markov Chain Attribution"
+      ],
+      "sources": [
+        "raw/articles/广告归因8种模型：预算怎么分才不浪费？"
+      ]
     }
   ],
   "edges": [
@@ -577,13 +820,25 @@
       "to": "Architecture-Constraints",
       "relation": "relates_to",
       "context": "DDD 通过分层与依赖方向表达架构约束"
+    },
+    {
+      "from": "多触点归因",
+      "to": "马尔可夫链归因",
+      "relation": "includes",
+      "context": "马尔可夫链是多触点归因的一种模型"
+    },
+    {
+      "from": "Shapley值",
+      "to": "马尔可夫链归因",
+      "relation": "compares_to",
+      "context": "Shapley值与马尔可夫链都是多触点归因的算法模型"
     }
   ],
   "stats": {
-    "totalNodes": 46,
-    "totalEdges": 42,
+    "totalNodes": 47,
+    "totalEdges": 44,
     "byType": {
-      "concept": 40,
+      "concept": 41,
       "entity": 6,
       "topic": 0,
       "insight": 0,

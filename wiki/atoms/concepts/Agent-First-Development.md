@@ -75,9 +75,11 @@ Agent-First Development 是一种开发模式：**人类掌舵，智能体执行
 
 ## 相关概念
 
+- [[Codex]] - OpenAI 代码生成智能体，使 Agent-First 开发成为可能
+
 - [[Harness-Engineering]]
 - [[Context-Engineering]]
 
 ## 来源
 
-- [[工程技术：在智能体优先的世界中利用 Codex]]
+- [[raw/articles/工程技术：在智能体优先的世界中利用 Codex.md]]

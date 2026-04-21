@@ -80,4 +80,4 @@ Long Task Management 是让 Agent 在更长时间跨度内稳定推进任务的�
 
 ## 来源
 
-- [[你不知道的 Agent：原理、架构与工程实践]] §6
+- [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]] §6

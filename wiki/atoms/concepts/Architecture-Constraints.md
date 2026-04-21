@@ -60,9 +60,11 @@ Types → Config → Repo → Service → Runtime → UI
 
 ## 相关概念
 
+- [[DDD]] - 领域驱动设计，通过分层与依赖方向表达架构约束
+
 - [[Agent-First-Development]]
 - [[Harness-Engineering]]
 
 ## 来源
 
-- [[工程技术：在智能体优先的世界中利用 Codex]]
+- [[raw/articles/工程技术：在智能体优先的世界中利用 Codex.md]]

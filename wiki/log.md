@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-04-21 20:00] lint | 知识库健康检查与修复
+- 修复断裂链接: 26个文件中的 `[[文章标题]]` 格式链接改为 `[[raw/articles/文件名.md]]`
+- 创建概念页: [[马尔可夫链归因]]
+- 为孤立页面添加入链: ACI, Attribution-Gap, Codex, DDD, Duplicate-Attribution, Long-Task-Management, Multi-Agent-Organization, Network-Cognition-Gap, erickfang
+- 更新过时页面: [[LLM-Wiki]], [[Karpathy]] 更新时间
+- 生成健康检查报告: [[lint-report-2026-04-21.md]]
+
 ## [2026-04-21 18:00] ingest | 归因文章 2 篇
 - 来源: [[raw/articles/广告归因8种模型：预算怎么分才不浪费？]], [[raw/articles/用户到底被哪个广告打动了？三种主流归因模型全解析]]
 - 创建概念页: [[多触点归因]], [[线性归因]], [[时间衰减归因]], [[U型归因]], [[Shapley值]]

@@ -58,9 +58,11 @@ tags:
 
 ## 相关概念
 
+- [[Long-Task-Management]] - 长任务管理与跨 Session 恢复
+
 - [[Agent-Loop]]
 - [[Workflow-vs-Agent]]
 
 ## 来源
 
-- [[你不知道的 Agent：原理、架构与工程实践]] §1
+- [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]] §1

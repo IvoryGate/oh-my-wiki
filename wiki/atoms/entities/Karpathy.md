@@ -1,9 +1,9 @@
 ---
-title: Andrej Karpathy
+title: Karpathy
 created: 2026-04-17
-updated: 2026-04-17
+updated: 2026-04-21
 type: entity
-tags: [AI, 研究者, OpenAI, Tesla]
+tags: [AI, 研究员, OpenAI]
 sources:
   - [[raw/articles/llm-wiki.md]]
 status: active

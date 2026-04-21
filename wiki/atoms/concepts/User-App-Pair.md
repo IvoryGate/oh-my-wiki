@@ -60,9 +60,11 @@ tags:
 
 ## 相关概念
 
+- [[Network-Cognition-Gap]] - 渠道能力差异，解释不同 Network 对同一用户的判断差异
+
 - [[Audience-Definition]]
 - [[Channel-Launch-Strategy]]
 
 ## 来源
 
-- [[如何定义受众-科普篇]] | [[如何定义受众-正篇]]
+- [[raw/articles/如何定义受众-科普篇.md]] | [[raw/articles/如何定义受众-正篇.md]]
