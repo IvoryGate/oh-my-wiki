@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastScan": "2026-04-20T12:00:00+08:00",
+  "lastScan": "2026-04-21T18:00:00+08:00",
   "files": [
     {
       "path": "articles/llm-wiki.md",
@@ -211,12 +211,36 @@
       "compiledAt": "2026-04-20T12:00:00+08:00",
       "domains": ["软件架构", "DDD", "后端", "领域建模"],
       "producedPages": ["wiki/atoms/concepts/DDD.md"]
+    },
+    {
+      "path": "articles/广告归因8种模型：预算怎么分才不浪费？.md",
+      "size": 34000,
+      "status": "done",
+      "compiledAt": "2026-04-21T18:00:00+08:00",
+      "domains": ["归因", "UA", "模型"],
+      "producedPages": [
+        "wiki/atoms/concepts/多触点归因.md",
+        "wiki/atoms/concepts/线性归因.md",
+        "wiki/atoms/concepts/时间衰减归因.md",
+        "wiki/atoms/concepts/U型归因.md"
+      ]
+    },
+    {
+      "path": "articles/用户到底被哪个广告打动了？三种主流归因模型全解析.md",
+      "size": 23900,
+      "status": "done",
+      "compiledAt": "2026-04-21T18:00:00+08:00",
+      "domains": ["归因", "MTA", "算法"],
+      "producedPages": [
+        "wiki/atoms/concepts/多触点归因.md",
+        "wiki/atoms/concepts/Shapley值.md"
+      ]
     }
   ],
   "stats": {
-    "total": 16,
+    "total": 18,
     "pending": 0,
     "processing": 0,
-    "done": 16
+    "done": 18
   }
 }
