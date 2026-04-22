@@ -764,7 +764,7 @@ async function executeShell(args: string[], cwd?: string): Promise<string> {
 ```typescript
 async function auditedShell(args: string[], userId: string): Promise<string> {
   const entry = { timestamp: Date.now(), userId, command: args.join(" "), status: "pending" };
-  await fs.appendFile(".openclaw/audit.jsonl", JSON.stringify(entry) + "\n");
+  await fs.appendFile(".openclaw/audit.jsonl", JSON.stringify(entry) + "n");
 
   try {
     const result = await executeShell(args);
