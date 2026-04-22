@@ -16,6 +16,7 @@ tags: [海外投放, 广告, 用户获取, UA]
 - attribution model（归因模型）
 - DSP渠道
 - 聚合（unity、max、moloco）
+- 马尔可夫模型
 
 ## 正在记
 

@@ -1,7 +1,8 @@
 [
   "dataview",
   "obsidian42-brat",
-  "homepage",
   "marp-slides",
-  "contribution-graph"
+  "contribution-graph",
+  "obsidian-local-rest-api",
+  "homepage"
 ]
