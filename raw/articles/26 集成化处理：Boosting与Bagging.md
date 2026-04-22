@@ -36,11 +36,11 @@ tags:
 
 在 **自适应提升** （adaptive boosting, AdaBoost）这个最成功的提升算法中，权重分配的策略是这样的：以二分类任务为例，首先给每个样本赋予相同的权重$w\_i = 1 / N$，再用它们来训练弱分类器$f\_m(x)$并计算训练误差$\\epsilon\_m$，根据训练误差可以计算出权重调整的系数$alpha\_m = 0.5 \\log $$.1 - epsilon\_m) / epsilon\_m$$$，并对每个样本的权重$w\_i$做出调整
 
-$$w\_i leftarrow w\_i cdot exp $$alpha\_m I(x\_i)$$$$
+$$w\_i leftarrow w\_i cdot exp $$alpha\_m I(x\_i)$$
 
 对分类错误的样本$I(x\_i) = 1$，分类正确的样本$I(x\_i) = -1$，这样做的作用就是放大误分类样本的权重。新计算出的权重经过归一化处理后，就可以用来继续训练下一个弱分类器，直到集成出强分类器为止。强分类器的数学表达式为
 
-$$F(x) = {rm sign} $$\\sum\\limits\_{m = 1}^M alpha\_m f\_m(x)$$$$
+$$F(x) = {rm sign} $$\\sum\\limits\_{m = 1}^M alpha\_m f\_m(x)$$
 
 如果将二分类任务进行推广，那么上面表达式中的符号函数sign$.\\\\cdot)$就可以去掉，得到的就是一个进行了基函数扩展的线性回归模型。
 
