@@ -303,7 +303,7 @@ Agent 不具备原生的时间连续性，会话结束后，上下文随之清�
 
 ![图像](https://pbs.twimg.com/media/HDs02EqaIAA8Ge3?format=jpg&name=large)
 
-左侧是 Agent 运行时，只有上下文窗口存在于 messages\[\] 中，会随着会话结束一起清空，右侧是磁盘上的持久层，Skills 文件按需加载，JSONL 会话历史保留完整过程并支持检索，MEMORY.md 则沉淀 Agent 主动写入的稳定事实，并在后续会话中持续注入。
+左侧是 Agent 运行时，只有上下文窗口存在于 messages$$$$ 中，会随着会话结束一起清空，右侧是磁盘上的持久层，Skills 文件按需加载，JSONL 会话历史保留完整过程并支持检索，MEMORY.md 则沉淀 Agent 主动写入的稳定事实，并在后续会话中持续注入。
 
 ## MEMORY.md 和 Skills 如何协作
 
