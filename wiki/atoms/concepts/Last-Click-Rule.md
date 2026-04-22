@@ -6,9 +6,10 @@ aliases:
   - 最后点击归因
 type: concept
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-04-22
 sources:
   - [[raw/articles/关于归因你可能不知道的那些事(一）.md]]
+  - [[raw/articles/出海投放基础知识之归因（一）.md]]
 tags:
   - 增长
   - 营销

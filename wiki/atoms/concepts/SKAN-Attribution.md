@@ -7,9 +7,10 @@ aliases:
   - SKAN
 type: concept
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-04-22
 sources:
   - [[raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md]]
+  - [[raw/articles/出海投放基础知识之归因（四）SKAN归因.md]]
 tags:
   - 增长
   - 营销
@@ -25,6 +26,23 @@ SKAN (SKAdNetwork) 是苹果推出的官方归因体系，仅适用于 iOS，在
 ## 背景
 
 iOS 14 后，大部分设备无法获取设备 ID（IDFA），苹果为解决归因问题推出 SKAN。
+
+## ATT 与 LAT
+
+### ATT（App Tracking Transparency）
+
+iOS 14+ 推出的框架，用户需主动授权允许应用追踪。用户不同意则无法获取 IDFA。
+
+### LAT（Limited Ad Tracking）
+
+限制广告追踪。用户开启 LAT 后，仍可归因但精度受限。
+
+### 确定性归因 vs 概率性归因
+
+| 类型 | 条件 | 精度 |
+|------|------|------|
+| **确定性归因** | 用户授权 ATT + 广告平台和应用都授权 IDFA | 高 |
+| **概率性归因** | 无 IDFA，使用 IP/User-Agent 模糊匹配 | 低 |
 
 ## 核心流程
 
@@ -71,3 +89,4 @@ iOS 14 后，大部分设备无法获取设备 ID（IDFA），苹果为解决归
 ## 来源
 
 - [[raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md]]
+- [[raw/articles/出海投放基础知识之归因（四）SKAN归因.md]]

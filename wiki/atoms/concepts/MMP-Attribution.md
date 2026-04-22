@@ -7,9 +7,10 @@ aliases:
   - Mobile Measurement Partner
 type: concept
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-04-22
 sources:
   - [[raw/articles/关于归因你可能不知道的那些事(一）.md]]
+  - [[raw/articles/出海投放基础知识之归因（一）.md]]
 tags:
   - 增长
   - 营销
@@ -20,6 +21,21 @@ tags:
 ## 定义
 
 MMP (Mobile Measurement Partner) 归因是第三方归因公司提供的移动广告归因解决方案，覆盖所有主流平台。
+
+## 常用 MMP 平台
+
+海外主流 MMP 平台：
+- Appsflyer
+- Adjust
+- Singular
+- Branch
+- Tenjin
+- Kochava
+- Appmetrica
+
+## 成功归因公式
+
+一个成功的归因 = 归因规则 + 归因模型 + 归因方法 + 归因窗口期
 
 ## 核心流程
 
@@ -62,3 +78,4 @@ MMP (Mobile Measurement Partner) 归因是第三方归因公司提供的移动�
 ## 来源
 
 - [[raw/articles/关于归因你可能不知道的那些事(一）.md]]
+- [[raw/articles/出海投放基础知识之归因（一）.md]]
