@@ -75,6 +75,8 @@ Long Task Management 是让 Agent 在更长时间跨度内稳定推进任务的�
 
 ## 相关概念
 
+- [[Agent-Control-Patterns]]
+
 - [[Agent-Loop]]
 - [[Memory-System]]
 

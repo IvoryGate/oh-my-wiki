@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-22T16:56:21+08:00",
+  "lastUpdated": "2026-04-22T18:00:07+08:00",
   "nodes": [
     {
       "id": "LLM-Wiki",
@@ -943,11 +943,17 @@
       "to": "Last-Click-Rule",
       "relation": "relates_to",
       "context": "Last Click 是线性归因的极端情况"
+    },
+    {
+      "from": "Agent-Control-Patterns",
+      "to": "Long-Task-Management",
+      "relation": "includes",
+      "context": "长任务管理是 Agent 控制模式的一部分"
     }
   ],
   "stats": {
     "totalNodes": 53,
-    "totalEdges": 51,
+    "totalEdges": 52,
     "byType": {
       "concept": 43,
       "entity": 6,
