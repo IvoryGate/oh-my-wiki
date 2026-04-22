@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-22T20:10:36+08:00",
+  "lastUpdated": "2026-04-23",
   "nodes": [
     {
       "id": "LLM-Wiki",
@@ -683,6 +683,332 @@
       "sources": [
         "raw/articles/广告竞价背后的逻辑和模型算法（一）.md"
       ]
+    },
+    {
+      "id": "频率学派",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/频率学派.md",
+      "aliases": [
+        "Frequentist"
+      ],
+      "sources": [
+        "raw/articles/01 频率视角下的机器学习.md"
+      ]
+    },
+    {
+      "id": "贝叶斯学派",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/贝叶斯学派.md",
+      "aliases": [
+        "Bayesian"
+      ],
+      "sources": [
+        "raw/articles/02 贝叶斯视角下的机器学习.md"
+      ]
+    },
+    {
+      "id": "最大似然估计",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/最大似然估计.md",
+      "aliases": [
+        "MLE"
+      ],
+      "sources": [
+        "raw/articles/01 频率视角下的机器学习.md",
+        "raw/articles/02 贝叶斯视角下的机器学习.md"
+      ]
+    },
+    {
+      "id": "计算学习理论",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/计算学习理论.md",
+      "aliases": [
+        "Computational Learning Theory"
+      ],
+      "sources": [
+        "raw/articles/04 计算学习理论.md"
+      ]
+    },
+    {
+      "id": "正则化",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/正则化.md",
+      "aliases": [
+        "Regularization"
+      ],
+      "sources": [
+        "raw/articles/12 正则化处理：收缩方法与边际化.md"
+      ]
+    },
+    {
+      "id": "主成分分析",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/主成分分析.md",
+      "aliases": [
+        "PCA"
+      ],
+      "sources": [
+        "raw/articles/13 线性降维：主成分的使用.md"
+      ]
+    },
+    {
+      "id": "流形学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/流形学习.md",
+      "aliases": [
+        "Manifold Learning"
+      ],
+      "sources": [
+        "raw/articles/14 非线性降维：流形学习.md"
+      ]
+    },
+    {
+      "id": "线性回归",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/线性回归.md",
+      "aliases": [
+        "Linear Regression"
+      ],
+      "sources": [
+        "raw/articles/11 基础线性回归：一元与多元.md"
+      ]
+    },
+    {
+      "id": "Logistic回归",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Logistic-回归.md",
+      "aliases": [
+        "Logistic Regression",
+        "逻辑回归"
+      ],
+      "sources": [
+        "raw/articles/15 从回归到分类：联系函数与降维.md",
+        "raw/articles/16 建模非正态分布：广义线性模型.md"
+      ]
+    },
+    {
+      "id": "线性判别分析",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/线性判别分析.md",
+      "aliases": [
+        "LDA",
+        "Fisher判别"
+      ],
+      "sources": [
+        "raw/articles/15 从回归到分类：联系函数与降维.md"
+      ]
+    },
+    {
+      "id": "联系函数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/联系函数.md",
+      "aliases": [
+        "Link Function"
+      ],
+      "sources": [
+        "raw/articles/15 从回归到分类：联系函数与降维.md",
+        "raw/articles/16 建模非正态分布：广义线性模型.md"
+      ]
+    },
+    {
+      "id": "广义线性模型",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/广义线性模型.md",
+      "aliases": [
+        "GLM"
+      ],
+      "sources": [
+        "raw/articles/16 建模非正态分布：广义线性模型.md"
+      ]
+    },
+    {
+      "id": "支持向量机",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/支持向量机.md",
+      "aliases": [
+        "SVM"
+      ],
+      "sources": [
+        "raw/articles/17 几何角度看分类：支持向量机.md"
+      ]
+    },
+    {
+      "id": "核技巧",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/核技巧.md",
+      "aliases": [
+        "Kernel Trick"
+      ],
+      "sources": [
+        "raw/articles/18 从全局到局部：核技巧.md"
+      ]
+    },
+    {
+      "id": "K近邻",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/K近邻.md",
+      "aliases": [
+        "KNN"
+      ],
+      "sources": [
+        "raw/articles/19 非参数化的局部模型：K近邻.md"
+      ]
+    },
+    {
+      "id": "聚类分析",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/聚类分析.md",
+      "aliases": [
+        "Cluster Analysis"
+      ],
+      "sources": [
+        "raw/articles/20 基于距离的学习：聚类与度量学习.md"
+      ]
+    },
+    {
+      "id": "基函数扩展",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/基函数扩展.md",
+      "aliases": [
+        "Basis Expansion"
+      ],
+      "sources": [
+        "raw/articles/21 基函数扩展：属性的非线性化.md"
+      ]
+    },
+    {
+      "id": "感知器",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/感知器.md",
+      "aliases": [
+        "Perceptron"
+      ],
+      "sources": [
+        "raw/articles/22 自适应的基函数：神经网络.md"
+      ]
+    },
+    {
+      "id": "神经网络",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/神经网络.md",
+      "aliases": [
+        "Neural Network"
+      ],
+      "sources": [
+        "raw/articles/22 自适应的基函数：神经网络.md",
+        "raw/articles/23 层次化的神经网络：深度学习.md"
+      ]
+    },
+    {
+      "id": "深度学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/深度学习.md",
+      "aliases": [
+        "Deep Learning"
+      ],
+      "sources": [
+        "raw/articles/23 层次化的神经网络：深度学习.md"
+      ]
+    },
+    {
+      "id": "决策树",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/决策树.md",
+      "aliases": [
+        "Decision Tree"
+      ],
+      "sources": [
+        "raw/articles/25 基于特征的区域划分：树模型.md"
+      ]
+    },
+    {
+      "id": "集成学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/集成学习.md",
+      "aliases": [
+        "Ensemble Learning"
+      ],
+      "sources": [
+        "raw/articles/26 集成化处理：Boosting与Bagging.md"
+      ]
+    },
+    {
+      "id": "梯度提升",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/梯度提升.md",
+      "aliases": [
+        "Gradient Boosting",
+        "GBDT"
+      ],
+      "sources": [
+        "raw/articles/27 万能模型：梯度提升与随机森林.md"
+      ]
+    },
+    {
+      "id": "随机森林",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/随机森林.md",
+      "aliases": [
+        "Random Forest"
+      ],
+      "sources": [
+        "raw/articles/27 万能模型：梯度提升与随机森林.md"
+      ]
+    },
+    {
+      "id": "概率图模型",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/概率图模型.md",
+      "aliases": [
+        "PGM"
+      ],
+      "sources": [
+        "raw/articles/28 最简单的概率图：朴素贝叶斯.md"
+      ]
+    },
+    {
+      "id": "朴素贝叶斯",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/朴素贝叶斯.md",
+      "aliases": [
+        "Naive Bayes"
+      ],
+      "sources": [
+        "raw/articles/28 最简单的概率图：朴素贝叶斯.md"
+      ]
+    },
+    {
+      "id": "贝叶斯网络",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/贝叶斯网络.md",
+      "aliases": [
+        "Bayesian Network"
+      ],
+      "sources": [
+        "raw/articles/29 有向图模型：贝叶斯网络.md"
+      ]
+    },
+    {
+      "id": "马尔可夫随机场",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/马尔可夫随机场.md",
+      "aliases": [
+        "MRF"
+      ],
+      "sources": [
+        "raw/articles/30 无向图模型：马尔可夫随机场.md"
+      ]
+    },
+    {
+      "id": "EM算法",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/EM算法.md",
+      "aliases": [
+        "EM Algorithm"
+      ],
+      "sources": [
+        "raw/articles/39 隐变量下的参数学习：EM方法与混合模型.md"
+      ]
     }
   ],
   "edges": [
@@ -1021,13 +1347,127 @@
       "to": "ADX",
       "relation": "includes",
       "context": "RTB 竞价通过 ADX 完成"
+    },
+    {
+      "from": "频率学派",
+      "to": "最大似然估计",
+      "relation": "uses",
+      "context": "频率学派使用 MLE 估计参数"
+    },
+    {
+      "from": "贝叶斯学派",
+      "to": "最大似然估计",
+      "relation": "relates_to",
+      "context": "贝叶斯学派使用 MAP/贝叶斯估计"
+    },
+    {
+      "from": "Logistic回归",
+      "to": "联系函数",
+      "relation": "uses",
+      "context": "Logistic 回归使用 Logit 联系函数"
+    },
+    {
+      "from": "Logistic回归",
+      "to": "线性回归",
+      "relation": "extends",
+      "context": "Logistic 回归是线性回归的分类扩展"
+    },
+    {
+      "from": "Logistic回归",
+      "to": "最大似然估计",
+      "relation": "uses",
+      "context": "Logistic 回归使用 MLE 估计参数"
+    },
+    {
+      "from": "线性判别分析",
+      "to": "主成分分析",
+      "relation": "compares_to",
+      "context": "LDA 监督 vs PCA 无监督"
+    },
+    {
+      "from": "线性判别分析",
+      "to": "Logistic回归",
+      "relation": "compares_to",
+      "context": "LDA 假设正态分布 vs Logistic 无假设"
+    },
+    {
+      "from": "广义线性模型",
+      "to": "联系函数",
+      "relation": "uses",
+      "context": "GLM 的三大要素之一"
+    },
+    {
+      "from": "广义线性模型",
+      "to": "Logistic回归",
+      "relation": "includes",
+      "context": "Logistic 回归是 GLM 的特例"
+    },
+    {
+      "from": "支持向量机",
+      "to": "核技巧",
+      "relation": "extends",
+      "context": "核 SVM 通过核技巧处理非线性"
+    },
+    {
+      "from": "感知器",
+      "to": "神经网络",
+      "relation": "extends",
+      "context": "多层感知器组成神经网络"
+    },
+    {
+      "from": "神经网络",
+      "to": "深度学习",
+      "relation": "extends",
+      "context": "多层神经网络即深度学习"
+    },
+    {
+      "from": "决策树",
+      "to": "集成学习",
+      "relation": "uses",
+      "context": "决策树常作为集成学习的基学习器"
+    },
+    {
+      "from": "集成学习",
+      "to": "梯度提升",
+      "relation": "includes",
+      "context": "Boosting 是集成学习的一种"
+    },
+    {
+      "from": "集成学习",
+      "to": "随机森林",
+      "relation": "includes",
+      "context": "随机森林是 Bagging + 决策树"
+    },
+    {
+      "from": "朴素贝叶斯",
+      "to": "概率图模型",
+      "relation": "belongs_to",
+      "context": "朴素贝叶斯是最简单的概率图模型"
+    },
+    {
+      "from": "贝叶斯网络",
+      "to": "概率图模型",
+      "relation": "belongs_to",
+      "context": "贝叶斯网络是有向概率图模型"
+    },
+    {
+      "from": "贝叶斯网络",
+      "to": "朴素贝叶斯",
+      "relation": "extends",
+      "context": "贝叶斯网络放松了独立性假设"
+    },
+    {
+      "from": "EM算法",
+      "to": "概率图模型",
+      "relation": "used_in",
+      "context": "EM 常用于概率图模型的参数学习"
     }
   ],
   "stats": {
-    "totalNodes": 57,
-    "totalEdges": 56,
+    "totalNodes": 89,
+    "totalEdges": 72,
     "byType": {
-      "concept": 51,
+      "concept": 83,
       "entity": 6,
       "topic": 0,
       "insight": 0,
