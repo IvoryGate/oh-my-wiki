@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-22T13:32:49+08:00",
+  "lastUpdated": "2026-04-22T16:56:21+08:00",
   "nodes": [
     {
       "id": "LLM-Wiki",
@@ -589,6 +589,52 @@
       "sources": [
         "raw/articles/出海投放基础知识之归因（三）.md"
       ]
+    },
+    {
+      "id": "多触点归因",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/多触点归因.md",
+      "aliases": [
+        "MTA",
+        "Multi-Touch Attribution"
+      ],
+      "sources": [
+        "raw/articles/广告归因8种模型：预算怎么分才不浪费？"
+      ]
+    },
+    {
+      "id": "线性归因",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/线性归因.md",
+      "aliases": [
+        "Linear Attribution"
+      ],
+      "sources": [
+        "raw/articles/广告归因8种模型：预算怎么分才不浪费？"
+      ]
+    },
+    {
+      "id": "时间衰减归因",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/时间衰减归因.md",
+      "aliases": [
+        "Time Decay Attribution"
+      ],
+      "sources": [
+        "raw/articles/广告归因8种模型：预算怎么分才不浪费？"
+      ]
+    },
+    {
+      "id": "U型归因",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/U型归因.md",
+      "aliases": [
+        "U-Shape Attribution",
+        "首尾归因"
+      ],
+      "sources": [
+        "raw/articles/广告归因8种模型：预算怎么分才不浪费？"
+      ]
     }
   ],
   "edges": [
@@ -873,11 +919,35 @@
       "to": "Last-Click-Rule",
       "relation": "relates_to",
       "context": "助攻是非 Last Click 渠道的贡献"
+    },
+    {
+      "from": "多触点归因",
+      "to": "线性归因",
+      "relation": "includes",
+      "context": "线性归因是多触点归因的一种"
+    },
+    {
+      "from": "多触点归因",
+      "to": "时间衰减归因",
+      "relation": "includes",
+      "context": "时间衰减归因是多触点归因的一种"
+    },
+    {
+      "from": "多触点归因",
+      "to": "U型归因",
+      "relation": "includes",
+      "context": "U型归因是多触点归因的一种"
+    },
+    {
+      "from": "线性归因",
+      "to": "Last-Click-Rule",
+      "relation": "relates_to",
+      "context": "Last Click 是线性归因的极端情况"
     }
   ],
   "stats": {
-    "totalNodes": 49,
-    "totalEdges": 47,
+    "totalNodes": 53,
+    "totalEdges": 51,
     "byType": {
       "concept": 43,
       "entity": 6,

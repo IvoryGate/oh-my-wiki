@@ -8,7 +8,11 @@
       "size": 12228,
       "status": "done",
       "compiledAt": "2026-04-17T22:40:00+08:00",
-      "domains": ["AI", "知识管理", "LLM"],
+      "domains": [
+        "AI",
+        "知识管理",
+        "LLM"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/LLM-Wiki.md",
         "wiki/atoms/concepts/RAG.md",
@@ -21,7 +25,11 @@
       "size": 15162,
       "status": "done",
       "compiledAt": "2026-04-19T10:00:00+08:00",
-      "domains": ["复盘", "方法论", "管理"],
+      "domains": [
+        "复盘",
+        "方法论",
+        "管理"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/CLAP-Model.md",
         "wiki/atoms/concepts/OPTM-Framework.md",
@@ -38,7 +46,11 @@
       "size": 16036,
       "status": "done",
       "compiledAt": "2026-04-19T10:00:00+08:00",
-      "domains": ["复盘", "方法论", "管理"],
+      "domains": [
+        "复盘",
+        "方法论",
+        "管理"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/CLAP-Model.md",
         "wiki/atoms/concepts/OPTM-Framework.md",
@@ -51,7 +63,11 @@
       "size": 35000,
       "status": "done",
       "compiledAt": "2026-04-18T10:50:00+08:00",
-      "domains": ["AI", "Agent", "工程实践"],
+      "domains": [
+        "AI",
+        "Agent",
+        "工程实践"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/Agent-Loop.md",
         "wiki/atoms/concepts/Workflow-vs-Agent.md",
@@ -73,7 +89,12 @@
       "size": 12000,
       "status": "done",
       "compiledAt": "2026-04-18T10:50:00+08:00",
-      "domains": ["AI", "Agent", "工程实践", "Codex"],
+      "domains": [
+        "AI",
+        "Agent",
+        "工程实践",
+        "Codex"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/Harness-Engineering.md",
         "wiki/atoms/concepts/Agent-First-Development.md",
@@ -88,7 +109,12 @@
       "size": 8500,
       "status": "done",
       "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": ["增长", "营销", "归因", "广告"],
+      "domains": [
+        "增长",
+        "营销",
+        "归因",
+        "广告"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/MMP-Attribution.md",
         "wiki/atoms/concepts/Last-Click-Rule.md",
@@ -101,7 +127,13 @@
       "size": 7800,
       "status": "done",
       "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": ["增长", "营销", "归因", "iOS", "隐私"],
+      "domains": [
+        "增长",
+        "营销",
+        "归因",
+        "iOS",
+        "隐私"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/SKAN-Attribution.md"
       ]
@@ -111,7 +143,12 @@
       "size": 9200,
       "status": "done",
       "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": ["增长", "营销", "归因", "渠道策略"],
+      "domains": [
+        "增长",
+        "营销",
+        "归因",
+        "渠道策略"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/High-Value-Channel.md"
       ]
@@ -121,7 +158,12 @@
       "size": 4500,
       "status": "done",
       "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": ["增长", "营销", "目标", "哲学"],
+      "domains": [
+        "增长",
+        "营销",
+        "目标",
+        "哲学"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/Audience-Definition.md"
       ]
@@ -131,7 +173,12 @@
       "size": 11000,
       "status": "done",
       "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": ["增长", "营销", "受众", "渠道"],
+      "domains": [
+        "增长",
+        "营销",
+        "受众",
+        "渠道"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/Audience-Definition.md",
         "wiki/atoms/concepts/User-App-Pair.md",
@@ -143,7 +190,12 @@
       "size": 5200,
       "status": "done",
       "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": ["增长", "营销", "受众", "科普"],
+      "domains": [
+        "增长",
+        "营销",
+        "受众",
+        "科普"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/User-App-Pair.md"
       ]
@@ -153,7 +205,12 @@
       "size": 8800,
       "status": "done",
       "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": ["增长", "营销", "渠道", "起量"],
+      "domains": [
+        "增长",
+        "营销",
+        "渠道",
+        "起量"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/Channel-Launch-Strategy.md"
       ]
@@ -164,7 +221,12 @@
       "size": 17308,
       "status": "done",
       "compiledAt": "2026-04-19T15:30:00+08:00",
-      "domains": ["Linux", "CLI", "工具", "终端复用"],
+      "domains": [
+        "Linux",
+        "CLI",
+        "工具",
+        "终端复用"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/Tmux.md"
       ]
@@ -175,8 +237,15 @@
       "size": 27626,
       "status": "done",
       "compiledAt": "2026-04-20T12:00:00+08:00",
-      "domains": ["写作", "内容营销", "博客", "SEO"],
-      "producedPages": ["wiki/atoms/concepts/Blog-Content-Writing-Practices.md"]
+      "domains": [
+        "写作",
+        "内容营销",
+        "博客",
+        "SEO"
+      ],
+      "producedPages": [
+        "wiki/atoms/concepts/Blog-Content-Writing-Practices.md"
+      ]
     },
     {
       "path": "articles/程序员怎样才能写出一篇好的博客或者技术文章.md",
@@ -184,7 +253,11 @@
       "size": 12971,
       "status": "done",
       "compiledAt": "2026-04-20T12:00:00+08:00",
-      "domains": ["写作", "技术博客", "程序员"],
+      "domains": [
+        "写作",
+        "技术博客",
+        "程序员"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/Tech-Blog-Article-Types.md",
         "wiki/atoms/entities/Phodal.md"
@@ -196,7 +269,11 @@
       "size": 31937,
       "status": "done",
       "compiledAt": "2026-04-20T12:00:00+08:00",
-      "domains": ["写作", "技术文档", "方法论"],
+      "domains": [
+        "写作",
+        "技术文档",
+        "方法论"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/MECE.md",
         "wiki/atoms/concepts/Pyramid-Principle.md",
@@ -209,15 +286,26 @@
       "size": 35595,
       "status": "done",
       "compiledAt": "2026-04-20T12:00:00+08:00",
-      "domains": ["软件架构", "DDD", "后端", "领域建模"],
-      "producedPages": ["wiki/atoms/concepts/DDD.md"]
+      "domains": [
+        "软件架构",
+        "DDD",
+        "后端",
+        "领域建模"
+      ],
+      "producedPages": [
+        "wiki/atoms/concepts/DDD.md"
+      ]
     },
     {
       "path": "articles/广告归因8种模型：预算怎么分才不浪费？.md",
       "size": 34000,
       "status": "done",
       "compiledAt": "2026-04-21T18:00:00+08:00",
-      "domains": ["归因", "UA", "模型"],
+      "domains": [
+        "归因",
+        "UA",
+        "模型"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/多触点归因.md",
         "wiki/atoms/concepts/线性归因.md",
@@ -230,18 +318,26 @@
       "size": 23900,
       "status": "done",
       "compiledAt": "2026-04-21T18:00:00+08:00",
-      "domains": ["归因", "MTA", "算法"],
-"producedPages": [
-          "wiki/atoms/concepts/多触点归因.md",
-          "wiki/atoms/concepts/Shapley值.md"
-        ]
+      "domains": [
+        "归因",
+        "MTA",
+        "算法"
+      ],
+      "producedPages": [
+        "wiki/atoms/concepts/多触点归因.md",
+        "wiki/atoms/concepts/Shapley值.md"
+      ]
     },
     {
       "path": "articles/出海投放基础知识之归因（一）.md",
       "size": 200,
       "status": "done",
       "compiledAt": "2026-04-22T12:00:00+08:00",
-      "domains": ["归因", "MMP", "基础知识"],
+      "domains": [
+        "归因",
+        "MMP",
+        "基础知识"
+      ],
       "producedPages": []
     },
     {
@@ -249,7 +345,11 @@
       "size": 133,
       "status": "done",
       "compiledAt": "2026-04-22T12:00:00+08:00",
-      "domains": ["归因", "MMP", "技术"],
+      "domains": [
+        "归因",
+        "MMP",
+        "技术"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/归因链接.md"
       ]
@@ -259,17 +359,25 @@
       "size": 182,
       "status": "done",
       "compiledAt": "2026-04-22T12:00:00+08:00",
-      "domains": ["归因", "MMP", "助攻率"],
+      "domains": [
+        "归因",
+        "MMP",
+        "助攻率"
+      ],
       "producedPages": [
         "wiki/atoms/concepts/助攻率.md"
       ]
     },
     {
-      "path": "articles/出海投放基础知识之归因（四）SKAN归因.md",
+      "path": "articles/出海投放基础知识之归因(四)+SKAN(一).md",
       "size": 574,
       "status": "done",
       "compiledAt": "2026-04-22T12:00:00+08:00",
-      "domains": ["归因", "SKAN", "iOS"],
+      "domains": [
+        "归因",
+        "SKAN",
+        "iOS"
+      ],
       "producedPages": []
     }
   ],
