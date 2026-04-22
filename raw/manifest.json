@@ -231,16 +231,52 @@
       "status": "done",
       "compiledAt": "2026-04-21T18:00:00+08:00",
       "domains": ["归因", "MTA", "算法"],
+"producedPages": [
+          "wiki/atoms/concepts/多触点归因.md",
+          "wiki/atoms/concepts/Shapley值.md"
+        ]
+    },
+    {
+      "path": "articles/出海投放基础知识之归因（一）.md",
+      "size": 200,
+      "status": "done",
+      "compiledAt": "2026-04-22T12:00:00+08:00",
+      "domains": ["归因", "MMP", "基础知识"],
+      "producedPages": []
+    },
+    {
+      "path": "articles/出海投放基础知识之归因（二）.md",
+      "size": 133,
+      "status": "done",
+      "compiledAt": "2026-04-22T12:00:00+08:00",
+      "domains": ["归因", "MMP", "技术"],
       "producedPages": [
-        "wiki/atoms/concepts/多触点归因.md",
-        "wiki/atoms/concepts/Shapley值.md"
+        "wiki/atoms/concepts/归因链接.md"
       ]
+    },
+    {
+      "path": "articles/出海投放基础知识之归因（三）.md",
+      "size": 182,
+      "status": "done",
+      "compiledAt": "2026-04-22T12:00:00+08:00",
+      "domains": ["归因", "MMP", "助攻率"],
+      "producedPages": [
+        "wiki/atoms/concepts/助攻率.md"
+      ]
+    },
+    {
+      "path": "articles/出海投放基础知识之归因（四）SKAN归因.md",
+      "size": 574,
+      "status": "done",
+      "compiledAt": "2026-04-22T12:00:00+08:00",
+      "domains": ["归因", "SKAN", "iOS"],
+      "producedPages": []
     }
   ],
   "stats": {
-    "total": 18,
+    "total": 22,
     "pending": 0,
     "processing": 0,
-    "done": 18
+    "done": 22
   }
 }

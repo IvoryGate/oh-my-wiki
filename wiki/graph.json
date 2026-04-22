@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-21T23:27:15+08:00",
+  "lastUpdated": "2026-04-22T13:32:49+08:00",
   "nodes": [
     {
       "id": "LLM-Wiki",
@@ -566,6 +566,29 @@
       "sources": [
         "raw/articles/广告归因8种模型：预算怎么分才不浪费？"
       ]
+    },
+    {
+      "id": "归因链接",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/归因链接.md",
+      "aliases": [
+        "Tracker",
+        "Click Tracker"
+      ],
+      "sources": [
+        "raw/articles/出海投放基础知识之归因（二）.md"
+      ]
+    },
+    {
+      "id": "助攻率",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/助攻率.md",
+      "aliases": [
+        "Contribute Rate"
+      ],
+      "sources": [
+        "raw/articles/出海投放基础知识之归因（三）.md"
+      ]
     }
   ],
   "edges": [
@@ -832,13 +855,31 @@
       "to": "马尔可夫链归因",
       "relation": "compares_to",
       "context": "Shapley值与马尔可夫链都是多触点归因的算法模型"
+    },
+    {
+      "from": "归因链接",
+      "to": "MMP-Attribution",
+      "relation": "belongs_to",
+      "context": "归因链接是 MMP 的核心技术组件"
+    },
+    {
+      "from": "助攻率",
+      "to": "MMP-Attribution",
+      "relation": "belongs_to",
+      "context": "助攻率是 MMP 提供的分析指标"
+    },
+    {
+      "from": "助攻率",
+      "to": "Last-Click-Rule",
+      "relation": "relates_to",
+      "context": "助攻是非 Last Click 渠道的贡献"
     }
   ],
   "stats": {
-    "totalNodes": 47,
-    "totalEdges": 44,
+    "totalNodes": 49,
+    "totalEdges": 47,
     "byType": {
-      "concept": 41,
+      "concept": 43,
       "entity": 6,
       "topic": 0,
       "insight": 0,
