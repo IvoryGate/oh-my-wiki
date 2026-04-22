@@ -34,6 +34,6 @@ status: draft
 - 计算量大
 - 可处理复杂分布
 
-## 参考
+## 来源
 
-- [[推断]]
+- [[raw/articles/37 随机近似推断：MCMC.md]]
