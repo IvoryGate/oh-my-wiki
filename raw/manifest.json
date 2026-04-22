@@ -421,12 +421,420 @@
         "MMP"
       ],
       "producedPages": []
+    },
+    {
+      "path": "articles/01 频率视角下的机器学习.md",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "频率学派", "概率"],
+      "producedPages": [
+        "wiki/atoms/concepts/频率学派.md",
+        "wiki/atoms/concepts/最大似然估计.md"
+      ]
+    },
+    {
+      "path": "articles/02 贝叶斯视角下的机器学习.md",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "贝叶斯学派", "概率"],
+      "producedPages": [
+        "wiki/atoms/concepts/贝叶斯学派.md",
+        "wiki/atoms/concepts/最大似然估计.md",
+        "wiki/atoms/concepts/贝叶斯定理.md"
+      ]
+    },
+    {
+      "path": "articles/03 学什么与怎么学.md",
+      "size": 10000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "基础"],
+      "producedPages": []
+    },
+    {
+      "path": "articles/04 计算学习理论.md",
+      "size": 10000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "学习理论"],
+      "producedPages": [
+        "wiki/atoms/concepts/计算学习理论.md",
+        "wiki/atoms/concepts/PAC可学习性.md",
+        "wiki/atoms/concepts/VC维.md"
+      ]
+    },
+    {
+      "path": "articles/05 模型的分类方式.md",
+      "size": 8000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "模型"],
+      "producedPages": []
+    },
+    {
+      "path": "articles/06 模型的设计准则.md",
+      "size": 8000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "模型设计"],
+      "producedPages": []
+    },
+    {
+      "path": "articles/07 模型的验证方法.md",
+      "size": 9000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "模型验证"],
+      "producedPages": []
+    },
+    {
+      "path": "articles/08 模型的评估指标.md",
+      "size": 9000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "评估"],
+      "producedPages": []
+    },
+    {
+      "path": "articles/09 实验设计.md",
+      "size": 8000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "实验"],
+      "producedPages": []
+    },
+    {
+      "path": "articles/10 特征预处理.md",
+      "size": 11000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "特征工程"],
+      "producedPages": [
+        "wiki/atoms/concepts/特征工程.md",
+        "wiki/atoms/concepts/距离度量.md"
+      ]
+    },
+    {
+      "path": "articles/11 基础线性回归：一元与多元.md",
+      "size": 11000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "回归"],
+      "producedPages": [
+        "wiki/atoms/concepts/线性回归.md"
+      ]
+    },
+    {
+      "path": "articles/12 正则化处理：收缩方法与边际化.md",
+      "size": 13000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "正则化"],
+      "producedPages": [
+        "wiki/atoms/concepts/正则化.md",
+        "wiki/atoms/concepts/岭回归.md",
+        "wiki/atoms/concepts/LASSO.md"
+      ]
+    },
+    {
+      "path": "articles/13 线性降维：主成分的使用.md",
+      "size": 10000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "降维"],
+      "producedPages": [
+        "wiki/atoms/concepts/主成分分析.md"
+      ]
+    },
+    {
+      "path": "articles/14 非线性降维：流形学习.md",
+      "size": 10000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "降维"],
+      "producedPages": [
+        "wiki/atoms/concepts/流形学习.md"
+      ]
+    },
+    {
+      "path": "articles/15 从回归到分类：联系函数与降维.md",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "分类"],
+      "producedPages": [
+        "wiki/atoms/concepts/联系函数.md",
+        "wiki/atoms/concepts/线性判别分析.md",
+        "wiki/atoms/concepts/Logistic-回归.md"
+      ]
+    },
+    {
+      "path": "articles/16 建模非正态分布：广义线性模型.md",
+      "size": 11000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "概率模型"],
+      "producedPages": [
+        "wiki/atoms/concepts/广义线性模型.md",
+        "wiki/atoms/concepts/Logistic-回归.md"
+      ]
+    },
+    {
+      "path": "articles/17 几何角度看分类：支持向量机.md",
+      "size": 13000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "分类"],
+      "producedPages": [
+        "wiki/atoms/concepts/支持向量机.md"
+      ]
+    },
+    {
+      "path": "articles/18 从全局到局部：核技巧.md",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "核方法"],
+      "producedPages": [
+        "wiki/atoms/concepts/核技巧.md",
+        "wiki/atoms/concepts/核函数.md"
+      ]
+    },
+    {
+      "path": "articles/19 非参数化的局部模型：K近邻.md",
+      "size": 10000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "分类"],
+      "producedPages": [
+        "wiki/atoms/concepts/K近邻.md"
+      ]
+    },
+    {
+      "path": "articles/20 基于距离的学习：聚类与度量学习.md",
+      "size": 11000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "聚类"],
+      "producedPages": [
+        "wiki/atoms/concepts/聚类分析.md"
+      ]
+    },
+    {
+      "path": "articles/21 基函数扩展：属性的非线性化.md",
+      "size": 10000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "特征工程"],
+      "producedPages": [
+        "wiki/atoms/concepts/基函数扩展.md"
+      ]
+    },
+    {
+      "path": "articles/22 自适应的基函数：神经网络.md",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "神经网络"],
+      "producedPages": [
+        "wiki/atoms/concepts/感知器.md",
+        "wiki/atoms/concepts/神经网络.md"
+      ]
+    },
+    {
+      "path": "articles/23 层次化的神经网络：深度学习.md",
+      "size": 11000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "深度学习"],
+      "producedPages": [
+        "wiki/atoms/concepts/神经网络.md",
+        "wiki/atoms/concepts/深度学习.md"
+      ]
+    },
+    {
+      "path": "articles/24 深度编解码：表示学习.md",
+      "size": 11000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "表示学习"],
+      "producedPages": [
+        "wiki/atoms/concepts/表示学习.md",
+        "wiki/atoms/concepts/自编码器.md"
+      ]
+    },
+    {
+      "path": "articles/25 基于特征的区域划分：树模型.md",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "树模型"],
+      "producedPages": [
+        "wiki/atoms/concepts/决策树.md"
+      ]
+    },
+    {
+      "path": "articles/26 集成化处理：Boosting与Bagging.md",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "集成学习"],
+      "producedPages": [
+        "wiki/atoms/concepts/集成学习.md"
+      ]
+    },
+    {
+      "path": "articles/27 万能模型：梯度提升与随机森林.md",
+      "size": 13000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "集成学习"],
+      "producedPages": [
+        "wiki/atoms/concepts/梯度提升.md",
+        "wiki/atoms/concepts/随机森林.md"
+      ]
+    },
+    {
+      "path": "articles/28 最简单的概率图：朴素贝叶斯.md",
+      "size": 11000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "概率图"],
+      "producedPages": [
+        "wiki/atoms/concepts/概率图模型.md",
+        "wiki/atoms/concepts/朴素贝叶斯.md"
+      ]
+    },
+    {
+      "path": "articles/29 有向图模型：贝叶斯网络.md",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "概率图"],
+      "producedPages": [
+        "wiki/atoms/concepts/贝叶斯网络.md"
+      ]
+    },
+    {
+      "path": "articles/30 无向图模型：马尔可夫随机场.md",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "概率图"],
+      "producedPages": [
+        "wiki/atoms/concepts/马尔可夫随机场.md"
+      ]
+    },
+    {
+      "path": "articles/31 建模连续分布：高斯网络.md",
+      "size": 11000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "概率图"],
+      "producedPages": [
+        "wiki/atoms/concepts/高斯网络.md"
+      ]
+    },
+    {
+      "path": "articles/32 从有限到无限：高斯过程.md",
+      "size": 11000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "非参数"],
+      "producedPages": [
+        "wiki/atoms/concepts/高斯过程.md",
+        "wiki/atoms/concepts/核函数.md"
+      ]
+    },
+    {
+      "path": "articles/33 序列化建模：隐马尔可夫模型.md",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "序列模型"],
+      "producedPages": [
+        "wiki/atoms/concepts/隐马尔可夫模型.md"
+      ]
+    },
+    {
+      "path": "articles/34 连续序列化模型：线性动态系统.md",
+      "size": 10000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "序列模型"],
+      "producedPages": [
+        "wiki/atoms/concepts/线性动态系统.md"
+      ]
+    },
+    {
+      "path": "articles/35 精确推断：变量消除及其拓展.md",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "推断"],
+      "producedPages": [
+        "wiki/atoms/concepts/推断.md",
+        "wiki/atoms/concepts/变量消除.md"
+      ]
+    },
+    {
+      "path": "articles/36 确定近似推断：变分贝叶斯.md",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "推断"],
+      "producedPages": [
+        "wiki/atoms/concepts/推断.md",
+        "wiki/atoms/concepts/变分推断.md"
+      ]
+    },
+    {
+      "path": "articles/37 随机近似推断：MCMC.md",
+      "size": 12000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "推断"],
+      "producedPages": [
+        "wiki/atoms/concepts/推断.md",
+        "wiki/atoms/concepts/MCMC.md"
+      ]
+    },
+    {
+      "path": "articles/38 完备数据下的参数学习：有向图与无向图.md",
+      "size": 11000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "概率图"],
+      "producedPages": []
+    },
+    {
+      "path": "articles/39 隐变量下的参数学习：EM方法与混合模型.md",
+      "size": 13000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "参数学习"],
+      "producedPages": [
+        "wiki/atoms/concepts/EM算法.md",
+        "wiki/atoms/concepts/混合模型.md"
+      ]
+    },
+    {
+      "path": "articles/40 结构学习：基于约束与基于评分.md",
+      "size": 11000,
+      "status": "done",
+      "compiledAt": "2026-04-23",
+      "domains": ["机器学习", "结构学习"],
+      "producedPages": [
+        "wiki/atoms/concepts/结构学习.md"
+      ]
     }
   ],
   "stats": {
-    "total": 26,
+    "total": 66,
     "pending": 0,
     "processing": 0,
-    "done": 26
+    "done": 66
   }
 }

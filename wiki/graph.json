@@ -1009,6 +1009,95 @@
       "sources": [
         "raw/articles/39 隐变量下的参数学习：EM方法与混合模型.md"
       ]
+    },
+    {
+      "id": "岭回归",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/岭回归.md",
+      "aliases": [
+        "Ridge Regression"
+      ],
+      "sources": [
+        "raw/articles/12 正则化处理：收缩方法与边际化.md"
+      ]
+    },
+    {
+      "id": "LASSO",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/LASSO.md",
+      "aliases": [
+        "LASSO回归"
+      ],
+      "sources": [
+        "raw/articles/12 正则化处理：收缩方法与边际化.md"
+      ]
+    },
+    {
+      "id": "PAC可学习性",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/PAC可学习性.md",
+      "aliases": [
+        "PAC Learnable"
+      ],
+      "sources": [
+        "raw/articles/04 计算学习理论.md"
+      ]
+    },
+    {
+      "id": "VC维",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/VC维.md",
+      "aliases": [
+        "VC Dimension"
+      ],
+      "sources": [
+        "raw/articles/04 计算学习理论.md"
+      ]
+    },
+    {
+      "id": "贝叶斯定理",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/贝叶斯定理.md",
+      "aliases": [
+        "Bayes' Theorem"
+      ],
+      "sources": [
+        "raw/articles/02 贝叶斯视角下的机器学习.md"
+      ]
+    },
+    {
+      "id": "核函数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/核函数.md",
+      "aliases": [
+        "Kernel Function"
+      ],
+      "sources": [
+        "raw/articles/32 从有限到无限：高斯过程.md",
+        "raw/articles/18 从全局到局部：核技巧.md"
+      ]
+    },
+    {
+      "id": "变量消除",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/变量消除.md",
+      "aliases": [
+        "Variable Elimination"
+      ],
+      "sources": [
+        "raw/articles/35 精确推断：变量消除及其拓展.md"
+      ]
+    },
+    {
+      "id": "自编码器",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/自编码器.md",
+      "aliases": [
+        "Autoencoder"
+      ],
+      "sources": [
+        "raw/articles/24 深度编解码：表示学习.md"
+      ]
     }
   ],
   "edges": [
@@ -1461,13 +1550,299 @@
       "to": "概率图模型",
       "relation": "used_in",
       "context": "EM 常用于概率图模型的参数学习"
+    },
+    {
+      "from": "岭回归",
+      "to": "正则化",
+      "relation": "is_a",
+      "context": "岭回归是 L2 正则化的线性回归"
+    },
+    {
+      "from": "岭回归",
+      "to": "线性回归",
+      "relation": "extends",
+      "context": "岭回归是对线性回归的正则化改进"
+    },
+    {
+      "from": "LASSO",
+      "to": "正则化",
+      "relation": "is_a",
+      "context": "LASSO 是 L1 正则化的线性回归"
+    },
+    {
+      "from": "LASSO",
+      "to": "线性回归",
+      "relation": "extends",
+      "context": "LASSO 是对线性回归的正则化改进"
+    },
+    {
+      "from": "LASSO",
+      "to": "岭回归",
+      "relation": "compares_to",
+      "context": "LASSO 与岭回归的区别在于 L1 vs L2"
+    },
+    {
+      "from": "PAC可学习性",
+      "to": "计算学习理论",
+      "relation": "belongs_to",
+      "context": "PAC 可学习性是计算学习理论的核心概念"
+    },
+    {
+      "from": "VC维",
+      "to": "计算学习理论",
+      "relation": "belongs_to",
+      "context": "VC 维是计算学习理论的核心概念"
+    },
+    {
+      "from": "VC维",
+      "to": "PAC可学习性",
+      "relation": "implies",
+      "context": "VC 维有限则 PAC 可学习"
+    },
+    {
+      "from": "贝叶斯定理",
+      "to": "贝叶斯学派",
+      "relation": "belongs_to",
+      "context": "贝叶斯定理是贝叶斯学派的核心"
+    },
+    {
+      "from": "贝叶斯定理",
+      "to": "朴素贝叶斯",
+      "relation": "used_in",
+      "context": "朴素贝叶斯分类器基于贝叶斯定理"
+    },
+    {
+      "from": "核函数",
+      "to": "核技巧",
+      "relation": "relates_to",
+      "context": "核函数是核技巧的实现形式"
+    },
+    {
+      "from": "核函数",
+      "to": "支持向量机",
+      "relation": "used_in",
+      "context": "SVM 使用核函数处理非线性"
+    },
+    {
+      "from": "核函数",
+      "to": "高斯过程",
+      "relation": "used_in",
+      "context": "高斯过程使用核函数定义协方差"
+    },
+    {
+      "from": "变量消除",
+      "to": "推断",
+      "relation": "is_a",
+      "context": "变量消除是精确推断算法"
+    },
+    {
+      "from": "自编码器",
+      "to": "表示学习",
+      "relation": "is_a",
+      "context": "自编码器是表示学习的一种方法"
+    },
+    {
+"from": "自编码器",
+      "to": "主成分分析",
+      "relation": "compares_to",
+      "context": "自编码器与 PCA 都可以做降维"
+    },
+    {
+      "from": "反向传播",
+      "to": "神经网络",
+      "relation": "used_in",
+      "context": "反向传播是训练神经网络的核心算法"
+    },
+    {
+      "from": "反向传播",
+      "to": "梯度下降",
+      "relation": "implements",
+      "context": "反向传播实现了梯度下降的参数更新"
+    },
+    {
+      "from": "激活函数",
+      "to": "神经网络",
+      "relation": "belongs_to",
+      "context": "激活函数是神经网络的组成部分"
+    },
+    {
+      "from": "激活函数",
+      "to": "Softmax",
+      "relation": "includes",
+      "context": "Softmax 是激活函数的一种"
+    },
+    {
+      "from": "过拟合",
+      "to": "正则化",
+      "relation": "solved_by",
+      "context": "正则化用于防止过拟合"
+    },
+    {
+      "from": "过拟合",
+      "to": "岭回归",
+      "relation": "relates_to",
+      "context": "岭回归可缓解过拟合"
+    },
+    {
+      "from": "过拟合",
+      "to": "LASSO",
+      "relation": "relates_to",
+      "context": "LASSO 可缓解过拟合"
+    },
+    {
+      "from": "损失函数",
+      "to": "梯度下降",
+      "relation": "used_in",
+      "context": "梯度下降最小化损失函数"
+    },
+    {
+      "from": "损失函数",
+      "to": "交叉熵",
+      "relation": "includes",
+      "context": "交叉熵是分类任务的损失函数"
+    },
+    {
+      "from": "交叉熵",
+      "to": "Logistic回归",
+      "relation": "used_in",
+      "context": "交叉熵是 Logistic 回归的损失函数"
+    },
+    {
+      "from": "交叉熵",
+      "to": "Softmax",
+      "relation": "used_with",
+      "context": "Softmax 配合交叉熵使用"
+    },
+    {
+      "from": "梯度下降",
+      "to": "超参数",
+      "relation": "uses",
+      "context": "梯度下降涉及学习率超参数"
+    },
+    {
+      "from": "超参数",
+      "to": "正则化",
+      "relation": "relates_to",
+      "context": "正则化系数是超参数"
+    },
+    {
+      "from": "神经网络",
+      "to": "激活函数",
+      "relation": "uses",
+      "context": "神经网络使用激活函数引入非线性"
+    },
+    {
+      "from": "神经网络",
+      "to": "反向传播",
+      "relation": "uses",
+      "context": "神经网络通过反向传播训练"
+    },
+    {
+      "from": "深度学习",
+      "to": "激活函数",
+      "relation": "uses",
+      "context": "深度学习使用各种激活函数"
+    },
+    {
+      "from": "正则化",
+      "to": "超参数",
+      "relation": "has",
+      "context": "正则化有系数超参数"
+    },
+    {
+      "from": "Softmax",
+      "to": "神经网络",
+      "relation": "used_in",
+      "context": "Softmax 常作为神经网络输出层"
+    }
+  ],
+      "sources": [
+        "raw/articles/22 自适应的基函数：神经网络.md"
+      ]
+    },
+    {
+      "id": "激活函数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/激活函数.md",
+      "aliases": [
+        "Activation Function"
+      ],
+      "sources": [
+        "raw/articles/22 自适应的基函数：神经网络.md"
+      ]
+    },
+    {
+      "id": "过拟合",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/过拟合.md",
+      "aliases": [
+        "Overfitting"
+      ],
+      "sources": [
+        "raw/articles/12 正则化处理：收缩方法与边际化.md"
+      ]
+    },
+    {
+      "id": "损失函数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/损失函数.md",
+      "aliases": [
+        "Loss Function"
+      ],
+      "sources": [
+        "raw/articles/11 基础线性回归：一元与多元.md"
+      ]
+    },
+    {
+      "id": "交叉熵",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/交叉熵.md",
+      "aliases": [
+        "Cross Entropy"
+      ],
+      "sources": [
+        "raw/articles/17 几何角度看分类：支持向量机.md"
+      ]
+    },
+    {
+      "id": "梯度下降",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/梯度下降.md",
+      "aliases": [
+        "Gradient Descent"
+      ],
+      "sources": [
+        "raw/articles/11 基础线性回归：一元与多元.md"
+      ]
+    },
+    {
+      "id": "超参数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/超参数.md",
+      "aliases": [
+        "Hyperparameter"
+      ],
+      "sources": [
+        "raw/articles/06 模型的设计准则.md"
+      ]
+    },
+    {
+      "id": "Softmax",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Softmax.md",
+      "aliases": [
+        "Softmax 函数"
+      ],
+      "sources": [
+        "raw/articles/17 几何角度看分类：支持向量机.md"
+      ]
     }
   ],
   "stats": {
-    "totalNodes": 89,
-    "totalEdges": 72,
+    "totalNodes": 106,
+    "totalEdges": 114,
     "byType": {
-      "concept": 83,
+      "concept": 100,
       "entity": 6,
       "topic": 0,
       "insight": 0,
