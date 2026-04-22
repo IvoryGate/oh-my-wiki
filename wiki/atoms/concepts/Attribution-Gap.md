@@ -4,16 +4,17 @@ title: 归因 Gap
 aliases:
   - 归因差异
   - Attribution Gap
+  - 数据差异
 type: concept
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-04-22
 sources:
   - [[raw/articles/关于归因你可能不知道的那些事(一）.md]]
+  - [[raw/articles/渠道MMPBI的数据差异剖析.md]]
 tags:
-  - 增长
-  - 营销
   - 归因
-  - 广告
+  - UA
+  - 数据分析
 ---
 
 ## 定义
@@ -50,3 +51,4 @@ tags:
 ## 来源
 
 - [[raw/articles/关于归因你可能不知道的那些事(一）.md]]
+- [[raw/articles/渠道MMPBI的数据差异剖析.md]]

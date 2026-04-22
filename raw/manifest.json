@@ -379,12 +379,54 @@
         "iOS"
       ],
       "producedPages": []
+    },
+    {
+      "path": "articles/广告竞价背后的逻辑和模型算法（一）.md",
+      "size": 12638,
+      "status": "done",
+      "compiledAt": "2026-04-22T20:30:00+08:00",
+      "domains": [
+        "广告",
+        "竞价",
+        "RTB",
+        "DSP"
+      ],
+      "producedPages": [
+        "wiki/atoms/concepts/DSP.md",
+        "wiki/atoms/concepts/ADX.md",
+        "wiki/atoms/concepts/SSP.md",
+        "wiki/atoms/concepts/RTB.md"
+      ]
+    },
+    {
+      "path": "articles/广告竞价背后的逻辑和模型算法（二）.md",
+      "size": 7475,
+      "status": "done",
+      "compiledAt": "2026-04-22T20:30:00+08:00",
+      "domains": [
+        "广告",
+        "竞价",
+        "Ad Request"
+      ],
+      "producedPages": []
+    },
+    {
+      "path": "articles/渠道MMPBI的数据差异剖析.md",
+      "size": 13246,
+      "status": "done",
+      "compiledAt": "2026-04-22T20:30:00+08:00",
+      "domains": [
+        "归因",
+        "数据",
+        "MMP"
+      ],
+      "producedPages": []
     }
   ],
   "stats": {
-    "total": 22,
+    "total": 26,
     "pending": 0,
     "processing": 0,
-    "done": 22
+    "done": 26
   }
 }

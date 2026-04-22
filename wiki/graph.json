@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-22T18:00:07+08:00",
+  "lastUpdated": "2026-04-22T20:10:36+08:00",
   "nodes": [
     {
       "id": "LLM-Wiki",
@@ -635,6 +635,54 @@
       "sources": [
         "raw/articles/广告归因8种模型：预算怎么分才不浪费？"
       ]
+    },
+    {
+      "id": "DSP",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/DSP.md",
+      "aliases": [
+        "Demand-Side Platform",
+        "需求方平台"
+      ],
+      "sources": [
+        "raw/articles/广告竞价背后的逻辑和模型算法（一）.md"
+      ]
+    },
+    {
+      "id": "ADX",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/ADX.md",
+      "aliases": [
+        "Ad Exchange",
+        "广告交易所"
+      ],
+      "sources": [
+        "raw/articles/广告竞价背后的逻辑和模型算法（一）.md"
+      ]
+    },
+    {
+      "id": "SSP",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/SSP.md",
+      "aliases": [
+        "Supply-Side Platform",
+        "供应方平台"
+      ],
+      "sources": [
+        "raw/articles/广告竞价背后的逻辑和模型算法（一）.md"
+      ]
+    },
+    {
+      "id": "RTB",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/RTB.md",
+      "aliases": [
+        "Real-Time Bidding",
+        "实时竞价"
+      ],
+      "sources": [
+        "raw/articles/广告竞价背后的逻辑和模型算法（一）.md"
+      ]
     }
   ],
   "edges": [
@@ -949,13 +997,37 @@
       "to": "Long-Task-Management",
       "relation": "includes",
       "context": "长任务管理是 Agent 控制模式的一部分"
+    },
+    {
+      "from": "DSP",
+      "to": "ADX",
+      "relation": "connects_to",
+      "context": "DSP 通过 ADX 获取流量"
+    },
+    {
+      "from": "ADX",
+      "to": "SSP",
+      "relation": "connects_to",
+      "context": "ADX 接收 SSP 的广告位请求"
+    },
+    {
+      "from": "RTB",
+      "to": "DSP",
+      "relation": "includes",
+      "context": "RTB 竞价中 DSP 代表广告主出价"
+    },
+    {
+      "from": "RTB",
+      "to": "ADX",
+      "relation": "includes",
+      "context": "RTB 竞价通过 ADX 完成"
     }
   ],
   "stats": {
-    "totalNodes": 53,
-    "totalEdges": 52,
+    "totalNodes": 57,
+    "totalEdges": 56,
     "byType": {
-      "concept": 43,
+      "concept": 51,
       "entity": 6,
       "topic": 0,
       "insight": 0,
