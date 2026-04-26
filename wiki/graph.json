@@ -1,1103 +1,606 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-23",
+  "lastUpdated": "2026-04-26",
   "nodes": [
     {
-      "id": "LLM-Wiki",
+      "id": "工作记忆",
       "type": "concept",
-      "path": "wiki/atoms/concepts/LLM-Wiki.md",
-      "aliases": [
-        "LLM Wiki",
-        "LLM Wiki 模式"
-      ],
-      "sources": [
-        "raw/articles/llm-wiki.md"
-      ]
+      "path": "wiki/atoms/concepts/工作记忆.md"
     },
     {
-      "id": "RAG",
+      "id": "直觉",
       "type": "concept",
-      "path": "wiki/atoms/concepts/RAG.md",
-      "aliases": [
-        "检索增强生成",
-        "Retrieval-Augmented Generation"
-      ],
-      "sources": [
-        "raw/articles/llm-wiki.md"
-      ]
+      "path": "wiki/atoms/concepts/直觉.md"
     },
     {
-      "id": "Karpathy",
-      "type": "entity",
-      "path": "wiki/atoms/entities/Karpathy.md",
-      "aliases": [
-        "Andrej Karpathy"
-      ],
-      "sources": [
-        "raw/articles/llm-wiki.md"
-      ]
-    },
-    {
-      "id": "Agent-Loop",
+      "id": "经典知识联系",
       "type": "concept",
-      "path": "wiki/atoms/concepts/Agent-Loop.md",
-      "aliases": [
-        "Agent循环",
-        "AI Agent主循环"
-      ],
-      "sources": [
-        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
-      ]
-    },
-    {
-      "id": "Workflow-vs-Agent",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Workflow-vs-Agent.md",
-      "aliases": [
-        "工作流与智能体"
-      ],
-      "sources": [
-        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
-      ]
-    },
-    {
-      "id": "Agent-Control-Patterns",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Agent-Control-Patterns.md",
-      "aliases": [
-        "Agent控制模式",
-        "五种控制模式"
-      ],
-      "sources": [
-        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
-      ]
-    },
-    {
-      "id": "Harness-Engineering",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Harness-Engineering.md",
-      "aliases": [
-        "Harness工程",
-        "验收基础设施"
-      ],
-      "sources": [
-        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md",
-        "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"
-      ]
-    },
-    {
-      "id": "Context-Engineering",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Context-Engineering.md",
-      "aliases": [
-        "上下文工程"
-      ],
-      "sources": [
-        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
-      ]
-    },
-    {
-      "id": "Skills-System",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Skills-System.md",
-      "aliases": [
-        "Skills系统",
-        "Agent Skills"
-      ],
-      "sources": [
-        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
-      ]
-    },
-    {
-      "id": "ACI",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/ACI-Agent-Computer-Interface.md",
-      "aliases": [
-        "Agent-Computer Interface",
-        "Agent计算机接口"
-      ],
-      "sources": [
-        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
-      ]
-    },
-    {
-      "id": "Memory-System",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Memory-System.md",
-      "aliases": [
-        "记忆系统",
-        "Agent记忆"
-      ],
-      "sources": [
-        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
-      ]
-    },
-    {
-      "id": "Multi-Agent-Organization",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Multi-Agent-Organization.md",
-      "aliases": [
-        "多Agent组织",
-        "Agent协作模式"
-      ],
-      "sources": [
-        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
-      ]
-    },
-    {
-      "id": "Agent-Evaluation",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Agent-Evaluation.md",
-      "aliases": [
-        "Agent评测"
-      ],
-      "sources": [
-        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
-      ]
-    },
-    {
-      "id": "Agent-Tracing",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Agent-Tracing.md",
-      "aliases": [
-        "Agent追踪",
-        "可观测性"
-      ],
-      "sources": [
-        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
-      ]
-    },
-    {
-      "id": "Long-Task-Management",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Long-Task-Management.md",
-      "aliases": [
-        "长任务管理"
-      ],
-      "sources": [
-        "raw/articles/你不知道的 Agent：原理、架构与工程实践.md"
-      ]
-    },
-    {
-      "id": "Agent-First-Development",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Agent-First-Development.md",
-      "aliases": [
-        "智能体优先开发"
-      ],
-      "sources": [
-        "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"
-      ]
-    },
-    {
-      "id": "Architecture-Constraints",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Architecture-Constraints.md",
-      "aliases": [
-        "架构约束",
-        "架构不变量"
-      ],
-      "sources": [
-        "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"
-      ]
-    },
-    {
-      "id": "Progressive-Disclosure",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Progressive-Disclosure.md",
-      "aliases": [
-        "渐进式披露"
-      ],
-      "sources": [
-        "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"
-      ]
-    },
-    {
-      "id": "Codex",
-      "type": "entity",
-      "path": "wiki/atoms/entities/Codex.md",
-      "aliases": [
-        "OpenAI Codex",
-        "Codex CLI"
-      ],
-      "sources": [
-        "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"
-      ]
-    },
-    {
-      "id": "OpenAI",
-      "type": "entity",
-      "path": "wiki/atoms/entities/OpenAI.md",
-      "aliases": [
-        "OpenAI公司"
-      ],
-      "sources": [
-        "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md"
-      ]
-    },
-    {
-      "id": "erickfang",
-      "type": "entity",
-      "path": "wiki/atoms/entities/erickfang.md",
-      "aliases": [
-        "Erick Fang"
-      ],
-      "sources": [
-        "raw/articles/关于归因你可能不知道的那些事(一）.md"
-      ]
-    },
-    {
-      "id": "MMP-Attribution",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/MMP-Attribution.md",
-      "aliases": [
-        "第三方归因",
-        "MMP Attribution",
-        "Mobile Measurement Partner"
-      ],
-      "sources": [
-        "raw/articles/关于归因你可能不知道的那些事(一）.md"
-      ]
-    },
-    {
-      "id": "SKAN-Attribution",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/SKAN-Attribution.md",
-      "aliases": [
-        "SKAdNetwork",
-        "Apple归因",
-        "SKAN"
-      ],
-      "sources": [
-        "raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md"
-      ]
-    },
-    {
-      "id": "Last-Click-Rule",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Last-Click-Rule.md",
-      "aliases": [
-        "Last Click",
-        "最后点击归因"
-      ],
-      "sources": [
-        "raw/articles/关于归因你可能不知道的那些事(一）.md"
-      ]
-    },
-    {
-      "id": "Duplicate-Attribution",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Duplicate-Attribution.md",
-      "aliases": [
-        "重复计费",
-        "Duplicate Attribution"
-      ],
-      "sources": [
-        "raw/articles/关于归因你可能不知道的那些事(一）.md"
-      ]
-    },
-    {
-      "id": "Attribution-Gap",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Attribution-Gap.md",
-      "aliases": [
-        "归因差异",
-        "Attribution Gap"
-      ],
-      "sources": [
-        "raw/articles/关于归因你可能不知道的那些事(一）.md"
-      ]
-    },
-    {
-      "id": "User-App-Pair",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/User-App-Pair.md",
-      "aliases": [
-        "人货场",
-        "用户覆盖模型"
-      ],
-      "sources": [
-        "raw/articles/如何定义受众-科普篇.md"
-      ]
-    },
-    {
-      "id": "Audience-Definition",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Audience-Definition.md",
-      "aliases": [
-        "定义受众",
-        "目标受众",
-        "Audience Definition"
-      ],
-      "sources": [
-        "raw/articles/增长从确定目标开始.md"
-      ]
+      "path": "wiki/atoms/concepts/经典知识联系.md"
     },
     {
       "id": "High-Value-Channel",
       "type": "concept",
-      "path": "wiki/atoms/concepts/High-Value-Channel.md",
-      "aliases": [
-        "高价值渠道识别",
-        "High Value Channel"
-      ],
-      "sources": [
-        "raw/articles/关于归因你可能不知道的那些事（三）-策略篇.md"
-      ]
-    },
-    {
-      "id": "Channel-Launch-Strategy",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Channel-Launch-Strategy.md",
-      "aliases": [
-        "起量策略",
-        "冷启动",
-        "Channel Launch Strategy"
-      ],
-      "sources": [
-        "raw/articles/渠道不起量的原因都在这里了！.md"
-      ]
-    },
-    {
-      "id": "Network-Cognition-Gap",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Network-Cognition-Gap.md",
-      "aliases": [
-        "渠道能力差异",
-        "Network Cognition Gap"
-      ],
-      "sources": [
-        "raw/articles/如何定义受众-正篇.md"
-      ]
-    },
-    {
-      "id": "CLAP-Model",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/CLAP-Model.md",
-      "aliases": [
-        "CLAP模型",
-        "对比-逻辑-认知-规划"
-      ],
-      "sources": [
-        "raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
-        "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"
-      ]
-    },
-    {
-      "id": "OPTM-Framework",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/OPTM-Framework.md",
-      "aliases": [
-        "OPTM框架",
-        "组织-流程-工具方法"
-      ],
-      "sources": [
-        "raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
-        "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"
-      ]
-    },
-    {
-      "id": "PDCA-Model",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/PDCA-Model.md",
-      "aliases": [
-        "PDCA模型",
-        "戴明环",
-        "Plan-Do-Check-Act"
-      ],
-      "sources": [
-        "raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md"
-      ]
-    },
-    {
-      "id": "PDF-Model",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/PDF-Model.md",
-      "aliases": [
-        "PDF模型",
-        "柳传志环",
-        "Preview-Do-FuPan"
-      ],
-      "sources": [
-        "raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md"
-      ]
-    },
-    {
-      "id": "AAR-Model",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/AAR-Model.md",
-      "aliases": [
-        "AAR模型",
-        "After Action Review",
-        "任务后检视"
-      ],
-      "sources": [
-        "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"
-      ]
-    },
-    {
-      "id": "FuPan",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/FuPan.md",
-      "aliases": [
-        "复盘",
-        "复盘方法论"
-      ],
-      "sources": [
-        "raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
-        "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"
-      ]
-    },
-    {
-      "id": "ZhangPeng",
-      "type": "entity",
-      "path": "wiki/atoms/entities/ZhangPeng.md",
-      "aliases": [
-        "张鹏"
-      ],
-      "sources": [
-        "raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
-        "raw/articles/02 OPTM框架：怎么使用CLAP模型？.md"
-      ]
-    },
-    {
-      "id": "Tmux",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Tmux.md",
-      "aliases": [
-        "Linux tmux",
-        "终端复用器"
-      ],
-      "sources": [
-        "raw/articles/Linux tmux 基础使用教程.md"
-      ]
-    },
-    {
-      "id": "DDD",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/DDD.md",
-      "aliases": [
-        "领域驱动设计",
-        "Domain-Driven Design"
-      ],
-      "sources": [
-        "raw/videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md"
-      ]
-    },
-    {
-      "id": "MECE",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/MECE.md",
-      "aliases": [
-        "MECE原则",
-        "相互独立完全穷尽"
-      ],
-      "sources": [
-        "raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md"
-      ]
-    },
-    {
-      "id": "Pyramid-Principle",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Pyramid-Principle.md",
-      "aliases": [
-        "金字塔原理",
-        "写作大纲"
-      ],
-      "sources": [
-        "raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md"
-      ]
-    },
-    {
-      "id": "Tech-Blog-Article-Types",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Tech-Blog-Article-Types.md",
-      "aliases": [
-        "技术博客类型",
-        "程序员博客分类"
-      ],
-      "sources": [
-        "raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md"
-      ]
-    },
-    {
-      "id": "Title-4U-Formula",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Title-4U-Formula.md",
-      "aliases": [
-        "标题4U",
-        "4U公式"
-      ],
-      "sources": [
-        "raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md"
-      ]
-    },
-    {
-      "id": "Blog-Content-Writing-Practices",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Blog-Content-Writing-Practices.md",
-      "aliases": [
-        "博文写作要点",
-        "博客内容实践"
-      ],
-      "sources": [
-        "raw/articles/如何撰写一篇阅读10w+博文（10个成功秘诀）.md"
-      ]
-    },
-    {
-      "id": "Phodal",
-      "type": "entity",
-      "path": "wiki/atoms/entities/Phodal.md",
-      "aliases": [
-        "黄峰达"
-      ],
-      "sources": [
-        "raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md"
-      ]
-    },
-    {
-      "id": "马尔可夫链归因",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/马尔可夫链归因.md",
-      "aliases": [
-        "马尔可夫链",
-        "Markov Chain Attribution"
-      ],
-      "sources": [
-        "raw/articles/广告归因8种模型：预算怎么分才不浪费？"
-      ]
-    },
-    {
-      "id": "归因链接",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/归因链接.md",
-      "aliases": [
-        "Tracker",
-        "Click Tracker"
-      ],
-      "sources": [
-        "raw/articles/出海投放基础知识之归因（二）.md"
-      ]
-    },
-    {
-      "id": "助攻率",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/助攻率.md",
-      "aliases": [
-        "Contribute Rate"
-      ],
-      "sources": [
-        "raw/articles/出海投放基础知识之归因（三）.md"
-      ]
-    },
-    {
-      "id": "多触点归因",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/多触点归因.md",
-      "aliases": [
-        "MTA",
-        "Multi-Touch Attribution"
-      ],
-      "sources": [
-        "raw/articles/广告归因8种模型：预算怎么分才不浪费？"
-      ]
-    },
-    {
-      "id": "线性归因",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/线性归因.md",
-      "aliases": [
-        "Linear Attribution"
-      ],
-      "sources": [
-        "raw/articles/广告归因8种模型：预算怎么分才不浪费？"
-      ]
-    },
-    {
-      "id": "时间衰减归因",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/时间衰减归因.md",
-      "aliases": [
-        "Time Decay Attribution"
-      ],
-      "sources": [
-        "raw/articles/广告归因8种模型：预算怎么分才不浪费？"
-      ]
+      "path": "wiki/atoms/concepts/High-Value-Channel.md"
     },
     {
       "id": "U型归因",
       "type": "concept",
-      "path": "wiki/atoms/concepts/U型归因.md",
-      "aliases": [
-        "U-Shape Attribution",
-        "首尾归因"
-      ],
-      "sources": [
-        "raw/articles/广告归因8种模型：预算怎么分才不浪费？"
-      ]
+      "path": "wiki/atoms/concepts/U型归因.md"
     },
     {
-      "id": "DSP",
+      "id": "Harness-Engineering",
       "type": "concept",
-      "path": "wiki/atoms/concepts/DSP.md",
-      "aliases": [
-        "Demand-Side Platform",
-        "需求方平台"
-      ],
-      "sources": [
-        "raw/articles/广告竞价背后的逻辑和模型算法（一）.md"
-      ]
+      "path": "wiki/atoms/concepts/Harness-Engineering.md"
     },
     {
-      "id": "ADX",
+      "id": "OPTM-Framework",
       "type": "concept",
-      "path": "wiki/atoms/concepts/ADX.md",
-      "aliases": [
-        "Ad Exchange",
-        "广告交易所"
-      ],
-      "sources": [
-        "raw/articles/广告竞价背后的逻辑和模型算法（一）.md"
-      ]
-    },
-    {
-      "id": "SSP",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/SSP.md",
-      "aliases": [
-        "Supply-Side Platform",
-        "供应方平台"
-      ],
-      "sources": [
-        "raw/articles/广告竞价背后的逻辑和模型算法（一）.md"
-      ]
-    },
-    {
-      "id": "RTB",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/RTB.md",
-      "aliases": [
-        "Real-Time Bidding",
-        "实时竞价"
-      ],
-      "sources": [
-        "raw/articles/广告竞价背后的逻辑和模型算法（一）.md"
-      ]
-    },
-    {
-      "id": "频率学派",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/频率学派.md",
-      "aliases": [
-        "Frequentist"
-      ],
-      "sources": [
-        "raw/articles/01 频率视角下的机器学习.md"
-      ]
-    },
-    {
-      "id": "贝叶斯学派",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/贝叶斯学派.md",
-      "aliases": [
-        "Bayesian"
-      ],
-      "sources": [
-        "raw/articles/02 贝叶斯视角下的机器学习.md"
-      ]
+      "path": "wiki/atoms/concepts/OPTM-Framework.md"
     },
     {
       "id": "最大似然估计",
       "type": "concept",
-      "path": "wiki/atoms/concepts/最大似然估计.md",
-      "aliases": [
-        "MLE"
-      ],
-      "sources": [
-        "raw/articles/01 频率视角下的机器学习.md",
-        "raw/articles/02 贝叶斯视角下的机器学习.md"
-      ]
+      "path": "wiki/atoms/concepts/最大似然估计.md"
     },
     {
-      "id": "计算学习理论",
+      "id": "RAG",
       "type": "concept",
-      "path": "wiki/atoms/concepts/计算学习理论.md",
-      "aliases": [
-        "Computational Learning Theory"
-      ],
-      "sources": [
-        "raw/articles/04 计算学习理论.md"
-      ]
+      "path": "wiki/atoms/concepts/RAG.md"
     },
     {
-      "id": "正则化",
+      "id": "归因链接",
       "type": "concept",
-      "path": "wiki/atoms/concepts/正则化.md",
-      "aliases": [
-        "Regularization"
-      ],
-      "sources": [
-        "raw/articles/12 正则化处理：收缩方法与边际化.md"
-      ]
+      "path": "wiki/atoms/concepts/归因链接.md"
     },
     {
-      "id": "主成分分析",
+      "id": "混合模型",
       "type": "concept",
-      "path": "wiki/atoms/concepts/主成分分析.md",
-      "aliases": [
-        "PCA"
-      ],
-      "sources": [
-        "raw/articles/13 线性降维：主成分的使用.md"
-      ]
+      "path": "wiki/atoms/concepts/混合模型.md"
     },
     {
-      "id": "流形学习",
+      "id": "多触点归因",
       "type": "concept",
-      "path": "wiki/atoms/concepts/流形学习.md",
-      "aliases": [
-        "Manifold Learning"
-      ],
-      "sources": [
-        "raw/articles/14 非线性降维：流形学习.md"
-      ]
+      "path": "wiki/atoms/concepts/多触点归因.md"
     },
     {
-      "id": "线性回归",
+      "id": "Blog-Content-Writing-Practices",
       "type": "concept",
-      "path": "wiki/atoms/concepts/线性回归.md",
-      "aliases": [
-        "Linear Regression"
-      ],
-      "sources": [
-        "raw/articles/11 基础线性回归：一元与多元.md"
-      ]
+      "path": "wiki/atoms/concepts/Blog-Content-Writing-Practices.md"
     },
     {
-      "id": "Logistic回归",
+      "id": "Shapley值",
       "type": "concept",
-      "path": "wiki/atoms/concepts/Logistic-回归.md",
-      "aliases": [
-        "Logistic Regression",
-        "逻辑回归"
-      ],
-      "sources": [
-        "raw/articles/15 从回归到分类：联系函数与降维.md",
-        "raw/articles/16 建模非正态分布：广义线性模型.md"
-      ]
+      "path": "wiki/atoms/concepts/Shapley值.md"
     },
     {
-      "id": "线性判别分析",
+      "id": "PDF-Model",
       "type": "concept",
-      "path": "wiki/atoms/concepts/线性判别分析.md",
-      "aliases": [
-        "LDA",
-        "Fisher判别"
-      ],
-      "sources": [
-        "raw/articles/15 从回归到分类：联系函数与降维.md"
-      ]
+      "path": "wiki/atoms/concepts/PDF-Model.md"
     },
     {
-      "id": "联系函数",
+      "id": "梯度下降",
       "type": "concept",
-      "path": "wiki/atoms/concepts/联系函数.md",
-      "aliases": [
-        "Link Function"
-      ],
-      "sources": [
-        "raw/articles/15 从回归到分类：联系函数与降维.md",
-        "raw/articles/16 建模非正态分布：广义线性模型.md"
-      ]
+      "path": "wiki/atoms/concepts/梯度下降.md"
     },
     {
-      "id": "广义线性模型",
+      "id": "DDD",
       "type": "concept",
-      "path": "wiki/atoms/concepts/广义线性模型.md",
-      "aliases": [
-        "GLM"
-      ],
-      "sources": [
-        "raw/articles/16 建模非正态分布：广义线性模型.md"
-      ]
-    },
-    {
-      "id": "支持向量机",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/支持向量机.md",
-      "aliases": [
-        "SVM"
-      ],
-      "sources": [
-        "raw/articles/17 几何角度看分类：支持向量机.md"
-      ]
-    },
-    {
-      "id": "核技巧",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/核技巧.md",
-      "aliases": [
-        "Kernel Trick"
-      ],
-      "sources": [
-        "raw/articles/18 从全局到局部：核技巧.md"
-      ]
+      "path": "wiki/atoms/concepts/DDD.md"
     },
     {
       "id": "K近邻",
       "type": "concept",
-      "path": "wiki/atoms/concepts/K近邻.md",
-      "aliases": [
-        "KNN"
-      ],
-      "sources": [
-        "raw/articles/19 非参数化的局部模型：K近邻.md"
-      ]
+      "path": "wiki/atoms/concepts/K近邻.md"
     },
     {
-      "id": "聚类分析",
+      "id": "Logistic-回归",
       "type": "concept",
-      "path": "wiki/atoms/concepts/聚类分析.md",
-      "aliases": [
-        "Cluster Analysis"
-      ],
-      "sources": [
-        "raw/articles/20 基于距离的学习：聚类与度量学习.md"
-      ]
+      "path": "wiki/atoms/concepts/Logistic-回归.md"
     },
     {
-      "id": "基函数扩展",
+      "id": "RTB",
       "type": "concept",
-      "path": "wiki/atoms/concepts/基函数扩展.md",
-      "aliases": [
-        "Basis Expansion"
-      ],
-      "sources": [
-        "raw/articles/21 基函数扩展：属性的非线性化.md"
-      ]
-    },
-    {
-      "id": "感知器",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/感知器.md",
-      "aliases": [
-        "Perceptron"
-      ],
-      "sources": [
-        "raw/articles/22 自适应的基函数：神经网络.md"
-      ]
-    },
-    {
-      "id": "神经网络",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/神经网络.md",
-      "aliases": [
-        "Neural Network"
-      ],
-      "sources": [
-        "raw/articles/22 自适应的基函数：神经网络.md",
-        "raw/articles/23 层次化的神经网络：深度学习.md"
-      ]
-    },
-    {
-      "id": "深度学习",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/深度学习.md",
-      "aliases": [
-        "Deep Learning"
-      ],
-      "sources": [
-        "raw/articles/23 层次化的神经网络：深度学习.md"
-      ]
-    },
-    {
-      "id": "决策树",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/决策树.md",
-      "aliases": [
-        "Decision Tree"
-      ],
-      "sources": [
-        "raw/articles/25 基于特征的区域划分：树模型.md"
-      ]
-    },
-    {
-      "id": "集成学习",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/集成学习.md",
-      "aliases": [
-        "Ensemble Learning"
-      ],
-      "sources": [
-        "raw/articles/26 集成化处理：Boosting与Bagging.md"
-      ]
+      "path": "wiki/atoms/concepts/RTB.md"
     },
     {
       "id": "梯度提升",
       "type": "concept",
-      "path": "wiki/atoms/concepts/梯度提升.md",
-      "aliases": [
-        "Gradient Boosting",
-        "GBDT"
-      ],
-      "sources": [
-        "raw/articles/27 万能模型：梯度提升与随机森林.md"
-      ]
+      "path": "wiki/atoms/concepts/梯度提升.md"
     },
     {
-      "id": "随机森林",
+      "id": "SKAN-Attribution",
       "type": "concept",
-      "path": "wiki/atoms/concepts/随机森林.md",
-      "aliases": [
-        "Random Forest"
-      ],
-      "sources": [
-        "raw/articles/27 万能模型：梯度提升与随机森林.md"
-      ]
+      "path": "wiki/atoms/concepts/SKAN-Attribution.md"
     },
     {
-      "id": "概率图模型",
+      "id": "User-App-Pair",
       "type": "concept",
-      "path": "wiki/atoms/concepts/概率图模型.md",
-      "aliases": [
-        "PGM"
-      ],
-      "sources": [
-        "raw/articles/28 最简单的概率图：朴素贝叶斯.md"
-      ]
+      "path": "wiki/atoms/concepts/User-App-Pair.md"
+    },
+    {
+      "id": "Attribution-Gap",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Attribution-Gap.md"
+    },
+    {
+      "id": "MCMC",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/MCMC.md"
+    },
+    {
+      "id": "Progressive-Disclosure",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Progressive-Disclosure.md"
+    },
+    {
+      "id": "MECE",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/MECE.md"
     },
     {
       "id": "朴素贝叶斯",
       "type": "concept",
-      "path": "wiki/atoms/concepts/朴素贝叶斯.md",
-      "aliases": [
-        "Naive Bayes"
-      ],
-      "sources": [
-        "raw/articles/28 最简单的概率图：朴素贝叶斯.md"
-      ]
+      "path": "wiki/atoms/concepts/朴素贝叶斯.md"
+    },
+    {
+      "id": "Pyramid-Principle",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Pyramid-Principle.md"
+    },
+    {
+      "id": "Softmax",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Softmax.md"
+    },
+    {
+      "id": "超参数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/超参数.md"
+    },
+    {
+      "id": "线性动态系统",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/线性动态系统.md"
+    },
+    {
+      "id": "ACI-Agent-Computer-Interface",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/ACI-Agent-Computer-Interface.md"
+    },
+    {
+      "id": "Audience-Definition",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Audience-Definition.md"
+    },
+    {
+      "id": "神经网络",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/神经网络.md"
+    },
+    {
+      "id": "降维",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/降维.md"
+    },
+    {
+      "id": "频率学派",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/频率学派.md"
+    },
+    {
+      "id": "Last-Click-Rule",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Last-Click-Rule.md"
+    },
+    {
+      "id": "聚类分析",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/聚类分析.md"
     },
     {
       "id": "贝叶斯网络",
       "type": "concept",
-      "path": "wiki/atoms/concepts/贝叶斯网络.md",
-      "aliases": [
-        "Bayesian Network"
-      ],
-      "sources": [
-        "raw/articles/29 有向图模型：贝叶斯网络.md"
-      ]
+      "path": "wiki/atoms/concepts/贝叶斯网络.md"
     },
     {
-      "id": "马尔可夫随机场",
+      "id": "Title-4U-Formula",
       "type": "concept",
-      "path": "wiki/atoms/concepts/马尔可夫随机场.md",
-      "aliases": [
-        "MRF"
-      ],
-      "sources": [
-        "raw/articles/30 无向图模型：马尔可夫随机场.md"
-      ]
-    },
-    {
-      "id": "EM算法",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/EM算法.md",
-      "aliases": [
-        "EM Algorithm"
-      ],
-      "sources": [
-        "raw/articles/39 隐变量下的参数学习：EM方法与混合模型.md"
-      ]
-    },
-    {
-      "id": "岭回归",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/岭回归.md",
-      "aliases": [
-        "Ridge Regression"
-      ],
-      "sources": [
-        "raw/articles/12 正则化处理：收缩方法与边际化.md"
-      ]
-    },
-    {
-      "id": "LASSO",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/LASSO.md",
-      "aliases": [
-        "LASSO回归"
-      ],
-      "sources": [
-        "raw/articles/12 正则化处理：收缩方法与边际化.md"
-      ]
-    },
-    {
-      "id": "PAC可学习性",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/PAC可学习性.md",
-      "aliases": [
-        "PAC Learnable"
-      ],
-      "sources": [
-        "raw/articles/04 计算学习理论.md"
-      ]
-    },
-    {
-      "id": "VC维",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/VC维.md",
-      "aliases": [
-        "VC Dimension"
-      ],
-      "sources": [
-        "raw/articles/04 计算学习理论.md"
-      ]
-    },
-    {
-      "id": "贝叶斯定理",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/贝叶斯定理.md",
-      "aliases": [
-        "Bayes' Theorem"
-      ],
-      "sources": [
-        "raw/articles/02 贝叶斯视角下的机器学习.md"
-      ]
+      "path": "wiki/atoms/concepts/Title-4U-Formula.md"
     },
     {
       "id": "核函数",
       "type": "concept",
-      "path": "wiki/atoms/concepts/核函数.md",
-      "aliases": [
-        "Kernel Function"
-      ],
-      "sources": [
-        "raw/articles/32 从有限到无限：高斯过程.md",
-        "raw/articles/18 从全局到局部：核技巧.md"
-      ]
+      "path": "wiki/atoms/concepts/核函数.md"
+    },
+    {
+      "id": "正则化",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/正则化.md"
+    },
+    {
+      "id": "贝叶斯定理",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/贝叶斯定理.md"
+    },
+    {
+      "id": "交叉熵",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/交叉熵.md"
+    },
+    {
+      "id": "马尔可夫链归因",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/马尔可夫链归因.md"
+    },
+    {
+      "id": "FuPan",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/FuPan.md"
+    },
+    {
+      "id": "随机森林",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/随机森林.md"
+    },
+    {
+      "id": "SSP",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/SSP.md"
+    },
+    {
+      "id": "隐马尔可夫模型",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/隐马尔可夫模型.md"
+    },
+    {
+      "id": "贝叶斯学派",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/贝叶斯学派.md"
+    },
+    {
+      "id": "联系函数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/联系函数.md"
+    },
+    {
+      "id": "LASSO",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/LASSO.md"
+    },
+    {
+      "id": "基函数扩展",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/基函数扩展.md"
+    },
+    {
+      "id": "AAR-Model",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/AAR-Model.md"
+    },
+    {
+      "id": "Duplicate-Attribution",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Duplicate-Attribution.md"
+    },
+    {
+      "id": "距离度量",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/距离度量.md"
+    },
+    {
+      "id": "激活函数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/激活函数.md"
+    },
+    {
+      "id": "过拟合",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/过拟合.md"
+    },
+    {
+      "id": "概率图模型",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/概率图模型.md"
+    },
+    {
+      "id": "Skills-System",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Skills-System.md"
+    },
+    {
+      "id": "反向传播",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/反向传播.md"
+    },
+    {
+      "id": "Tech-Blog-Article-Types",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Tech-Blog-Article-Types.md"
+    },
+    {
+      "id": "结构学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/结构学习.md"
+    },
+    {
+      "id": "Long-Task-Management",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Long-Task-Management.md"
+    },
+    {
+      "id": "变分推断",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/变分推断.md"
+    },
+    {
+      "id": "集成学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/集成学习.md"
+    },
+    {
+      "id": "Multi-Agent-Organization",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Multi-Agent-Organization.md"
+    },
+    {
+      "id": "Agent-Loop",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-Loop.md"
+    },
+    {
+      "id": "ADX",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/ADX.md"
+    },
+    {
+      "id": "高斯网络",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/高斯网络.md"
+    },
+    {
+      "id": "决策树",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/决策树.md"
+    },
+    {
+      "id": "Agent-First-Development",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-First-Development.md"
+    },
+    {
+      "id": "感知器",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/感知器.md"
+    },
+    {
+      "id": "特征工程",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/特征工程.md"
+    },
+    {
+      "id": "CLAP-Model",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/CLAP-Model.md"
+    },
+    {
+      "id": "计算学习理论",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/计算学习理论.md"
+    },
+    {
+      "id": "Memory-System",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Memory-System.md"
+    },
+    {
+      "id": "DSP",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/DSP.md"
+    },
+    {
+      "id": "MMP-Attribution",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/MMP-Attribution.md"
+    },
+    {
+      "id": "主成分分析",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/主成分分析.md"
+    },
+    {
+      "id": "广义线性模型",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/广义线性模型.md"
+    },
+    {
+      "id": "深度学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/深度学习.md"
+    },
+    {
+      "id": "马尔可夫随机场",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/马尔可夫随机场.md"
+    },
+    {
+      "id": "Agent-Control-Patterns",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-Control-Patterns.md"
+    },
+    {
+      "id": "Workflow-vs-Agent",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Workflow-vs-Agent.md"
+    },
+    {
+      "id": "时间衰减归因",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/时间衰减归因.md"
+    },
+    {
+      "id": "线性回归",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/线性回归.md"
+    },
+    {
+      "id": "线性判别分析",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/线性判别分析.md"
+    },
+    {
+      "id": "Architecture-Constraints",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Architecture-Constraints.md"
+    },
+    {
+      "id": "PAC可学习性",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/PAC可学习性.md"
+    },
+    {
+      "id": "LLM-Wiki",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/LLM-Wiki.md"
+    },
+    {
+      "id": "Channel-Launch-Strategy",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Channel-Launch-Strategy.md"
+    },
+    {
+      "id": "推断",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/推断.md"
+    },
+    {
+      "id": "损失函数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/损失函数.md"
+    },
+    {
+      "id": "EM算法",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/EM算法.md"
+    },
+    {
+      "id": "助攻率",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/助攻率.md"
+    },
+    {
+      "id": "PDCA-Model",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/PDCA-Model.md"
+    },
+    {
+      "id": "Agent-Evaluation",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-Evaluation.md"
+    },
+    {
+      "id": "线性归因",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/线性归因.md"
+    },
+    {
+      "id": "高斯过程",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/高斯过程.md"
+    },
+    {
+      "id": "VC维",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/VC维.md"
+    },
+    {
+      "id": "Network-Cognition-Gap",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Network-Cognition-Gap.md"
+    },
+    {
+      "id": "表示学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/表示学习.md"
+    },
+    {
+      "id": "岭回归",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/岭回归.md"
+    },
+    {
+      "id": "Tmux",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Tmux.md"
+    },
+    {
+      "id": "Agent-Tracing",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-Tracing.md"
+    },
+    {
+      "id": "核技巧",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/核技巧.md"
+    },
+    {
+      "id": "Context-Engineering",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Context-Engineering.md"
+    },
+    {
+      "id": "支持向量机",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/支持向量机.md"
     },
     {
       "id": "变量消除",
       "type": "concept",
-      "path": "wiki/atoms/concepts/变量消除.md",
-      "aliases": [
-        "Variable Elimination"
-      ],
-      "sources": [
-        "raw/articles/35 精确推断：变量消除及其拓展.md"
-      ]
+      "path": "wiki/atoms/concepts/变量消除.md"
     },
     {
       "id": "自编码器",
       "type": "concept",
-      "path": "wiki/atoms/concepts/自编码器.md",
-      "aliases": [
-        "Autoencoder"
-      ],
-      "sources": [
-        "raw/articles/24 深度编解码：表示学习.md"
-      ]
+      "path": "wiki/atoms/concepts/自编码器.md"
+    },
+    {
+      "id": "流形学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/流形学习.md"
+    },
+    {
+      "id": "ZhangPeng",
+      "type": "entity",
+      "path": "wiki/atoms/entities/ZhangPeng.md"
+    },
+    {
+      "id": "OpenAI",
+      "type": "entity",
+      "path": "wiki/atoms/entities/OpenAI.md"
+    },
+    {
+      "id": "erickfang",
+      "type": "entity",
+      "path": "wiki/atoms/entities/erickfang.md"
+    },
+    {
+      "id": "Codex",
+      "type": "entity",
+      "path": "wiki/atoms/entities/Codex.md"
+    },
+    {
+      "id": "Karpathy",
+      "type": "entity",
+      "path": "wiki/atoms/entities/Karpathy.md"
+    },
+    {
+      "id": "Phodal",
+      "type": "entity",
+      "path": "wiki/atoms/entities/Phodal.md"
+    },
+    {
+      "id": "知识体系",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/知识体系.md"
     }
   ],
   "edges": [
@@ -1105,744 +608,266 @@
       "from": "LLM-Wiki",
       "to": "Karpathy",
       "relation": "proposed_by",
-      "context": "Karpathy 提出了 LLM Wiki 模式"
+      "context": ""
     },
     {
       "from": "LLM-Wiki",
       "to": "RAG",
       "relation": "compares_to",
-      "context": "LLM Wiki 是 RAG 的替代方案"
+      "context": ""
     },
     {
       "from": "Agent-Loop",
       "to": "Agent-Control-Patterns",
       "relation": "implements",
-      "context": "Agent Loop 通过不同模式实现控制流"
+      "context": ""
     },
     {
       "from": "Agent-Loop",
       "to": "Workflow-vs-Agent",
       "relation": "relates_to",
-      "context": "Agent Loop 是 Agent 的核心特征"
+      "context": ""
     },
     {
       "from": "Context-Engineering",
       "to": "Skills-System",
       "relation": "uses",
-      "context": "Skills System 是上下文工程的核心实践"
+      "context": ""
     },
     {
       "from": "Context-Engineering",
       "to": "Memory-System",
       "relation": "includes",
-      "context": "记忆系统是上下文分层的一部分"
+      "context": ""
     },
     {
       "from": "Harness-Engineering",
       "to": "Agent-Evaluation",
       "relation": "includes",
-      "context": "评测是 Harness 的重要组成部分"
+      "context": ""
     },
     {
       "from": "Harness-Engineering",
       "to": "Agent-Tracing",
       "relation": "includes",
-      "context": "追踪是 Harness 的重要组成部分"
+      "context": ""
     },
     {
       "from": "Agent-First-Development",
       "to": "Harness-Engineering",
       "relation": "requires",
-      "context": "Agent-First 开发依赖完善的 Harness"
+      "context": ""
     },
     {
       "from": "Agent-First-Development",
       "to": "Progressive-Disclosure",
       "relation": "uses",
-      "context": "渐进式披露是 Agent-First 的信息架构原则"
+      "context": ""
     },
     {
       "from": "Agent-First-Development",
       "to": "Architecture-Constraints",
       "relation": "requires",
-      "context": "架构约束是 Agent-First 开发的基础"
+      "context": ""
     },
     {
       "from": "Codex",
       "to": "OpenAI",
       "relation": "developed_by",
-      "context": "Codex 由 OpenAI 开发"
+      "context": ""
     },
     {
       "from": "Codex",
       "to": "Agent-First-Development",
       "relation": "enables",
-      "context": "Codex 使 Agent-First 开发成为可能"
+      "context": ""
     },
     {
       "from": "Progressive-Disclosure",
       "to": "Context-Engineering",
       "relation": "relates_to",
-      "context": "渐进式披露是上下文管理的核心原则"
+      "context": ""
     },
     {
       "from": "Multi-Agent-Organization",
       "to": "Agent-Loop",
       "relation": "extends",
-      "context": "多 Agent 组织是对单 Agent Loop 的扩展"
-    },
-    {
-      "from": "ACI",
-      "to": "Agent-Loop",
-      "relation": "supports",
-      "context": "ACI 工具设计支持 Agent Loop 的行动阶段"
+      "context": ""
     },
     {
       "from": "MMP-Attribution",
       "to": "SKAN-Attribution",
       "relation": "compares_to",
-      "context": "MMP 和 SKAN 是两套平行的归因体系"
+      "context": ""
     },
     {
       "from": "MMP-Attribution",
       "to": "Last-Click-Rule",
       "relation": "uses",
-      "context": "MMP 归因遵循 Last Click 原则"
+      "context": ""
     },
     {
       "from": "SKAN-Attribution",
       "to": "Last-Click-Rule",
       "relation": "uses",
-      "context": "SKAN 也遵循 Last Click 原则"
+      "context": ""
     },
     {
       "from": "Duplicate-Attribution",
       "to": "MMP-Attribution",
       "relation": "occurs_in",
-      "context": "重复归因发生在 MMP 体系中"
+      "context": ""
     },
     {
       "from": "Attribution-Gap",
       "to": "MMP-Attribution",
       "relation": "measures",
-      "context": "归因 Gap 衡量 MMP 与大媒体归因差异"
+      "context": ""
     },
     {
       "from": "User-App-Pair",
       "to": "Audience-Definition",
       "relation": "foundation_of",
-      "context": "User-App Pair 是受众定义的基础模型"
+      "context": ""
     },
     {
       "from": "Audience-Definition",
       "to": "High-Value-Channel",
       "relation": "identifies",
-      "context": "受众定义帮助识别高价值渠道"
+      "context": ""
     },
     {
       "from": "High-Value-Channel",
       "to": "Channel-Launch-Strategy",
       "relation": "requires",
-      "context": "高价值渠道需要正确的起量策略"
+      "context": ""
     },
     {
       "from": "Network-Cognition-Gap",
       "to": "User-App-Pair",
       "relation": "explains",
-      "context": "认知差解释了不同 Network 对同一用户的判断差异"
+      "context": ""
     },
     {
       "from": "erickfang",
       "to": "MMP-Attribution",
       "relation": "authored",
-      "context": "erickfang 撰写了归因系列文章"
+      "context": ""
     },
     {
       "from": "CLAP-Model",
       "to": "PDCA-Model",
       "relation": "improves",
-      "context": "CLAP 弥补了 PDCA 缺乏战略调整机制的局限"
+      "context": ""
     },
     {
       "from": "CLAP-Model",
       "to": "PDF-Model",
       "relation": "improves",
-      "context": "CLAP 在 OPTM 框架下提高了 PDF 的可复制性"
+      "context": ""
     },
     {
       "from": "CLAP-Model",
       "to": "FuPan",
       "relation": "belongs_to",
-      "context": "CLAP 是复盘方法论的一种模型"
+      "context": ""
     },
     {
       "from": "CLAP-Model",
       "to": "OPTM-Framework",
       "relation": "supported_by",
-      "context": "OPTM 框架是 CLAP 的实践框架"
+      "context": ""
     },
     {
       "from": "AAR-Model",
       "to": "CLAP-Model",
       "relation": "simplifies",
-      "context": "AAR 是 CLAP 的敏捷简化版本"
+      "context": ""
     },
     {
       "from": "PDCA-Model",
       "to": "FuPan",
       "relation": "belongs_to",
-      "context": "PDCA 是复盘方法论的一种模型"
+      "context": ""
     },
     {
       "from": "PDF-Model",
       "to": "FuPan",
       "relation": "belongs_to",
-      "context": "PDF 是复盘方法论的一种模型"
+      "context": ""
     },
     {
       "from": "AAR-Model",
       "to": "FuPan",
       "relation": "belongs_to",
-      "context": "AAR 是复盘方法论的一种模型"
+      "context": ""
     },
     {
       "from": "CLAP-Model",
       "to": "ZhangPeng",
       "relation": "proposed_by",
-      "context": "张鹏提出了 CLAP 模型"
+      "context": ""
     },
     {
       "from": "OPTM-Framework",
       "to": "ZhangPeng",
       "relation": "proposed_by",
-      "context": "张鹏提出了 OPTM 框架"
+      "context": ""
     },
     {
       "from": "MECE",
       "to": "Pyramid-Principle",
       "relation": "supports",
-      "context": "MECE 常用于金字塔大纲的以上统下展开"
+      "context": ""
     },
     {
       "from": "Pyramid-Principle",
       "to": "MECE",
       "relation": "uses",
-      "context": "金字塔大纲展开时常用 MECE 做分类自检"
+      "context": ""
     },
-    {
+{
       "from": "Phodal",
       "to": "Tech-Blog-Article-Types",
       "relation": "authored",
-      "context": "Phodal 归纳了技术博客四类与流量特征"
+      "context": ""
     },
     {
-      "from": "Tech-Blog-Article-Types",
-      "to": "Blog-Content-Writing-Practices",
-      "relation": "relates_to",
-      "context": "程序员向与通用博文写作要点互补"
-    },
-    {
-      "from": "Blog-Content-Writing-Practices",
-      "to": "Title-4U-Formula",
-      "relation": "relates_to",
-      "context": "标题方法论可配合通用博文要点使用"
-    },
-    {
-      "from": "DDD",
-      "to": "Architecture-Constraints",
-      "relation": "relates_to",
-      "context": "DDD 通过分层与依赖方向表达架构约束"
-    },
-    {
-      "from": "多触点归因",
-      "to": "马尔可夫链归因",
-      "relation": "includes",
-      "context": "马尔可夫链是多触点归因的一种模型"
-    },
-    {
-      "from": "Shapley值",
-      "to": "马尔可夫链归因",
-      "relation": "compares_to",
-      "context": "Shapley值与马尔可夫链都是多触点归因的算法模型"
-    },
-    {
-      "from": "归因链接",
-      "to": "MMP-Attribution",
-      "relation": "belongs_to",
-      "context": "归因链接是 MMP 的核心技术组件"
-    },
-    {
-      "from": "助攻率",
-      "to": "MMP-Attribution",
-      "relation": "belongs_to",
-      "context": "助攻率是 MMP 提供的分析指标"
-    },
-    {
-      "from": "助攻率",
-      "to": "Last-Click-Rule",
-      "relation": "relates_to",
-      "context": "助攻是非 Last Click 渠道的贡献"
-    },
-    {
-      "from": "多触点归因",
-      "to": "线性归因",
-      "relation": "includes",
-      "context": "线性归因是多触点归因的一种"
-    },
-    {
-      "from": "多触点归因",
-      "to": "时间衰减归因",
-      "relation": "includes",
-      "context": "时间衰减归因是多触点归因的一种"
-    },
-    {
-      "from": "多触点归因",
-      "to": "U型归因",
-      "relation": "includes",
-      "context": "U型归因是多触点归因的一种"
-    },
-    {
-      "from": "线性归因",
-      "to": "Last-Click-Rule",
-      "relation": "relates_to",
-      "context": "Last Click 是线性归因的极端情况"
-    },
-    {
-      "from": "Agent-Control-Patterns",
-      "to": "Long-Task-Management",
-      "relation": "includes",
-      "context": "长任务管理是 Agent 控制模式的一部分"
-    },
-    {
-      "from": "DSP",
-      "to": "ADX",
-      "relation": "connects_to",
-      "context": "DSP 通过 ADX 获取流量"
-    },
-    {
-      "from": "ADX",
-      "to": "SSP",
-      "relation": "connects_to",
-      "context": "ADX 接收 SSP 的广告位请求"
-    },
-    {
-      "from": "RTB",
-      "to": "DSP",
-      "relation": "includes",
-      "context": "RTB 竞价中 DSP 代表广告主出价"
-    },
-    {
-      "from": "RTB",
-      "to": "ADX",
-      "relation": "includes",
-      "context": "RTB 竞价通过 ADX 完成"
-    },
-    {
-      "from": "频率学派",
-      "to": "最大似然估计",
+      "from": "知识体系",
+      "to": "工作记忆",
       "relation": "uses",
-      "context": "频率学派使用 MLE 估计参数"
+      "context": ""
     },
     {
-      "from": "贝叶斯学派",
-      "to": "最大似然估计",
+      "from": "知识体系",
+      "to": "直觉",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "知识体系",
+      "to": "经典知识联系",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "工作记忆",
+      "to": "直觉",
       "relation": "relates_to",
-      "context": "贝叶斯学派使用 MAP/贝叶斯估计"
+      "context": ""
     },
     {
-      "from": "Logistic回归",
-      "to": "联系函数",
-      "relation": "uses",
-      "context": "Logistic 回归使用 Logit 联系函数"
-    },
-    {
-      "from": "Logistic回归",
-      "to": "线性回归",
-      "relation": "extends",
-      "context": "Logistic 回归是线性回归的分类扩展"
-    },
-    {
-      "from": "Logistic回归",
-      "to": "最大似然估计",
-      "relation": "uses",
-      "context": "Logistic 回归使用 MLE 估计参数"
-    },
-    {
-      "from": "线性判别分析",
-      "to": "主成分分析",
-      "relation": "compares_to",
-      "context": "LDA 监督 vs PCA 无监督"
-    },
-    {
-      "from": "线性判别分析",
-      "to": "Logistic回归",
-      "relation": "compares_to",
-      "context": "LDA 假设正态分布 vs Logistic 无假设"
-    },
-    {
-      "from": "广义线性模型",
-      "to": "联系函数",
-      "relation": "uses",
-      "context": "GLM 的三大要素之一"
-    },
-    {
-      "from": "广义线性模型",
-      "to": "Logistic回归",
-      "relation": "includes",
-      "context": "Logistic 回归是 GLM 的特例"
-    },
-    {
-      "from": "支持向量机",
-      "to": "核技巧",
-      "relation": "extends",
-      "context": "核 SVM 通过核技巧处理非线性"
-    },
-    {
-      "from": "感知器",
-      "to": "神经网络",
-      "relation": "extends",
-      "context": "多层感知器组成神经网络"
-    },
-    {
-      "from": "神经网络",
-      "to": "深度学习",
-      "relation": "extends",
-      "context": "多层神经网络即深度学习"
-    },
-    {
-      "from": "决策树",
-      "to": "集成学习",
-      "relation": "uses",
-      "context": "决策树常作为集成学习的基学习器"
-    },
-    {
-      "from": "集成学习",
-      "to": "梯度提升",
-      "relation": "includes",
-      "context": "Boosting 是集成学习的一种"
-    },
-    {
-      "from": "集成学习",
-      "to": "随机森林",
-      "relation": "includes",
-      "context": "随机森林是 Bagging + 决策树"
-    },
-    {
-      "from": "朴素贝叶斯",
-      "to": "概率图模型",
-      "relation": "belongs_to",
-      "context": "朴素贝叶斯是最简单的概率图模型"
-    },
-    {
-      "from": "贝叶斯网络",
-      "to": "概率图模型",
-      "relation": "belongs_to",
-      "context": "贝叶斯网络是有向概率图模型"
-    },
-    {
-      "from": "贝叶斯网络",
-      "to": "朴素贝叶斯",
-      "relation": "extends",
-      "context": "贝叶斯网络放松了独立性假设"
-    },
-    {
-      "from": "EM算法",
-      "to": "概率图模型",
-      "relation": "used_in",
-      "context": "EM 常用于概率图模型的参数学习"
-    },
-    {
-      "from": "岭回归",
-      "to": "正则化",
-      "relation": "is_a",
-      "context": "岭回归是 L2 正则化的线性回归"
-    },
-    {
-      "from": "岭回归",
-      "to": "线性回归",
-      "relation": "extends",
-      "context": "岭回归是对线性回归的正则化改进"
-    },
-    {
-      "from": "LASSO",
-      "to": "正则化",
-      "relation": "is_a",
-      "context": "LASSO 是 L1 正则化的线性回归"
-    },
-    {
-      "from": "LASSO",
-      "to": "线性回归",
-      "relation": "extends",
-      "context": "LASSO 是对线性回归的正则化改进"
-    },
-    {
-      "from": "LASSO",
-      "to": "岭回归",
-      "relation": "compares_to",
-      "context": "LASSO 与岭回归的区别在于 L1 vs L2"
-    },
-    {
-      "from": "PAC可学习性",
-      "to": "计算学习理论",
-      "relation": "belongs_to",
-      "context": "PAC 可学习性是计算学习理论的核心概念"
-    },
-    {
-      "from": "VC维",
-      "to": "计算学习理论",
-      "relation": "belongs_to",
-      "context": "VC 维是计算学习理论的核心概念"
-    },
-    {
-      "from": "VC维",
-      "to": "PAC可学习性",
-      "relation": "implies",
-      "context": "VC 维有限则 PAC 可学习"
-    },
-    {
-      "from": "贝叶斯定理",
-      "to": "贝叶斯学派",
-      "relation": "belongs_to",
-      "context": "贝叶斯定理是贝叶斯学派的核心"
-    },
-    {
-      "from": "贝叶斯定理",
-      "to": "朴素贝叶斯",
-      "relation": "used_in",
-      "context": "朴素贝叶斯分类器基于贝叶斯定理"
-    },
-    {
-      "from": "核函数",
-      "to": "核技巧",
+      "from": "经典知识联系",
+      "to": "直觉",
       "relation": "relates_to",
-      "context": "核函数是核技巧的实现形式"
-    },
-    {
-      "from": "核函数",
-      "to": "支持向量机",
-      "relation": "used_in",
-      "context": "SVM 使用核函数处理非线性"
-    },
-    {
-      "from": "核函数",
-      "to": "高斯过程",
-      "relation": "used_in",
-      "context": "高斯过程使用核函数定义协方差"
-    },
-    {
-      "from": "变量消除",
-      "to": "推断",
-      "relation": "is_a",
-      "context": "变量消除是精确推断算法"
-    },
-    {
-      "from": "自编码器",
-      "to": "表示学习",
-      "relation": "is_a",
-      "context": "自编码器是表示学习的一种方法"
-    },
-    {
-"from": "自编码器",
-      "to": "主成分分析",
-      "relation": "compares_to",
-      "context": "自编码器与 PCA 都可以做降维"
-    },
-    {
-      "from": "反向传播",
-      "to": "神经网络",
-      "relation": "used_in",
-      "context": "反向传播是训练神经网络的核心算法"
-    },
-    {
-      "from": "反向传播",
-      "to": "梯度下降",
-      "relation": "implements",
-      "context": "反向传播实现了梯度下降的参数更新"
-    },
-    {
-      "from": "激活函数",
-      "to": "神经网络",
-      "relation": "belongs_to",
-      "context": "激活函数是神经网络的组成部分"
-    },
-    {
-      "from": "激活函数",
-      "to": "Softmax",
-      "relation": "includes",
-      "context": "Softmax 是激活函数的一种"
-    },
-    {
-      "from": "过拟合",
-      "to": "正则化",
-      "relation": "solved_by",
-      "context": "正则化用于防止过拟合"
-    },
-    {
-      "from": "过拟合",
-      "to": "岭回归",
-      "relation": "relates_to",
-      "context": "岭回归可缓解过拟合"
-    },
-    {
-      "from": "过拟合",
-      "to": "LASSO",
-      "relation": "relates_to",
-      "context": "LASSO 可缓解过拟合"
-    },
-    {
-      "from": "损失函数",
-      "to": "梯度下降",
-      "relation": "used_in",
-      "context": "梯度下降最小化损失函数"
-    },
-    {
-      "from": "损失函数",
-      "to": "交叉熵",
-      "relation": "includes",
-      "context": "交叉熵是分类任务的损失函数"
-    },
-    {
-      "from": "交叉熵",
-      "to": "Logistic回归",
-      "relation": "used_in",
-      "context": "交叉熵是 Logistic 回归的损失函数"
-    },
-    {
-      "from": "交叉熵",
-      "to": "Softmax",
-      "relation": "used_with",
-      "context": "Softmax 配合交叉熵使用"
-    },
-    {
-      "from": "梯度下降",
-      "to": "超参数",
-      "relation": "uses",
-      "context": "梯度下降涉及学习率超参数"
-    },
-    {
-      "from": "超参数",
-      "to": "正则化",
-      "relation": "relates_to",
-      "context": "正则化系数是超参数"
-    },
-    {
-      "from": "神经网络",
-      "to": "激活函数",
-      "relation": "uses",
-      "context": "神经网络使用激活函数引入非线性"
-    },
-    {
-      "from": "神经网络",
-      "to": "反向传播",
-      "relation": "uses",
-      "context": "神经网络通过反向传播训练"
-    },
-    {
-      "from": "深度学习",
-      "to": "激活函数",
-      "relation": "uses",
-      "context": "深度学习使用各种激活函数"
-    },
-    {
-      "from": "正则化",
-      "to": "超参数",
-      "relation": "has",
-      "context": "正则化有系数超参数"
-    },
-    {
-      "from": "Softmax",
-      "to": "神经网络",
-      "relation": "used_in",
-      "context": "Softmax 常作为神经网络输出层"
-    }
-  ],
-      "sources": [
-        "raw/articles/22 自适应的基函数：神经网络.md"
-      ]
-    },
-    {
-      "id": "激活函数",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/激活函数.md",
-      "aliases": [
-        "Activation Function"
-      ],
-      "sources": [
-        "raw/articles/22 自适应的基函数：神经网络.md"
-      ]
-    },
-    {
-      "id": "过拟合",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/过拟合.md",
-      "aliases": [
-        "Overfitting"
-      ],
-      "sources": [
-        "raw/articles/12 正则化处理：收缩方法与边际化.md"
-      ]
-    },
-    {
-      "id": "损失函数",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/损失函数.md",
-      "aliases": [
-        "Loss Function"
-      ],
-      "sources": [
-        "raw/articles/11 基础线性回归：一元与多元.md"
-      ]
-    },
-    {
-      "id": "交叉熵",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/交叉熵.md",
-      "aliases": [
-        "Cross Entropy"
-      ],
-      "sources": [
-        "raw/articles/17 几何角度看分类：支持向量机.md"
-      ]
-    },
-    {
-      "id": "梯度下降",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/梯度下降.md",
-      "aliases": [
-        "Gradient Descent"
-      ],
-      "sources": [
-        "raw/articles/11 基础线性回归：一元与多元.md"
-      ]
-    },
-    {
-      "id": "超参数",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/超参数.md",
-      "aliases": [
-        "Hyperparameter"
-      ],
-      "sources": [
-        "raw/articles/06 模型的设计准则.md"
-      ]
-    },
-    {
-      "id": "Softmax",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Softmax.md",
-      "aliases": [
-        "Softmax 函数"
-      ],
-      "sources": [
-        "raw/articles/17 几何角度看分类：支持向量机.md"
-      ]
+      "context": ""
     }
   ],
   "stats": {
-    "totalNodes": 106,
-    "totalEdges": 114,
+    "totalNodes": 120,
+    "totalEdges": 108,
     "byType": {
-      "concept": 100,
+      "concept": 114,
       "entity": 6,
       "topic": 0,
       "insight": 0,
