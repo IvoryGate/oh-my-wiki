@@ -597,10 +597,35 @@
       "type": "entity",
       "path": "wiki/atoms/entities/Phodal.md"
     },
-    {
-      "id": "知识体系",
+{
+      "id": "直觉",
       "type": "concept",
-      "path": "wiki/atoms/concepts/知识体系.md"
+      "path": "wiki/atoms/concepts/直觉.md"
+    },
+    {
+      "id": "媒介即隐喻",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/媒介即隐喻.md"
+    },
+    {
+      "id": "娱乐至死",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/娱乐至死.md"
+    },
+    {
+      "id": "伪语境",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/伪语境.md"
+    },
+    {
+      "id": "哥波尼世界",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/哥波尼世界.md"
+    },
+    {
+      "id": "奥威尔与赫胥黎",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/奥威尔与赫胥黎.md"
     }
   ],
   "edges": [
@@ -861,13 +886,49 @@
       "to": "直觉",
       "relation": "relates_to",
       "context": ""
+    },
+    {
+      "from": "媒介即隐喻",
+      "to": "娱乐至死",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "伪语境",
+      "to": "媒介即隐喻",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "伪语境",
+      "to": "娱乐至死",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "哥波尼世界",
+      "to": "伪语境",
+      "relation": "is_a",
+      "context": ""
+    },
+    {
+      "from": "哥波尼世界",
+      "to": "媒介即隐喻",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "娱乐至死",
+      "to": "奥威尔与赫胥黎",
+      "relation": "belongs_to",
+      "context": ""
     }
   ],
   "stats": {
-    "totalNodes": 120,
-    "totalEdges": 108,
+    "totalNodes": 125,
+    "totalEdges": 115,
     "byType": {
-      "concept": 114,
+      "concept": 119,
       "entity": 6,
       "topic": 0,
       "insight": 0,

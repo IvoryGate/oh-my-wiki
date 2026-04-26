@@ -1,7 +1,25 @@
 {
   "version": "1.0",
-  "lastScan": "2026-04-26T18:00:00+08:00",
+  "lastScan": "2026-04-27T18:00:00+08:00",
   "files": [
+    {
+      "path": "videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响.md",
+      "size": 35000,
+      "status": "done",
+      "compiledAt": "2026-04-27T18:00:00+08:00",
+      "domains": [
+        "媒介理论",
+        "社会批判",
+        "读书"
+      ],
+      "producedPages": [
+        "wiki/atoms/concepts/媒介即隐喻.md",
+        "wiki/atoms/concepts/娱乐至死.md",
+        "wiki/atoms/concepts/伪语境.md",
+        "wiki/atoms/concepts/哥波尼世界.md",
+        "wiki/atoms/concepts/奥威尔与赫胥黎.md"
+      ]
+    },
     {
       "path": "videos/2026-04-26-四个步骤，建立知识体系的简单方法，借助直觉，直觉不是瞎猜，不是超能力【吸收人类优秀学习理论32】.md",
       "size": 35000,
@@ -848,9 +866,9 @@
     }
   ],
   "stats": {
-    "total": 67,
+    "total": 68,
     "pending": 0,
     "processing": 0,
-    "done": 67
+    "done": 68
   }
 }
