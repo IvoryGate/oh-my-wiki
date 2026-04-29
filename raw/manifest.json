@@ -54,7 +54,48 @@
       ]
     },
     {
-      "path": "articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
+      "path": "articles/00 开篇词 你为什么应该学好软件工程？.md",
+      "size": 11579,
+      "status": "done",
+      "compiledAt": "2026-04-29T14:30:00+08:00",
+      "domains": [
+        "软件工程",
+        "方法论"
+      ],
+      "producedPages": [
+        "wiki/atoms/concepts/软件工程.md"
+      ]
+    },
+    {
+      "path": "articles/01 到底应该怎样理解软件工程？.md",
+      "size": 11202,
+      "status": "done",
+      "compiledAt": "2026-04-29T14:30:00+08:00",
+      "domains": [
+        "软件工程",
+        "方法论"
+      ],
+      "producedPages": [
+        "wiki/atoms/concepts/软件工程.md",
+        "wiki/atoms/concepts/软件危机.md",
+        "wiki/atoms/concepts/瀑布模型.md",
+        "wiki/atoms/concepts/人月神话.md",
+        "wiki/atoms/concepts/敏捷开发.md"
+      ]
+    },
+    {
+      "path": "articles/02 工程思维：把每件事都当作一个项目来推进.md",
+      "size": 11073,
+      "status": "done",
+      "compiledAt": "2026-04-29T14:30:00+08:00",
+      "domains": [
+        "软件工程",
+        "思维"
+      ],
+      "producedPages": [
+        "wiki/atoms/concepts/工程思维.md"
+      ]
+    },
       "hash": "sha256:2efe2387823c4472a2435018daff03cef8b1afbfdbc516c602dd67d1f7b78972",
       "size": 15162,
       "status": "done",
@@ -866,9 +907,9 @@
     }
   ],
   "stats": {
-    "total": 68,
+    "total": 71,
     "pending": 0,
     "processing": 0,
-    "done": 68
+    "done": 71
   }
 }

@@ -626,6 +626,36 @@
       "id": "奥威尔与赫胥黎",
       "type": "concept",
       "path": "wiki/atoms/concepts/奥威尔与赫胥黎.md"
+    },
+    {
+      "id": "软件工程",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/软件工程.md"
+    },
+    {
+      "id": "软件危机",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/软件危机.md"
+    },
+    {
+      "id": "瀑布模型",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/瀑布模型.md"
+    },
+    {
+      "id": "工程思维",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/工程思维.md"
+    },
+    {
+      "id": "人月神话",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/人月神话.md"
+    },
+    {
+      "id": "敏捷开发",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/敏捷开发.md"
     }
   ],
   "edges": [
@@ -922,13 +952,55 @@
       "to": "奥威尔与赫胥黎",
       "relation": "belongs_to",
       "context": ""
+    },
+    {
+      "from": "软件工程",
+      "to": "软件危机",
+      "relation": "solves",
+      "context": ""
+    },
+    {
+      "from": "软件工程",
+      "to": "瀑布模型",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "软件工程",
+      "to": "工程思维",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "软件工程",
+      "to": "敏捷开发",
+      "relation": "evolved_to",
+      "context": ""
+    },
+    {
+      "from": "瀑布模型",
+      "to": "敏捷开发",
+      "relation": "evolved_to",
+      "context": ""
+    },
+    {
+      "from": "工程思维",
+      "to": "瀑布模型",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "人月神话",
+      "to": "软件危机",
+      "relation": "relates_to",
+      "context": ""
     }
   ],
   "stats": {
-    "totalNodes": 125,
-    "totalEdges": 115,
+    "totalNodes": 132,
+    "totalEdges": 123,
     "byType": {
-      "concept": 119,
+      "concept": 126,
       "entity": 6,
       "topic": 0,
       "insight": 0,
