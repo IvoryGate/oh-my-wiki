@@ -4,5 +4,6 @@
   "marp-slides",
   "contribution-graph",
   "obsidian-local-rest-api",
-  "homepage"
+  "homepage",
+  "remotely-save"
 ]

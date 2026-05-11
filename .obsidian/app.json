@@ -10,5 +10,12 @@
   "autoPairBrackets": true,
   "autoPairMarkdown": true,
   "spellCheck": false,
-  "communityPlugins": true
+  "communityPlugins": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
