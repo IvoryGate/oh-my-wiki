@@ -17,6 +17,8 @@ tags: [海外投放, 广告, 用户获取, UA]
 - DSP渠道
 - 聚合（unity、max、moloco）
 - 马尔可夫模型
+- re-engagement
+- re-attribution
 
 ## 正在记
 

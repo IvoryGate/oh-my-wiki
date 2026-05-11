@@ -1,0 +1,57 @@
+---
+title: UA 基础知识扫盲
+type: note
+created: 2026-04-23
+status: todo
+tags: [UA, 增长]
+related:
+  - [[归因链接]]
+  - [[助攻率]]
+---
+
+
+### 投放名词解释
+
+| 简写          | 定义                                                         |
+| ----------- | ---------------------------------------------------------- |
+| Impressions | 展示数量                                                       |
+| Click       | 点击数量                                                       |
+| Install     | 安装数量                                                       |
+| CTR         | Click Through Rate点击率，CTR = 点击量/展示量                        |
+| CVR         | Convertion Rate 安装量/点击量                                    |
+| IR          | Install Rate 安装量/展示量                                       |
+| CPC         | Cost per clicks 单次点击费用                                     |
+| CPA         | Cost per action 单次行为费用，这个行为可以是点击，安装，购买等                    |
+| CPI         | Cost per install 单次安装费用                                    |
+| CPM         | Cost per mille 千次展示费用，CPM = 广告费用/展示次数x1000                 |
+| eCPM        | effective（estimated）cost per mille，有效的千次展示费用，变现侧的概念，衡量变现效率 |
+| Budget      | 预算                                                         |
+| Cost/Spend  | 花费，广告投放消耗的金额                                               |
+| ROI         | Return Of Investment，投入产出比                                 |
+| ROAS        | Return on Advertise Spend，广告支出总回报率                         |
+| tROAS       | Target roas，目标roas                                         |
+
+| 产品数据相关名词  | 定义                                             |
+| --------- | ---------------------------------------------- |
+| LTV       | Life Time Value 用户生命周期                         |
+| Retention | 留存                                             |
+| DAU       | Daily Active User 日活跃用户数量                      |
+| MAU       | Monthly Active User 月活跃用户数量                    |
+| UV        | Unique Visitor，独立访客                            |
+| PV        | Page View，浏览的总次数                               |
+| ARPU      | Average Revenue Per User，每用户平均收入，用于衡量产品收入能力的指标 |
+| ARPPU     | Average Revenue Per Paid User，每付费用户平均收入        |
+
+### 营收核心公式
+$$
+ROAS = \frac{LTV}{CPI}\times100\%
+$$
+ROAS（广告支出回报率）是投放端最为关心的指标，它表示在统计的时间窗口内，**广告带来的总收入**与**广告总支出**的比值。我们一般将180天ROAS达到100%作为KPI。
+
+$$
+ROI = \frac{\text{Total Revenue}-\text{Total Cost}}{\text{Total Cost}}\times100\%
+$$
+
+ROI（投资回报率）表示在统计的时间窗口内，**净利润**与**总投入成本**的比值。
+
+在广告变现领域，这两个概念通常会被混用，但我们应该明白二者的区别。简单来说，ROAS衡量的广告费花得值不值，ROI衡量的是到底赚了多少钱。
