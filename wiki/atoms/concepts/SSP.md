@@ -3,7 +3,7 @@ title: SSP 供应方平台
 created: 2026-04-22
 updated: 2026-04-22
 type: concept
-tags: [广告, 竞价, RTB]
+tags: [广告归因, 广告技术]
 sources:
   - [[raw/articles/广告竞价背后的逻辑和模型算法（一）.md]]
 status: active

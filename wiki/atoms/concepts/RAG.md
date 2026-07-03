@@ -3,7 +3,7 @@ title: RAG
 created: 2026-04-17
 updated: 2026-04-20
 type: concept
-tags: [AI, 检索, 知识管理]
+tags: [知识管理]
 sources:
   - [[raw/articles/llm-wiki.md]]
 status: active

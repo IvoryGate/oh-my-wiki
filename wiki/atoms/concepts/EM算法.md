@@ -3,7 +3,7 @@ title: "EM算法"
 created: 2026-04-23
 updated: 2026-04-23
 type: concept
-tags: [机器学习, 参数学习, 隐变量]
+tags: [机器学习]
 sources:
   - [[raw/articles/39 隐变量下的参数学习：EM方法与混合模型.md]]
 status: draft

@@ -3,7 +3,7 @@ title: AAR模型
 created: 2026-04-19
 updated: 2026-04-19
 type: concept
-tags: [复盘, 方法论, 敏捷管理]
+tags: [复盘, 复盘模型]
 sources:
   - [[raw/articles/02 OPTM框架：怎么使用CLAP模型？.md]]
 status: active

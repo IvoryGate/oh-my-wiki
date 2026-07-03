@@ -3,7 +3,7 @@ title: Shapley值
 created: 2026-04-21
 updated: 2026-04-21
 type: concept
-tags: [归因, UA, 算法]
+tags: [广告归因, 归因模型]
 sources:
   - [[raw/articles/用户到底被哪个广告打动了？三种主流归因模型全解析]]
 status: active

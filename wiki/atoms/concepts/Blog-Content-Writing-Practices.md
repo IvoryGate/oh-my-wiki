@@ -3,7 +3,7 @@ title: 博文写作的通用实践要点
 created: 2026-04-20
 updated: 2026-04-20
 type: concept
-tags: [博客, 内容营销, SEO, 写作流程]
+tags: [技术写作]
 sources:
   - [[raw/articles/如何撰写一篇阅读10w+博文（10个成功秘诀）.md]]
 status: active

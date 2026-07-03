@@ -3,7 +3,7 @@ title: "PAC可学习性"
 created: 2026-04-23
 updated: 2026-04-23
 type: concept
-tags: [机器学习, 学习理论, 计算学习理论]
+tags: [机器学习, 学习理论]
 sources:
   - [[raw/articles/04 计算学习理论.md]]
 status: draft

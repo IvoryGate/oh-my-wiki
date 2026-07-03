@@ -3,7 +3,7 @@ title: 张鹏
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [复盘专家, 专栏作者]
+tags: [复盘]
 sources:
   - [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
   - [[raw/articles/02 OPTM框架：怎么使用CLAP模型？.md]]

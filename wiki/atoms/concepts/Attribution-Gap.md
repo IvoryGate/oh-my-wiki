@@ -12,9 +12,7 @@ sources:
   - [[raw/articles/关于归因你可能不知道的那些事(一）.md]]
   - [[raw/articles/渠道MMPBI的数据差异剖析.md]]
 tags:
-  - 归因
-  - UA
-  - 数据分析
+  - 广告归因
 ---
 
 ## 定义

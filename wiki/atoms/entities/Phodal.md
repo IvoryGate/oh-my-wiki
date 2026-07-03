@@ -3,7 +3,7 @@ title: Phodal（黄峰达）
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [技术博客, 前端, 作家]
+tags: [技术写作]
 sources:
   - [[raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md]]
 status: active

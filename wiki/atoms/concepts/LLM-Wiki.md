@@ -3,7 +3,7 @@ title: LLM Wiki
 created: 2026-04-17
 updated: 2026-04-21
 type: concept
-tags: [AI, 知识管理, LLM, 方法论]
+tags: [知识管理]
 sources:
   - [[raw/articles/llm-wiki.md]]
 status: active

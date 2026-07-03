@@ -3,7 +3,7 @@ title: "Logistic 回归"
 created: 2026-04-23
 updated: 2026-04-23
 type: concept
-tags: [机器学习, 分类, 逻辑回归]
+tags: [机器学习, 分类]
 sources:
   - [[raw/articles/15 从回归到分类：联系函数与降维.md]]
   - [[raw/articles/16 建模非正态分布：广义线性模型.md]]

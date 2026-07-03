@@ -10,10 +10,7 @@ updated: 2026-04-18
 sources:
   - [[raw/articles/工程技术：在智能体优先的世界中利用 Codex.md]]
 tags:
-  - AI
-  - Agent
-  - 架构
-  - 软件工程
+  - Agent工程
 ---
 
 ## 定义

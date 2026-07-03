@@ -11,10 +11,7 @@ sources:
   - [[raw/articles/如何定义受众-科普篇.md]]
   - [[raw/articles/如何定义受众-正篇.md]]
 tags:
-  - 增长
-  - 营销
-  - 受众
-  - 广告
+  - 广告归因
 ---
 
 ## 定义

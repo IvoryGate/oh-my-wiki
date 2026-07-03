@@ -3,7 +3,7 @@ title: U型归因
 created: 2026-04-21
 updated: 2026-04-21
 type: concept
-tags: [归因, UA]
+tags: [广告归因, 归因模型]
 sources:
   - [[raw/articles/广告归因8种模型：预算怎么分才不浪费？]]
 status: active

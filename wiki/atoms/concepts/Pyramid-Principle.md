@@ -3,7 +3,7 @@ title: 金字塔原理（写作大纲）
 created: 2026-04-20
 updated: 2026-04-20
 type: concept
-tags: [结构化表达, 写作, 技术文档, 方法论]
+tags: [技术写作, 结构化思维]
 sources:
   - [[raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md]]
 status: active

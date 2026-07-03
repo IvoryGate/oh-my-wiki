@@ -3,7 +3,7 @@ title: "MCMC"
 created: 2026-04-23
 updated: 2026-04-23
 type: concept
-tags: [机器学习, 近似推断, 蒙特卡洛]
+tags: [机器学习, 贝叶斯]
 sources:
   - [[raw/articles/37 随机近似推断：MCMC.md]]
 status: draft

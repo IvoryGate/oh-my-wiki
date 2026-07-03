@@ -3,7 +3,7 @@ title: MECE 原则
 created: 2026-04-20
 updated: 2026-04-20
 type: concept
-tags: [结构化思考, 写作, 问题分解, 方法论]
+tags: [技术写作, 结构化思维]
 sources:
   - [[raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md]]
 status: active

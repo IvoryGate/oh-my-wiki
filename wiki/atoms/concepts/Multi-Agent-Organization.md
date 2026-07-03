@@ -10,10 +10,7 @@ updated: 2026-04-18
 sources:
   - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
 tags:
-  - AI
-  - Agent
-  - 架构
-  - 协作
+  - Agent工程
 ---
 
 ## 定义

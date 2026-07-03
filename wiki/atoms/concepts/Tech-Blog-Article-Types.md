@@ -3,7 +3,7 @@ title: 技术博客文章的四种类型
 created: 2026-04-20
 updated: 2026-04-20
 type: concept
-tags: [技术写作, 博客, SEO, 内容分发]
+tags: [技术写作]
 sources:
   - [[raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md]]
 status: active

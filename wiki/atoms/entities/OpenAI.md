@@ -9,9 +9,7 @@ updated: 2026-04-20
 sources:
   - [[raw/articles/工程技术：在智能体优先的世界中利用 Codex.md]]
 tags:
-  - AI
-  - 公司
-  - LLM
+  - Agent工程
 ---
 
 ## 定义

@@ -12,11 +12,7 @@ sources:
   - [[raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md]]
   - [[raw/articles/出海投放基础知识之归因（四）SKAN归因.md]]
 tags:
-  - 增长
-  - 营销
-  - 归因
-  - iOS
-  - 隐私
+  - 广告归因
 ---
 
 ## 定义

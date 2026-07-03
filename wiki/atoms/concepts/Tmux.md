@@ -3,7 +3,7 @@ title: "Tmux"
 created: 2026-04-19
 updated: 2026-04-19
 type: concept
-tags: [终端, 工具, CLI]
+tags: [开发工具]
 sources:
   - "[[raw/articles/Linux tmux 基础使用教程.md]]"
 status: active
