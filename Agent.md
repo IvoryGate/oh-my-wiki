@@ -68,8 +68,15 @@ oh-my-wiki/
 ├── raw/           # 原始资料（只读）
 ├── wiki/          # 结构化知识（Agent 维护）
 ├── workspace/     # 个人创作（用户维护，Agent 仅限 YAML）
-└── Agent.md       # 本配置文档
+├── Agent.md       # 本配置文档
+├── CONTEXT.md     # Agent 快速入门文档
+└── README.md      # 项目说明（用户维护）
 ```
+
+**根目录文件规则**：
+- 仅允许 `Agent.md`、`CONTEXT.md`、`README.md` 等项目级文档
+- 禁止在根目录创建其他 `.md` 文件（如 `知识图谱.md`）
+- 临时报告、生成的文档必须放在 `wiki/` 或 `workspace/` 对应位置
 
 ### raw/ 目录（原始资料）
 
@@ -289,6 +296,11 @@ git commit -m "ingest: 处理 [资料名称]"
 ## 建议行动
 1. ...
 ```
+
+**报告处理规则**：
+- Lint 报告**不单独保存为文件**（如 `wiki/lint-report-YYYY-MM-DD.md`）
+- 报告内容直接追加到 `wiki/log.md` 中，作为操作记录
+- 如果需要详细报告，可临时显示给用户，但不写入文件
 
 **Git 操作**：
 ```bash
