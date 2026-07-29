@@ -21,7 +21,6 @@ tags: [home, dashboard]
 
 | 文章 | 标签 |
 |------|------|
-| [[workspace/Doing/决策树与集成学习：从Bagging到梯度提升.md\|决策树与集成学习]] | 机器学习, 决策树, 集成学习 |
 | [[workspace/Doing/VPN-机场-代理-梯子.md\|VPN、机场、代理、梯子]] | vpn, proxy, network |
 | [[workspace/Doing/终端实用效率指南.md\|终端实用效率指南]] | terminal, cli, 效率 |
 | [[workspace/Doing/增长系数预测.md\|增长系数预测]] | 增长, 广告, boosting |
