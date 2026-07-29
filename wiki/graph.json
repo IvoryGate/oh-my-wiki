@@ -597,11 +597,6 @@
       "type": "entity",
       "path": "wiki/atoms/entities/Phodal.md"
     },
-{
-      "id": "直觉",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/直觉.md"
-    },
     {
       "id": "媒介即隐喻",
       "type": "concept",
@@ -997,10 +992,10 @@
     }
   ],
   "stats": {
-    "totalNodes": 132,
+    "totalNodes": 131,
     "totalEdges": 123,
     "byType": {
-      "concept": 126,
+      "concept": 125,
       "entity": 6,
       "topic": 0,
       "insight": 0,
