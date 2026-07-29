@@ -1,48 +1,42 @@
-# 知识库索引
+# Oh-My-Wiki
 
-> 最后更新: 2026-07-29（全面维护：修正统计、补齐缺失页面、修复图谱）
+> 最后更新: 2026-07-29
 
-## 统计概览
+## 状态总览
 
-| 类型 | 数量 |
+| 统计 | 数量 | 活跃领域 |
+|------|------|----------|
+| 概念 | 125 | 机器学习(58) · 广告归因(22) · Agent工程(15) |
+| 实体 | 6 | 软件工程(6) · 复盘(6) · 知识管理(6) |
+| **总计** | **131** | 媒介理论(5) · 技术写作(5) |
+
+## 正在进行
+
+| 文章 | 标签 |
 |------|------|
-| 概念 (concepts) | 125 |
-| 实体 (entities) | 6 |
-| 主题 (topics) | 0 |
-| 洞察 (insights) | 0 |
-| 指南 (howto) | 0 |
-| **总计** | **131** |
+| [[决策树与集成学习：从Bagging到梯度提升.md\|决策树与集成学习]] | 机器学习, 决策树, 集成学习 |
+| [[VPN-机场-代理-梯子.md\|VPN、机场、代理、梯子]] | vpn, proxy, network |
+| [[终端实用效率指南.md\|终端实用效率指南]] | terminal, cli, 效率 |
+| [[增长系数预测.md\|增长系数预测]] | 增长, 广告, boosting |
+| [[ffmpeg视频剪辑入门.md\|FFmpeg 视频剪辑入门]] | ffmpeg, 视频剪辑 |
+| [[如何构建知识体系.md\|如何构建知识体系]] | 知识管理, 学习方法 |
+
+## 快速导航
+
+**Agent工程** · **软件工程** · **增长与营销** · **复盘与方法论** · **媒介理论** · **机器学习** · **写作与技术博客** · **知识管理**
 
 ---
 
-## Dataview 动态查询
+### Dataview 查询
 
-> 安装 [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) 插件后，以下查询会自动更新
-
-### 所有概念 (按更新时间排序)
+> 安装 Dataview 插件后自动更新
 
 ```dataview
-TABLE title as "概念", created as "创建日期", updated as "更新日期"
-FROM "wiki/atoms/concepts"
-SORT updated DESC
-```
-
-### 所有实体 (按更新时间排序)
-
-```dataview
-TABLE title as "实体", created as "创建日期", updated as "更新日期"
-FROM "wiki/atoms/entities"
-SORT updated DESC
-```
-
-### 最近更新的页面
-
-```dataview
-TABLE title as "标题", type as "类型", updated as "更新日期"
+TABLE title as "页面", type as "类型", updated as "更新"
 FROM "wiki"
 WHERE type
 SORT updated DESC
-LIMIT 10
+LIMIT 15
 ```
 
 ---
