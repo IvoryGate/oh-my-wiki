@@ -6,7 +6,7 @@
 
 ## [2026-07-29] create | 机器学习话题追踪
 
-- 创建 `workspace/topics/机器学习/` 话题追踪目录
+- 创建 `workspace/topics/MachineLearning/` 话题追踪目录
 - 创建 `_tracker.md`：知识地图覆盖 9 个子领域、50+ 概念、进度表
 - 现有 58 个 ML 概念页均为 draft，待后续完善
 
