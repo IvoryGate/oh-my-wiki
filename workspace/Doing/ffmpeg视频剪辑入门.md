@@ -850,22 +850,23 @@ ffmpeg -i input.mp4 -vf "fps=10,scale=480:-1" out.gif
 下面是一个实际的两段视频混剪命令，逐段理解：
 
 ```shell
-ffmpeg -i input_0.mp4 -i input_2.mp4 -filter_complex \
-      "[0:v]trim=duration=30,setpts=PTS-STARTPTS,scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2[v0]; \
-       [0:a]atrim=duration=30,asetpts=PTS-STARTPTS,loudnorm=I=-16:TP=-1.5:LRA=11[a0]; \
-       [1:v]trim=duration=30,setpts=PTS-STARTPTS,scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2[v1]; \
-       [1:a]atrim=duration=30,asetpts=PTS-STARTPTS,loudnorm=I=-16:TP=-1.5:LRA=11[a1]; \
-       [v0][a0][v1][a1]concat=n=2:v=1:a=1" \
+ffmpeg -i input_0.mp4 -i input_1.mp4 -filter_complex \
+    "[0:v]trim=duration=30,setpts=PTS-STARTPTS,scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2[v0]; \
+     [0:a]atrim=duration=30,asetpts=PTS-STARTPTS,loudnorm=I=-16:TP=-1.5:LRA=11[a0]; \
+     [1:v]trim=duration=30,setpts=PTS-STARTPTS,scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2[v1]; \
+     [1:a]atrim=duration=30,asetpts=PTS-STARTPTS,loudnorm=I=-16:TP=-1.5:LRA=11[a1]; \
+     [v0][a0][v1][a1]concat=n=2:v=1:a=1[outv][outa]" \
+    -map [outv] -map [outa] \
     output.mp4
 ```
 
 ### 输入
 
 ```shell
--i input_0.mp4 -i input_2.mp4
+-i input_0.mp4 -i input_1.mp4
 ```
 
-两个输入文件。FFmpeg 内部给它们编号为 0 和 1。
+两个输入文件，FFmpeg 内部编号为 0 和 1。concate 输出命名为 `[outv][outa]`，通过 `-map` 显式指定输出流。
 
 ### 视频处理链
 
@@ -919,7 +920,7 @@ graph LR
         A0s --> A0l[loudnorm]
         A0l --> a0[a0]
     end
-    subgraph Input1[input_2.mp4]
+    subgraph Input1[input_1.mp4]
         V1[视频] --> V1t[trim]
         V1t --> V1s[setpts]
         V1s --> V1sc[scale]
