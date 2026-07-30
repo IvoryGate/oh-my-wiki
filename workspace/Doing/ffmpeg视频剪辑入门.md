@@ -25,7 +25,14 @@ FFmpeg 是免费开源软件，各平台安装方式：
 
 **macOS**
 ```shell
+# Homebrew 安装（推荐）
 brew install ffmpeg
+
+# Homebrew 会自动将 ffmpeg 加入 PATH。
+# 如果找不到命令，检查 brew 安装路径是否在 shell 配置中：
+# Apple Silicon:  export PATH="/opt/homebrew/bin:$PATH"
+# Intel:          export PATH="/usr/local/bin:$PATH"
+# 将对应行添加到 ~/.zshrc（zsh）或 ~/.bash_profile（bash）后 source 即可
 ```
 
 **Ubuntu/Debian**
