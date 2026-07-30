@@ -35,11 +35,12 @@ sudo apt install ffmpeg
 
 **Windows**
 ```shell
-# winget
+# winget（自动配置环境变量）
 winget install ffmpeg
 
 # 或从官网下载安装包：
 # https://ffmpeg.org/download.html
+# 官网下载的是 zip 压缩包，解压后将 bin 目录添加到系统 PATH 环境变量
 ```
 
 安装后验证：
