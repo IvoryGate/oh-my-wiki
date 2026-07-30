@@ -11,12 +11,41 @@ tags: [ffmpeg, 视频剪辑, 入门, 博客]
 
 FFmpeg 是一个**命令行多媒体处理工具**。它不是一个有图形界面的软件（如 PR、剪映），也不是编程框架——你通过命令行参数告诉它"输入什么文件、做什么处理、输出什么"，它执行完就结束。核心价值是**可脚本化、可批量、可复制**。
 
+- [安装与下载](#安装与下载)
 - [使用场景](#使用场景)
 - [核心概念](#核心概念)
 - [编解码实战](#编解码实战)
 - [常用命令](#常用命令)
 - [完整案例拆解](#完整案例拆解)
 - [常见问题](#常见问题)
+
+## 安装与下载
+
+FFmpeg 是免费开源软件，各平台安装方式：
+
+**macOS**
+```shell
+brew install ffmpeg
+```
+
+**Ubuntu/Debian**
+```shell
+sudo apt install ffmpeg
+```
+
+**Windows**
+```shell
+# winget
+winget install ffmpeg
+
+# 或从官网下载安装包：
+# https://ffmpeg.org/download.html
+```
+
+安装后验证：
+```shell
+ffmpeg -version
+```
 
 ## 使用场景
 
