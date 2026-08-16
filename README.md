@@ -271,6 +271,48 @@ Agent：[检索] [回答]
 
 ---
 
+## 跨平台通用配置（Windows / macOS / Linux / Android）
+
+本知识库以 Git 仓库为唯一真相源，`vault`（含 `.obsidian/` 配置、插件、主题）全部纳入版本管理，因此可在四类设备间保持一致。
+
+### opencode 配置（已入库）
+
+| 文件 | 作用 |
+|------|------|
+| `AGENTS.md` | opencode 每次会话自动加载，指引其读取 README/CONTEXT/Agent 规则 |
+| `opencode.json` | 项目级配置：默认模型、Git 常用命令免询问权限 |
+
+### 各平台使用方式
+
+| 平台 | Obsidian | opencode |
+|------|----------|----------|
+| Windows / macOS / Linux 桌面 | 打开 vault 后，用已装的 **BRAT** 添加 `mtymek/opencode-obsidian`，再 `npm i -g opencode-ai`，`Ctrl+Shift+O` 即可在侧边栏嵌入 opencode | 桌面 CLI |
+| Android | Obsidian 移动端打开 vault（路径需在共享存储内） | Termux 中 `cd` 到 vault 目录直接跑 `opencode` |
+
+### 全局配置（各设备各存一份，不入库）
+
+模型服务与 API Key 放在全局配置，四台设备内容一致：
+
+```jsonc
+// Linux/macOS/Termux: ~/.config/opencode/opencode.json
+// Windows: %USERPROFILE%\.config\opencode\opencode.json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "auto",
+  "provider": {
+    // 在此填入各模型服务的 key，例如：
+    // "anthropic": { "api_key": "sk-..." }
+  }
+}
+```
+
+### 跨设备同步
+
+- 主要方式：`git push` / `git pull`
+- 补充方式：已装的 `remotely-save` 插件可作为 vault 增量同步
+
+---
+
 ## 未来扩展
 
 - [ ] 接入 qmd 本地搜索引擎
