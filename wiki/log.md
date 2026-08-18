@@ -4,6 +4,43 @@
 
 ---
 
+## [2026-08-18] ingest | 入库机器学习加餐/总结课与中文技术文档写作规范
+
+### 新增页面（5）
+- 概念: [[机器学习工程师]] — 数据岗位三角色分工、工程化/产品化核心职责
+- 概念: [[马尔可夫链]] — 马尔可夫性、稳态分布、极限定理与"结构性宿命"启示
+- 主题: [[机器学习模型体系]] — 从线性回归出发的模型演化脉络（synthesis 首批主题页）
+- 主题: [[贝叶斯学习模型体系]] — 从高斯分布出发的贝叶斯模型体系
+- 指南: [[中文技术文档写作规范]] — 合并 7 个章节文件（标点/数值/段落/链接/体系/文本/标题）
+
+### 来源
+- [[raw/articles/如何成为机器学习工程师？.md]]
+- [[raw/articles/总结课 机器学习的模型体系.md]]
+- [[raw/articles/总结课 贝叶斯学习的模型体系.md]]
+- [[raw/articles/马尔可夫链的宿命论.md]]
+- [[raw/articles/marks.md]] 等 7 个写作规范章节
+
+### 修复
+- manifest.json 损坏条目：补回「01 CLAP模型」缺失的 path 字段，哈希同步为当前值
+- graph.json 补回缺失节点「知识体系」（其边仍存在，7-29 修复时误删）
+
+### graph.json 更新
+- 新增 5 节点、16 边；补回「知识体系」节点
+- 统计修正为与实际数组一致：136 节点（127 概念/6 实体/2 主题/1 指南）、72 边
+- 注：此前 stats 声称 123 边，实际数组仅 56 边，本次一并修正
+
+### 涉及文件
+- wiki/atoms/concepts/机器学习工程师.md
+- wiki/atoms/concepts/马尔可夫链.md
+- wiki/synthesis/topics/机器学习模型体系.md
+- wiki/synthesis/topics/贝叶斯学习模型体系.md
+- wiki/synthesis/howto/中文技术文档写作规范.md
+- wiki/index.md
+- wiki/graph.json
+- raw/manifest.json
+
+---
+
 ## [2026-07-29] create | 机器学习话题追踪
 
 - 创建 `workspace/topics/MachineLearning/` 话题追踪目录

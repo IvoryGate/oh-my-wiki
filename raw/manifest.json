@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastScan": "2026-04-27T18:00:00+08:00",
+  "lastScan": "2026-08-18T00:00:00+08:00",
   "files": [
     {
       "path": "videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响.md",
@@ -96,8 +96,10 @@
         "wiki/atoms/concepts/工程思维.md"
       ]
     },
-      "hash": "sha256:2efe2387823c4472a2435018daff03cef8b1afbfdbc516c602dd67d1f7b78972",
-      "size": 15162,
+    {
+      "path": "articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
+      "hash": "sha256:7a75c7cbf9b650d6ca49af5d9b2ea879ded531245081e12e2ff3d5f2f9c88ef6",
+      "size": 15347,
       "status": "done",
       "compiledAt": "2026-04-19T10:00:00+08:00",
       "domains": [
@@ -904,12 +906,111 @@
       "producedPages": [
         "wiki/atoms/concepts/结构学习.md"
       ]
+    },
+    {
+      "path": "articles/如何成为机器学习工程师？.md",
+      "hash": "sha256:ba5536abeec91a818788e79782a2e45feecd2b897866334f3c11e06ea41ef64c",
+      "size": 7690,
+      "status": "done",
+      "compiledAt": "2026-08-18",
+      "domains": ["机器学习", "职业发展"],
+      "producedPages": ["wiki/atoms/concepts/机器学习工程师.md"]
+    },
+    {
+      "path": "articles/总结课 机器学习的模型体系.md",
+      "hash": "sha256:460afdd014b3f4853e8c17de2348653091cca8c9d5aa65f867df6957de1637e6",
+      "size": 12013,
+      "status": "done",
+      "compiledAt": "2026-08-18",
+      "domains": ["机器学习", "模型体系"],
+      "producedPages": ["wiki/synthesis/topics/机器学习模型体系.md"]
+    },
+    {
+      "path": "articles/总结课 贝叶斯学习的模型体系.md",
+      "hash": "sha256:ae80d3ee2ab400a953b2355a54317363f885452b2ddbbdf9e01f817acc0180bd",
+      "size": 7626,
+      "status": "done",
+      "compiledAt": "2026-08-18",
+      "domains": ["机器学习", "贝叶斯"],
+      "producedPages": ["wiki/synthesis/topics/贝叶斯学习模型体系.md"]
+    },
+    {
+      "path": "articles/马尔可夫链的宿命论.md",
+      "hash": "sha256:6d5db3a04358dcd95a35ccea144d3f7357438686d22bf677c5b8087a1df90960",
+      "size": 21213,
+      "status": "done",
+      "compiledAt": "2026-08-18",
+      "domains": ["机器学习", "随机过程"],
+      "producedPages": ["wiki/atoms/concepts/马尔可夫链.md"]
+    },
+    {
+      "path": "articles/marks.md",
+      "hash": "sha256:9a62d6496d21fae611dacff142ba1977a5e8d16e04af2135290220c2460a5193",
+      "size": 5162,
+      "status": "done",
+      "compiledAt": "2026-08-18",
+      "domains": ["技术写作"],
+      "producedPages": ["wiki/synthesis/howto/中文技术文档写作规范.md"]
+    },
+    {
+      "path": "articles/number.md",
+      "hash": "sha256:cb0dab9db6b1749dc0284a4430a9f3cadd447ee198bd204d01f881ec1f6dc2e2",
+      "size": 1799,
+      "status": "done",
+      "compiledAt": "2026-08-18",
+      "domains": ["技术写作"],
+      "producedPages": ["wiki/synthesis/howto/中文技术文档写作规范.md"]
+    },
+    {
+      "path": "articles/paragraph.md",
+      "hash": "sha256:5eed8539563c7e41380729d7ce077765ec1df7ffb3841f6b46510268a1353191",
+      "size": 864,
+      "status": "done",
+      "compiledAt": "2026-08-18",
+      "domains": ["技术写作"],
+      "producedPages": ["wiki/synthesis/howto/中文技术文档写作规范.md"]
+    },
+    {
+      "path": "articles/reference.md",
+      "hash": "sha256:6e32b91e7fbcbfa6c659505a18bc6223249c5632ee62569472b51567378d69b3",
+      "size": 1443,
+      "status": "done",
+      "compiledAt": "2026-08-18",
+      "domains": ["技术写作"],
+      "producedPages": ["wiki/synthesis/howto/中文技术文档写作规范.md"]
+    },
+    {
+      "path": "articles/structure.md",
+      "hash": "sha256:b1e07553b07d98f65305cadb53a77c9063d1f4e2168e31c2fd4bd9e9ea21cfad",
+      "size": 2074,
+      "status": "done",
+      "compiledAt": "2026-08-18",
+      "domains": ["技术写作"],
+      "producedPages": ["wiki/synthesis/howto/中文技术文档写作规范.md"]
+    },
+    {
+      "path": "articles/text.md",
+      "hash": "sha256:e2589f8cd5a5629d6b70585220f0fdd69d93453addeb490450ecb21c4852f7e3",
+      "size": 5501,
+      "status": "done",
+      "compiledAt": "2026-08-18",
+      "domains": ["技术写作"],
+      "producedPages": ["wiki/synthesis/howto/中文技术文档写作规范.md"]
+    },
+    {
+      "path": "articles/title.md",
+      "hash": "sha256:3aa8d43f716b4f2cee06449d7c76bd700141250bec2357fa9bc640011304eaaa",
+      "size": 1561,
+      "status": "done",
+      "compiledAt": "2026-08-18",
+      "domains": ["技术写作"],
+      "producedPages": ["wiki/synthesis/howto/中文技术文档写作规范.md"]
     }
   ],
   "stats": {
-    "total": 71,
+    "total": 82,
     "pending": 0,
     "processing": 0,
-    "done": 71
+    "done": 82
   }
 }

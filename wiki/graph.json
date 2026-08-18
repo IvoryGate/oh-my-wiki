@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-26",
+  "lastUpdated": "2026-08-18",
   "nodes": [
     {
       "id": "工作记忆",
@@ -651,6 +651,36 @@
       "id": "敏捷开发",
       "type": "concept",
       "path": "wiki/atoms/concepts/敏捷开发.md"
+    },
+    {
+      "id": "机器学习工程师",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/机器学习工程师.md"
+    },
+    {
+      "id": "马尔可夫链",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/马尔可夫链.md"
+    },
+    {
+      "id": "机器学习模型体系",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/机器学习模型体系.md"
+    },
+    {
+      "id": "贝叶斯学习模型体系",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/贝叶斯学习模型体系.md"
+    },
+    {
+      "id": "中文技术文档写作规范",
+      "type": "howto",
+      "path": "wiki/synthesis/howto/中文技术文档写作规范.md"
+    },
+    {
+      "id": "知识体系",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/知识体系.md"
     }
   ],
   "edges": [
@@ -876,7 +906,7 @@
       "relation": "uses",
       "context": ""
     },
-{
+    {
       "from": "Phodal",
       "to": "Tech-Blog-Article-Types",
       "relation": "authored",
@@ -989,17 +1019,113 @@
       "to": "软件危机",
       "relation": "relates_to",
       "context": ""
+    },
+    {
+      "from": "机器学习工程师",
+      "to": "软件工程",
+      "relation": "requires",
+      "context": ""
+    },
+    {
+      "from": "马尔可夫链",
+      "to": "隐马尔可夫模型",
+      "relation": "underlies",
+      "context": ""
+    },
+    {
+      "from": "马尔可夫链",
+      "to": "马尔可夫随机场",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "马尔可夫链",
+      "to": "马尔可夫链归因",
+      "relation": "used_by",
+      "context": ""
+    },
+    {
+      "from": "马尔可夫链",
+      "to": "MCMC",
+      "relation": "used_by",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "线性回归",
+      "relation": "rooted_in",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "神经网络",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "集成学习",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "正则化",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "降维",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "贝叶斯定理",
+      "relation": "based_on",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "隐马尔可夫模型",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "混合模型",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "概率图模型",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "机器学习模型体系",
+      "relation": "complements",
+      "context": ""
+    },
+    {
+      "from": "中文技术文档写作规范",
+      "to": "Blog-Content-Writing-Practices",
+      "relation": "relates_to",
+      "context": ""
     }
   ],
   "stats": {
-    "totalNodes": 131,
-    "totalEdges": 123,
+    "totalNodes": 136,
+    "totalEdges": 72,
     "byType": {
-      "concept": 125,
+      "concept": 127,
       "entity": 6,
-      "topic": 0,
+      "topic": 2,
       "insight": 0,
-      "howto": 0,
+      "howto": 1,
       "data": 0
     }
   }
