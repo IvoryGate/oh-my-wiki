@@ -4,6 +4,18 @@
 
 ---
 
+## [2026-08-18] chore | 移除被 git 追踪的空文件
+
+### 背景
+根目录 `AAR-Model.md` 反复出现：实为 0 字节空文件（git 在 2026-07-29 的 move 提交中把空文件误判为重命名产生），被 git 追踪后，任何 pull/checkout/同步操作都会将其从索引恢复。
+
+### 处理
+- `git rm` 根目录 `AAR-Model.md`（真实内容在 [[AAR-Model|wiki/atoms/concepts/AAR-Model.md]]，不受影响）
+- `git rm --cached` `raw/articles/未命名.md`（解除追踪，文件保留在工作区）
+
+### 涉及文件
+- AAR-Model.md（根目录，已删除）
+- raw/articles/未命名.md（解除追踪）
 ## [2026-08-18] ingest | 入库机器学习加餐/总结课与中文技术文档写作规范
 
 ### 新增页面（5）
