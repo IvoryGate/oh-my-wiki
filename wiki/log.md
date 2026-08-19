@@ -11,7 +11,7 @@
 
 ### 处理
 - `git rm` 根目录 `AAR-Model.md`（真实内容在 [[AAR-Model|wiki/atoms/concepts/AAR-Model.md]]，不受影响）
-- `git rm --cached` `raw/articles/未命名.md`（解除追踪，文件保留在工作区）
+- `git rm --cached` `raw/articles/未命名.md`（解除追踪，后经用户确认删除该空文件）
 
 ### 涉及文件
 - AAR-Model.md（根目录，已删除）
