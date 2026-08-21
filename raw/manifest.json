@@ -1005,12 +1005,56 @@
       "compiledAt": "2026-08-18",
       "domains": ["技术写作"],
       "producedPages": ["wiki/synthesis/howto/中文技术文档写作规范.md"]
+    },
+    {
+      "path": "articles/关于写作，这是我目前能想到最全的.md",
+      "hash": "sha256:pending-2026-08-21",
+      "size": 28480,
+      "status": "done",
+      "compiledAt": "2026-08-21",
+      "domains": ["写作", "自我成长", "表达"],
+      "producedPages": [
+        "wiki/atoms/concepts/写作起步-日常书写.md",
+        "wiki/atoms/concepts/写作价值心法.md",
+        "wiki/atoms/concepts/顶级信息论与输入输出比.md",
+        "wiki/atoms/concepts/滑梯理论.md",
+        "wiki/atoms/concepts/作品意识与打磨意识.md",
+        "wiki/atoms/entities/清脑作者.md",
+        "wiki/synthesis/topics/写作方法论.md"
+      ]
+    },
+    {
+      "path": "articles/写了 200 多篇文章后，我总结的写作心得.md",
+      "hash": "sha256:pending-2026-08-21",
+      "size": 7680,
+      "status": "done",
+      "compiledAt": "2026-08-21",
+      "domains": ["写作", "技术博客", "工具"],
+      "producedPages": [
+        "wiki/atoms/concepts/作品意识与打磨意识.md",
+        "wiki/atoms/entities/阿宝哥.md",
+        "wiki/synthesis/topics/写作方法论.md"
+      ]
+    },
+    {
+      "path": "articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！.md",
+      "hash": "sha256:pending-2026-08-21",
+      "size": 10240,
+      "status": "done",
+      "compiledAt": "2026-08-21",
+      "domains": ["写作", "逻辑", "表达"],
+      "producedPages": [
+        "wiki/atoms/concepts/SCQ法则.md",
+        "wiki/atoms/concepts/Pyramid-Principle.md",
+        "wiki/atoms/entities/皮卡小宝.md",
+        "wiki/synthesis/topics/写作方法论.md"
+      ]
     }
   ],
   "stats": {
-    "total": 82,
+    "total": 85,
     "pending": 0,
     "processing": 0,
-    "done": 82
+    "done": 85
   }
 }

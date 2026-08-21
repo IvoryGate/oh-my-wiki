@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-21",
   "nodes": [
     {
       "id": "工作记忆",
@@ -681,6 +681,56 @@
       "id": "知识体系",
       "type": "concept",
       "path": "wiki/atoms/concepts/知识体系.md"
+    },
+    {
+      "id": "写作起步-日常书写",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/写作起步-日常书写.md"
+    },
+    {
+      "id": "写作价值心法",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/写作价值心法.md"
+    },
+    {
+      "id": "顶级信息论与输入输出比",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/顶级信息论与输入输出比.md"
+    },
+    {
+      "id": "滑梯理论",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/滑梯理论.md"
+    },
+    {
+      "id": "作品意识与打磨意识",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/作品意识与打磨意识.md"
+    },
+    {
+      "id": "SCQ法则",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/SCQ法则.md"
+    },
+    {
+      "id": "写作方法论",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/写作方法论.md"
+    },
+    {
+      "id": "清脑作者",
+      "type": "entity",
+      "path": "wiki/atoms/entities/清脑作者.md"
+    },
+    {
+      "id": "阿宝哥",
+      "type": "entity",
+      "path": "wiki/atoms/entities/阿宝哥.md"
+    },
+    {
+      "id": "皮卡小宝",
+      "type": "entity",
+      "path": "wiki/atoms/entities/皮卡小宝.md"
     }
   ],
   "edges": [
@@ -1115,15 +1165,99 @@
       "to": "Blog-Content-Writing-Practices",
       "relation": "relates_to",
       "context": ""
+    },
+    {
+      "from": "Pyramid-Principle",
+      "to": "SCQ法则",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "SCQ法则",
+      "to": "Pyramid-Principle",
+      "relation": "belongs_to",
+      "context": ""
+    },
+    {
+      "from": "写作起步-日常书写",
+      "to": "工作记忆",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "滑梯理论",
+      "to": "写作价值心法",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作价值心法",
+      "to": "顶级信息论与输入输出比",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "作品意识与打磨意识",
+      "to": "中文技术文档写作规范",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "写作价值心法",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "滑梯理论",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "Pyramid-Principle",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "顶级信息论与输入输出比",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "写作起步-日常书写",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "清脑作者",
+      "to": "写作价值心法",
+      "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "阿宝哥",
+      "to": "作品意识与打磨意识",
+      "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "皮卡小宝",
+      "to": "SCQ法则",
+      "relation": "authored",
+      "context": ""
     }
   ],
   "stats": {
-    "totalNodes": 136,
-    "totalEdges": 72,
+    "totalNodes": 146,
+    "totalEdges": 86,
     "byType": {
-      "concept": 127,
-      "entity": 6,
-      "topic": 2,
+      "concept": 133,
+      "entity": 9,
+      "topic": 3,
       "insight": 0,
       "howto": 1,
       "data": 0
