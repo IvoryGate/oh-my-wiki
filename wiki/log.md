@@ -4,6 +4,48 @@
 
 ---
 
+## [2026-09-04] ingest | 广告反作弊 + 投放运营 + 面试方法论 + 中文排版规范（15篇）
+
+### 新增页面（20）
+- 概念: [[Ad-Fraud]] — 广告作弊分类与防作弊体系总览
+- 概念: [[Attribution-Hijacking]] — 归因劫持：抢夺其他渠道归因
+- 概念: [[Fake-Installation]] — 虚假安装：设备农场与机器人
+- 概念: [[Device-Farm]] — 设备农场：模拟器批量刷量
+- 概念: [[Click-Flooding]] — 大点击撞库：虚假点击抢归因
+- 概念: [[CTIT-Analysis]] — 点击到安装时间分布分析
+- 概念: [[Protect360]] — AppsFlyer 防作弊套件（Protect LITE/360/FPS）
+- 概念: [[Platform-LVL-Validation]] — Google LVL / Apple Receipt / Amazon DRM 验证
+- 概念: [[Pacing-Model]] — 预算节奏控制（均匀/自适应/竞争/预测四代模型）
+- 概念: [[Cold-Start]] — 广告冷启动与快速消耗问题
+- 概念: [[Cohort-Analysis]] — 队列分析：同周期用户行为对比
+- 概念: [[Session-Tracking]] — 会话追踪：Session 定义与 MMP 统计差异
+- 概念: [[ROAS-Data-Reconciliation]] — ROAS 数据对齐：D0 定义差异与排查思路
+- 概念: [[DAU-Retention-Rate]] — 日活与留存率计算
+- 概念: [[Behavioral-Interview]] — 行为面试方法论
+- 概念: [[PG-Eight-Questions]] — 宝洁八大问题库与考察重点
+- 概念: [[STAR-Method]] — STAR 法则与 SCQA 升级用法
+- 概念: [[Chinese-Copywriting-Guidelines]] — 中文文案排版规范
+
+### 来源
+- [[raw/articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？.md]]
+- [[raw/articles/广告作弊Ad Fraud（一）.md]] ~ [[raw/articles/广告作弊Ad Fraud（六）.md]]
+- [[raw/articles/广告中的Pacing模型以及冷启动.md]]
+- [[raw/articles/Unity平台ROAS开启条件和数据差异问题.md]]
+- [[raw/articles/出海投放基础知识之数据统计（一）.md]]
+- [[raw/articles/渠道MMPBI的数据差异剖析 1.md]]
+- [[raw/articles/什么是Cohort队列？.md]]
+- [[raw/articles/什么是「STAR 法则」，有哪些优秀的「STAR 法则」使用案例？.md]]
+- [[raw/articles/sparanoidchinese-copywriting-guidelines Chinese copywriting guidelines for better written communication／中文文案排版指北.md]]
+- [[raw/videos/行为面试圣经，宝洁八大问破解之路？（上）.md]]
+- [[raw/videos/行为面试圣经，宝洁八大问破解之路？（中）.md]]
+- [[raw/videos/行为面试圣经，宝洁八大问破解之路？（下）.md]]
+
+### graph.json 更新
+- 新增 20 节点、27 边
+- 统计：146→166 节点，86→113 边
+
+---
+
 ## [2026-08-21] ingest | 入库写作三篇（清脑/阿宝哥/皮卡小宝）
 
 ### 新增页面（10）

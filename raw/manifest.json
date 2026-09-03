@@ -1050,11 +1050,211 @@
         "wiki/synthesis/topics/写作方法论.md"
       ]
     }
+    ,
+    {
+      "path": "articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？.md",
+      "hash": "sha256:3f31360c3ad2c0d1c3141abaf08bf17d4ee380be6fcd459d115cf7c2359bf104",
+      "size": 6435,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["广告", "反作弊", "归因"],
+      "producedPages": [
+        "wiki/atoms/concepts/Ad-Fraud.md",
+        "wiki/atoms/concepts/Protect360.md"
+      ]
+    },
+    {
+      "path": "articles/广告作弊Ad Fraud（一）.md",
+      "hash": "sha256:c291a3bd7c0522d27e4c8813f02c25842e94543255aee1f7c6722944b7103ebc",
+      "size": 11461,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["广告", "反作弊", "归因"],
+      "producedPages": [
+        "wiki/atoms/concepts/Ad-Fraud.md",
+        "wiki/atoms/concepts/Attribution-Hijacking.md",
+        "wiki/atoms/concepts/Fake-Installation.md"
+      ]
+    },
+    {
+      "path": "articles/广告作弊Ad Fraud（二）.md",
+      "hash": "sha256:aca6f27199253854db9d47068c8c32abfb57e83ccd5ed3ba499ddacf92678db3",
+      "size": 10517,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["广告", "反作弊", "虚假安装"],
+      "producedPages": [
+        "wiki/atoms/concepts/Fake-Installation.md",
+        "wiki/atoms/concepts/Device-Farm.md"
+      ]
+    },
+    {
+      "path": "articles/广告作弊Ad Fraud（三）.md",
+      "hash": "sha256:1e77ead657f1a5425be4233e8698bdd32c9504dcdff0028228a56481d55f9206",
+      "size": 13065,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["广告", "反作弊", "归因劫持"],
+      "producedPages": [
+        "wiki/atoms/concepts/Attribution-Hijacking.md",
+        "wiki/atoms/concepts/Click-Flooding.md",
+        "wiki/atoms/concepts/CTIT-Analysis.md"
+      ]
+    },
+    {
+      "path": "articles/广告作弊Ad Fraud（四）.md",
+      "hash": "sha256:251790236cd9fd0983952ad3f5d61824872d243f540928d016668b133536236a",
+      "size": 11647,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["广告", "反作弊", "AppsFlyer"],
+      "producedPages": [
+        "wiki/atoms/concepts/Protect360.md"
+      ]
+    },
+    {
+      "path": "articles/广告作弊Ad Fraud（五）.md",
+      "hash": "sha256:0e1c89ec20e685a990dedf9b5490534548196fdf4fa5d5dd73982166744fc5cf",
+      "size": 1901,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["广告", "反作弊", "Adjust", "Singular"],
+      "producedPages": [
+        "wiki/atoms/concepts/Protect360.md"
+      ]
+    },
+    {
+      "path": "articles/广告作弊Ad Fraud（六）.md",
+      "hash": "sha256:ea3b82bb1e32eb0780b53fe8b2526cb010eefe9e54e6e0813538cd2996f08151",
+      "size": 9924,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["广告", "反作弊", "Google", "Apple", "Amazon"],
+      "producedPages": [
+        "wiki/atoms/concepts/Platform-LVL-Validation.md"
+      ]
+    },
+    {
+      "path": "articles/广告中的Pacing模型以及冷启动.md",
+      "hash": "sha256:9c722b0f86308efdb0a04c4385ec95a41da3784179dd9fc41d70027fda1fbfe7",
+      "size": 16600,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["广告", "投放", "算法", "预算控制"],
+      "producedPages": [
+        "wiki/atoms/concepts/Pacing-Model.md",
+        "wiki/atoms/concepts/Cold-Start.md"
+      ]
+    },
+    {
+      "path": "articles/Unity平台ROAS开启条件和数据差异问题.md",
+      "hash": "sha256:2aa0590a64a3bb88afc1271efb750a50701cb7ab84465a52791e584e05a22897",
+      "size": 8950,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["广告", "ROAS", "Unity", "数据差异"],
+      "producedPages": [
+        "wiki/atoms/concepts/ROAS-Data-Reconciliation.md",
+        "wiki/atoms/concepts/Cohort-Analysis.md"
+      ]
+    },
+    {
+      "path": "articles/出海投放基础知识之数据统计（一）.md",
+      "hash": "sha256:1ec6190e5a7212b1921587dcd13bcc08667710e4ae9de92be4e2f034d571f2ab",
+      "size": 8452,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["广告", "数据统计", "Session", "DAU"],
+      "producedPages": [
+        "wiki/atoms/concepts/Session-Tracking.md",
+        "wiki/atoms/concepts/DAU-Retention-Rate.md"
+      ]
+    },
+    {
+      "path": "articles/渠道MMPBI的数据差异剖析 1.md",
+      "hash": "sha256:3871bf98604dfa5a7d0bdbc78b6fcda935ec6e3513544215591409ce0df7cfcb",
+      "size": 13008,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["广告", "数据差异", "MMP", "BI"],
+      "producedPages": [
+        "wiki/atoms/concepts/ROAS-Data-Reconciliation.md"
+      ]
+    },
+    {
+      "path": "articles/什么是Cohort队列？.md",
+      "hash": "sha256:28e6cad9bf3999a8b2db6c8c22e0e0850433f9b4c08c19487b38aae9281d9771",
+      "size": 5131,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["广告", "数据分析", "Cohort"],
+      "producedPages": [
+        "wiki/atoms/concepts/Cohort-Analysis.md"
+      ]
+    },
+    {
+      "path": "articles/什么是「STAR 法则」，有哪些优秀的「STAR 法则」使用案例？.md",
+      "hash": "sha256:ba00024f6f541f921904c5b9f5f5dd75c27bffeaa3a225ccbae017cb13c622fc",
+      "size": 6718,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["面试", "方法论", "简历"],
+      "producedPages": [
+        "wiki/atoms/concepts/STAR-Method.md"
+      ]
+    },
+    {
+      "path": "articles/sparanoidchinese-copywriting-guidelines Chinese copywriting guidelines for better written communication／中文文案排版指北.md",
+      "hash": "sha256:ff1edcda1bfc232727464d5fb6860daaf13249f451af6824e5830b859e8a0fc7",
+      "size": 11264,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["写作", "排版", "中文规范"],
+      "producedPages": [
+        "wiki/atoms/concepts/Chinese-Copywriting-Guidelines.md"
+      ]
+    },
+    {
+      "path": "videos/行为面试圣经，宝洁八大问破解之路？（上）.md",
+      "hash": "sha256:207b79cff65c137caade92a98accc4cef199634df289ab459071c4967966bac0",
+      "size": 18918,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["面试", "行为面试", "宝洁"],
+      "producedPages": [
+        "wiki/atoms/concepts/Behavioral-Interview.md",
+        "wiki/atoms/concepts/PG-Eight-Questions.md"
+      ]
+    },
+    {
+      "path": "videos/行为面试圣经，宝洁八大问破解之路？（中）.md",
+      "hash": "sha256:165ec5ac4abc6a75b5f317a1d15cbcca9c39aa3c5648c25951312567d979914b",
+      "size": 15066,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["面试", "行为面试", "宝洁"],
+      "producedPages": [
+        "wiki/atoms/concepts/Behavioral-Interview.md",
+        "wiki/atoms/concepts/PG-Eight-Questions.md"
+      ]
+    },
+    {
+      "path": "videos/行为面试圣经，宝洁八大问破解之路？（下）.md",
+      "hash": "sha256:1ec13a73c10a16821b63ab842f2c58d25fe98fe40cc92ebaa6c9a1fdd19af3c0",
+      "size": 13768,
+      "status": "done",
+      "compiledAt": "2026-09-04",
+      "domains": ["面试", "行为面试", "宝洁"],
+      "producedPages": [
+        "wiki/atoms/concepts/Behavioral-Interview.md",
+        "wiki/atoms/concepts/PG-Eight-Questions.md"
+      ]
+    }
   ],
   "stats": {
-    "total": 85,
+    "total": 102,
     "pending": 0,
     "processing": 0,
-    "done": 85
+    "done": 102
   }
 }
