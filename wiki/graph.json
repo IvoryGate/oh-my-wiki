@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-04",
+  "lastUpdated": "2026-09-22",
   "nodes": [
     {
       "id": "工作记忆",
@@ -821,6 +821,11 @@
       "id": "Chinese-Copywriting-Guidelines",
       "type": "concept",
       "path": "wiki/atoms/concepts/Chinese-Copywriting-Guidelines.md"
+    },
+    {
+      "id": "SimoneLee",
+      "type": "entity",
+      "path": "wiki/atoms/entities/SimoneLee.md"
     }
   ],
   "edges": [
@@ -1495,14 +1500,20 @@
       "to": "中文技术文档写作规范",
       "relation": "relates_to",
       "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "Ad-Fraud",
+      "relation": "authored",
+      "context": ""
     }
   ],
   "stats": {
-    "totalNodes": 166,
+    "totalNodes": 165,
     "totalEdges": 113,
     "byType": {
-      "concept": 153,
-      "entity": 9,
+      "concept": 151,
+      "entity": 10,
       "topic": 3,
       "insight": 0,
       "howto": 1,

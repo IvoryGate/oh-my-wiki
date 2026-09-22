@@ -1,5 +1,6 @@
 ---
 title: 金字塔原理
+aliases: [金字塔原理]
 created: 2026-04-20
 updated: 2026-08-21
 type: concept

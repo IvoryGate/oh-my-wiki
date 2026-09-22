@@ -1,5 +1,6 @@
 ---
 title: P&G-Eight-Questions
+aliases: ["P&G-Eight-Questions"]
 created: 2026-09-04
 updated: 2026-09-04
 type: concept

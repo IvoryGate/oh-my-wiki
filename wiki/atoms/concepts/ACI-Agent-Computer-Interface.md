@@ -4,6 +4,7 @@ title: ACI (Agent-Computer Interface)
 aliases:
   - Agent-Computer Interface
   - Agent计算机接口
+  - ACI
 type: concept
 created: 2026-04-18
 updated: 2026-04-18

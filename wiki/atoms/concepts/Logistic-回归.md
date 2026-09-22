@@ -1,5 +1,6 @@
 ---
 title: "Logistic 回归"
+aliases: [Logistic回归]
 created: 2026-04-23
 updated: 2026-04-23
 type: concept

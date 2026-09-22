@@ -4,6 +4,33 @@
 
 ---
 
+## [2026-09-22] lint | 全库健康检查 + 结构修复
+
+> 报告全文见会话输出（按规范不单独存文件），此处为操作记录
+
+### 检查结果（164 内容页）
+- 断链约 20 处：别名缺失（ACI×3、金字塔原理×4、Logistic回归×3、P&G×3）、哥波尼/哥白尼命名冲突×3、SKAN 来源路径×2、软件生命周期×1
+- index 统计过时（153/166 vs 实际 151/164）、漏登记 3 页（ACI-Agent-Computer-Interface、Logistic-回归、马尔可夫链归因）
+- type 非法值 3 页（synthesis）；graph.json stats 块过时（166/113 vs 实际 164/112）
+- 孤立页面 32（4 断链所致 + LLM-Wiki 歧义 + 27 真性）；manifest 61 条缺 hash
+- 健康项：graph 无悬空边/重复节点、sources 全合规、无 outdated/evolving 标记、「正在进行」链接均有效
+
+### 已修复
+- 4 页补 aliases（ACI、金字塔原理、Logistic回归、P&G-Eight-Questions），消解 14 处断链
+- SKAN-Attribution sources 指向改为实际文件名 `出海投放基础知识之归因(四)+SKAN(一).md`
+- 哥白尼世界×3 → [[哥波尼世界]]（用户裁定保持页面现名）
+- 软件生命周期降为纯文本（仅 1 处引用，不建页）
+- type：机器学习模型体系 / 贝叶斯学习模型体系 → topic、中文技术文档写作规范 → howto
+- index：统计 151/10/165、补登记 [[马尔可夫链归因]] 与 [[SimoneLee]]、更新日期、最近更新列表重排序
+- graph.json：新增 SimoneLee 节点 + authored→Ad-Fraud 边，stats 重算为 165/113
+- 新增实体 [[SimoneLee]]（18 篇署名来源，消解 raw 中 19 处断链）
+- [[LLM-Wiki]] 与 raw gist 合并：适用场景、index/log 分工、Memex 渊源、工具技巧并入概念页
+
+### 记录未执行（待用户决定）
+- manifest 61 条补 hash；log 内 6 处示例链接清理；27 个真性孤立页补链
+- raw/articles/渠道MMPBI的数据差异剖析.md 与「渠道MMPBI的数据差异剖析 1.md」内容不同（13444/13008 字节），疑似同文两版本，raw 只读待用户处理
+- LLM-Wiki 与 raw/articles/llm-wiki.md 同名歧义仍在（raw 文件名不可改，概念页改名需用户决定）
+
 ## [2026-09-04] ingest | 广告反作弊 + 投放运营 + 面试方法论 + 中文排版规范（15篇）
 
 ### 新增页面（20）

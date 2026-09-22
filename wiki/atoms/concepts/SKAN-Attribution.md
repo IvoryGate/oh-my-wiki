@@ -10,7 +10,7 @@ created: 2026-04-18
 updated: 2026-04-22
 sources:
   - [[raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md]]
-  - [[raw/articles/出海投放基础知识之归因（四）SKAN归因.md]]
+  - [[raw/articles/出海投放基础知识之归因(四)+SKAN(一).md]]
 tags:
   - 广告归因
 ---
@@ -85,4 +85,4 @@ iOS 14+ 推出的框架，用户需主动授权允许应用追踪。用户不同
 ## 来源
 
 - [[raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md]]
-- [[raw/articles/出海投放基础知识之归因（四）SKAN归因.md]]
+- [[raw/articles/出海投放基础知识之归因(四)+SKAN(一).md]]
