@@ -5,8 +5,8 @@ created: 2026-04-23
 status: doing
 tags: [Agent, LLM, 架构]
 related:
-  - [[Agent-Loop]]
-  - [[Workflow-vs-Agent]]
+  - "[[Agent-Loop]]"
+  - "[[Workflow-vs-Agent]]"
 ---
 
 # 一文彻底搞懂 Agent
