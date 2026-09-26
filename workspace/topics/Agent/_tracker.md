@@ -5,9 +5,9 @@ created: 2026-04-23
 status: doing
 tags: [Agent, 架构, 工程]
 related:
-  - [[Agent-Loop]]
-  - [[Workflow-vs-Agent]]
-  - [[Harness-Engineering]]
+  - "[[Agent-Loop]]"
+  - "[[Workflow-vs-Agent]]"
+  - "[[Harness-Engineering]]"
 ---
 
 # Agent 架构与工程实践
