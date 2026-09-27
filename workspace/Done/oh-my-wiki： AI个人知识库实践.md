@@ -7,9 +7,9 @@ updated: 2026-04-19
 ajtatus: doing
 tags: [知识管理, AI, LLM, 个人效率]
 related:
-  - [[LLM-Wiki]]
-  - [[RAG]]
-  - [[Progressive-Disclosure]]
+  - "[[LLM-Wiki]]"
+  - "[[RAG]]"
+  - "[[Progressive-Disclosure]]"
 ---
 # oh-my-wiki： AI个人知识库实践
 
