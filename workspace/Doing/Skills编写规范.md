@@ -6,12 +6,12 @@ updated: 2026-05-18
 status: doing
 tags: [Agent, Skills, 上下文工程, 程序性记忆]
 related:
-  - [[Skills-System]]
-  - [[Context-Engineering]]
-  - [[Progressive-Disclosure]]
-  - [[ACI]]
+  - "[[Skills-System]]"
+  - "[[Context-Engineering]]"
+  - "[[Progressive-Disclosure]]"
+  - "[[ACI]]"
 sources:
-  - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
+  - "[[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]"
 ---
 
 # Skills 编写规范
