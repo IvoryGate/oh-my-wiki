@@ -783,21 +783,6 @@
       "path": "wiki/atoms/concepts/DAU-Retention-Rate.md"
     },
     {
-      "id": "Behavioral-Interview",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Behavioral-Interview.md"
-    },
-    {
-      "id": "PG-Eight-Questions",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/PG-Eight-Questions.md"
-    },
-    {
-      "id": "STAR-Method",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/STAR-Method.md"
-    },
-    {
       "id": "Chinese-Copywriting-Guidelines",
       "type": "concept",
       "path": "wiki/atoms/concepts/Chinese-Copywriting-Guidelines.md"
@@ -811,6 +796,11 @@
       "id": "程序化广告",
       "type": "concept",
       "path": "wiki/atoms/concepts/程序化广告.md"
+    },
+    {
+      "id": "行为面试",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/行为面试.md"
     }
   ],
   "edges": [
@@ -1433,36 +1423,6 @@
       "context": ""
     },
     {
-      "from": "Behavioral-Interview",
-      "to": "PG-Eight-Questions",
-      "relation": "uses",
-      "context": ""
-    },
-    {
-      "from": "Behavioral-Interview",
-      "to": "STAR-Method",
-      "relation": "uses",
-      "context": ""
-    },
-    {
-      "from": "PG-Eight-Questions",
-      "to": "STAR-Method",
-      "relation": "uses",
-      "context": ""
-    },
-    {
-      "from": "STAR-Method",
-      "to": "SCQ法则",
-      "relation": "extends",
-      "context": ""
-    },
-    {
-      "from": "STAR-Method",
-      "to": "Pyramid-Principle",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
       "from": "Chinese-Copywriting-Guidelines",
       "to": "Blog-Content-Writing-Practices",
       "relation": "relates_to",
@@ -1485,13 +1445,25 @@
       "to": "程序化广告",
       "relation": "used_in",
       "context": ""
+    },
+    {
+      "from": "行为面试",
+      "to": "SCQ法则",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "行为面试",
+      "to": "Pyramid-Principle",
+      "relation": "relates_to",
+      "context": ""
     }
   ],
   "stats": {
-    "totalNodes": 162,
-    "totalEdges": 112,
+    "totalNodes": 160,
+    "totalEdges": 109,
     "byType": {
-      "concept": 148,
+      "concept": 146,
       "entity": 10,
       "topic": 3,
       "howto": 1
