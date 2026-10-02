@@ -52,7 +52,7 @@ oh-my-wiki/
 │
 ├── .opencode/skills/             # Agent 技能（lint / gen-graph）
 │
-└── Agent.md                      # Agent 工作流配置
+└── AGENTS.md                      # Agent 工作流配置（opencode 入口）
 ```
 
 ---
@@ -251,7 +251,7 @@ Agent：[检索] [回答]
 ### 快速开始
 
 1. **发送 Prompt**：复制 `PROMPT.md` 中的内容给新 LLM
-2. **附加文件**：附加 `CONTEXT.md` 和 `Agent.md`
+2. **附加文件**：附加 `CONTEXT.md` 和 `AGENTS.md`
 3. **确认理解**：让 Agent 简要说明它理解的知识库结构
 
 ### 文档说明
@@ -259,7 +259,7 @@ Agent：[检索] [回答]
 | 文档 | 用途 | 给谁看 |
 |------|------|--------|
 | `CONTEXT.md` | 知识库概览，核心概念 | 新 Agent 首先阅读 |
-| `Agent.md` | 详细工作流和规范 | Agent 工作时参考 |
+| `AGENTS.md` | 详细工作流和规范（opencode 自动加载） | Agent 工作时参考 |
 | `PROMPT.md` | 快速启动指南 | 用户参考 |
 | `.cursorrules` | IDE 配置 | Cursor 等 IDE |
 
@@ -267,8 +267,8 @@ Agent：[检索] [回答]
 
 | 工具 | 建议方式 |
 |------|----------|
-| Claude Code | 自动读取 Agent.md |
-| ChatGPT | 附加 CONTEXT.md + Agent.md |
+| Claude Code | 自动读取 AGENTS.md |
+| ChatGPT | 附加 CONTEXT.md + AGENTS.md |
 | Cursor | 自动读取 .cursorrules |
 | 其他 | 发送 PROMPT.md 内容 |
 
@@ -282,7 +282,7 @@ Agent：[检索] [回答]
 
 | 文件 | 作用 |
 |------|------|
-| `AGENTS.md` | opencode 每次会话自动加载，指引其读取 README/CONTEXT/Agent 规则 |
+| `AGENTS.md` | opencode 每次会话自动加载：硬性规则摘要、工作流与页面规范全文 |
 | `opencode.json` | 项目级配置：默认模型、Git 常用命令免询问权限 |
 
 ### 各平台使用方式

@@ -10,8 +10,8 @@
 你是一个个人知识库的维护 Agent。请阅读以下文档了解你的工作规则：
 
 1. 首先阅读 CONTEXT.md 了解知识库的核心概念
-2. 然后阅读 Agent.md 了解详细工作流和规范
-3. 查看 wiki/index.md 了解当前知识库状态
+2. 然后阅读 AGENTS.md 了解详细工作流和规范
+3. 查看 wiki/index.md 了解知识库导航与流转规则（统计表格由 Dataview 实时渲染）
 
 核心规则：
 - raw/ 目录永远只读
@@ -33,12 +33,12 @@
 
 在某些 AI 工具中，可以附加文件：
 1. 附加 `CONTEXT.md`
-2. 附加 `Agent.md`
+2. 附加 `AGENTS.md`
 3. 发送："请阅读这些文档，理解知识库规则"
 
-### 方式三：使用 Agent.md（简化版）
+### 方式三：使用 AGENTS.md（简化版）
 
-如果只需要核心规则，直接附加 `Agent.md` 即可。
+如果只需要核心规则，直接附加 `AGENTS.md` 即可。
 
 ---
 
@@ -46,10 +46,10 @@
 
 | LLM | 建议 |
 |-----|------|
-| Claude Code | 直接在项目目录启动，会自动读取 Agent.md |
-| ChatGPT | 附加 CONTEXT.md 和 Agent.md |
+| Claude Code | 直接在项目目录启动，会自动读取 AGENTS.md |
+| ChatGPT | 附加 CONTEXT.md 和 AGENTS.md |
 | Cursor | 在项目根目录打开，配置 `.cursorrules` |
-| 其他 | 发送 Prompt + 附加 Agent.md |
+| 其他 | 发送 Prompt + 附加 AGENTS.md |
 
 ---
 

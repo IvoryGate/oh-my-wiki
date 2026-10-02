@@ -58,7 +58,7 @@ workspace/  → 个人创作（用户维护）
 | 序号 | 文档 | 内容 |
 |------|------|------|
 | 1 | `README.md` | 项目概览 |
-| 2 | `Agent.md` | 核心工作流和页面规范 |
+| 2 | `AGENTS.md` | 核心工作流和页面规范（opencode 自动加载） |
 | 3 | `raw/manifest.json` | 原始资料处理状态 |
 | 4 | `wiki/graph.json` | 知识关系图谱（gen-graph skill 生成，语义层在 graph.relations.json） |
 | 5 | `wiki/index.md` | 知识库索引（Dataview 实时生成，禁止手工维护） |

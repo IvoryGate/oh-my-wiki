@@ -5,6 +5,15 @@
 
 ---
 
+## [2026-10-02] restructure | Agent.md 并入 AGENTS.md，统一单一入口
+
+- 命名规范：AGENTS.md 为标准命名（opencode 自动加载），Agent.md 命名不规范，二合一
+- 合并方式：Agent.md 全文（核心原则/四大工作流/页面规范/插件集成/注意事项/版本记录）并入 AGENTS.md；AGENTS.md 原有的硬性规则摘要与工作约定保留在头部作速查层；系统身份与职责句吸收入 intro
+- 内部引用替换 3 处（顶层架构图、根目录文件规则、raw 扩展规则）；协作原则新增第 10 条（lint/gen-graph skills）；版本记录加 1.4
+- 全库引用同步：CONTEXT.md 必读文档表、README.md 架构图/文档说明/工具表、PROMPT.md Prompt 与使用方式
+- 按边界未动：workspace/Done 正文中的历史表述、raw/ 只读源
+- Agent.md 已删除（内容全文保留在 AGENTS.md，git 历史可查旧版）
+
 ## [2026-10-02] restructure | 管理方法重构：派生件自动化（index Dataview 化 / log.txt / graph 生成化 / skills）
 
 > 用户提出 log.md 链接化与 index 手工维护不合理，扩展为全系统管理方法讨论；四项决策经用户逐项批准
