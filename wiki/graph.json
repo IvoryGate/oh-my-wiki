@@ -23,11 +23,6 @@
       "path": "wiki/atoms/concepts/High-Value-Channel.md"
     },
     {
-      "id": "U型归因",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/U型归因.md"
-    },
-    {
       "id": "Harness-Engineering",
       "type": "concept",
       "path": "wiki/atoms/concepts/Harness-Engineering.md"
@@ -413,11 +408,6 @@
       "path": "wiki/atoms/concepts/Workflow-vs-Agent.md"
     },
     {
-      "id": "时间衰减归因",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/时间衰减归因.md"
-    },
-    {
       "id": "线性回归",
       "type": "concept",
       "path": "wiki/atoms/concepts/线性回归.md"
@@ -476,11 +466,6 @@
       "id": "Agent-Evaluation",
       "type": "concept",
       "path": "wiki/atoms/concepts/Agent-Evaluation.md"
-    },
-    {
-      "id": "线性归因",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/线性归因.md"
     },
     {
       "id": "高斯过程",
@@ -1460,10 +1445,10 @@
     }
   ],
   "stats": {
-    "totalNodes": 160,
+    "totalNodes": 157,
     "totalEdges": 109,
     "byType": {
-      "concept": 146,
+      "concept": 143,
       "entity": 10,
       "topic": 3,
       "howto": 1
