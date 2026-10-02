@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-22",
+  "lastUpdated": "2026-10-02",
   "nodes": [
     {
       "id": "工作记忆",
@@ -96,11 +96,6 @@
       "id": "Logistic-回归",
       "type": "concept",
       "path": "wiki/atoms/concepts/Logistic-回归.md"
-    },
-    {
-      "id": "RTB",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/RTB.md"
     },
     {
       "id": "梯度提升",
@@ -243,11 +238,6 @@
       "path": "wiki/atoms/concepts/随机森林.md"
     },
     {
-      "id": "SSP",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/SSP.md"
-    },
-    {
       "id": "隐马尔可夫模型",
       "type": "concept",
       "path": "wiki/atoms/concepts/隐马尔可夫模型.md"
@@ -348,11 +338,6 @@
       "path": "wiki/atoms/concepts/Agent-Loop.md"
     },
     {
-      "id": "ADX",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/ADX.md"
-    },
-    {
       "id": "高斯网络",
       "type": "concept",
       "path": "wiki/atoms/concepts/高斯网络.md"
@@ -391,11 +376,6 @@
       "id": "Memory-System",
       "type": "concept",
       "path": "wiki/atoms/concepts/Memory-System.md"
-    },
-    {
-      "id": "DSP",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/DSP.md"
     },
     {
       "id": "MMP-Attribution",
@@ -826,6 +806,11 @@
       "id": "SimoneLee",
       "type": "entity",
       "path": "wiki/atoms/entities/SimoneLee.md"
+    },
+    {
+      "id": "程序化广告",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/程序化广告.md"
     }
   ],
   "edges": [
@@ -1424,18 +1409,6 @@
       "context": ""
     },
     {
-      "from": "Pacing-Model",
-      "to": "RTB",
-      "relation": "used_in",
-      "context": ""
-    },
-    {
-      "from": "Pacing-Model",
-      "to": "DSP",
-      "relation": "used_in",
-      "context": ""
-    },
-    {
       "from": "Cohort-Analysis",
       "to": "ROAS-Data-Reconciliation",
       "relation": "relates_to",
@@ -1506,18 +1479,22 @@
       "to": "Ad-Fraud",
       "relation": "authored",
       "context": ""
+    },
+    {
+      "from": "Pacing-Model",
+      "to": "程序化广告",
+      "relation": "used_in",
+      "context": ""
     }
   ],
   "stats": {
-    "totalNodes": 165,
-    "totalEdges": 113,
+    "totalNodes": 162,
+    "totalEdges": 112,
     "byType": {
-      "concept": 151,
+      "concept": 148,
       "entity": 10,
       "topic": 3,
-      "insight": 0,
-      "howto": 1,
-      "data": 0
+      "howto": 1
     }
   }
 }
