@@ -11,7 +11,7 @@ sources:
   - [[raw/articles/如何定义受众-科普篇.md]]
   - [[raw/articles/如何定义受众-正篇.md]]
 tags:
-  - 广告归因
+  - 出海投放
 ---
 
 ## 定义

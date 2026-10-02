@@ -3,7 +3,7 @@ title: Device-Farm
 created: 2026-09-04
 updated: 2026-09-04
 type: concept
-tags: [广告, 反作弊, 出海投放]
+tags: [出海投放, 反作弊]
 sources:
   - [[raw/articles/广告作弊Ad Fraud（二）.md]]
 status: active

@@ -3,7 +3,7 @@ title: Click-Flooding
 created: 2026-09-04
 updated: 2026-09-04
 type: concept
-tags: [广告, 反作弊, 归因, 出海投放]
+tags: [出海投放, 反作弊, 广告归因]
 sources:
   - [[raw/articles/广告作弊Ad Fraud（三）.md]]
 status: active

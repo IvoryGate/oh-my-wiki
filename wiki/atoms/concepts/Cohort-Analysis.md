@@ -3,7 +3,7 @@ title: Cohort-Analysis
 created: 2026-09-04
 updated: 2026-09-04
 type: concept
-tags: [广告, 数据分析, 出海投放]
+tags: [出海投放, 数据分析]
 sources:
   - [[raw/articles/什么是Cohort队列？.md]]
   - [[raw/articles/Unity平台ROAS开启条件和数据差异问题.md]]

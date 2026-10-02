@@ -4,6 +4,35 @@
 
 ---
 
+## [2026-10-02] optimize | 结构优化：概念合并 4 组 + 标签体系 70→30
+
+> 优化建议报告见会话输出（用户审核批准：合并 A-D 四组、彻底删除、标签完整方案）
+
+**概念合并（165→152 页，-13 页）**
+- A 组：DSP/ADX/SSP/RTB 4 合 1 → [[程序化广告]]（同源互环引用，入链仅 Pacing-Model）
+- B 组：Behavioral-Interview/PG-Eight-Questions/STAR-Method 3 合 1 → [[行为面试]]（同视频系列）
+- C 组：线性归因/时间衰减归因/U型归因 3 页并入 [[多触点归因]] 章节；Shapley值/马尔可夫链归因/Last-Click-Rule/助攻率保留
+- D 组：软件危机/瀑布模型/敏捷开发/人月神话/工程思维 5 页并入 [[软件工程]]（外部入链为 0）
+- 合并页均带旧页名 aliases 兜底（log 历史链接不断）；显式入链更新 7 处（Pacing-Model 2、Last-Click-Rule 2、马尔可夫链归因 3）
+- 未选（用户决定）：核函数+核技巧合并、博客写作 2 合 1 —— 保留
+- index：4 组行合并 + 统计校正（概念 151→138、总计 165→152）+ 活跃领域行用实时统计重算
+- graph：节点 165→152、边 113→102，stats 重算；每组独立 commit（b28788f/168402c/66ac004/7fc074f）
+
+**标签整合（70→30，55 页改写）**
+- 同义/子集合并 23 组：归因模型+归因→广告归因；广告+投放+预算控制→出海投放；技术写作+技术博客+自媒体+表达→写作；职场+行为面试+宝洁→面试；媒介生态→媒介理论；复盘模型→复盘；数据统计→数据分析；逻辑→结构化思维；过程模型→软件工程；认知成长+自我成长→认知；排版+中文+规范→排版规范；广告反作弊→反作弊；AppsFlyer→MMP
+- 删除 17 个泛词单例标签：方法论/Google/Apple/Amazon/ROAS/过拟合/知识/价值/动机/作品/故事/可读性/质量/算法/架构/前端/输入
+- 语义校正：Audience-Definition/Channel-Launch-Strategy/High-Value-Channel/Network-Cognition-Gap/User-App-Pair 从广告归因移出→出海投放（广告归因 24→14，回归纯归因）
+
+**事故与修复（同日）**
+- tag_batch.py 块状 tags 正则 `-\s*` 误吞 frontmatter 闭合行：7 页损坏（Audience-Definition、Channel-Launch-Strategy、High-Value-Channel、Network-Cognition-Gap、User-App-Pair、Last-Click-Rule、SimoneLee），出现伪标签 `- --` 且闭合 `---` 丢失；已逐页删除伪标签行并恢复闭合，正则改为要求列表项行必须缩进；重跑幂等（0 改写、断言 30 标签通过）
+- index「最近更新」首次重编号产生重复 1 号，已修正为 1-16
+- 行为面试 aliases 漏原文件名 PG-Eight-Questions，已补
+- 合并致 2 新孤页：SCQ法则→行为面试（SCQA 作答场景）、机器学习工程师+DDD→软件工程（自然反链）已补
+
+**复检结果**：断链 0（模板占位与 _tracker 历史项除外）· 页面 152（概念138/实体10/主题3/指南1）· graph 152节点/102边 stats 一致 · 标签恰 30 · 孤页 29→26 · frontmatter 完整性全过
+
+**记录未执行**：核方法 2 合 1、博客写作 2 合 1（用户未选）；manifest 61 条缺 hash、log 6 处历史示例链接、26 孤页补链、_tracker 4 处 workspace 链接（延续此前搁置项）
+
 ## [2026-09-22] lint | 全库健康检查 + 结构修复
 
 > 报告全文见会话输出（按规范不单独存文件），此处为操作记录

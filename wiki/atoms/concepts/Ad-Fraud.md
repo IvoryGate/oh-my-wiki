@@ -3,7 +3,7 @@ title: Ad-Fraud
 created: 2026-09-04
 updated: 2026-09-04
 type: concept
-tags: [广告, 反作弊, 出海投放]
+tags: [出海投放, 反作弊]
 sources:
   - [[raw/articles/广告作弊Ad Fraud（一）.md]]
   - [[raw/articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？.md]]

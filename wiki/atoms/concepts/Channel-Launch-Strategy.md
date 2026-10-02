@@ -11,7 +11,7 @@ updated: 2026-04-18
 sources:
   - [[raw/articles/渠道不起量的原因都在这里了！.md]]
 tags:
-  - 广告归因
+  - 出海投放
 ---
 
 ## 定义

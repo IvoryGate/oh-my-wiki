@@ -3,7 +3,7 @@ title: CTIT-Analysis
 created: 2026-09-04
 updated: 2026-09-04
 type: concept
-tags: [广告, 反作弊, 数据分析, 出海投放]
+tags: [出海投放, 反作弊, 数据分析]
 sources:
   - [[raw/articles/广告作弊Ad Fraud（三）.md]]
   - [[raw/articles/广告作弊Ad Fraud（五）.md]]

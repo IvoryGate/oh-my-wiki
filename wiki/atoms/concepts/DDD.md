@@ -3,7 +3,7 @@ title: 领域驱动设计（DDD）
 created: 2026-04-20
 updated: 2026-04-20
 type: concept
-tags: [软件工程, 架构]
+tags: [软件工程]
 sources:
   - [[raw/videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md]]
 status: active
@@ -59,6 +59,7 @@ Application 入口常负责 **DTO → Entity** 的装配与校验，使领域对
 
 - [[MECE]]、[[Pyramid-Principle]]：与「拆解领域、写清边界说明」的写作/沟通方法可类比（不同层次）。
 - [[Architecture-Constraints]]：DDD 通过分层与依赖方向固化架构约束。
+- [[软件工程]]：DDD 是软件工程在架构设计方向的实践方法。
 
 ## 来源
 

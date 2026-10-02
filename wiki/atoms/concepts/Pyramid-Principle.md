@@ -4,7 +4,7 @@ aliases: [金字塔原理]
 created: 2026-04-20
 updated: 2026-08-21
 type: concept
-tags: [技术写作, 结构化思维, 表达, 逻辑]
+tags: [写作, 结构化思维]
 sources:
   - [[raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md]]
   - [[raw/articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！.md]]

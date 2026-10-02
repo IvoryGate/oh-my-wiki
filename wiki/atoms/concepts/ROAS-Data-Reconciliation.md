@@ -3,7 +3,7 @@ title: ROAS-Data-Reconciliation
 created: 2026-09-04
 updated: 2026-09-04
 type: concept
-tags: [广告, 数据分析, ROAS, 出海投放]
+tags: [出海投放, 数据分析]
 sources:
   - [[raw/articles/Unity平台ROAS开启条件和数据差异问题.md]]
   - [[raw/articles/渠道MMPBI的数据差异剖析 1.md]]

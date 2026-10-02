@@ -3,7 +3,7 @@ title: Protect360
 created: 2026-09-04
 updated: 2026-09-04
 type: concept
-tags: [广告, 反作弊, MMP, AppsFlyer, 出海投放]
+tags: [出海投放, 反作弊, MMP]
 sources:
   - [[raw/articles/广告作弊Ad Fraud（四）.md]]
   - [[raw/articles/广告作弊Ad Fraud（五）.md]]
