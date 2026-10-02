@@ -3,6 +3,8 @@ title: "Tmux"
 created: 2026-04-19
 updated: 2026-04-19
 type: concept
+domain: 开发工具
+description: 终端复用器：会话持久化与窗口管理
 tags: [开发工具]
 sources:
   - "[[raw/articles/Linux tmux 基础使用教程.md]]"

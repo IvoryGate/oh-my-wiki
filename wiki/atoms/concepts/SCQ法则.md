@@ -3,6 +3,8 @@ title: SCQ法则
 created: 2026-08-21
 updated: 2026-08-21
 type: concept
+domain: 写作与技术博客
+description: 背景-冲突-疑问的讲故事结构
 tags: [写作]
 sources:
   - [[raw/articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！.md]]

@@ -1,0 +1,617 @@
+{
+  "comment": "语义关系策展层（判断件）。gen_graph.py 生成 graph.json 时与页面链接合并：同 (from,to) 时本文件 relation 优先；端点页面删除后该条自动失效。",
+  "relations": [
+    {
+      "from": "LLM-Wiki",
+      "to": "Karpathy",
+      "relation": "proposed_by",
+      "context": ""
+    },
+    {
+      "from": "LLM-Wiki",
+      "to": "RAG",
+      "relation": "compares_to",
+      "context": ""
+    },
+    {
+      "from": "Agent-Loop",
+      "to": "Agent-Control-Patterns",
+      "relation": "implements",
+      "context": ""
+    },
+    {
+      "from": "Agent-Loop",
+      "to": "Workflow-vs-Agent",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Context-Engineering",
+      "to": "Skills-System",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "Context-Engineering",
+      "to": "Memory-System",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Harness-Engineering",
+      "to": "Agent-Evaluation",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Harness-Engineering",
+      "to": "Agent-Tracing",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Agent-First-Development",
+      "to": "Harness-Engineering",
+      "relation": "requires",
+      "context": ""
+    },
+    {
+      "from": "Agent-First-Development",
+      "to": "Progressive-Disclosure",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "Agent-First-Development",
+      "to": "Architecture-Constraints",
+      "relation": "requires",
+      "context": ""
+    },
+    {
+      "from": "Codex",
+      "to": "OpenAI",
+      "relation": "developed_by",
+      "context": ""
+    },
+    {
+      "from": "Codex",
+      "to": "Agent-First-Development",
+      "relation": "enables",
+      "context": ""
+    },
+    {
+      "from": "Progressive-Disclosure",
+      "to": "Context-Engineering",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Multi-Agent-Organization",
+      "to": "Agent-Loop",
+      "relation": "extends",
+      "context": ""
+    },
+    {
+      "from": "MMP-Attribution",
+      "to": "SKAN-Attribution",
+      "relation": "compares_to",
+      "context": ""
+    },
+    {
+      "from": "MMP-Attribution",
+      "to": "Last-Click-Rule",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "SKAN-Attribution",
+      "to": "Last-Click-Rule",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "Duplicate-Attribution",
+      "to": "MMP-Attribution",
+      "relation": "occurs_in",
+      "context": ""
+    },
+    {
+      "from": "Attribution-Gap",
+      "to": "MMP-Attribution",
+      "relation": "measures",
+      "context": ""
+    },
+    {
+      "from": "User-App-Pair",
+      "to": "Audience-Definition",
+      "relation": "foundation_of",
+      "context": ""
+    },
+    {
+      "from": "Audience-Definition",
+      "to": "High-Value-Channel",
+      "relation": "identifies",
+      "context": ""
+    },
+    {
+      "from": "High-Value-Channel",
+      "to": "Channel-Launch-Strategy",
+      "relation": "requires",
+      "context": ""
+    },
+    {
+      "from": "Network-Cognition-Gap",
+      "to": "User-App-Pair",
+      "relation": "explains",
+      "context": ""
+    },
+    {
+      "from": "erickfang",
+      "to": "MMP-Attribution",
+      "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "PDCA-Model",
+      "relation": "improves",
+      "context": ""
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "PDF-Model",
+      "relation": "improves",
+      "context": ""
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "FuPan",
+      "relation": "belongs_to",
+      "context": ""
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "OPTM-Framework",
+      "relation": "supported_by",
+      "context": ""
+    },
+    {
+      "from": "AAR-Model",
+      "to": "CLAP-Model",
+      "relation": "simplifies",
+      "context": ""
+    },
+    {
+      "from": "PDCA-Model",
+      "to": "FuPan",
+      "relation": "belongs_to",
+      "context": ""
+    },
+    {
+      "from": "PDF-Model",
+      "to": "FuPan",
+      "relation": "belongs_to",
+      "context": ""
+    },
+    {
+      "from": "AAR-Model",
+      "to": "FuPan",
+      "relation": "belongs_to",
+      "context": ""
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "ZhangPeng",
+      "relation": "proposed_by",
+      "context": ""
+    },
+    {
+      "from": "OPTM-Framework",
+      "to": "ZhangPeng",
+      "relation": "proposed_by",
+      "context": ""
+    },
+    {
+      "from": "MECE",
+      "to": "Pyramid-Principle",
+      "relation": "supports",
+      "context": ""
+    },
+    {
+      "from": "Pyramid-Principle",
+      "to": "MECE",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "Phodal",
+      "to": "Tech-Blog-Article-Types",
+      "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "知识体系",
+      "to": "工作记忆",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "知识体系",
+      "to": "直觉",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "知识体系",
+      "to": "经典知识联系",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "工作记忆",
+      "to": "直觉",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "经典知识联系",
+      "to": "直觉",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "媒介即隐喻",
+      "to": "娱乐至死",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "伪语境",
+      "to": "媒介即隐喻",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "伪语境",
+      "to": "娱乐至死",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "哥波尼世界",
+      "to": "伪语境",
+      "relation": "is_a",
+      "context": ""
+    },
+    {
+      "from": "哥波尼世界",
+      "to": "媒介即隐喻",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "娱乐至死",
+      "to": "奥威尔与赫胥黎",
+      "relation": "belongs_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习工程师",
+      "to": "软件工程",
+      "relation": "requires",
+      "context": ""
+    },
+    {
+      "from": "马尔可夫链",
+      "to": "隐马尔可夫模型",
+      "relation": "underlies",
+      "context": ""
+    },
+    {
+      "from": "马尔可夫链",
+      "to": "马尔可夫随机场",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "马尔可夫链",
+      "to": "马尔可夫链归因",
+      "relation": "used_by",
+      "context": ""
+    },
+    {
+      "from": "马尔可夫链",
+      "to": "MCMC",
+      "relation": "used_by",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "线性回归",
+      "relation": "rooted_in",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "神经网络",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "集成学习",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "正则化",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "降维",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "贝叶斯定理",
+      "relation": "based_on",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "隐马尔可夫模型",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "混合模型",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "概率图模型",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "机器学习模型体系",
+      "relation": "complements",
+      "context": ""
+    },
+    {
+      "from": "中文技术文档写作规范",
+      "to": "Blog-Content-Writing-Practices",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Pyramid-Principle",
+      "to": "SCQ法则",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "SCQ法则",
+      "to": "Pyramid-Principle",
+      "relation": "belongs_to",
+      "context": ""
+    },
+    {
+      "from": "写作起步-日常书写",
+      "to": "工作记忆",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "滑梯理论",
+      "to": "写作价值心法",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作价值心法",
+      "to": "顶级信息论与输入输出比",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "作品意识与打磨意识",
+      "to": "中文技术文档写作规范",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "写作价值心法",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "滑梯理论",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "Pyramid-Principle",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "顶级信息论与输入输出比",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "写作起步-日常书写",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "清脑作者",
+      "to": "写作价值心法",
+      "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "阿宝哥",
+      "to": "作品意识与打磨意识",
+      "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "皮卡小宝",
+      "to": "SCQ法则",
+      "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "Ad-Fraud",
+      "to": "Attribution-Hijacking",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Ad-Fraud",
+      "to": "Fake-Installation",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Ad-Fraud",
+      "to": "Protect360",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "Attribution-Hijacking",
+      "to": "Click-Flooding",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Attribution-Hijacking",
+      "to": "CTIT-Analysis",
+      "relation": "detected_by",
+      "context": ""
+    },
+    {
+      "from": "Attribution-Hijacking",
+      "to": "Last-Click-Rule",
+      "relation": "exploits",
+      "context": ""
+    },
+    {
+      "from": "Fake-Installation",
+      "to": "Device-Farm",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Fake-Installation",
+      "to": "CTIT-Analysis",
+      "relation": "detected_by",
+      "context": ""
+    },
+    {
+      "from": "Click-Flooding",
+      "to": "CTIT-Analysis",
+      "relation": "detected_by",
+      "context": ""
+    },
+    {
+      "from": "Protect360",
+      "to": "CTIT-Analysis",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "Protect360",
+      "to": "MMP-Attribution",
+      "relation": "part_of",
+      "context": ""
+    },
+    {
+      "from": "Platform-LVL-Validation",
+      "to": "Ad-Fraud",
+      "relation": "prevents",
+      "context": ""
+    },
+    {
+      "from": "Pacing-Model",
+      "to": "Cold-Start",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Cohort-Analysis",
+      "to": "ROAS-Data-Reconciliation",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Cohort-Analysis",
+      "to": "DAU-Retention-Rate",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Session-Tracking",
+      "to": "DAU-Retention-Rate",
+      "relation": "foundation_of",
+      "context": ""
+    },
+    {
+      "from": "ROAS-Data-Reconciliation",
+      "to": "MMP-Attribution",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Chinese-Copywriting-Guidelines",
+      "to": "Blog-Content-Writing-Practices",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Chinese-Copywriting-Guidelines",
+      "to": "中文技术文档写作规范",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "Ad-Fraud",
+      "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "Pacing-Model",
+      "to": "程序化广告",
+      "relation": "used_in",
+      "context": ""
+    },
+    {
+      "from": "行为面试",
+      "to": "SCQ法则",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "行为面试",
+      "to": "Pyramid-Principle",
+      "relation": "relates_to",
+      "context": ""
+    }
+  ]
+}

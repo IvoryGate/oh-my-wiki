@@ -5,6 +5,8 @@ aliases:
   - 渐进式披露
   - 渐进揭示
 type: concept
+domain: Agent-First 开发
+description: 渐进式披露原则
 created: 2026-04-18
 updated: 2026-04-18
 sources:

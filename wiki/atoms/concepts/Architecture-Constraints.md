@@ -5,6 +5,8 @@ aliases:
   - 架构约束
   - 架构不变量
 type: concept
+domain: Agent-First 开发
+description: 架构约束与不变量
 created: 2026-04-18
 updated: 2026-04-18
 sources:

@@ -5,6 +5,8 @@ aliases:
   - 上下文工程
   - 上下文管理
 type: concept
+domain: Agent 架构与工程
+description: 上下文工程：防止 Context Rot
 created: 2026-04-18
 updated: 2026-04-18
 sources:

@@ -3,6 +3,8 @@ title: CTIT-Analysis
 created: 2026-09-04
 updated: 2026-09-04
 type: concept
+domain: 增长与营销
+description: 点击到安装时间分析
 tags: [出海投放, 反作弊, 数据分析]
 sources:
   - [[raw/articles/广告作弊Ad Fraud（三）.md]]

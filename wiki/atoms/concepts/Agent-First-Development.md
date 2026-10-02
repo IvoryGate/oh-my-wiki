@@ -5,6 +5,8 @@ aliases:
   - 智能体优先开发
   - Agent优先开发模式
 type: concept
+domain: Agent-First 开发
+description: 智能体优先开发模式
 created: 2026-04-18
 updated: 2026-04-18
 sources:

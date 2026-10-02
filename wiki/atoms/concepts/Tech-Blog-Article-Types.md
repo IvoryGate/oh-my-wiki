@@ -3,6 +3,8 @@ title: 技术博客文章的四种类型
 created: 2026-04-20
 updated: 2026-04-20
 type: concept
+domain: 写作与技术博客
+description: 技术博客四类：细节型、干货型、实践总结型、杂谈型及流量特征
 tags: [写作]
 sources:
   - [[raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md]]

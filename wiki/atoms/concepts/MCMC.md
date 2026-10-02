@@ -3,6 +3,8 @@ title: "MCMC"
 created: 2026-04-23
 updated: 2026-04-23
 type: concept
+domain: 机器学习
+description: 随机近似推断
 tags: [机器学习, 贝叶斯]
 sources:
   - [[raw/articles/37 随机近似推断：MCMC.md]]

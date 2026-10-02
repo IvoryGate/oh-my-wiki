@@ -5,6 +5,8 @@ aliases:
   - Agent评测
   - AI系统评测
 type: concept
+domain: Agent 架构与工程
+description: Agent 评测体系
 created: 2026-04-18
 updated: 2026-04-18
 sources:

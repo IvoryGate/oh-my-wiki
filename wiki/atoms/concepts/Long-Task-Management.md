@@ -5,6 +5,8 @@ aliases:
   - 长任务管理
   - 跨Session任务
 type: concept
+domain: Agent 架构与工程
+description: 长任务管理与跨 Session 恢复
 created: 2026-04-18
 updated: 2026-04-18
 sources:

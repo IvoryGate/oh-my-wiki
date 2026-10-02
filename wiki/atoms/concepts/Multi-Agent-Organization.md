@@ -5,6 +5,8 @@ aliases:
   - 多Agent组织
   - Agent协作模式
 type: concept
+domain: Agent 架构与工程
+description: 多 Agent 组织与协作模式
 created: 2026-04-18
 updated: 2026-04-18
 sources:

@@ -3,6 +3,7 @@ title: Karpathy
 created: 2026-04-17
 updated: 2026-04-21
 type: entity
+description: AI 研究员，LLM Wiki 提出者
 tags: [知识管理]
 sources:
   - [[raw/articles/llm-wiki.md]]

@@ -5,6 +5,8 @@ aliases:
   - 记忆系统
   - Agent记忆
 type: concept
+domain: Agent 架构与工程
+description: Agent 记忆系统：四种记忆类型
 created: 2026-04-18
 updated: 2026-04-18
 sources:

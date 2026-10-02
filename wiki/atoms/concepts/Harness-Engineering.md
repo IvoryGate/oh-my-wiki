@@ -6,6 +6,8 @@ aliases:
   - 验收基础设施
   - 测试验证约束基础设施
 type: concept
+domain: Agent 架构与工程
+description: 验收基础设施：测试、验证与约束
 created: 2026-04-18
 updated: 2026-04-18
 sources:

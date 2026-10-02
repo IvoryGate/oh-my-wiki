@@ -5,6 +5,8 @@ aliases:
   - 人货场
   - 用户覆盖模型
 type: concept
+domain: 增长与营销
+description: 用户覆盖模型 (人货场)
 created: 2026-04-18
 updated: 2026-04-20
 sources:

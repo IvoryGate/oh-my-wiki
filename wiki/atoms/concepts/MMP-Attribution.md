@@ -6,6 +6,8 @@ aliases:
   - MMP Attribution
   - Mobile Measurement Partner
 type: concept
+domain: 增长与营销
+description: 第三方归因解决方案
 created: 2026-04-18
 updated: 2026-04-22
 sources:

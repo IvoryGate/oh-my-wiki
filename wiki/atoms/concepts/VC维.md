@@ -3,6 +3,8 @@ title: "VC维"
 created: 2026-04-23
 updated: 2026-04-23
 type: concept
+domain: 机器学习
+description: 假设空间复杂度
 tags: [机器学习, 学习理论]
 sources:
   - [[raw/articles/04 计算学习理论.md]]

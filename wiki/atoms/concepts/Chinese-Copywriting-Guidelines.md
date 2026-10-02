@@ -3,6 +3,8 @@ title: Chinese-Copywriting-Guidelines
 created: 2026-09-04
 updated: 2026-09-04
 type: concept
+domain: 写作与技术博客
+description: 中文文案排版规范：空格、标点、全半形
 tags: [写作, 排版规范]
 sources:
   - [[raw/articles/sparanoidchinese-copywriting-guidelines Chinese copywriting guidelines for better written communication／中文文案排版指北.md]]

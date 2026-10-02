@@ -40,14 +40,17 @@ oh-my-wiki/
 │   │   ├── insights/             # 个人洞察
 │   │   └── howto/                # 方法指南
 │   │
-│   ├── index.md                  # 内容索引
-│   ├── log.md                    # 操作日志
-│   └── graph.json                # 知识关系图谱
+│   ├── index.md                  # 内容索引（Dataview 实时生成）
+│   ├── log.txt                   # 操作日志（纯文本）
+│   ├── graph.json                # 知识关系图谱（gen-graph 生成）
+│   └── graph.relations.json      # 语义关系策展层
 │
 ├── workspace/                    # 个人创作
 │   ├── Todo/                     # 待办
 │   ├── Doing/                    # 进行中
 │   └── Done/                     # 已完成 → 流入 wiki
+│
+├── .opencode/skills/             # Agent 技能（lint / gen-graph）
 │
 └── Agent.md                      # Agent 工作流配置
 ```
@@ -147,7 +150,7 @@ cp article.md raw/articles/
 ### 查询知识
 ```
 直接向 Agent 提问，Agent 会：
-1. 检索 wiki/index.md
+1. 按 domain/tags 扫描 frontmatter
 2. 定位相关页面
 3. 综合回答
 ```
@@ -185,7 +188,7 @@ cp article.md raw/articles/
 Obsidian 内置功能：
 
 - 双向链接 `[[概念名]]` 自动出现在图谱
-- Agent 维护 `graph.json` 确保关系准确
+- `graph.json` 由 gen-graph skill 从链接生成，供外部程序消费
 - 可视化知识关联
 
 ---

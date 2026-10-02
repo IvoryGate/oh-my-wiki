@@ -5,6 +5,8 @@ aliases:
   - 高价值渠道识别
   - High Value Channel
 type: concept
+domain: 增长与营销
+description: 高价值渠道识别
 created: 2026-04-18
 updated: 2026-04-18
 sources:

@@ -6,6 +6,8 @@ aliases:
   - Agent Skills
   - 按需加载技能
 type: concept
+domain: Agent 架构与工程
+description: Skills 按需加载系统
 created: 2026-04-18
 updated: 2026-04-18
 sources:

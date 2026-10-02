@@ -68,6 +68,7 @@ oh-my-wiki/
 ├── raw/           # 原始资料（只读）
 ├── wiki/          # 结构化知识（Agent 维护）
 ├── workspace/     # 个人创作（用户维护，Agent 仅限 YAML）
+├── .opencode/skills/ # Agent 技能（lint 健康检查、gen-graph 图谱生成）
 ├── Agent.md       # 本配置文档
 ├── CONTEXT.md     # Agent 快速入门文档
 └── README.md      # 项目说明（用户维护）
@@ -116,9 +117,10 @@ wiki/
 │   ├── insights/  # 个人洞察
 │   └── howto/     # 方法指南
 │
-├── index.md       # 内容索引
-├── log.md         # 操作日志
-└── graph.json     # 知识关系图谱
+├── index.md       # 内容索引（Dataview 实时生成，禁止手工维护数字/表格）
+├── log.txt        # 操作日志（纯文本，不使用 [[链接]]）
+├── graph.json     # 知识关系图谱（派生件，gen-graph skill 生成）
+└── graph.relations.json  # 语义关系策展层（判断件，人工维护）
 ```
 
 ### workspace/ 目录（个人创作）
@@ -198,19 +200,19 @@ related:                 # 可选，Agent 可建议相关概念
    └── 获取用户确认后再写入
 
 4. 结构化阶段
-   ├── 检查 wiki/graph.json：相关概念/实体是否已存在
-   ├── 创建或更新 atoms/concepts/
+   ├── 查重：扫描 wiki/ 已有页面（或查询 graph.json）
+   ├── 创建或更新 atoms/concepts/（frontmatter 含 domain/description）
    ├── 创建或更新 atoms/entities/
-   ├── 建立双向链接 [[概念名]]
-   └── 更新 graph.json
+   └── 建立双向链接 [[概念名]]
 
 5. 综合阶段
    ├── 判断是否需要创建主题页
    ├── 更新相关 synthesis/ 页面
-   └── 更新 wiki/index.md
+   └── index.md 无需更新（Dataview 自动生成）
 
 6. 收尾阶段
-   ├── 追加操作记录到 wiki/log.md
+   ├── 运行 gen-graph skill 重建 wiki/graph.json
+   ├── 追加操作记录到 wiki/log.txt
    ├── 更新 raw/manifest.json 状态
    └── 执行 Git commit
 ```
@@ -235,7 +237,7 @@ git commit -m "ingest: 处理 [资料名称]"
    └── 分析问题意图，识别涉及领域
 
 2. 检索相关内容
-   ├── 先读 wiki/index.md 定位相关页面
+   ├── 按 domain/tags 扫描 frontmatter 定位页面（index 源码是 Dataview 查询块，不枚举页面）
    ├── 必要时查询 wiki/graph.json 了解关联
    └── 只读取相关页面，避免全量扫描
 
@@ -247,7 +249,7 @@ git commit -m "ingest: 处理 [资料名称]"
 4. 归档高质量回答
    ├── 如果回答具有长期价值
    ├── 创建新页面保存到 synthesis/
-   └── 更新索引和图谱
+   └── 运行 gen-graph 重建图谱
 ```
 
 ---
@@ -259,20 +261,21 @@ git commit -m "ingest: 处理 [资料名称]"
 **检查项目**：
 
 ```
-1. 矛盾检测
+0. 运行 lint skill（一条命令执行机械检查）
+   └── python .opencode/skills/lint/scripts/check.py
+       断链 / frontmatter 完整性 / 标签词表 / index 反漂移 / graph 一致性 / 孤页
+
+1. 矛盾检测（Agent 判断）
    └── 相同概念在不同页面的描述是否冲突
 
-2. 孤立页面
+2. 孤立页面（check.py 已列出）
    └── 没有入链的页面，考虑整合或建立关联
 
-3. 过时信息
+3. 过时信息（Agent 判断）
    └── 标记可能需要更新的内容
 
-4. 缺失概念
+4. 缺失概念（Agent 判断）
    └── 被提及但无独立页面的概念
-
-5. 链接完整性
-   └── 检查断裂的双向链接
 ```
 
 **输出格式**：
@@ -286,20 +289,22 @@ git commit -m "ingest: 处理 [资料名称]"
 ## 发现的问题
 
 ### 矛盾内容
-- [[概念A]] 存在冲突描述
-  - 来源1: [[页面X]]
-  - 来源2: [[页面Y]]
+- 概念A 存在冲突描述
+  - 来源1: 页面X
+  - 来源2: 页面Y
 
 ### 孤立页面
-- [[页面B]] 无入链
+- 页面B 无入链
 
 ## 建议行动
 1. ...
 ```
 
+> 报告中提及页面一律用纯文字（log.txt 不使用 `[[链接]]`）
+
 **报告处理规则**：
 - Lint 报告**不单独保存为文件**（如 `wiki/lint-report-YYYY-MM-DD.md`）
-- 报告内容直接追加到 `wiki/log.md` 中，作为操作记录
+- 报告内容直接追加到 `wiki/log.txt` 中，作为操作记录（提及页面用纯文字，不使用 `[[链接]]`）
 - 如果需要详细报告，可临时显示给用户，但不写入文件
 
 **Git 操作**：
@@ -343,8 +348,8 @@ git commit -m "lint: [修复内容简述]"
 4. 执行流入（复制模式）
    ├── 读取 workspace 内容（只读）
    ├── 在 wiki/ 创建新页面（不修改 workspace 原文件）
-   ├── 更新 index.md 和 graph.json
-   └── 追加 log.md
+   ├── 运行 gen-graph 重建 graph.json（index 由 Dataview 自动更新）
+   └── 追加 log.txt
 
 5. 通知用户
    └── 告知用户可在 workspace 中删除原文件（用户决定）
@@ -383,7 +388,9 @@ title: 页面标题
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 type: concept|entity|data|topic|insight|howto
-tags: [标签1, 标签2]
+domain: 领域名          # 概念页必填：index Dataview GROUP BY 依据
+description: 一句话摘要  # 必填：index 表格与检索依据
+tags: [标签1, 标签2]     # 必填，只能取既有词表
 sources:
   - [[raw/xxx/xxx.md]]
 status: draft|active|archived
@@ -431,19 +438,17 @@ status: draft|active|archived
 
 ### graph.json 用法
 
-```json
-{
-  "nodes": [
-    {"id": "RAG", "type": "concept", "path": "wiki/atoms/concepts/RAG.md"}
-  ],
-  "edges": [
-    {"from": "RAG", "to": "Karpathy", "relation": "proposed_by"}
-  ]
-}
+`wiki/graph.json` 是**派生件**：nodes/edges/stats 全部从页面链接推导，**禁止手工编辑**。
+
+```bash
+python .opencode/skills/gen-graph/scripts/gen_graph.py          # 页面增删改后重建
+python .opencode/skills/gen-graph/scripts/gen_graph.py --check  # 校验与链接一致（lint 也会调用）
 ```
 
+- 基础边：页面间 `[[链接]]` 自动生成，relation=links_to
+- 语义边：维护在 `wiki/graph.relations.json`（策展层，同 (from,to) 时优先）
 - 查询影响范围：找到所有 `edges` 中包含某节点的记录
-- 孤立检测：找没有入链的节点
+- 页面增删改后不重建 → lint 报 graph 不一致
 
 ---
 
@@ -454,9 +459,9 @@ status: draft|active|archived
 [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) 插件可以基于 frontmatter 动态生成查询结果。
 
 **Agent 职责**：
-- 确保每个 wiki 页面都有规范的 frontmatter
-- 在 `wiki/index.md` 中维护 Dataview 查询块
-- 无需手动更新统计数据（Dataview 自动计算）
+- 确保每个 wiki 页面都有规范的 frontmatter（domain/description 是 index 表格的数据源）
+- `wiki/index.md` 的统计与表格全部由 Dataview 查询块生成，**禁止写入手工数字或表格行**
+- 新页面无需登记到 index，Dataview 自动收录
 
 **Frontmatter 规范**：
 ```yaml
@@ -465,7 +470,9 @@ title: 页面标题          # 必填
 created: YYYY-MM-DD     # 必填
 updated: YYYY-MM-DD     # 必填
 type: concept|entity|data|topic|insight|howto  # 必填
-tags: [标签1, 标签2]     # 可选
+domain: 领域名           # 概念页必填（GROUP BY 依据）
+description: 一句话摘要  # 必填（表格列数据源）
+tags: [标签1, 标签2]     # 必填，既有词表
 sources:                # 必填
   - [[raw/xxx/xxx.md]]
 status: draft|active|archived  # 可选
@@ -511,9 +518,9 @@ paginate: true
 Obsidian 内置的知识图谱视图。
 
 **Agent 职责**：
-- 维护 `wiki/graph.json`，确保关系数据准确
-- 双向链接 `[[概念名]]` 会自动出现在图谱中
-- 孤立页面检测可通过 Dataview 查询辅助
+- 双向链接 `[[概念名]]` 会自动出现在图谱中（Graph View 直接从链接渲染，不读 graph.json）
+- `wiki/graph.json` 由 gen-graph skill 生成，供外部程序消费，不手工维护
+- 孤立页面检测由 lint skill（check.py）输出
 
 ---
 
@@ -570,7 +577,7 @@ confidence: medium    # low | medium | high
 ### 协作原则
 
 4. **重要操作前与用户讨论确认**
-5. **每次操作后更新 index.md、log.md、graph.json**
+5. **每次操作后追加 wiki/log.txt；页面增删改后运行 gen-graph 重建 graph.json；index 由 Dataview 自动维护，无需手动更新**
 6. **Git commit 由 Agent 执行，Git push 由用户决定**
 7. **保持简洁：每个页面聚焦单一主题**
 8. **遵循最简原则：能用列表就不用表格，能用树就不用图**
@@ -589,6 +596,7 @@ confidence: medium    # low | medium | high
 
 | 版本 | 日期 | 说明 |
 |------|------|------|
+| 1.3 | 2026-10-02 | 管理方法重构：index 全面 Dataview 化（frontmatter 新增 domain/description）、log.md→log.txt（去链接）、graph.json 生成化、工具固化为 lint/gen-graph skills |
 | 1.2 | 2026-04-19 | 明确 workspace 边界原则：Agent 仅限修改 YAML 元数据 |
 | 1.1 | 2026-04-18 | 添加知识沉淀规则、话题追踪机制、知识更新机制 |
 | 1.0 | 2026-04-17 | 初始版本 |

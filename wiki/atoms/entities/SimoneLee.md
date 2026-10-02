@@ -2,6 +2,7 @@
 id: SimoneLee
 title: SimoneLee
 type: entity
+description: 出海投放与广告归因/反作弊系列作者
 created: 2026-09-22
 updated: 2026-09-22
 sources:

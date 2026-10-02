@@ -60,9 +60,10 @@ workspace/  → 个人创作（用户维护）
 | 1 | `README.md` | 项目概览 |
 | 2 | `Agent.md` | 核心工作流和页面规范 |
 | 3 | `raw/manifest.json` | 原始资料处理状态 |
-| 4 | `wiki/graph.json` | 知识关系图谱 |
-| 5 | `wiki/index.md` | 知识库索引 |
-| 6 | `wiki/log.md` | 操作历史 |
+| 4 | `wiki/graph.json` | 知识关系图谱（gen-graph skill 生成，语义层在 graph.relations.json） |
+| 5 | `wiki/index.md` | 知识库索引（Dataview 实时生成，禁止手工维护） |
+| 6 | `wiki/log.txt` | 操作历史（纯文本，无链接） |
+| 7 | `.opencode/skills/` | Agent 技能：lint 健康检查、gen-graph 图谱生成 |
 
 ---
 
@@ -77,7 +78,7 @@ workspace/  → 个人创作（用户维护）
 2. 理解阶段：提取概念、识别实体、判断领域
 3. 讨论阶段：向用户展示关键收获，获取确认
 4. 结构化阶段：创建/更新 wiki 页面，建立关联
-5. 收尾阶段：更新索引、日志、manifest.json
+5. 收尾阶段：重建 graph.json（gen-graph skill）、追加日志 log.txt、manifest.json（索引自动更新）
 ```
 
 ### Query（查询）
@@ -147,15 +148,12 @@ status: draft|active|archived  # 可选
 
 ### graph.json
 
-记录知识关系：
+知识关系图谱，**派生件**：由 gen-graph skill 从页面链接自动生成，禁止手工编辑；
+语义关系（proposed_by 等）维护在 `wiki/graph.relations.json`。
 
-```json
-{
-  "nodes": [...],
-  "edges": [
-    {"from": "RAG", "to": "Karpathy", "relation": "proposed_by"}
-  ]
-}
+```bash
+python .opencode/skills/gen-graph/scripts/gen_graph.py          # 重建
+python .opencode/skills/gen-graph/scripts/gen_graph.py --check  # 校验一致
 ```
 
 ---
@@ -164,9 +162,9 @@ status: draft|active|archived  # 可选
 
 ### 开始会话时
 
-1. 读取 `wiki/index.md` 了解当前知识库状态
-2. 读取 `wiki/log.md` 了解最近操作
-3. 根据用户请求执行相应工作流
+1. 读取 `wiki/index.md` 了解导航与流转规则（统计表格由 Dataview 实时渲染）
+2. 读取 `wiki/log.txt` 了解最近操作
+3. 根据用户请求执行相应工作流（lint / 图谱重建用对应 skill）
 
 ### 入库新资料时
 
@@ -176,7 +174,7 @@ status: draft|active|archived  # 可选
 
 ### 回答问题时
 
-1. 先查询 `wiki/index.md` 定位相关页面
+1. 按 domain/tags 扫描 frontmatter 定位相关页面（index 源码是 Dataview 查询块，不枚举页面）
 2. 必要时查询 `wiki/graph.json` 了解关联
 3. 只读取相关页面，避免全量扫描
 

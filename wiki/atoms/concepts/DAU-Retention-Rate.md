@@ -3,6 +3,8 @@ title: DAU-Retention-Rate
 created: 2026-09-04
 updated: 2026-09-04
 type: concept
+domain: 增长与营销
+description: 日活与留存率
 tags: [出海投放, 数据分析]
 sources:
   - [[raw/articles/出海投放基础知识之数据统计（一）.md]]

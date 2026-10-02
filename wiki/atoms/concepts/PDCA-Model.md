@@ -3,6 +3,8 @@ title: PDCA模型
 created: 2026-04-19
 updated: 2026-04-19
 type: concept
+domain: 复盘与方法论
+description: 戴明环：质量管理经典模型
 tags: [复盘]
 sources:
   - [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]

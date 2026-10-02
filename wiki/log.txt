@@ -1,18 +1,35 @@
 # 操作日志
 
 > 记录知识库的所有变更历史
+> 格式约定：`## [日期] 类型 | 标题`，提及页面用纯文字（本文件不使用双链语法，避免图谱噪声与断链义务）
 
 ---
+
+## [2026-10-02] restructure | 管理方法重构：派生件自动化（index Dataview 化 / log.txt / graph 生成化 / skills）
+
+> 用户提出 log.md 链接化与 index 手工维护不合理，扩展为全系统管理方法讨论；四项决策经用户逐项批准
+
+**诊断**：index/log/graph 是手工同步的派生状态，必然漂移——index 统计已三次系统性陈旧（07-29、09-22、10-02 各修一次）、log 的历史链接因页面合并断裂需 alias 兜底、graph.json 全库无代码消费（Graph View 从链接渲染不读它）。
+
+**决策与执行**：
+- frontmatter 源头扩展：全库 152 页补 description（index 描述列反推），概念页补 domain（12 个领域组自 index 反推）；3 页补缺 tags（机器学习模型体系、贝叶斯学习模型体系、中文技术文档写作规范，均用既有词表标签，词表仍 30）
+- index.md 重写（424→约 210 行）：状态总览/概念按 domain 分组/实体/主题/指南全部 Dataview(dv) 查询生成；删「最近更新」列表（与本日志重复）；删手工统计行；最后更新改为文件 mtime 自动显示；保留正在进行、快速导航、知识流转规则、核心关系图（判断件）
+- log.md → log.txt：git mv 保留历史，171 个双链全部转纯文字；退出 Obsidian 索引/图谱/断链检查域
+- graph 生成化：102 条语义关系迁出为 wiki/graph.relations.json（策展判断件）；gen_graph.py 从页面链接重建 graph.json（152 节点、322 边 = 220 链接边 + 102 语义边），语义边全部保留
+- 工具固化为 skills（替代临时脚本，用户指定形式）：.opencode/skills/lint（check.py：断链/frontmatter 完整性/标签词表/index 反漂移/graph 一致性/孤页）+ .opencode/skills/gen-graph（--check 校验、重建）
+- 规范文档同步：Agent.md 升 1.3（Ingest/Query/Flow/Lint 流程、frontmatter 规范加 domain/description、graph 用法、协作原则）、CONTEXT.md 必读清单与使用技巧、README.md 架构图与查询说明、AGENTS.md 工作约定
+
+**结果**：lint 全绿——断链 0、152 页（概念 138/实体 10/主题 3/指南 1）、标签 30、graph 一致；孤页 26 个（遗留警告，处理策略见前次记录）。
 
 ## [2026-10-02] optimize | 结构优化：概念合并 4 组 + 标签体系 70→30
 
 > 优化建议报告见会话输出（用户审核批准：合并 A-D 四组、彻底删除、标签完整方案）
 
 **概念合并（165→152 页，-13 页）**
-- A 组：DSP/ADX/SSP/RTB 4 合 1 → [[程序化广告]]（同源互环引用，入链仅 Pacing-Model）
-- B 组：Behavioral-Interview/PG-Eight-Questions/STAR-Method 3 合 1 → [[行为面试]]（同视频系列）
-- C 组：线性归因/时间衰减归因/U型归因 3 页并入 [[多触点归因]] 章节；Shapley值/马尔可夫链归因/Last-Click-Rule/助攻率保留
-- D 组：软件危机/瀑布模型/敏捷开发/人月神话/工程思维 5 页并入 [[软件工程]]（外部入链为 0）
+- A 组：DSP/ADX/SSP/RTB 4 合 1 → 程序化广告（同源互环引用，入链仅 Pacing-Model）
+- B 组：Behavioral-Interview/PG-Eight-Questions/STAR-Method 3 合 1 → 行为面试（同视频系列）
+- C 组：线性归因/时间衰减归因/U型归因 3 页并入 多触点归因 章节；Shapley值/马尔可夫链归因/Last-Click-Rule/助攻率保留
+- D 组：软件危机/瀑布模型/敏捷开发/人月神话/工程思维 5 页并入 软件工程（外部入链为 0）
 - 合并页均带旧页名 aliases 兜底（log 历史链接不断）；显式入链更新 7 处（Pacing-Model 2、Last-Click-Rule 2、马尔可夫链归因 3）
 - 未选（用户决定）：核函数+核技巧合并、博客写作 2 合 1 —— 保留
 - index：4 组行合并 + 统计校正（概念 151→138、总计 165→152）+ 活跃领域行用实时统计重算
@@ -47,13 +64,13 @@
 ### 已修复
 - 4 页补 aliases（ACI、金字塔原理、Logistic回归、P&G-Eight-Questions），消解 14 处断链
 - SKAN-Attribution sources 指向改为实际文件名 `出海投放基础知识之归因(四)+SKAN(一).md`
-- 哥白尼世界×3 → [[哥波尼世界]]（用户裁定保持页面现名）
+- 哥白尼世界×3 → 哥波尼世界（用户裁定保持页面现名）
 - 软件生命周期降为纯文本（仅 1 处引用，不建页）
 - type：机器学习模型体系 / 贝叶斯学习模型体系 → topic、中文技术文档写作规范 → howto
-- index：统计 151/10/165、补登记 [[马尔可夫链归因]] 与 [[SimoneLee]]、更新日期、最近更新列表重排序
+- index：统计 151/10/165、补登记 马尔可夫链归因 与 SimoneLee、更新日期、最近更新列表重排序
 - graph.json：新增 SimoneLee 节点 + authored→Ad-Fraud 边，stats 重算为 165/113
-- 新增实体 [[SimoneLee]]（18 篇署名来源，消解 raw 中 19 处断链）
-- [[LLM-Wiki]] 与 raw gist 合并：适用场景、index/log 分工、Memex 渊源、工具技巧并入概念页
+- 新增实体 SimoneLee（18 篇署名来源，消解 raw 中 19 处断链）
+- LLM-Wiki 与 raw gist 合并：适用场景、index/log 分工、Memex 渊源、工具技巧并入概念页
 
 ### 记录未执行（待用户决定）
 - manifest 61 条补 hash；log 内 6 处示例链接清理；27 个真性孤立页补链
@@ -63,38 +80,38 @@
 ## [2026-09-04] ingest | 广告反作弊 + 投放运营 + 面试方法论 + 中文排版规范（15篇）
 
 ### 新增页面（20）
-- 概念: [[Ad-Fraud]] — 广告作弊分类与防作弊体系总览
-- 概念: [[Attribution-Hijacking]] — 归因劫持：抢夺其他渠道归因
-- 概念: [[Fake-Installation]] — 虚假安装：设备农场与机器人
-- 概念: [[Device-Farm]] — 设备农场：模拟器批量刷量
-- 概念: [[Click-Flooding]] — 大点击撞库：虚假点击抢归因
-- 概念: [[CTIT-Analysis]] — 点击到安装时间分布分析
-- 概念: [[Protect360]] — AppsFlyer 防作弊套件（Protect LITE/360/FPS）
-- 概念: [[Platform-LVL-Validation]] — Google LVL / Apple Receipt / Amazon DRM 验证
-- 概念: [[Pacing-Model]] — 预算节奏控制（均匀/自适应/竞争/预测四代模型）
-- 概念: [[Cold-Start]] — 广告冷启动与快速消耗问题
-- 概念: [[Cohort-Analysis]] — 队列分析：同周期用户行为对比
-- 概念: [[Session-Tracking]] — 会话追踪：Session 定义与 MMP 统计差异
-- 概念: [[ROAS-Data-Reconciliation]] — ROAS 数据对齐：D0 定义差异与排查思路
-- 概念: [[DAU-Retention-Rate]] — 日活与留存率计算
-- 概念: [[Behavioral-Interview]] — 行为面试方法论
-- 概念: [[PG-Eight-Questions]] — 宝洁八大问题库与考察重点
-- 概念: [[STAR-Method]] — STAR 法则与 SCQA 升级用法
-- 概念: [[Chinese-Copywriting-Guidelines]] — 中文文案排版规范
+- 概念: Ad-Fraud — 广告作弊分类与防作弊体系总览
+- 概念: Attribution-Hijacking — 归因劫持：抢夺其他渠道归因
+- 概念: Fake-Installation — 虚假安装：设备农场与机器人
+- 概念: Device-Farm — 设备农场：模拟器批量刷量
+- 概念: Click-Flooding — 大点击撞库：虚假点击抢归因
+- 概念: CTIT-Analysis — 点击到安装时间分布分析
+- 概念: Protect360 — AppsFlyer 防作弊套件（Protect LITE/360/FPS）
+- 概念: Platform-LVL-Validation — Google LVL / Apple Receipt / Amazon DRM 验证
+- 概念: Pacing-Model — 预算节奏控制（均匀/自适应/竞争/预测四代模型）
+- 概念: Cold-Start — 广告冷启动与快速消耗问题
+- 概念: Cohort-Analysis — 队列分析：同周期用户行为对比
+- 概念: Session-Tracking — 会话追踪：Session 定义与 MMP 统计差异
+- 概念: ROAS-Data-Reconciliation — ROAS 数据对齐：D0 定义差异与排查思路
+- 概念: DAU-Retention-Rate — 日活与留存率计算
+- 概念: Behavioral-Interview — 行为面试方法论
+- 概念: PG-Eight-Questions — 宝洁八大问题库与考察重点
+- 概念: STAR-Method — STAR 法则与 SCQA 升级用法
+- 概念: Chinese-Copywriting-Guidelines — 中文文案排版规范
 
 ### 来源
-- [[raw/articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？.md]]
-- [[raw/articles/广告作弊Ad Fraud（一）.md]] ~ [[raw/articles/广告作弊Ad Fraud（六）.md]]
-- [[raw/articles/广告中的Pacing模型以及冷启动.md]]
-- [[raw/articles/Unity平台ROAS开启条件和数据差异问题.md]]
-- [[raw/articles/出海投放基础知识之数据统计（一）.md]]
-- [[raw/articles/渠道MMPBI的数据差异剖析 1.md]]
-- [[raw/articles/什么是Cohort队列？.md]]
-- [[raw/articles/什么是「STAR 法则」，有哪些优秀的「STAR 法则」使用案例？.md]]
-- [[raw/articles/sparanoidchinese-copywriting-guidelines Chinese copywriting guidelines for better written communication／中文文案排版指北.md]]
-- [[raw/videos/行为面试圣经，宝洁八大问破解之路？（上）.md]]
-- [[raw/videos/行为面试圣经，宝洁八大问破解之路？（中）.md]]
-- [[raw/videos/行为面试圣经，宝洁八大问破解之路？（下）.md]]
+- raw/articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？.md
+- raw/articles/广告作弊Ad Fraud（一）.md ~ raw/articles/广告作弊Ad Fraud（六）.md
+- raw/articles/广告中的Pacing模型以及冷启动.md
+- raw/articles/Unity平台ROAS开启条件和数据差异问题.md
+- raw/articles/出海投放基础知识之数据统计（一）.md
+- raw/articles/渠道MMPBI的数据差异剖析 1.md
+- raw/articles/什么是Cohort队列？.md
+- raw/articles/什么是「STAR 法则」，有哪些优秀的「STAR 法则」使用案例？.md
+- raw/articles/sparanoidchinese-copywriting-guidelines Chinese copywriting guidelines for better written communication／中文文案排版指北.md
+- raw/videos/行为面试圣经，宝洁八大问破解之路？（上）.md
+- raw/videos/行为面试圣经，宝洁八大问破解之路？（中）.md
+- raw/videos/行为面试圣经，宝洁八大问破解之路？（下）.md
 
 ### graph.json 更新
 - 新增 20 节点、27 边
@@ -105,22 +122,22 @@
 ## [2026-08-21] ingest | 入库写作三篇（清脑/阿宝哥/皮卡小宝）
 
 ### 新增页面（10）
-- 概念: [[写作起步-日常书写]] — 写作的爬行阶段，外化工作记忆、启动元认知
-- 概念: [[写作价值心法]] — 写长久有用的；内部动机 vs 外部动机
-- 概念: [[顶级信息论与输入输出比]] — 顶级信息论 + 10万:1千 + 知识写作vs经验写作
-- 概念: [[滑梯理论]] — 易读性、故事/痛点开头、情绪先于理性
-- 概念: [[作品意识与打磨意识]] — 精品/打磨 vs 日更
-- 概念: [[SCQ法则]] — 背景-冲突-疑问的讲故事结构
-- 实体: [[清脑作者]] / [[阿宝哥]] / [[皮卡小宝]] — 三位作者
-- 主题: [[写作方法论]] — 心法→起步→技法→逻辑表达的写作主线
+- 概念: 写作起步-日常书写 — 写作的爬行阶段，外化工作记忆、启动元认知
+- 概念: 写作价值心法 — 写长久有用的；内部动机 vs 外部动机
+- 概念: 顶级信息论与输入输出比 — 顶级信息论 + 10万:1千 + 知识写作vs经验写作
+- 概念: 滑梯理论 — 易读性、故事/痛点开头、情绪先于理性
+- 概念: 作品意识与打磨意识 — 精品/打磨 vs 日更
+- 概念: SCQ法则 — 背景-冲突-疑问的讲故事结构
+- 实体: 清脑作者 / 阿宝哥 / 皮卡小宝 — 三位作者
+- 主题: 写作方法论 — 心法→起步→技法→逻辑表达的写作主线
 
 ### 更新页面（1）
-- [[Pyramid-Principle]] — 由原「技术大纲三上下」扩展为完整解读：结论先行、总结概括、归类分组（四顺序）、SCQ 法则，关联 MECE/SCQ
+- Pyramid-Principle — 由原「技术大纲三上下」扩展为完整解读：结论先行、总结概括、归类分组（四顺序）、SCQ 法则，关联 MECE/SCQ
 
 ### 来源
-- [[raw/articles/关于写作，这是我目前能想到最全的.md]]
-- [[raw/articles/写了 200 多篇文章后，我总结的写作心得.md]]
-- [[raw/articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！.md]]
+- raw/articles/关于写作，这是我目前能想到最全的.md
+- raw/articles/写了 200 多篇文章后，我总结的写作心得.md
+- raw/articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！.md
 
 ---
 
@@ -130,7 +147,7 @@
 根目录 `AAR-Model.md` 反复出现：实为 0 字节空文件（git 在 2026-07-29 的 move 提交中把空文件误判为重命名产生），被 git 追踪后，任何 pull/checkout/同步操作都会将其从索引恢复。
 
 ### 处理
-- `git rm` 根目录 `AAR-Model.md`（真实内容在 [[AAR-Model|wiki/atoms/concepts/AAR-Model.md]]，不受影响）
+- `git rm` 根目录 `AAR-Model.md`（真实内容在 wiki/atoms/concepts/AAR-Model.md，不受影响）
 - `git rm --cached` `raw/articles/未命名.md`（解除追踪，后经用户确认删除该空文件）
 
 ### 涉及文件
@@ -139,18 +156,18 @@
 ## [2026-08-18] ingest | 入库机器学习加餐/总结课与中文技术文档写作规范
 
 ### 新增页面（5）
-- 概念: [[机器学习工程师]] — 数据岗位三角色分工、工程化/产品化核心职责
-- 概念: [[马尔可夫链]] — 马尔可夫性、稳态分布、极限定理与"结构性宿命"启示
-- 主题: [[机器学习模型体系]] — 从线性回归出发的模型演化脉络（synthesis 首批主题页）
-- 主题: [[贝叶斯学习模型体系]] — 从高斯分布出发的贝叶斯模型体系
-- 指南: [[中文技术文档写作规范]] — 合并 7 个章节文件（标点/数值/段落/链接/体系/文本/标题）
+- 概念: 机器学习工程师 — 数据岗位三角色分工、工程化/产品化核心职责
+- 概念: 马尔可夫链 — 马尔可夫性、稳态分布、极限定理与"结构性宿命"启示
+- 主题: 机器学习模型体系 — 从线性回归出发的模型演化脉络（synthesis 首批主题页）
+- 主题: 贝叶斯学习模型体系 — 从高斯分布出发的贝叶斯模型体系
+- 指南: 中文技术文档写作规范 — 合并 7 个章节文件（标点/数值/段落/链接/体系/文本/标题）
 
 ### 来源
-- [[raw/articles/如何成为机器学习工程师？.md]]
-- [[raw/articles/总结课 机器学习的模型体系.md]]
-- [[raw/articles/总结课 贝叶斯学习的模型体系.md]]
-- [[raw/articles/马尔可夫链的宿命论.md]]
-- [[raw/articles/marks.md]] 等 7 个写作规范章节
+- raw/articles/如何成为机器学习工程师？.md
+- raw/articles/总结课 机器学习的模型体系.md
+- raw/articles/总结课 贝叶斯学习的模型体系.md
+- raw/articles/马尔可夫链的宿命论.md
+- raw/articles/marks.md 等 7 个写作规范章节
 
 ### 修复
 - manifest.json 损坏条目：补回「01 CLAP模型」缺失的 path 字段，哈希同步为当前值
@@ -242,9 +259,9 @@
 - 更新统计：125→132 节点，115→123 边
 
 ### 来源
-- [[raw/articles/00 开篇词 你为什么应该学好软件工程？.md]]
-- [[raw/articles/01 到底应该怎样理解软件工程？.md]]
-- [[raw/articles/02 工程思维：把每件事都当作一个项目来推进.md]]
+- raw/articles/00 开篇词 你为什么应该学好软件工程？.md
+- raw/articles/01 到底应该怎样理解软件工程？.md
+- raw/articles/02 工程思维：把每件事都当作一个项目来推进.md
 
 ---
 
@@ -262,7 +279,7 @@
 - 更新统计：120→125 节点，108→115 边
 
 ### 来源
-- [[raw/videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响.md]]
+- raw/videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响.md
 
 ## [2026-04-26] 入库 | 知识体系视频
 
@@ -277,7 +294,7 @@
 - 更新统计：116→120 节点，102→108 边
 
 ### 来源
-- [[raw/videos/2026-04-26-四个步骤，建立知识体系的简单方法，借助直觉，直觉不是瞎猜，不是超能力【吸收人类优秀学习理论32】.md]]
+- raw/videos/2026-04-26-四个步骤，建立知识体系的简单方法，借助直觉，直觉不是瞎猜，不是超能力【吸收人类优秀学习理论32】.md
 
 ## [2026-04-23] lint | graph.json 修复
 
@@ -289,7 +306,7 @@
 
 ### 来源链接修复
 - 为 87 个概念页添加"来源"部分
-- 格式：## 来源 → [[raw/articles/xxx.md]]
+- 格式：## 来源 → raw/articles/xxx.md
 
 ### manifest.json 补充
 - 登记机器学习 40 讲（40 篇文章）
@@ -314,40 +331,40 @@
 
 ## [2026-04-23] ingest | 机器学习40讲 15-40（26篇）
 
-- 来源: [[raw/articles/15 从回归到分类：联系函数与降维.md]] 至 [[raw/articles/40 结构学习：基于约束与基于评分.md]]
+- 来源: raw/articles/15 从回归到分类：联系函数与降维.md 至 raw/articles/40 结构学习：基于约束与基于评分.md
 - 创建概念页: Logistic回归、线性判别分析、联系函数、广义线性模型、支持向量机、核技巧、K近邻、聚类分析、基函数扩展、感知器、神经网络、深度学习、表示学习、决策树、集成学习、梯度提升、随机森林、概率图模型、朴素贝叶斯、贝叶斯网络、马尔可夫随机场、高斯网络、高斯过程、隐马尔可夫模型、线性动态系统、推断、变分推断、MCMC、EM算法、混合模型、结构学习
 - 注: 公式待未来详细校准
 
 ## [2026-04-23] ingest | 机器学习40讲 01-14 补录入库
 
-- 来源: [[raw/articles/01 频率视角下的机器学习.md]] 至 [[raw/articles/14 非线性降维：流形学习.md]]
+- 来源: raw/articles/01 频率视角下的机器学习.md 至 raw/articles/14 非线性降维：流形学习.md
 - 创建概念页: 频率学派、贝叶斯学派、最大似然估计、计算学习理论、正则化、主成分分析、流形学习、距离度量、降维、线性回归、特征工程
 
 ## [2026-04-22 20:30] ingest | 广告竞价与数据差异文章（3篇）
 - 来源:
-  - [[raw/articles/广告竞价背后的逻辑和模型算法（一）.md]]
-  - [[raw/articles/广告竞价背后的逻辑和模型算法（二）.md]]
-  - [[raw/articles/渠道MMPBI的数据差异剖析.md]]
+  - raw/articles/广告竞价背后的逻辑和模型算法（一）.md
+  - raw/articles/广告竞价背后的逻辑和模型算法（二）.md
+  - raw/articles/渠道MMPBI的数据差异剖析.md
 - 创建概念页:
-  - [[DSP]] - 需求方平台
-  - [[ADX]] - 广告交易所
-  - [[SSP]] - 供应方平台
-  - [[RTB]] - 实时竞价
-- 更新 [[Attribution-Gap]] 补充数据差异内容
+  - DSP - 需求方平台
+  - ADX - 广告交易所
+  - SSP - 供应方平台
+  - RTB - 实时竞价
+- 更新 Attribution-Gap 补充数据差异内容
 - 更新 manifest.json 和 graph.json
 
 ## [2026-04-22 12:00] ingest | SimoneLee 归因系列文章（4篇）
 
 ## [2026-04-21 20:00] lint | 知识库健康检查与修复
-- 修复断裂链接: 26个文件中的 `[[文章标题]]` 格式链接改为 `[[raw/articles/文件名.md]]`
-- 创建概念页: [[马尔可夫链归因]]
+- 修复断裂链接: 26个文件中的 `文章标题` 格式链接改为 `raw/articles/文件名.md`
+- 创建概念页: 马尔可夫链归因
 - 为孤立页面添加入链: ACI, Attribution-Gap, Codex, DDD, Duplicate-Attribution, Long-Task-Management, Multi-Agent-Organization, Network-Cognition-Gap, erickfang
-- 更新过时页面: [[LLM-Wiki]], [[Karpathy]] 更新时间
-- 生成健康检查报告: [[lint-report-2026-04-21.md]]
+- 更新过时页面: LLM-Wiki, Karpathy 更新时间
+- 生成健康检查报告: lint-report-2026-04-21.md
 
 ## [2026-04-21 18:00] ingest | 归因文章 2 篇
-- 来源: [[raw/articles/广告归因8种模型：预算怎么分才不浪费？]], [[raw/articles/用户到底被哪个广告打动了？三种主流归因模型全解析]]
-- 创建概念页: [[多触点归因]], [[线性归因]], [[时间衰减归因]], [[U型归因]], [[Shapley值]]
+- 来源: raw/articles/广告归因8种模型：预算怎么分才不浪费？, raw/articles/用户到底被哪个广告打动了？三种主流归因模型全解析
+- 创建概念页: 多触点归因, 线性归因, 时间衰减归因, U型归因, Shapley值
 - 补充 Last-Click-Rule 关联
 
 ---
@@ -357,7 +374,7 @@
 ```
 ## [YYYY-MM-DD HH:MM] 类型 | 对象
 - 操作描述
-- 相关页面: [[xxx]]
+- 相关页面: xxx
 ```
 
 **操作类型**：
@@ -375,27 +392,27 @@
 ## [2026-04-20] lint | 知识库健康检查
 - 修正 `graph.json` 中 `stats.totalEdges` 与实有边数不一致；补 `Pyramid-Principle` → `MECE` 边并同步统计
 - 修复断裂或不当 wikilink：`RAG` 中「知识图谱」、`Audience-Definition`/`User-App-Pair` 中 `Channel-Strategy` → `Channel-Launch-Strategy`、`OpenAI` 中 `Aardvark`
-- 说明：多处正文仍用 `[[文章标题]]` 指代 raw，Obsidian 需依赖同名解析；建议逐步改为 `[[raw/articles/….md]]`（与 2026-04-19 lint 口径一致）
+- 说明：多处正文仍用 `文章标题` 指代 raw，Obsidian 需依赖同名解析；建议逐步改为 `raw/articles/….md`（与 2026-04-19 lint 口径一致）
 
 ## [2026-04-20] update | raw 路径修正（鹅厂技术写作）
 - 资料已移至 `raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md`
-- 已同步：[[MECE]]、[[Pyramid-Principle]]、[[Title-4U-Formula]] 的 `sources`、`wiki/graph.json`、`raw/manifest.json`、`wiki/log.md` 历史条目中的链接
+- 已同步：MECE、Pyramid-Principle、Title-4U-Formula 的 `sources`、`wiki/graph.json`、`raw/manifest.json`、`wiki/log.md` 历史条目中的链接
 
 ## [2026-04-20 12:00] ingest | 写作方法论与 DDD 视频稿
 - 新入库 raw（manifest 登记）:
-  - [[raw/articles/如何撰写一篇阅读10w+博文（10个成功秘诀）.md]]
-  - [[raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md]]
-  - [[raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md]]
-  - [[raw/videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md]]
+  - raw/articles/如何撰写一篇阅读10w+博文（10个成功秘诀）.md
+  - raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md
+  - raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md
+  - raw/videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md
 - 创建概念页:
-  - [[Blog-Content-Writing-Practices]] — 通用博文写作要点（受众、结构、SEO、引用、校对、CTA）
-  - [[Tech-Blog-Article-Types]] — 程序员技术博客四类与流量/分发
-  - [[Pyramid-Principle]] — 金字塔大纲三「上下」
-  - [[MECE]] — 分类不重叠不遗漏
-  - [[Title-4U-Formula]] — 标题 4U
-  - [[DDD]] — 领域驱动设计分层与战术概念精要
+  - Blog-Content-Writing-Practices — 通用博文写作要点（受众、结构、SEO、引用、校对、CTA）
+  - Tech-Blog-Article-Types — 程序员技术博客四类与流量/分发
+  - Pyramid-Principle — 金字塔大纲三「上下」
+  - MECE — 分类不重叠不遗漏
+  - Title-4U-Formula — 标题 4U
+  - DDD — 领域驱动设计分层与战术概念精要
 - 创建实体页:
-  - [[Phodal]]
+  - Phodal
 - 更新 `wiki/graph.json`: 新增节点 7；边新增 6、移除 Tmux 悬空边 5，合计 43 条
 - 更新 `wiki/index.md` 统计与索引区块
 
@@ -405,10 +422,10 @@
   - 两篇复盘文章状态从 `processing` 改为 `done`
   - 统计: total 11, pending 0, processing 0, done 11
 - 统一 sources 链接格式:
-  - 28 个页面的 sources 从 `"[[标题]]"` 改为 `[[raw/articles/文件名.md]]`
+  - 28 个页面的 sources 从 `"标题"` 改为 `raw/articles/文件名.md`
   - 涉及 Agent 系列、归因系列、受众系列所有页面
 - 修复断裂链接:
-  - `[[知识图谱]]` 改为内联说明（不创建独立页面）
+  - `知识图谱` 改为内联说明（不创建独立页面）
 - 修复范围:
   - concepts: 23 个页面
   - entities: 3 个页面 (Codex, OpenAI, erickfang)
@@ -416,17 +433,17 @@
 ## [2026-04-19 10:00] ingest | 复盘方法论文章
 - 来源: 张鹏《跟着高手学复盘》专栏
 - 来源文章:
-  - [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
-  - [[raw/articles/02 OPTM框架：怎么使用CLAP模型？.md]]
+  - raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md
+  - raw/articles/02 OPTM框架：怎么使用CLAP模型？.md
 - 创建概念页:
-  - [[FuPan]] - 复盘方法论：通过对过去的分析优化未来
-  - [[CLAP-Model]] - 复盘四环节：对比-逻辑-认知-规划
-  - [[OPTM-Framework]] - 复盘三层框架：组织-流程-工具方法
-  - [[PDCA-Model]] - 戴明环：质量管理经典模型
-  - [[PDF-Model]] - 柳传志环：沙盘推演-执行-复盘
-  - [[AAR-Model]] - 任务后检视：美军敏捷复盘方法
+  - FuPan - 复盘方法论：通过对过去的分析优化未来
+  - CLAP-Model - 复盘四环节：对比-逻辑-认知-规划
+  - OPTM-Framework - 复盘三层框架：组织-流程-工具方法
+  - PDCA-Model - 戴明环：质量管理经典模型
+  - PDF-Model - 柳传志环：沙盘推演-执行-复盘
+  - AAR-Model - 任务后检视：美军敏捷复盘方法
 - 创建实体页:
-  - [[ZhangPeng]] - 复盘专家，《跟着高手学复盘》专栏作者
+  - ZhangPeng - 复盘专家，《跟着高手学复盘》专栏作者
 - 建立知识链接 11 条
 - 更新 graph.json: 节点 38 个，边 37 条
 - 核心洞察:
@@ -437,33 +454,33 @@
 ## [2026-04-18 15:30] ingest | 增长营销系列文章
 - 来源: erickfang《出海增长浅谈》系列
 - 来源文章:
-  - [[raw/articles/关于归因你可能不知道的那些事(一）.md]]
-  - [[raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md]]
-  - [[raw/articles/关于归因你可能不知道的那些事（三）-策略篇.md]]
-  - [[raw/articles/增长从确定目标开始.md]]
-  - [[raw/articles/如何定义受众-正篇.md]]
-  - [[raw/articles/如何定义受众-科普篇.md]]
-  - [[raw/articles/渠道不起量的原因都在这里了！.md]]
+  - raw/articles/关于归因你可能不知道的那些事(一）.md
+  - raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md
+  - raw/articles/关于归因你可能不知道的那些事（三）-策略篇.md
+  - raw/articles/增长从确定目标开始.md
+  - raw/articles/如何定义受众-正篇.md
+  - raw/articles/如何定义受众-科普篇.md
+  - raw/articles/渠道不起量的原因都在这里了！.md
 - 创建概念页:
-  - [[MMP-Attribution]] - 第三方归因解决方案
-  - [[SKAN-Attribution]] - Apple 官方归因体系
-  - [[Last-Click-Rule]] - 广告归因核心规则
-  - [[Duplicate-Attribution]] - 重复计费问题
-  - [[Attribution-Gap]] - MMP 与大媒体归因差异
-  - [[User-App-Pair]] - 用户覆盖模型
-  - [[Audience-Definition]] - 受众定义三问
-  - [[High-Value-Channel]] - 高价值渠道识别
-  - [[Channel-Launch-Strategy]] - 渠道起量六要素
-  - [[Network-Cognition-Gap]] - 渠道能力差异
+  - MMP-Attribution - 第三方归因解决方案
+  - SKAN-Attribution - Apple 官方归因体系
+  - Last-Click-Rule - 广告归因核心规则
+  - Duplicate-Attribution - 重复计费问题
+  - Attribution-Gap - MMP 与大媒体归因差异
+  - User-App-Pair - 用户覆盖模型
+  - Audience-Definition - 受众定义三问
+  - High-Value-Channel - 高价值渠道识别
+  - Channel-Launch-Strategy - 渠道起量六要素
+  - Network-Cognition-Gap - 渠道能力差异
 - 创建实体页:
-  - [[erickfang]] - 出海增长专家
+  - erickfang - 出海增长专家
 - 建立知识链接 10 条
 - 更新 graph.json: 节点 31 个，边 26 条
 
 ## [2026-04-18 11:30] update | 知识库架构升级
 - 添加 `workspace/topics/` 目录用于新话题积累
-- 创建话题追踪模板: [[wiki/templates/topic-tracker.md]]
-- 创建综合知识模板: [[wiki/templates/synthesis-template.md]]
+- 创建话题追踪模板: wiki/templates/topic-tracker.md
+- 创建综合知识模板: wiki/templates/synthesis-template.md
 - 更新 Agent.md: 添加知识沉淀规则、更新机制
 - 更新 wiki/index.md: 反映新的知识流转规则
 
@@ -475,27 +492,27 @@
 3. **状态标记**：`status: stable|evolving|outdated` + 变更日志
 
 ## [2026-04-18 10:50] ingest | Agent 工程实践文章
-- 来源: [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
-- 来源: [[raw/articles/工程技术：在智能体优先的世界中利用 Codex.md]]
+- 来源: raw/articles/你不知道的 Agent：原理、架构与工程实践.md
+- 来源: raw/articles/工程技术：在智能体优先的世界中利用 Codex.md
 - 创建概念页:
-  - [[Agent-Loop]] - Agent 核心循环模式
-  - [[Workflow-vs-Agent]] - 工作流与智能体区分
-  - [[Agent-Control-Patterns]] - 五种控制模式
-  - [[Harness-Engineering]] - 验收基础设施
-  - [[Context-Engineering]] - 上下文工程
-  - [[Skills-System]] - Skills 按需加载系统
-  - [[ACI]] - Agent-Computer Interface
-  - [[Memory-System]] - 记忆系统
-  - [[Multi-Agent-Organization]] - 多 Agent 组织
-  - [[Agent-Evaluation]] - Agent 评测
-  - [[Agent-Tracing]] - Agent 追踪
-  - [[Long-Task-Management]] - 长任务管理
-  - [[Agent-First-Development]] - 智能体优先开发
-  - [[Architecture-Constraints]] - 架构约束
-  - [[Progressive-Disclosure]] - 渐进式披露
+  - Agent-Loop - Agent 核心循环模式
+  - Workflow-vs-Agent - 工作流与智能体区分
+  - Agent-Control-Patterns - 五种控制模式
+  - Harness-Engineering - 验收基础设施
+  - Context-Engineering - 上下文工程
+  - Skills-System - Skills 按需加载系统
+  - ACI - Agent-Computer Interface
+  - Memory-System - 记忆系统
+  - Multi-Agent-Organization - 多 Agent 组织
+  - Agent-Evaluation - Agent 评测
+  - Agent-Tracing - Agent 追踪
+  - Long-Task-Management - 长任务管理
+  - Agent-First-Development - 智能体优先开发
+  - Architecture-Constraints - 架构约束
+  - Progressive-Disclosure - 渐进式披露
 - 创建实体页:
-  - [[Codex]] - OpenAI 代码生成智能体
-  - [[OpenAI]] - OpenAI 公司
+  - Codex - OpenAI 代码生成智能体
+  - OpenAI - OpenAI 公司
 - 建立知识链接 16 条
 - 更新 graph.json: 节点 20 个，边 16 条
 
@@ -516,18 +533,18 @@
 - 配置 Dataview: 启用内联查询和 JavaScript
 - 配置 Marp Slides: 16:9 尺寸，默认主题
 - 创建 CSS 片段: oh-my-wiki.css（表格美化、链接增强）
-- 创建插件配置指南: [[wiki/templates/plugin-config.md]]
+- 创建插件配置指南: wiki/templates/plugin-config.md
 
 ## [2026-04-17 22:50] create | 知识库扩展
 - 添加 raw/social/ 目录支持社交媒体内容
-- 创建 Dataview 查询模板: [[wiki/templates/dataview-queries.md]]
-- 创建 Marp 幻灯片模板: [[wiki/templates/marp-template.md]]
+- 创建 Dataview 查询模板: wiki/templates/dataview-queries.md
+- 创建 Marp 幻灯片模板: wiki/templates/marp-template.md
 - 更新 Agent.md: 添加插件集成规则和 Frontmatter 规范
 
 ## [2026-04-17 22:40] ingest | llm-wiki.md
-- 来源: [[raw/articles/llm-wiki.md]]
-- 创建概念页: [[LLM-Wiki]], [[RAG]]
-- 创建实体页: [[Karpathy]]
+- 来源: raw/articles/llm-wiki.md
+- 创建概念页: LLM-Wiki, RAG
+- 创建实体页: Karpathy
 - 建立关系: LLM-Wiki --proposed_by--> Karpathy
 - 建立关系: LLM-Wiki --compares_to--> RAG
 

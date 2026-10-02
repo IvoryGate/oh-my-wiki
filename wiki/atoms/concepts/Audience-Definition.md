@@ -6,6 +6,8 @@ aliases:
   - 目标受众
   - Audience Definition
 type: concept
+domain: 增长与营销
+description: 受众定义三问
 created: 2026-04-18
 updated: 2026-04-20
 sources:

@@ -1,156 +1,11 @@
 {
-  "version": "1.0",
+  "version": 1,
   "lastUpdated": "2026-10-02",
   "nodes": [
     {
-      "id": "工作记忆",
+      "id": "AAR-Model",
       "type": "concept",
-      "path": "wiki/atoms/concepts/工作记忆.md"
-    },
-    {
-      "id": "直觉",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/直觉.md"
-    },
-    {
-      "id": "经典知识联系",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/经典知识联系.md"
-    },
-    {
-      "id": "High-Value-Channel",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/High-Value-Channel.md"
-    },
-    {
-      "id": "Harness-Engineering",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Harness-Engineering.md"
-    },
-    {
-      "id": "OPTM-Framework",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/OPTM-Framework.md"
-    },
-    {
-      "id": "最大似然估计",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/最大似然估计.md"
-    },
-    {
-      "id": "RAG",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/RAG.md"
-    },
-    {
-      "id": "归因链接",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/归因链接.md"
-    },
-    {
-      "id": "混合模型",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/混合模型.md"
-    },
-    {
-      "id": "多触点归因",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/多触点归因.md"
-    },
-    {
-      "id": "Blog-Content-Writing-Practices",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Blog-Content-Writing-Practices.md"
-    },
-    {
-      "id": "Shapley值",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Shapley值.md"
-    },
-    {
-      "id": "PDF-Model",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/PDF-Model.md"
-    },
-    {
-      "id": "梯度下降",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/梯度下降.md"
-    },
-    {
-      "id": "DDD",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/DDD.md"
-    },
-    {
-      "id": "K近邻",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/K近邻.md"
-    },
-    {
-      "id": "Logistic-回归",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Logistic-回归.md"
-    },
-    {
-      "id": "梯度提升",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/梯度提升.md"
-    },
-    {
-      "id": "SKAN-Attribution",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/SKAN-Attribution.md"
-    },
-    {
-      "id": "User-App-Pair",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/User-App-Pair.md"
-    },
-    {
-      "id": "Attribution-Gap",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Attribution-Gap.md"
-    },
-    {
-      "id": "MCMC",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/MCMC.md"
-    },
-    {
-      "id": "Progressive-Disclosure",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Progressive-Disclosure.md"
-    },
-    {
-      "id": "MECE",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/MECE.md"
-    },
-    {
-      "id": "朴素贝叶斯",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/朴素贝叶斯.md"
-    },
-    {
-      "id": "Pyramid-Principle",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Pyramid-Principle.md"
-    },
-    {
-      "id": "Softmax",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Softmax.md"
-    },
-    {
-      "id": "超参数",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/超参数.md"
-    },
-    {
-      "id": "线性动态系统",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/线性动态系统.md"
+      "path": "wiki/atoms/concepts/AAR-Model.md"
     },
     {
       "id": "ACI-Agent-Computer-Interface",
@@ -158,24 +13,169 @@
       "path": "wiki/atoms/concepts/ACI-Agent-Computer-Interface.md"
     },
     {
+      "id": "Ad-Fraud",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Ad-Fraud.md"
+    },
+    {
+      "id": "Agent-Control-Patterns",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-Control-Patterns.md"
+    },
+    {
+      "id": "Agent-Evaluation",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-Evaluation.md"
+    },
+    {
+      "id": "Agent-First-Development",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-First-Development.md"
+    },
+    {
+      "id": "Agent-Loop",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-Loop.md"
+    },
+    {
+      "id": "Agent-Tracing",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Agent-Tracing.md"
+    },
+    {
+      "id": "Architecture-Constraints",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Architecture-Constraints.md"
+    },
+    {
+      "id": "Attribution-Gap",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Attribution-Gap.md"
+    },
+    {
+      "id": "Attribution-Hijacking",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Attribution-Hijacking.md"
+    },
+    {
       "id": "Audience-Definition",
       "type": "concept",
       "path": "wiki/atoms/concepts/Audience-Definition.md"
     },
     {
-      "id": "神经网络",
+      "id": "Blog-Content-Writing-Practices",
       "type": "concept",
-      "path": "wiki/atoms/concepts/神经网络.md"
+      "path": "wiki/atoms/concepts/Blog-Content-Writing-Practices.md"
     },
     {
-      "id": "降维",
+      "id": "CLAP-Model",
       "type": "concept",
-      "path": "wiki/atoms/concepts/降维.md"
+      "path": "wiki/atoms/concepts/CLAP-Model.md"
     },
     {
-      "id": "频率学派",
+      "id": "CTIT-Analysis",
       "type": "concept",
-      "path": "wiki/atoms/concepts/频率学派.md"
+      "path": "wiki/atoms/concepts/CTIT-Analysis.md"
+    },
+    {
+      "id": "Channel-Launch-Strategy",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Channel-Launch-Strategy.md"
+    },
+    {
+      "id": "Chinese-Copywriting-Guidelines",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Chinese-Copywriting-Guidelines.md"
+    },
+    {
+      "id": "Click-Flooding",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Click-Flooding.md"
+    },
+    {
+      "id": "Codex",
+      "type": "entity",
+      "path": "wiki/atoms/entities/Codex.md"
+    },
+    {
+      "id": "Cohort-Analysis",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Cohort-Analysis.md"
+    },
+    {
+      "id": "Cold-Start",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Cold-Start.md"
+    },
+    {
+      "id": "Context-Engineering",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Context-Engineering.md"
+    },
+    {
+      "id": "DAU-Retention-Rate",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/DAU-Retention-Rate.md"
+    },
+    {
+      "id": "DDD",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/DDD.md"
+    },
+    {
+      "id": "Device-Farm",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Device-Farm.md"
+    },
+    {
+      "id": "Duplicate-Attribution",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Duplicate-Attribution.md"
+    },
+    {
+      "id": "EM算法",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/EM算法.md"
+    },
+    {
+      "id": "Fake-Installation",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Fake-Installation.md"
+    },
+    {
+      "id": "FuPan",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/FuPan.md"
+    },
+    {
+      "id": "Harness-Engineering",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Harness-Engineering.md"
+    },
+    {
+      "id": "High-Value-Channel",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/High-Value-Channel.md"
+    },
+    {
+      "id": "Karpathy",
+      "type": "entity",
+      "path": "wiki/atoms/entities/Karpathy.md"
+    },
+    {
+      "id": "K近邻",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/K近邻.md"
+    },
+    {
+      "id": "LASSO",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/LASSO.md"
+    },
+    {
+      "id": "LLM-Wiki",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/LLM-Wiki.md"
     },
     {
       "id": "Last-Click-Rule",
@@ -183,14 +183,149 @@
       "path": "wiki/atoms/concepts/Last-Click-Rule.md"
     },
     {
-      "id": "聚类分析",
+      "id": "Logistic-回归",
       "type": "concept",
-      "path": "wiki/atoms/concepts/聚类分析.md"
+      "path": "wiki/atoms/concepts/Logistic-回归.md"
     },
     {
-      "id": "贝叶斯网络",
+      "id": "Long-Task-Management",
       "type": "concept",
-      "path": "wiki/atoms/concepts/贝叶斯网络.md"
+      "path": "wiki/atoms/concepts/Long-Task-Management.md"
+    },
+    {
+      "id": "MCMC",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/MCMC.md"
+    },
+    {
+      "id": "MECE",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/MECE.md"
+    },
+    {
+      "id": "MMP-Attribution",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/MMP-Attribution.md"
+    },
+    {
+      "id": "Memory-System",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Memory-System.md"
+    },
+    {
+      "id": "Multi-Agent-Organization",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Multi-Agent-Organization.md"
+    },
+    {
+      "id": "Network-Cognition-Gap",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Network-Cognition-Gap.md"
+    },
+    {
+      "id": "OPTM-Framework",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/OPTM-Framework.md"
+    },
+    {
+      "id": "OpenAI",
+      "type": "entity",
+      "path": "wiki/atoms/entities/OpenAI.md"
+    },
+    {
+      "id": "PAC可学习性",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/PAC可学习性.md"
+    },
+    {
+      "id": "PDCA-Model",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/PDCA-Model.md"
+    },
+    {
+      "id": "PDF-Model",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/PDF-Model.md"
+    },
+    {
+      "id": "Pacing-Model",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Pacing-Model.md"
+    },
+    {
+      "id": "Phodal",
+      "type": "entity",
+      "path": "wiki/atoms/entities/Phodal.md"
+    },
+    {
+      "id": "Platform-LVL-Validation",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Platform-LVL-Validation.md"
+    },
+    {
+      "id": "Progressive-Disclosure",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Progressive-Disclosure.md"
+    },
+    {
+      "id": "Protect360",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Protect360.md"
+    },
+    {
+      "id": "Pyramid-Principle",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Pyramid-Principle.md"
+    },
+    {
+      "id": "RAG",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/RAG.md"
+    },
+    {
+      "id": "ROAS-Data-Reconciliation",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/ROAS-Data-Reconciliation.md"
+    },
+    {
+      "id": "SCQ法则",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/SCQ法则.md"
+    },
+    {
+      "id": "SKAN-Attribution",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/SKAN-Attribution.md"
+    },
+    {
+      "id": "Session-Tracking",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Session-Tracking.md"
+    },
+    {
+      "id": "Shapley值",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Shapley值.md"
+    },
+    {
+      "id": "SimoneLee",
+      "type": "entity",
+      "path": "wiki/atoms/entities/SimoneLee.md"
+    },
+    {
+      "id": "Skills-System",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Skills-System.md"
+    },
+    {
+      "id": "Softmax",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Softmax.md"
+    },
+    {
+      "id": "Tech-Blog-Article-Types",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Tech-Blog-Article-Types.md"
     },
     {
       "id": "Title-4U-Formula",
@@ -198,19 +333,44 @@
       "path": "wiki/atoms/concepts/Title-4U-Formula.md"
     },
     {
-      "id": "核函数",
+      "id": "Tmux",
       "type": "concept",
-      "path": "wiki/atoms/concepts/核函数.md"
+      "path": "wiki/atoms/concepts/Tmux.md"
     },
     {
-      "id": "正则化",
+      "id": "User-App-Pair",
       "type": "concept",
-      "path": "wiki/atoms/concepts/正则化.md"
+      "path": "wiki/atoms/concepts/User-App-Pair.md"
     },
     {
-      "id": "贝叶斯定理",
+      "id": "VC维",
       "type": "concept",
-      "path": "wiki/atoms/concepts/贝叶斯定理.md"
+      "path": "wiki/atoms/concepts/VC维.md"
+    },
+    {
+      "id": "Workflow-vs-Agent",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Workflow-vs-Agent.md"
+    },
+    {
+      "id": "ZhangPeng",
+      "type": "entity",
+      "path": "wiki/atoms/entities/ZhangPeng.md"
+    },
+    {
+      "id": "erickfang",
+      "type": "entity",
+      "path": "wiki/atoms/entities/erickfang.md"
+    },
+    {
+      "id": "中文技术文档写作规范",
+      "type": "howto",
+      "path": "wiki/synthesis/howto/中文技术文档写作规范.md"
+    },
+    {
+      "id": "主成分分析",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/主成分分析.md"
     },
     {
       "id": "交叉熵",
@@ -218,14 +378,339 @@
       "path": "wiki/atoms/concepts/交叉熵.md"
     },
     {
-      "id": "马尔可夫链归因",
+      "id": "伪语境",
       "type": "concept",
-      "path": "wiki/atoms/concepts/马尔可夫链归因.md"
+      "path": "wiki/atoms/concepts/伪语境.md"
     },
     {
-      "id": "FuPan",
+      "id": "作品意识与打磨意识",
       "type": "concept",
-      "path": "wiki/atoms/concepts/FuPan.md"
+      "path": "wiki/atoms/concepts/作品意识与打磨意识.md"
+    },
+    {
+      "id": "写作价值心法",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/写作价值心法.md"
+    },
+    {
+      "id": "写作方法论",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/写作方法论.md"
+    },
+    {
+      "id": "写作起步-日常书写",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/写作起步-日常书写.md"
+    },
+    {
+      "id": "决策树",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/决策树.md"
+    },
+    {
+      "id": "助攻率",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/助攻率.md"
+    },
+    {
+      "id": "反向传播",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/反向传播.md"
+    },
+    {
+      "id": "变分推断",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/变分推断.md"
+    },
+    {
+      "id": "变量消除",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/变量消除.md"
+    },
+    {
+      "id": "哥波尼世界",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/哥波尼世界.md"
+    },
+    {
+      "id": "基函数扩展",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/基函数扩展.md"
+    },
+    {
+      "id": "多触点归因",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/多触点归因.md"
+    },
+    {
+      "id": "奥威尔与赫胥黎",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/奥威尔与赫胥黎.md"
+    },
+    {
+      "id": "娱乐至死",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/娱乐至死.md"
+    },
+    {
+      "id": "媒介即隐喻",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/媒介即隐喻.md"
+    },
+    {
+      "id": "岭回归",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/岭回归.md"
+    },
+    {
+      "id": "工作记忆",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/工作记忆.md"
+    },
+    {
+      "id": "广义线性模型",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/广义线性模型.md"
+    },
+    {
+      "id": "归因链接",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/归因链接.md"
+    },
+    {
+      "id": "感知器",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/感知器.md"
+    },
+    {
+      "id": "损失函数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/损失函数.md"
+    },
+    {
+      "id": "推断",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/推断.md"
+    },
+    {
+      "id": "支持向量机",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/支持向量机.md"
+    },
+    {
+      "id": "最大似然估计",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/最大似然估计.md"
+    },
+    {
+      "id": "朴素贝叶斯",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/朴素贝叶斯.md"
+    },
+    {
+      "id": "机器学习工程师",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/机器学习工程师.md"
+    },
+    {
+      "id": "机器学习模型体系",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/机器学习模型体系.md"
+    },
+    {
+      "id": "核函数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/核函数.md"
+    },
+    {
+      "id": "核技巧",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/核技巧.md"
+    },
+    {
+      "id": "梯度下降",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/梯度下降.md"
+    },
+    {
+      "id": "梯度提升",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/梯度提升.md"
+    },
+    {
+      "id": "概率图模型",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/概率图模型.md"
+    },
+    {
+      "id": "正则化",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/正则化.md"
+    },
+    {
+      "id": "流形学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/流形学习.md"
+    },
+    {
+      "id": "深度学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/深度学习.md"
+    },
+    {
+      "id": "混合模型",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/混合模型.md"
+    },
+    {
+      "id": "清脑作者",
+      "type": "entity",
+      "path": "wiki/atoms/entities/清脑作者.md"
+    },
+    {
+      "id": "滑梯理论",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/滑梯理论.md"
+    },
+    {
+      "id": "激活函数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/激活函数.md"
+    },
+    {
+      "id": "特征工程",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/特征工程.md"
+    },
+    {
+      "id": "皮卡小宝",
+      "type": "entity",
+      "path": "wiki/atoms/entities/皮卡小宝.md"
+    },
+    {
+      "id": "直觉",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/直觉.md"
+    },
+    {
+      "id": "知识体系",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/知识体系.md"
+    },
+    {
+      "id": "神经网络",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/神经网络.md"
+    },
+    {
+      "id": "程序化广告",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/程序化广告.md"
+    },
+    {
+      "id": "线性判别分析",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/线性判别分析.md"
+    },
+    {
+      "id": "线性动态系统",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/线性动态系统.md"
+    },
+    {
+      "id": "线性回归",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/线性回归.md"
+    },
+    {
+      "id": "经典知识联系",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/经典知识联系.md"
+    },
+    {
+      "id": "结构学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/结构学习.md"
+    },
+    {
+      "id": "联系函数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/联系函数.md"
+    },
+    {
+      "id": "聚类分析",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/聚类分析.md"
+    },
+    {
+      "id": "自编码器",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/自编码器.md"
+    },
+    {
+      "id": "行为面试",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/行为面试.md"
+    },
+    {
+      "id": "表示学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/表示学习.md"
+    },
+    {
+      "id": "计算学习理论",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/计算学习理论.md"
+    },
+    {
+      "id": "贝叶斯学习模型体系",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/贝叶斯学习模型体系.md"
+    },
+    {
+      "id": "贝叶斯学派",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/贝叶斯学派.md"
+    },
+    {
+      "id": "贝叶斯定理",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/贝叶斯定理.md"
+    },
+    {
+      "id": "贝叶斯网络",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/贝叶斯网络.md"
+    },
+    {
+      "id": "超参数",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/超参数.md"
+    },
+    {
+      "id": "距离度量",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/距离度量.md"
+    },
+    {
+      "id": "软件工程",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/软件工程.md"
+    },
+    {
+      "id": "过拟合",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/过拟合.md"
+    },
+    {
+      "id": "阿宝哥",
+      "type": "entity",
+      "path": "wiki/atoms/entities/阿宝哥.md"
+    },
+    {
+      "id": "降维",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/降维.md"
     },
     {
       "id": "随机森林",
@@ -238,399 +723,9 @@
       "path": "wiki/atoms/concepts/隐马尔可夫模型.md"
     },
     {
-      "id": "贝叶斯学派",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/贝叶斯学派.md"
-    },
-    {
-      "id": "联系函数",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/联系函数.md"
-    },
-    {
-      "id": "LASSO",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/LASSO.md"
-    },
-    {
-      "id": "基函数扩展",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/基函数扩展.md"
-    },
-    {
-      "id": "AAR-Model",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/AAR-Model.md"
-    },
-    {
-      "id": "Duplicate-Attribution",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Duplicate-Attribution.md"
-    },
-    {
-      "id": "距离度量",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/距离度量.md"
-    },
-    {
-      "id": "激活函数",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/激活函数.md"
-    },
-    {
-      "id": "过拟合",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/过拟合.md"
-    },
-    {
-      "id": "概率图模型",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/概率图模型.md"
-    },
-    {
-      "id": "Skills-System",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Skills-System.md"
-    },
-    {
-      "id": "反向传播",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/反向传播.md"
-    },
-    {
-      "id": "Tech-Blog-Article-Types",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Tech-Blog-Article-Types.md"
-    },
-    {
-      "id": "结构学习",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/结构学习.md"
-    },
-    {
-      "id": "Long-Task-Management",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Long-Task-Management.md"
-    },
-    {
-      "id": "变分推断",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/变分推断.md"
-    },
-    {
       "id": "集成学习",
       "type": "concept",
       "path": "wiki/atoms/concepts/集成学习.md"
-    },
-    {
-      "id": "Multi-Agent-Organization",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Multi-Agent-Organization.md"
-    },
-    {
-      "id": "Agent-Loop",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Agent-Loop.md"
-    },
-    {
-      "id": "高斯网络",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/高斯网络.md"
-    },
-    {
-      "id": "决策树",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/决策树.md"
-    },
-    {
-      "id": "Agent-First-Development",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Agent-First-Development.md"
-    },
-    {
-      "id": "感知器",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/感知器.md"
-    },
-    {
-      "id": "特征工程",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/特征工程.md"
-    },
-    {
-      "id": "CLAP-Model",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/CLAP-Model.md"
-    },
-    {
-      "id": "计算学习理论",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/计算学习理论.md"
-    },
-    {
-      "id": "Memory-System",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Memory-System.md"
-    },
-    {
-      "id": "MMP-Attribution",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/MMP-Attribution.md"
-    },
-    {
-      "id": "主成分分析",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/主成分分析.md"
-    },
-    {
-      "id": "广义线性模型",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/广义线性模型.md"
-    },
-    {
-      "id": "深度学习",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/深度学习.md"
-    },
-    {
-      "id": "马尔可夫随机场",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/马尔可夫随机场.md"
-    },
-    {
-      "id": "Agent-Control-Patterns",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Agent-Control-Patterns.md"
-    },
-    {
-      "id": "Workflow-vs-Agent",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Workflow-vs-Agent.md"
-    },
-    {
-      "id": "线性回归",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/线性回归.md"
-    },
-    {
-      "id": "线性判别分析",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/线性判别分析.md"
-    },
-    {
-      "id": "Architecture-Constraints",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Architecture-Constraints.md"
-    },
-    {
-      "id": "PAC可学习性",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/PAC可学习性.md"
-    },
-    {
-      "id": "LLM-Wiki",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/LLM-Wiki.md"
-    },
-    {
-      "id": "Channel-Launch-Strategy",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Channel-Launch-Strategy.md"
-    },
-    {
-      "id": "推断",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/推断.md"
-    },
-    {
-      "id": "损失函数",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/损失函数.md"
-    },
-    {
-      "id": "EM算法",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/EM算法.md"
-    },
-    {
-      "id": "助攻率",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/助攻率.md"
-    },
-    {
-      "id": "PDCA-Model",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/PDCA-Model.md"
-    },
-    {
-      "id": "Agent-Evaluation",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Agent-Evaluation.md"
-    },
-    {
-      "id": "高斯过程",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/高斯过程.md"
-    },
-    {
-      "id": "VC维",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/VC维.md"
-    },
-    {
-      "id": "Network-Cognition-Gap",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Network-Cognition-Gap.md"
-    },
-    {
-      "id": "表示学习",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/表示学习.md"
-    },
-    {
-      "id": "岭回归",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/岭回归.md"
-    },
-    {
-      "id": "Tmux",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Tmux.md"
-    },
-    {
-      "id": "Agent-Tracing",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Agent-Tracing.md"
-    },
-    {
-      "id": "核技巧",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/核技巧.md"
-    },
-    {
-      "id": "Context-Engineering",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Context-Engineering.md"
-    },
-    {
-      "id": "支持向量机",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/支持向量机.md"
-    },
-    {
-      "id": "变量消除",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/变量消除.md"
-    },
-    {
-      "id": "自编码器",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/自编码器.md"
-    },
-    {
-      "id": "流形学习",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/流形学习.md"
-    },
-    {
-      "id": "ZhangPeng",
-      "type": "entity",
-      "path": "wiki/atoms/entities/ZhangPeng.md"
-    },
-    {
-      "id": "OpenAI",
-      "type": "entity",
-      "path": "wiki/atoms/entities/OpenAI.md"
-    },
-    {
-      "id": "erickfang",
-      "type": "entity",
-      "path": "wiki/atoms/entities/erickfang.md"
-    },
-    {
-      "id": "Codex",
-      "type": "entity",
-      "path": "wiki/atoms/entities/Codex.md"
-    },
-    {
-      "id": "Karpathy",
-      "type": "entity",
-      "path": "wiki/atoms/entities/Karpathy.md"
-    },
-    {
-      "id": "Phodal",
-      "type": "entity",
-      "path": "wiki/atoms/entities/Phodal.md"
-    },
-    {
-      "id": "媒介即隐喻",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/媒介即隐喻.md"
-    },
-    {
-      "id": "娱乐至死",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/娱乐至死.md"
-    },
-    {
-      "id": "伪语境",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/伪语境.md"
-    },
-    {
-      "id": "哥波尼世界",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/哥波尼世界.md"
-    },
-    {
-      "id": "奥威尔与赫胥黎",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/奥威尔与赫胥黎.md"
-    },
-    {
-      "id": "软件工程",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/软件工程.md"
-    },
-    {
-      "id": "机器学习工程师",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/机器学习工程师.md"
-    },
-    {
-      "id": "马尔可夫链",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/马尔可夫链.md"
-    },
-    {
-      "id": "机器学习模型体系",
-      "type": "topic",
-      "path": "wiki/synthesis/topics/机器学习模型体系.md"
-    },
-    {
-      "id": "贝叶斯学习模型体系",
-      "type": "topic",
-      "path": "wiki/synthesis/topics/贝叶斯学习模型体系.md"
-    },
-    {
-      "id": "中文技术文档写作规范",
-      "type": "howto",
-      "path": "wiki/synthesis/howto/中文技术文档写作规范.md"
-    },
-    {
-      "id": "知识体系",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/知识体系.md"
-    },
-    {
-      "id": "写作起步-日常书写",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/写作起步-日常书写.md"
-    },
-    {
-      "id": "写作价值心法",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/写作价值心法.md"
     },
     {
       "id": "顶级信息论与输入输出比",
@@ -638,178 +733,161 @@
       "path": "wiki/atoms/concepts/顶级信息论与输入输出比.md"
     },
     {
-      "id": "滑梯理论",
+      "id": "频率学派",
       "type": "concept",
-      "path": "wiki/atoms/concepts/滑梯理论.md"
+      "path": "wiki/atoms/concepts/频率学派.md"
     },
     {
-      "id": "作品意识与打磨意识",
+      "id": "马尔可夫链",
       "type": "concept",
-      "path": "wiki/atoms/concepts/作品意识与打磨意识.md"
+      "path": "wiki/atoms/concepts/马尔可夫链.md"
     },
     {
-      "id": "SCQ法则",
+      "id": "马尔可夫链归因",
       "type": "concept",
-      "path": "wiki/atoms/concepts/SCQ法则.md"
+      "path": "wiki/atoms/concepts/马尔可夫链归因.md"
     },
     {
-      "id": "写作方法论",
-      "type": "topic",
-      "path": "wiki/synthesis/topics/写作方法论.md"
-    },
-    {
-      "id": "清脑作者",
-      "type": "entity",
-      "path": "wiki/atoms/entities/清脑作者.md"
-    },
-    {
-      "id": "阿宝哥",
-      "type": "entity",
-      "path": "wiki/atoms/entities/阿宝哥.md"
-    },
-    {
-      "id": "皮卡小宝",
-      "type": "entity",
-      "path": "wiki/atoms/entities/皮卡小宝.md"
-    },
-    {
-      "id": "Ad-Fraud",
+      "id": "马尔可夫随机场",
       "type": "concept",
-      "path": "wiki/atoms/concepts/Ad-Fraud.md"
+      "path": "wiki/atoms/concepts/马尔可夫随机场.md"
     },
     {
-      "id": "Attribution-Hijacking",
+      "id": "高斯网络",
       "type": "concept",
-      "path": "wiki/atoms/concepts/Attribution-Hijacking.md"
+      "path": "wiki/atoms/concepts/高斯网络.md"
     },
     {
-      "id": "Fake-Installation",
+      "id": "高斯过程",
       "type": "concept",
-      "path": "wiki/atoms/concepts/Fake-Installation.md"
-    },
-    {
-      "id": "Device-Farm",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Device-Farm.md"
-    },
-    {
-      "id": "Click-Flooding",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Click-Flooding.md"
-    },
-    {
-      "id": "CTIT-Analysis",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/CTIT-Analysis.md"
-    },
-    {
-      "id": "Protect360",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Protect360.md"
-    },
-    {
-      "id": "Platform-LVL-Validation",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Platform-LVL-Validation.md"
-    },
-    {
-      "id": "Pacing-Model",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Pacing-Model.md"
-    },
-    {
-      "id": "Cold-Start",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Cold-Start.md"
-    },
-    {
-      "id": "Cohort-Analysis",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Cohort-Analysis.md"
-    },
-    {
-      "id": "Session-Tracking",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Session-Tracking.md"
-    },
-    {
-      "id": "ROAS-Data-Reconciliation",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/ROAS-Data-Reconciliation.md"
-    },
-    {
-      "id": "DAU-Retention-Rate",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/DAU-Retention-Rate.md"
-    },
-    {
-      "id": "Chinese-Copywriting-Guidelines",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/Chinese-Copywriting-Guidelines.md"
-    },
-    {
-      "id": "SimoneLee",
-      "type": "entity",
-      "path": "wiki/atoms/entities/SimoneLee.md"
-    },
-    {
-      "id": "程序化广告",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/程序化广告.md"
-    },
-    {
-      "id": "行为面试",
-      "type": "concept",
-      "path": "wiki/atoms/concepts/行为面试.md"
+      "path": "wiki/atoms/concepts/高斯过程.md"
     }
   ],
   "edges": [
     {
-      "from": "LLM-Wiki",
-      "to": "Karpathy",
-      "relation": "proposed_by",
+      "from": "AAR-Model",
+      "to": "CLAP-Model",
+      "relation": "simplifies",
       "context": ""
     },
     {
-      "from": "LLM-Wiki",
-      "to": "RAG",
-      "relation": "compares_to",
+      "from": "AAR-Model",
+      "to": "FuPan",
+      "relation": "belongs_to",
       "context": ""
     },
     {
-      "from": "Agent-Loop",
-      "to": "Agent-Control-Patterns",
-      "relation": "implements",
+      "from": "AAR-Model",
+      "to": "OPTM-Framework",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "Agent-Loop",
-      "to": "Workflow-vs-Agent",
-      "relation": "relates_to",
+      "from": "ACI-Agent-Computer-Interface",
+      "to": "Agent-Loop",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "Context-Engineering",
-      "to": "Skills-System",
+      "from": "ACI-Agent-Computer-Interface",
+      "to": "Context-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Ad-Fraud",
+      "to": "Attribution-Hijacking",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Ad-Fraud",
+      "to": "CTIT-Analysis",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Ad-Fraud",
+      "to": "Click-Flooding",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Ad-Fraud",
+      "to": "Device-Farm",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Ad-Fraud",
+      "to": "Fake-Installation",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Ad-Fraud",
+      "to": "MMP-Attribution",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Ad-Fraud",
+      "to": "Platform-LVL-Validation",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Ad-Fraud",
+      "to": "Protect360",
       "relation": "uses",
       "context": ""
     },
     {
-      "from": "Context-Engineering",
-      "to": "Memory-System",
-      "relation": "includes",
+      "from": "Agent-Control-Patterns",
+      "to": "Agent-Loop",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "Harness-Engineering",
-      "to": "Agent-Evaluation",
-      "relation": "includes",
+      "from": "Agent-Control-Patterns",
+      "to": "Long-Task-Management",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "Harness-Engineering",
+      "from": "Agent-Control-Patterns",
+      "to": "Workflow-vs-Agent",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent-Evaluation",
       "to": "Agent-Tracing",
-      "relation": "includes",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent-Evaluation",
+      "to": "Harness-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent-First-Development",
+      "to": "Architecture-Constraints",
+      "relation": "requires",
+      "context": ""
+    },
+    {
+      "from": "Agent-First-Development",
+      "to": "Codex",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent-First-Development",
+      "to": "Context-Engineering",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -825,57 +903,69 @@
       "context": ""
     },
     {
-      "from": "Agent-First-Development",
-      "to": "Architecture-Constraints",
-      "relation": "requires",
+      "from": "Agent-Loop",
+      "to": "ACI-Agent-Computer-Interface",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "Codex",
-      "to": "OpenAI",
-      "relation": "developed_by",
+      "from": "Agent-Loop",
+      "to": "Agent-Control-Patterns",
+      "relation": "implements",
       "context": ""
     },
     {
-      "from": "Codex",
-      "to": "Agent-First-Development",
-      "relation": "enables",
+      "from": "Agent-Loop",
+      "to": "Harness-Engineering",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "Progressive-Disclosure",
-      "to": "Context-Engineering",
+      "from": "Agent-Loop",
+      "to": "Multi-Agent-Organization",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent-Loop",
+      "to": "Workflow-vs-Agent",
       "relation": "relates_to",
       "context": ""
     },
     {
-      "from": "Multi-Agent-Organization",
-      "to": "Agent-Loop",
-      "relation": "extends",
+      "from": "Agent-Tracing",
+      "to": "Agent-Evaluation",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "MMP-Attribution",
-      "to": "SKAN-Attribution",
-      "relation": "compares_to",
+      "from": "Agent-Tracing",
+      "to": "Harness-Engineering",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "MMP-Attribution",
+      "from": "Architecture-Constraints",
+      "to": "Agent-First-Development",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Architecture-Constraints",
+      "to": "DDD",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Architecture-Constraints",
+      "to": "Harness-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Attribution-Gap",
       "to": "Last-Click-Rule",
-      "relation": "uses",
-      "context": ""
-    },
-    {
-      "from": "SKAN-Attribution",
-      "to": "Last-Click-Rule",
-      "relation": "uses",
-      "context": ""
-    },
-    {
-      "from": "Duplicate-Attribution",
-      "to": "MMP-Attribution",
-      "relation": "occurs_in",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -885,9 +975,39 @@
       "context": ""
     },
     {
-      "from": "User-App-Pair",
-      "to": "Audience-Definition",
-      "relation": "foundation_of",
+      "from": "Attribution-Hijacking",
+      "to": "CTIT-Analysis",
+      "relation": "detected_by",
+      "context": ""
+    },
+    {
+      "from": "Attribution-Hijacking",
+      "to": "Click-Flooding",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Attribution-Hijacking",
+      "to": "Fake-Installation",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Attribution-Hijacking",
+      "to": "Last-Click-Rule",
+      "relation": "exploits",
+      "context": ""
+    },
+    {
+      "from": "Attribution-Hijacking",
+      "to": "MMP-Attribution",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Audience-Definition",
+      "to": "Channel-Launch-Strategy",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -897,21 +1017,39 @@
       "context": ""
     },
     {
-      "from": "High-Value-Channel",
-      "to": "Channel-Launch-Strategy",
-      "relation": "requires",
-      "context": ""
-    },
-    {
-      "from": "Network-Cognition-Gap",
+      "from": "Audience-Definition",
       "to": "User-App-Pair",
-      "relation": "explains",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "erickfang",
-      "to": "MMP-Attribution",
-      "relation": "authored",
+      "from": "Blog-Content-Writing-Practices",
+      "to": "Tech-Blog-Article-Types",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Blog-Content-Writing-Practices",
+      "to": "Title-4U-Formula",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "AAR-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "FuPan",
+      "relation": "belongs_to",
+      "context": ""
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "OPTM-Framework",
+      "relation": "supported_by",
       "context": ""
     },
     {
@@ -928,50 +1066,368 @@
     },
     {
       "from": "CLAP-Model",
-      "to": "FuPan",
-      "relation": "belongs_to",
+      "to": "ZhangPeng",
+      "relation": "proposed_by",
       "context": ""
     },
     {
-      "from": "CLAP-Model",
-      "to": "OPTM-Framework",
-      "relation": "supported_by",
+      "from": "CTIT-Analysis",
+      "to": "Attribution-Hijacking",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "AAR-Model",
+      "from": "CTIT-Analysis",
+      "to": "Click-Flooding",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "CTIT-Analysis",
+      "to": "Fake-Installation",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "CTIT-Analysis",
+      "to": "Protect360",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Channel-Launch-Strategy",
+      "to": "Audience-Definition",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Channel-Launch-Strategy",
+      "to": "High-Value-Channel",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Chinese-Copywriting-Guidelines",
+      "to": "Blog-Content-Writing-Practices",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Chinese-Copywriting-Guidelines",
+      "to": "中文技术文档写作规范",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Chinese-Copywriting-Guidelines",
+      "to": "写作价值心法",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Click-Flooding",
+      "to": "Attribution-Hijacking",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Click-Flooding",
+      "to": "CTIT-Analysis",
+      "relation": "detected_by",
+      "context": ""
+    },
+    {
+      "from": "Click-Flooding",
+      "to": "Last-Click-Rule",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Codex",
+      "to": "Agent-First-Development",
+      "relation": "enables",
+      "context": ""
+    },
+    {
+      "from": "Codex",
+      "to": "Harness-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Codex",
+      "to": "OpenAI",
+      "relation": "developed_by",
+      "context": ""
+    },
+    {
+      "from": "Cohort-Analysis",
+      "to": "DAU-Retention-Rate",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Cohort-Analysis",
+      "to": "ROAS-Data-Reconciliation",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Cohort-Analysis",
+      "to": "Session-Tracking",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Cold-Start",
+      "to": "Pacing-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Cold-Start",
+      "to": "ROAS-Data-Reconciliation",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Context-Engineering",
+      "to": "Agent-Loop",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Context-Engineering",
+      "to": "Harness-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Context-Engineering",
+      "to": "Memory-System",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Context-Engineering",
+      "to": "Skills-System",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "DAU-Retention-Rate",
+      "to": "Cohort-Analysis",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "DAU-Retention-Rate",
+      "to": "ROAS-Data-Reconciliation",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "DAU-Retention-Rate",
+      "to": "Session-Tracking",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "DDD",
+      "to": "Architecture-Constraints",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "DDD",
+      "to": "MECE",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "DDD",
+      "to": "Pyramid-Principle",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "DDD",
+      "to": "软件工程",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Device-Farm",
+      "to": "Attribution-Hijacking",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Device-Farm",
+      "to": "CTIT-Analysis",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Device-Farm",
+      "to": "Fake-Installation",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Duplicate-Attribution",
+      "to": "Last-Click-Rule",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Duplicate-Attribution",
+      "to": "MMP-Attribution",
+      "relation": "occurs_in",
+      "context": ""
+    },
+    {
+      "from": "Duplicate-Attribution",
+      "to": "SKAN-Attribution",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Fake-Installation",
+      "to": "Attribution-Hijacking",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Fake-Installation",
+      "to": "CTIT-Analysis",
+      "relation": "detected_by",
+      "context": ""
+    },
+    {
+      "from": "Fake-Installation",
+      "to": "Device-Farm",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Fake-Installation",
+      "to": "Protect360",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "FuPan",
+      "to": "AAR-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "FuPan",
       "to": "CLAP-Model",
-      "relation": "simplifies",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "PDCA-Model",
-      "to": "FuPan",
-      "relation": "belongs_to",
+      "from": "FuPan",
+      "to": "OPTM-Framework",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "PDF-Model",
-      "to": "FuPan",
-      "relation": "belongs_to",
+      "from": "FuPan",
+      "to": "PDCA-Model",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "AAR-Model",
-      "to": "FuPan",
-      "relation": "belongs_to",
+      "from": "FuPan",
+      "to": "PDF-Model",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "CLAP-Model",
-      "to": "ZhangPeng",
+      "from": "Harness-Engineering",
+      "to": "Agent-Evaluation",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Harness-Engineering",
+      "to": "Agent-Loop",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Harness-Engineering",
+      "to": "Agent-Tracing",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "Harness-Engineering",
+      "to": "Context-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "High-Value-Channel",
+      "to": "Channel-Launch-Strategy",
+      "relation": "requires",
+      "context": ""
+    },
+    {
+      "from": "High-Value-Channel",
+      "to": "MMP-Attribution",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Karpathy",
+      "to": "LLM-Wiki",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Karpathy",
+      "to": "RAG",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "LLM-Wiki",
+      "to": "Karpathy",
       "relation": "proposed_by",
       "context": ""
     },
     {
-      "from": "OPTM-Framework",
-      "to": "ZhangPeng",
-      "relation": "proposed_by",
+      "from": "LLM-Wiki",
+      "to": "RAG",
+      "relation": "compares_to",
+      "context": ""
+    },
+    {
+      "from": "Last-Click-Rule",
+      "to": "多触点归因",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Long-Task-Management",
+      "to": "Agent-Control-Patterns",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Long-Task-Management",
+      "to": "Agent-Loop",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Long-Task-Management",
+      "to": "Memory-System",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -981,15 +1437,1047 @@
       "context": ""
     },
     {
-      "from": "Pyramid-Principle",
-      "to": "MECE",
+      "from": "MECE",
+      "to": "Tech-Blog-Article-Types",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MMP-Attribution",
+      "to": "Attribution-Gap",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MMP-Attribution",
+      "to": "Last-Click-Rule",
       "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "MMP-Attribution",
+      "to": "SKAN-Attribution",
+      "relation": "compares_to",
+      "context": ""
+    },
+    {
+      "from": "Memory-System",
+      "to": "Agent-Loop",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Memory-System",
+      "to": "Context-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Memory-System",
+      "to": "Skills-System",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Multi-Agent-Organization",
+      "to": "Agent-Control-Patterns",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Multi-Agent-Organization",
+      "to": "Agent-Loop",
+      "relation": "extends",
+      "context": ""
+    },
+    {
+      "from": "Network-Cognition-Gap",
+      "to": "High-Value-Channel",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Network-Cognition-Gap",
+      "to": "User-App-Pair",
+      "relation": "explains",
+      "context": ""
+    },
+    {
+      "from": "OPTM-Framework",
+      "to": "AAR-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "OPTM-Framework",
+      "to": "CLAP-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "OPTM-Framework",
+      "to": "FuPan",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "OPTM-Framework",
+      "to": "PDF-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "OPTM-Framework",
+      "to": "ZhangPeng",
+      "relation": "proposed_by",
+      "context": ""
+    },
+    {
+      "from": "OpenAI",
+      "to": "Agent-First-Development",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "OpenAI",
+      "to": "Codex",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "OpenAI",
+      "to": "Harness-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "PAC可学习性",
+      "to": "VC维",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "PAC可学习性",
+      "to": "计算学习理论",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "PDCA-Model",
+      "to": "CLAP-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "PDCA-Model",
+      "to": "FuPan",
+      "relation": "belongs_to",
+      "context": ""
+    },
+    {
+      "from": "PDCA-Model",
+      "to": "PDF-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "PDF-Model",
+      "to": "CLAP-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "PDF-Model",
+      "to": "FuPan",
+      "relation": "belongs_to",
+      "context": ""
+    },
+    {
+      "from": "PDF-Model",
+      "to": "OPTM-Framework",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "PDF-Model",
+      "to": "PDCA-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Pacing-Model",
+      "to": "Cold-Start",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Pacing-Model",
+      "to": "程序化广告",
+      "relation": "used_in",
       "context": ""
     },
     {
       "from": "Phodal",
       "to": "Tech-Blog-Article-Types",
       "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "Platform-LVL-Validation",
+      "to": "Ad-Fraud",
+      "relation": "prevents",
+      "context": ""
+    },
+    {
+      "from": "Platform-LVL-Validation",
+      "to": "Fake-Installation",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Platform-LVL-Validation",
+      "to": "Protect360",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Progressive-Disclosure",
+      "to": "Context-Engineering",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Progressive-Disclosure",
+      "to": "Skills-System",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Protect360",
+      "to": "Ad-Fraud",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Protect360",
+      "to": "Attribution-Hijacking",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Protect360",
+      "to": "CTIT-Analysis",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "Protect360",
+      "to": "Fake-Installation",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Protect360",
+      "to": "MMP-Attribution",
+      "relation": "part_of",
+      "context": ""
+    },
+    {
+      "from": "Pyramid-Principle",
+      "to": "MECE",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "Pyramid-Principle",
+      "to": "SCQ法则",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "Pyramid-Principle",
+      "to": "Tech-Blog-Article-Types",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "RAG",
+      "to": "LLM-Wiki",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "ROAS-Data-Reconciliation",
+      "to": "Cohort-Analysis",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "ROAS-Data-Reconciliation",
+      "to": "DAU-Retention-Rate",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "ROAS-Data-Reconciliation",
+      "to": "MMP-Attribution",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "ROAS-Data-Reconciliation",
+      "to": "Session-Tracking",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "SCQ法则",
+      "to": "MECE",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "SCQ法则",
+      "to": "Pyramid-Principle",
+      "relation": "belongs_to",
+      "context": ""
+    },
+    {
+      "from": "SCQ法则",
+      "to": "行为面试",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "SKAN-Attribution",
+      "to": "Last-Click-Rule",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "SKAN-Attribution",
+      "to": "MMP-Attribution",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Session-Tracking",
+      "to": "Cohort-Analysis",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Session-Tracking",
+      "to": "DAU-Retention-Rate",
+      "relation": "foundation_of",
+      "context": ""
+    },
+    {
+      "from": "Session-Tracking",
+      "to": "ROAS-Data-Reconciliation",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Shapley值",
+      "to": "多触点归因",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Shapley值",
+      "to": "马尔可夫链归因",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "Ad-Fraud",
+      "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "Cohort-Analysis",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "MMP-Attribution",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "Pacing-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "erickfang",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "多触点归因",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Skills-System",
+      "to": "Agent-Loop",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Skills-System",
+      "to": "Context-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Softmax",
+      "to": "Logistic-回归",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Softmax",
+      "to": "交叉熵",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Tech-Blog-Article-Types",
+      "to": "Blog-Content-Writing-Practices",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Tech-Blog-Article-Types",
+      "to": "Phodal",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Tech-Blog-Article-Types",
+      "to": "Title-4U-Formula",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Title-4U-Formula",
+      "to": "Tech-Blog-Article-Types",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "User-App-Pair",
+      "to": "Audience-Definition",
+      "relation": "foundation_of",
+      "context": ""
+    },
+    {
+      "from": "User-App-Pair",
+      "to": "Channel-Launch-Strategy",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "User-App-Pair",
+      "to": "Network-Cognition-Gap",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "VC维",
+      "to": "PAC可学习性",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "VC维",
+      "to": "计算学习理论",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Workflow-vs-Agent",
+      "to": "Agent-Control-Patterns",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Workflow-vs-Agent",
+      "to": "Agent-Loop",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "ZhangPeng",
+      "to": "AAR-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "ZhangPeng",
+      "to": "CLAP-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "ZhangPeng",
+      "to": "FuPan",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "ZhangPeng",
+      "to": "OPTM-Framework",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "ZhangPeng",
+      "to": "PDCA-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "ZhangPeng",
+      "to": "PDF-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "erickfang",
+      "to": "MMP-Attribution",
+      "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "中文技术文档写作规范",
+      "to": "Blog-Content-Writing-Practices",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "中文技术文档写作规范",
+      "to": "Tech-Blog-Article-Types",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "主成分分析",
+      "to": "线性判别分析",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "交叉熵",
+      "to": "Logistic-回归",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "交叉熵",
+      "to": "Softmax",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "交叉熵",
+      "to": "损失函数",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "伪语境",
+      "to": "哥波尼世界",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "伪语境",
+      "to": "娱乐至死",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "伪语境",
+      "to": "媒介即隐喻",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "作品意识与打磨意识",
+      "to": "中文技术文档写作规范",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作价值心法",
+      "to": "顶级信息论与输入输出比",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "MECE",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "Pyramid-Principle",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "SCQ法则",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "作品意识与打磨意识",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "写作价值心法",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "写作起步-日常书写",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "滑梯理论",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "顶级信息论与输入输出比",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作起步-日常书写",
+      "to": "工作记忆",
+      "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "助攻率",
+      "to": "Last-Click-Rule",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "助攻率",
+      "to": "MMP-Attribution",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "助攻率",
+      "to": "多触点归因",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "反向传播",
+      "to": "梯度下降",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "反向传播",
+      "to": "神经网络",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "哥波尼世界",
+      "to": "伪语境",
+      "relation": "is_a",
+      "context": ""
+    },
+    {
+      "from": "哥波尼世界",
+      "to": "娱乐至死",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "哥波尼世界",
+      "to": "媒介即隐喻",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "多触点归因",
+      "to": "Last-Click-Rule",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "多触点归因",
+      "to": "Shapley值",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "多触点归因",
+      "to": "助攻率",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "多触点归因",
+      "to": "马尔可夫链归因",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "奥威尔与赫胥黎",
+      "to": "伪语境",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "奥威尔与赫胥黎",
+      "to": "娱乐至死",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "奥威尔与赫胥黎",
+      "to": "媒介即隐喻",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "娱乐至死",
+      "to": "伪语境",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "娱乐至死",
+      "to": "哥波尼世界",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "娱乐至死",
+      "to": "奥威尔与赫胥黎",
+      "relation": "belongs_to",
+      "context": ""
+    },
+    {
+      "from": "娱乐至死",
+      "to": "媒介即隐喻",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "媒介即隐喻",
+      "to": "伪语境",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "媒介即隐喻",
+      "to": "哥波尼世界",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "媒介即隐喻",
+      "to": "娱乐至死",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "工作记忆",
+      "to": "直觉",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "工作记忆",
+      "to": "知识体系",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "归因链接",
+      "to": "Last-Click-Rule",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "归因链接",
+      "to": "MMP-Attribution",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "归因链接",
+      "to": "SKAN-Attribution",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "损失函数",
+      "to": "梯度下降",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "损失函数",
+      "to": "正则化",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "支持向量机",
+      "to": "核技巧",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习工程师",
+      "to": "软件工程",
+      "relation": "requires",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "K近邻",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "主成分分析",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "基函数扩展",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "广义线性模型",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "核函数",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "正则化",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "流形学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "深度学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "神经网络",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "线性判别分析",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "线性回归",
+      "relation": "rooted_in",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "贝叶斯学习模型体系",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "降维",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "集成学习",
+      "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "核函数",
+      "to": "支持向量机",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "核函数",
+      "to": "核技巧",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "核函数",
+      "to": "高斯过程",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "梯度下降",
+      "to": "反向传播",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "梯度下降",
+      "to": "损失函数",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "深度学习",
+      "to": "神经网络",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "深度学习",
+      "to": "表示学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "清脑作者",
+      "to": "作品意识与打磨意识",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "清脑作者",
+      "to": "写作价值心法",
+      "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "清脑作者",
+      "to": "写作起步-日常书写",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "清脑作者",
+      "to": "滑梯理论",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "清脑作者",
+      "to": "顶级信息论与输入输出比",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "滑梯理论",
+      "to": "Pyramid-Principle",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "滑梯理论",
+      "to": "写作价值心法",
+      "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "激活函数",
+      "to": "深度学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "激活函数",
+      "to": "神经网络",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "皮卡小宝",
+      "to": "MECE",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "皮卡小宝",
+      "to": "Pyramid-Principle",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "皮卡小宝",
+      "to": "SCQ法则",
+      "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "直觉",
+      "to": "工作记忆",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "直觉",
+      "to": "知识体系",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "直觉",
+      "to": "经典知识联系",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -1011,9 +2499,21 @@
       "context": ""
     },
     {
-      "from": "工作记忆",
-      "to": "直觉",
-      "relation": "relates_to",
+      "from": "神经网络",
+      "to": "感知器",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "神经网络",
+      "to": "深度学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "程序化广告",
+      "to": "Pacing-Model",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -1023,98 +2523,62 @@
       "context": ""
     },
     {
-      "from": "媒介即隐喻",
-      "to": "娱乐至死",
-      "relation": "includes",
+      "from": "经典知识联系",
+      "to": "知识体系",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "伪语境",
-      "to": "媒介即隐喻",
+      "from": "自编码器",
+      "to": "主成分分析",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "自编码器",
+      "to": "深度学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "自编码器",
+      "to": "表示学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "行为面试",
+      "to": "Pyramid-Principle",
       "relation": "relates_to",
       "context": ""
     },
     {
-      "from": "伪语境",
-      "to": "娱乐至死",
+      "from": "行为面试",
+      "to": "SCQ法则",
       "relation": "relates_to",
       "context": ""
     },
     {
-      "from": "哥波尼世界",
-      "to": "伪语境",
-      "relation": "is_a",
+      "from": "贝叶斯学习模型体系",
+      "to": "主成分分析",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "哥波尼世界",
-      "to": "媒介即隐喻",
+      "from": "贝叶斯学习模型体系",
+      "to": "机器学习模型体系",
+      "relation": "complements",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "概率图模型",
       "relation": "relates_to",
       "context": ""
     },
     {
-      "from": "娱乐至死",
-      "to": "奥威尔与赫胥黎",
-      "relation": "belongs_to",
-      "context": ""
-    },
-    {
-      "from": "机器学习工程师",
-      "to": "软件工程",
-      "relation": "requires",
-      "context": ""
-    },
-    {
-      "from": "马尔可夫链",
-      "to": "隐马尔可夫模型",
-      "relation": "underlies",
-      "context": ""
-    },
-    {
-      "from": "马尔可夫链",
-      "to": "马尔可夫随机场",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
-      "from": "马尔可夫链",
-      "to": "马尔可夫链归因",
-      "relation": "used_by",
-      "context": ""
-    },
-    {
-      "from": "马尔可夫链",
-      "to": "MCMC",
-      "relation": "used_by",
-      "context": ""
-    },
-    {
-      "from": "机器学习模型体系",
-      "to": "线性回归",
-      "relation": "rooted_in",
-      "context": ""
-    },
-    {
-      "from": "机器学习模型体系",
-      "to": "神经网络",
-      "relation": "includes",
-      "context": ""
-    },
-    {
-      "from": "机器学习模型体系",
-      "to": "集成学习",
-      "relation": "includes",
-      "context": ""
-    },
-    {
-      "from": "机器学习模型体系",
-      "to": "正则化",
-      "relation": "includes",
-      "context": ""
-    },
-    {
-      "from": "机器学习模型体系",
-      "to": "降维",
+      "from": "贝叶斯学习模型体系",
+      "to": "混合模型",
       "relation": "includes",
       "context": ""
     },
@@ -1131,99 +2595,57 @@
       "context": ""
     },
     {
-      "from": "贝叶斯学习模型体系",
-      "to": "混合模型",
-      "relation": "includes",
+      "from": "贝叶斯学派",
+      "to": "频率学派",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "贝叶斯学习模型体系",
-      "to": "概率图模型",
-      "relation": "relates_to",
+      "from": "贝叶斯定理",
+      "to": "朴素贝叶斯",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "贝叶斯学习模型体系",
-      "to": "机器学习模型体系",
-      "relation": "complements",
+      "from": "贝叶斯定理",
+      "to": "贝叶斯学派",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "中文技术文档写作规范",
-      "to": "Blog-Content-Writing-Practices",
-      "relation": "relates_to",
+      "from": "超参数",
+      "to": "梯度下降",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "Pyramid-Principle",
-      "to": "SCQ法则",
-      "relation": "uses",
+      "from": "超参数",
+      "to": "正则化",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "SCQ法则",
-      "to": "Pyramid-Principle",
-      "relation": "belongs_to",
+      "from": "软件工程",
+      "to": "机器学习工程师",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "写作起步-日常书写",
-      "to": "工作记忆",
-      "relation": "uses",
+      "from": "过拟合",
+      "to": "LASSO",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "滑梯理论",
-      "to": "写作价值心法",
-      "relation": "relates_to",
+      "from": "过拟合",
+      "to": "岭回归",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "写作价值心法",
-      "to": "顶级信息论与输入输出比",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
-      "from": "作品意识与打磨意识",
-      "to": "中文技术文档写作规范",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
-      "from": "写作方法论",
-      "to": "写作价值心法",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
-      "from": "写作方法论",
-      "to": "滑梯理论",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
-      "from": "写作方法论",
-      "to": "Pyramid-Principle",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
-      "from": "写作方法论",
-      "to": "顶级信息论与输入输出比",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
-      "from": "写作方法论",
-      "to": "写作起步-日常书写",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
-      "from": "清脑作者",
-      "to": "写作价值心法",
-      "relation": "authored",
+      "from": "过拟合",
+      "to": "正则化",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -1233,158 +2655,56 @@
       "context": ""
     },
     {
-      "from": "皮卡小宝",
-      "to": "SCQ法则",
-      "relation": "authored",
+      "from": "顶级信息论与输入输出比",
+      "to": "写作价值心法",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "Ad-Fraud",
-      "to": "Attribution-Hijacking",
-      "relation": "includes",
+      "from": "马尔可夫链",
+      "to": "MCMC",
+      "relation": "used_by",
       "context": ""
     },
     {
-      "from": "Ad-Fraud",
-      "to": "Fake-Installation",
-      "relation": "includes",
+      "from": "马尔可夫链",
+      "to": "隐马尔可夫模型",
+      "relation": "underlies",
       "context": ""
     },
     {
-      "from": "Ad-Fraud",
-      "to": "Protect360",
-      "relation": "uses",
+      "from": "马尔可夫链",
+      "to": "马尔可夫链归因",
+      "relation": "used_by",
       "context": ""
     },
     {
-      "from": "Attribution-Hijacking",
-      "to": "Click-Flooding",
-      "relation": "includes",
-      "context": ""
-    },
-    {
-      "from": "Attribution-Hijacking",
-      "to": "CTIT-Analysis",
-      "relation": "detected_by",
-      "context": ""
-    },
-    {
-      "from": "Attribution-Hijacking",
-      "to": "Last-Click-Rule",
-      "relation": "exploits",
-      "context": ""
-    },
-    {
-      "from": "Fake-Installation",
-      "to": "Device-Farm",
-      "relation": "includes",
-      "context": ""
-    },
-    {
-      "from": "Fake-Installation",
-      "to": "CTIT-Analysis",
-      "relation": "detected_by",
-      "context": ""
-    },
-    {
-      "from": "Click-Flooding",
-      "to": "CTIT-Analysis",
-      "relation": "detected_by",
-      "context": ""
-    },
-    {
-      "from": "Protect360",
-      "to": "CTIT-Analysis",
-      "relation": "uses",
-      "context": ""
-    },
-    {
-      "from": "Protect360",
-      "to": "MMP-Attribution",
-      "relation": "part_of",
-      "context": ""
-    },
-    {
-      "from": "Platform-LVL-Validation",
-      "to": "Ad-Fraud",
-      "relation": "prevents",
-      "context": ""
-    },
-    {
-      "from": "Pacing-Model",
-      "to": "Cold-Start",
+      "from": "马尔可夫链",
+      "to": "马尔可夫随机场",
       "relation": "relates_to",
       "context": ""
     },
     {
-      "from": "Cohort-Analysis",
-      "to": "ROAS-Data-Reconciliation",
-      "relation": "relates_to",
+      "from": "马尔可夫链归因",
+      "to": "Shapley值",
+      "relation": "links_to",
       "context": ""
     },
     {
-      "from": "Cohort-Analysis",
-      "to": "DAU-Retention-Rate",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
-      "from": "Session-Tracking",
-      "to": "DAU-Retention-Rate",
-      "relation": "foundation_of",
-      "context": ""
-    },
-    {
-      "from": "ROAS-Data-Reconciliation",
-      "to": "MMP-Attribution",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
-      "from": "Chinese-Copywriting-Guidelines",
-      "to": "Blog-Content-Writing-Practices",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
-      "from": "Chinese-Copywriting-Guidelines",
-      "to": "中文技术文档写作规范",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
-      "from": "SimoneLee",
-      "to": "Ad-Fraud",
-      "relation": "authored",
-      "context": ""
-    },
-    {
-      "from": "Pacing-Model",
-      "to": "程序化广告",
-      "relation": "used_in",
-      "context": ""
-    },
-    {
-      "from": "行为面试",
-      "to": "SCQ法则",
-      "relation": "relates_to",
-      "context": ""
-    },
-    {
-      "from": "行为面试",
-      "to": "Pyramid-Principle",
-      "relation": "relates_to",
+      "from": "马尔可夫链归因",
+      "to": "多触点归因",
+      "relation": "links_to",
       "context": ""
     }
   ],
   "stats": {
     "totalNodes": 152,
-    "totalEdges": 102,
+    "totalEdges": 322,
     "byType": {
       "concept": 138,
       "entity": 10,
-      "topic": 3,
-      "howto": 1
+      "howto": 1,
+      "topic": 3
     }
   }
 }

@@ -3,6 +3,8 @@ title: Shapley值
 created: 2026-04-21
 updated: 2026-04-21
 type: concept
+domain: 增长与营销
+description: 博弈论公平归因
 tags: [广告归因]
 sources:
   - [[raw/articles/用户到底被哪个广告打动了？三种主流归因模型全解析]]

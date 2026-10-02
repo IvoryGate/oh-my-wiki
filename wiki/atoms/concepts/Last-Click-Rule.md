@@ -5,6 +5,8 @@ aliases:
   - Last Click
   - 最后点击归因
 type: concept
+domain: 增长与营销
+description: 广告归因核心规则
 created: 2026-04-18
 updated: 2026-04-22
 sources:

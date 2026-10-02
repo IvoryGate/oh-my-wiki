@@ -3,6 +3,8 @@ title: RAG
 created: 2026-04-17
 updated: 2026-04-20
 type: concept
+domain: LLM 与知识管理
+description: 检索增强生成技术
 tags: [知识管理]
 sources:
   - [[raw/articles/llm-wiki.md]]

@@ -6,6 +6,8 @@ aliases:
   - AI系统控制模式
   - 五种控制模式
 type: concept
+domain: Agent 架构与工程
+description: 五种 Agent 控制模式
 created: 2026-04-18
 updated: 2026-04-18
 sources:

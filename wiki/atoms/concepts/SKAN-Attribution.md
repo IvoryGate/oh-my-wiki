@@ -6,6 +6,8 @@ aliases:
   - Apple 归因
   - SKAN
 type: concept
+domain: 增长与营销
+description: Apple 官方归因体系 (iOS)
 created: 2026-04-18
 updated: 2026-04-22
 sources:

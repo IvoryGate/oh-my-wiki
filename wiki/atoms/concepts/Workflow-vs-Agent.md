@@ -5,6 +5,8 @@ aliases:
   - 工作流与智能体
   - Workflow与Agent区别
 type: concept
+domain: Agent 架构与工程
+description: 工作流与智能体的核心区别
 created: 2026-04-18
 updated: 2026-04-18
 sources:

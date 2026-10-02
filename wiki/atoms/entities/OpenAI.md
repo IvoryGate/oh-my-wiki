@@ -4,6 +4,7 @@ title: OpenAI
 aliases:
   - OpenAI公司
 type: entity
+description: AI 研究和部署公司
 created: 2026-04-18
 updated: 2026-04-20
 sources:

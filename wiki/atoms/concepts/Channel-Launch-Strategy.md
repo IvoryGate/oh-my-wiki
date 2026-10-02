@@ -6,6 +6,8 @@ aliases:
   - 冷启动
   - Channel Launch Strategy
 type: concept
+domain: 增长与营销
+description: 渠道起量六要素
 created: 2026-04-18
 updated: 2026-04-18
 sources:

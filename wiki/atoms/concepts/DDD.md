@@ -3,6 +3,8 @@ title: 领域驱动设计（DDD）
 created: 2026-04-20
 updated: 2026-04-20
 type: concept
+domain: 软件架构与建模
+description: 领域驱动设计：分层、战术模式与模块化要点
 tags: [软件工程]
 sources:
   - [[raw/videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md]]

@@ -3,6 +3,8 @@ title: Ad-Fraud
 created: 2026-09-04
 updated: 2026-09-04
 type: concept
+domain: 增长与营销
+description: 广告作弊分类与防作弊体系
 tags: [出海投放, 反作弊]
 sources:
   - [[raw/articles/广告作弊Ad Fraud（一）.md]]

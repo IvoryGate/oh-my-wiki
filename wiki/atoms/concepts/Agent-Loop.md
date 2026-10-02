@@ -6,6 +6,8 @@ aliases:
   - AI Agent主循环
   - 感知-决策-行动-反馈循环
 type: concept
+domain: Agent 架构与工程
+description: Agent 核心循环模式：感知-决策-行动-反馈
 created: 2026-04-18
 updated: 2026-04-18
 sources:

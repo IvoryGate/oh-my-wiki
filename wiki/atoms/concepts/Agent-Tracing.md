@@ -5,6 +5,8 @@ aliases:
   - Agent追踪
   - 可观测性
 type: concept
+domain: Agent 架构与工程
+description: Agent 追踪与可观测性
 created: 2026-04-18
 updated: 2026-04-18
 sources:

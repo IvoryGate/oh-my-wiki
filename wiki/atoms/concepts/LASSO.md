@@ -3,6 +3,8 @@ title: "LASSO"
 created: 2026-04-23
 updated: 2026-04-23
 type: concept
+domain: 机器学习
+description: L1正则化线性回归
 tags: [机器学习, 回归]
 sources:
   - [[raw/articles/12 正则化处理：收缩方法与边际化.md]]

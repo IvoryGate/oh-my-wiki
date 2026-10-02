@@ -6,6 +6,8 @@ aliases:
   - Attribution Gap
   - 数据差异
 type: concept
+domain: 增长与营销
+description: MMP 与大媒体归因差异
 created: 2026-04-18
 updated: 2026-04-22
 sources:

@@ -5,6 +5,8 @@ aliases:
   - 渠道能力差异
   - Network Cognition Gap
 type: concept
+domain: 增长与营销
+description: 渠道能力差异
 created: 2026-04-18
 updated: 2026-04-18
 sources:

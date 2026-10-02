@@ -5,6 +5,7 @@ aliases:
   - OpenAI Codex
   - Codex CLI
 type: entity
+description: OpenAI 代码生成智能体
 created: 2026-04-18
 updated: 2026-04-18
 sources:

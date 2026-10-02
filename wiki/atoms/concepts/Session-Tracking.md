@@ -3,6 +3,8 @@ title: Session-Tracking
 created: 2026-09-04
 updated: 2026-09-04
 type: concept
+domain: 增长与营销
+description: 会话追踪与统计
 tags: [出海投放, 数据分析]
 sources:
   - [[raw/articles/出海投放基础知识之数据统计（一）.md]]

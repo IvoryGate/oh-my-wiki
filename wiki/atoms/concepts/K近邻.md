@@ -3,6 +3,8 @@ title: "K近邻"
 created: 2026-04-23
 updated: 2026-04-23
 type: concept
+domain: 机器学习
+description: 非参数局部
 tags: [机器学习, 分类]
 sources:
   - [[raw/articles/19 非参数化的局部模型：K近邻.md]]

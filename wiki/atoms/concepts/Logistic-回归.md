@@ -4,6 +4,8 @@ aliases: [Logistic回归]
 created: 2026-04-23
 updated: 2026-04-23
 type: concept
+domain: 机器学习
+description: 联系函数的二分类
 tags: [机器学习, 分类]
 sources:
   - [[raw/articles/15 从回归到分类：联系函数与降维.md]]

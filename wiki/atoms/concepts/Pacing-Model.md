@@ -3,6 +3,8 @@ title: Pacing-Model
 created: 2026-09-04
 updated: 2026-09-04
 type: concept
+domain: 增长与营销
+description: 预算节奏控制模型
 tags: [出海投放]
 sources:
   - [[raw/articles/广告中的Pacing模型以及冷启动.md]]

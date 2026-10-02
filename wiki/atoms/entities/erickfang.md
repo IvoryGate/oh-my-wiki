@@ -4,6 +4,7 @@ title: erickfang
 aliases:
   - Erick Fang
 type: entity
+description: 出海增长专家，《出海增长浅谈》作者
 created: 2026-04-18
 updated: 2026-04-18
 sources:

@@ -6,6 +6,8 @@ aliases:
   - Agent计算机接口
   - ACI
 type: concept
+domain: Agent 架构与工程
+description: Agent-Computer Interface：工具设计原则
 created: 2026-04-18
 updated: 2026-04-18
 sources:

@@ -3,6 +3,8 @@ title: "Softmax"
 created: 2026-04-23
 updated: 2026-04-23
 type: concept
+domain: 机器学习
+description: 多分类概率归一化
 tags: [机器学习, 分类, 神经网络]
 sources:
   - [[raw/articles/17 几何角度看分类：支持向量机.md]]

@@ -3,6 +3,8 @@ title: OPTM框架
 created: 2026-04-19
 updated: 2026-04-19
 type: concept
+domain: 复盘与方法论
+description: 复盘三层框架：组织-流程-工具方法
 tags: [复盘]
 sources:
   - [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]

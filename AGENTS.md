@@ -22,3 +22,5 @@
 - Agent 负责 `git commit`，`git push` 由用户决定
 - 遵守「渐进式披露」：只读取必要内容，避免全量扫描
 - 根目录仅允许本项目级文档，禁止创建知识页面
+- 体检用 `lint` skill，图谱同步用 `gen-graph` skill（位于 `.opencode/skills/`）
+- `wiki/index.md` 与 `wiki/graph.json` 是派生件（Dataview/脚本生成），禁止手工维护数字与表格；操作日志追加到 `wiki/log.txt`（纯文本，不用 `[[链接]]`）
