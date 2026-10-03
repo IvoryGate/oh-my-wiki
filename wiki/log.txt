@@ -5,6 +5,14 @@
 
 ---
 
+## [2026-10-03] amend | AGENTS.md 新增「五、写作协助」工作流：写作须遵循库内方法论与格式规范
+
+- 触发：用户要求把写作类知识固化为 Agent 规则
+- 必读清单：写作方法论（心法→起步→技法→逻辑表达主线）、中文技术文档写作规范（排版/标点/数值硬规范）、概念页 Blog-Content-Writing-Practices / Title-4U-Formula / Tech-Blog-Article-Types / 滑梯理论 / 作品意识 / Pyramid-Principle / SCQ法则 / MECE
+- 四步流程：定位（受众+类型+读页）→ 构思（结论先行+SCQ 开头+4U 标题候选）→ 成稿（先写后改、短段落）→ 交付前自检（格式/诚信/校对）
+- 边界：默认对话交付，存文件需确认位置（通常 workspace/Doing/），不直接写入 wiki/，成熟走 Flow；改稿同标准
+- 版本记录 1.5
+
 ## [2026-10-02] restructure | Agent.md 并入 AGENTS.md，统一单一入口
 
 - 命名规范：AGENTS.md 为标准命名（opencode 自动加载），Agent.md 命名不规范，二合一
