@@ -1525,6 +1525,11 @@
       "path": "wiki/atoms/concepts/作品意识与打磨意识.md"
     },
     {
+      "id": "假设空间",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/假设空间.md"
+    },
+    {
       "id": "写作价值心法",
       "type": "concept",
       "path": "wiki/atoms/concepts/写作价值心法.md"
@@ -1675,6 +1680,11 @@
       "path": "wiki/atoms/concepts/支持向量机.md"
     },
     {
+      "id": "无监督学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/无监督学习.md"
+    },
+    {
       "id": "最大似然估计",
       "type": "concept",
       "path": "wiki/atoms/concepts/最大似然估计.md"
@@ -1745,6 +1755,16 @@
       "path": "wiki/atoms/concepts/模型验证.md"
     },
     {
+      "id": "模式识别",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/模式识别.md"
+    },
+    {
+      "id": "欠拟合",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/欠拟合.md"
+    },
+    {
       "id": "正则化",
       "type": "concept",
       "path": "wiki/atoms/concepts/正则化.md"
@@ -1788,6 +1808,11 @@
       "id": "皮卡小宝",
       "type": "entity",
       "path": "wiki/atoms/entities/皮卡小宝.md"
+    },
+    {
+      "id": "监督学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/监督学习.md"
     },
     {
       "id": "直觉",
@@ -3923,6 +3948,12 @@
     },
     {
       "from": "PAC可学习性",
+      "to": "假设空间",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "PAC可学习性",
       "to": "计算学习理论",
       "relation": "links_to",
       "context": ""
@@ -4535,6 +4566,12 @@
     },
     {
       "from": "VC维",
+      "to": "假设空间",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "VC维",
       "to": "计算学习理论",
       "relation": "links_to",
       "context": ""
@@ -4945,6 +4982,48 @@
       "from": "作品意识与打磨意识",
       "to": "中文技术文档写作规范",
       "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "假设空间",
+      "to": "PAC可学习性",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "假设空间",
+      "to": "VC维",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "假设空间",
+      "to": "raw/columns/机器学习40讲/03 学什么与怎么学",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "假设空间",
+      "to": "raw/columns/机器学习40讲/04 计算学习理论",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "假设空间",
+      "to": "raw/columns/机器学习40讲/05 模型的分类方式",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "假设空间",
+      "to": "机器学习适用条件",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "假设空间",
+      "to": "计算学习理论",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -5632,6 +5711,48 @@
       "context": ""
     },
     {
+      "from": "无监督学习",
+      "to": "raw/columns/机器学习40讲/03 学什么与怎么学",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "无监督学习",
+      "to": "raw/columns/机器学习40讲/20 基于距离的学习：聚类与度量学习",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "无监督学习",
+      "to": "raw/columns/机器学习40讲/23 层次化的神经网络：深度学习",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "无监督学习",
+      "to": "机器学习任务分类",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "无监督学习",
+      "to": "监督学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "无监督学习",
+      "to": "聚类分析",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "无监督学习",
+      "to": "降维",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "最大似然估计",
       "to": "raw/columns/机器学习40讲/01 频率视角下的机器学习",
       "relation": "cites",
@@ -5663,7 +5784,19 @@
     },
     {
       "from": "机器学习任务分类",
+      "to": "无监督学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习任务分类",
       "to": "机器学习适用条件",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习任务分类",
+      "to": "监督学习",
       "relation": "links_to",
       "context": ""
     },
@@ -5790,6 +5923,12 @@
     {
       "from": "机器学习适用条件",
       "to": "机器学习任务分类",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习适用条件",
+      "to": "模式识别",
       "relation": "links_to",
       "context": ""
     },
@@ -5975,12 +6114,66 @@
     },
     {
       "from": "模型验证",
+      "to": "欠拟合",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型验证",
       "to": "超参数",
       "relation": "links_to",
       "context": ""
     },
     {
       "from": "模型验证",
+      "to": "过拟合",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模式识别",
+      "to": "raw/columns/机器学习40讲/03 学什么与怎么学",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "模式识别",
+      "to": "raw/columns/机器学习40讲/总结课 机器学习的模型体系",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "模式识别",
+      "to": "机器学习模型体系",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模式识别",
+      "to": "机器学习适用条件",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "欠拟合",
+      "to": "raw/columns/机器学习40讲/06 模型的设计准则",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "欠拟合",
+      "to": "raw/columns/机器学习40讲/07 模型的验证方法",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "欠拟合",
+      "to": "模型验证",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "欠拟合",
       "to": "过拟合",
       "relation": "links_to",
       "context": ""
@@ -6124,6 +6317,48 @@
       "context": ""
     },
     {
+      "from": "监督学习",
+      "to": "raw/columns/机器学习40讲/03 学什么与怎么学",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "监督学习",
+      "to": "raw/columns/机器学习40讲/15 从回归到分类：联系函数与降维",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "监督学习",
+      "to": "raw/columns/机器学习40讲/20 基于距离的学习：聚类与度量学习",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "监督学习",
+      "to": "raw/columns/机器学习40讲/23 层次化的神经网络：深度学习",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "监督学习",
+      "to": "无监督学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "监督学习",
+      "to": "机器学习任务分类",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "监督学习",
+      "to": "线性判别分析",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "直觉",
       "to": "raw/videos/2026-04-26-四个步骤，建立知识体系的简单方法，借助直觉，直觉不是瞎猜，不是超能力【吸收人类优秀学习理论32】",
       "relation": "cites",
@@ -6232,6 +6467,12 @@
       "context": ""
     },
     {
+      "from": "线性判别分析",
+      "to": "监督学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "线性动态系统",
       "to": "raw/columns/机器学习40讲/34 连续序列化模型：线性动态系统",
       "relation": "cites",
@@ -6334,6 +6575,12 @@
       "context": ""
     },
     {
+      "from": "聚类分析",
+      "to": "无监督学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "自编码器",
       "to": "raw/columns/机器学习40讲/24 深度编解码：表示学习",
       "relation": "cites",
@@ -6342,6 +6589,12 @@
     {
       "from": "自编码器",
       "to": "主成分分析",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "自编码器",
+      "to": "无监督学习",
       "relation": "links_to",
       "context": ""
     },
@@ -6493,6 +6746,12 @@
       "from": "计算学习理论",
       "to": "raw/columns/机器学习40讲/04 计算学习理论",
       "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "计算学习理论",
+      "to": "假设空间",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -6677,6 +6936,12 @@
     },
     {
       "from": "过拟合",
+      "to": "欠拟合",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "过拟合",
       "to": "正则化",
       "relation": "links_to",
       "context": ""
@@ -6839,10 +7104,10 @@
     }
   ],
   "stats": {
-    "totalNodes": 364,
-    "totalEdges": 806,
+    "totalNodes": 369,
+    "totalEdges": 846,
     "byType": {
-      "concept": 165,
+      "concept": 170,
       "entity": 10,
       "howto": 1,
       "source": 177,

@@ -15,7 +15,7 @@ status: draft
 
 ## 核心定义
 
-VC 维（Vapnik-Chervonenkis Dimension）是对假设空间复杂度的一种度量，以两位统计学习理论先驱 Vladimir Vapnik 和 Alexey Chervonenkis 的名字命名。
+VC 维（Vapnik-Chervonenkis Dimension）是对[[假设空间]]复杂度的一种度量，以两位统计学习理论先驱 Vladimir Vapnik 和 Alexey Chervonenkis 的名字命名。
 
 ## 形式化定义
 

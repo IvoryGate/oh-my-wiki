@@ -30,7 +30,7 @@ PAC（Probably Approximately Correct）可学习性是机器学习理论中的�
 
 ## 关键结论
 
-- **有限假设空间都是 PAC 可学习的**
+- **有限[[假设空间]]都是 PAC 可学习的**
 - VC 维有限 $\Rightarrow$ PAC 可学习
 - 样本复杂度与 $\epsilon$、$\delta$ 成反比
 
