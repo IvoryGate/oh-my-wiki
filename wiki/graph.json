@@ -163,6 +163,11 @@
       "path": "wiki/atoms/concepts/High-Value-Channel.md"
     },
     {
+      "id": "InnoDB存储引擎",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/InnoDB存储引擎.md"
+    },
+    {
       "id": "Karpathy",
       "type": "entity",
       "path": "wiki/atoms/entities/Karpathy.md"
@@ -231,6 +236,16 @@
       "id": "MySQL事务隔离与锁机制",
       "type": "topic",
       "path": "wiki/synthesis/topics/MySQL事务隔离与锁机制.md"
+    },
+    {
+      "id": "MySQL存储结构与表设计",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/MySQL存储结构与表设计.md"
+    },
+    {
+      "id": "MySQL性能诊断与资源管理",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/MySQL性能诊断与资源管理.md"
     },
     {
       "id": "MySQL执行路径与基础架构",
@@ -456,6 +471,11 @@
       "id": "决策树",
       "type": "concept",
       "path": "wiki/atoms/concepts/决策树.md"
+    },
+    {
+      "id": "分区表",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/分区表.md"
     },
     {
       "id": "助攻率",
@@ -731,6 +751,11 @@
       "id": "表示学习",
       "type": "concept",
       "path": "wiki/atoms/concepts/表示学习.md"
+    },
+    {
+      "id": "表空间与碎片",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/表空间与碎片.md"
     },
     {
       "id": "覆盖索引与最左前缀",
@@ -1474,6 +1499,30 @@
       "context": ""
     },
     {
+      "from": "InnoDB存储引擎",
+      "to": "MySQL存储结构与表设计",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "InnoDB存储引擎",
+      "to": "MySQL性能诊断与资源管理",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "InnoDB存储引擎",
+      "to": "MySQL执行路径与基础架构",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "InnoDB存储引擎",
+      "to": "聚簇索引",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "Karpathy",
       "to": "LLM-Wiki",
       "relation": "links_to",
@@ -1638,6 +1687,78 @@
     {
       "from": "MySQL事务隔离与锁机制",
       "to": "间隙锁",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "B+树索引",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "InnoDB存储引擎",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "MySQL性能诊断与资源管理",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "MySQL执行路径与基础架构",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "分区表",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "聚簇索引",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "表空间与碎片",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL性能诊断与资源管理",
+      "to": "InnoDB存储引擎",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL性能诊断与资源管理",
+      "to": "MySQL事务隔离与锁机制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL性能诊断与资源管理",
+      "to": "MySQL日志系统与数据可靠性",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL性能诊断与资源管理",
+      "to": "MySQL索引体系与查询优化",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL性能诊断与资源管理",
+      "to": "行锁与表锁",
       "relation": "links_to",
       "context": ""
     },
@@ -2392,6 +2513,12 @@
       "context": ""
     },
     {
+      "from": "分区表",
+      "to": "MySQL存储结构与表设计",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "助攻率",
       "to": "Last-Click-Rule",
       "relation": "links_to",
@@ -2950,6 +3077,18 @@
       "context": ""
     },
     {
+      "from": "表空间与碎片",
+      "to": "B+树索引",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "表空间与碎片",
+      "to": "MySQL存储结构与表设计",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "覆盖索引与最左前缀",
       "to": "MySQL索引体系与查询优化",
       "relation": "links_to",
@@ -3119,13 +3258,13 @@
     }
   ],
   "stats": {
-    "totalNodes": 169,
-    "totalEdges": 378,
+    "totalNodes": 174,
+    "totalEdges": 397,
     "byType": {
-      "concept": 151,
+      "concept": 154,
       "entity": 10,
       "howto": 1,
-      "topic": 7
+      "topic": 9
     }
   }
 }
