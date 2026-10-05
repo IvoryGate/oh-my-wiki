@@ -14,7 +14,8 @@ sources:
   - [[raw/articles/关于归因你可能不知道的那些事(一）.md]]
   - [[raw/articles/渠道MMPBI的数据差异剖析.md]]
 tags:
-  - 广告归因
+  - 主题/广告归因
+  - 域/增长与营销
 ---
 
 ## 定义

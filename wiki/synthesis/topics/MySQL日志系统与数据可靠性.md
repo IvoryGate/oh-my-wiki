@@ -1,8 +1,9 @@
 ---
 title: "MySQL日志系统与数据可靠性"
 type: topic
+domain: 数据库
 description: redo log 与 binlog 的分工、两阶段提交、双 1 落盘策略，以及 crash-safe、备份恢复与可用性诊断
-tags: [数据库, 优化]
+tags: [域/数据库, 主题/优化]
 category: topics
 status: stable
 version: 1.0

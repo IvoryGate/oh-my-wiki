@@ -5,7 +5,7 @@ updated: 2026-10-05
 type: concept
 domain: 数据库
 description: InnoDB 索引的底层数据结构，非叶结点只存 key+指针、叶子结点串成链表，用矮树高换低 IO
-tags: [数据库]
+tags: [域/数据库]
 sources:
   - [[raw/columns/MySQL实战45讲/04  深入浅出索引（上）.md]]
   - [[raw/columns/MySQL实战宝典/08  索引：排序的艺术.md]]

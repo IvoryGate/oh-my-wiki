@@ -13,7 +13,7 @@ updated: 2026-04-18
 sources:
   - [[raw/articles/渠道不起量的原因都在这里了！.md]]
 tags:
-  - 出海投放
+  - 域/增长与营销
 ---
 
 ## 定义

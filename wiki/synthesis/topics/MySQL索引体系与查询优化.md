@@ -1,8 +1,9 @@
 ---
 title: "MySQL索引体系与查询优化"
 type: topic
+domain: 数据库
 description: 从 B+ 树结构到联合索引规则、索引选择与 CBO，再到 order by、join、子查询的执行与改写
-tags: [数据库, 优化]
+tags: [域/数据库, 主题/优化]
 category: topics
 status: stable
 version: 1.0

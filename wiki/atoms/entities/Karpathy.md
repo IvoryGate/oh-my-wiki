@@ -3,8 +3,9 @@ title: Karpathy
 created: 2026-04-17
 updated: 2026-04-21
 type: entity
+domain: LLM 与知识管理
 description: AI 研究员，LLM Wiki 提出者
-tags: [知识管理]
+tags: [域/LLM与知识管理]
 sources:
   - [[raw/articles/llm-wiki.md]]
 status: active

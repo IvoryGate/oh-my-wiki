@@ -5,6 +5,49 @@
 
 ---
 
+## [2026-10-06] refactor | 标签命名空间重构 31→33、补 22 页 domain、配置指南入库
+
+### 背景
+- 用户提出要解决"标签和结构"问题：clippings 标签在图谱里成巨型枢纽、31 个标签粒度混杂（域/主题/任务/实体/用途混在一层，分布 74:1）、三类内容（自写/剪藏/Agent 生成）无视觉区分
+- 方案分四层经讨论确认（图谱设置 / 标签词表 / 双链 / 文档入库），本次执行后三层
+
+### 一、标签词表 31 → 33（B1 命名空间）
+- 四个命名空间：#域/ 13（与 frontmatter domain 一一对齐，tag 内不能有空格故去掉空格）、#任务/ 4、#方法/ 2、#主题/ 14
+- 316 处旧标注全部改名；跨域的两个标签按页面 domain 分流，避免一页挂两个域标签：
+  Agent工程 → 域/Agent架构与工程（14 页）或 域/Agent-First开发（3 页）；软件工程 → 域/软件工程（1 页）或 域/软件架构与建模（1 页）
+- 补域标签 12 处（增长与营销域下 11 个归因/广告主题页 + erickfang，原本只挂主题标签）
+- 结果：192 个内容页每页恰好 1 个域标签，无双域、无遗漏
+- lint EXPECTED_TAG_COUNT 同步 31 → 33（该检查只校验数量，无硬编码名单，不需改其他逻辑）
+
+### 二、补 22 页 domain（此前入库漏设，我的疏漏）
+- MySQL 主题页 7 页 + 分布式数据库与分库分表 → 数据库
+- 机器学习模型体系、贝叶斯学习模型体系 → 机器学习
+- 写作方法论、中文技术文档写作规范 → 写作与技术博客
+- 实体页 10 页按 description + 既有 tags 判定：Codex/OpenAI → Agent 架构与工程；erickfang/SimoneLee → 增长与营销；Karpathy → LLM 与知识管理；Phodal/阿宝哥/清脑作者/皮卡小宝 → 写作与技术博客；ZhangPeng → 复盘与方法论
+- 效果：index.md 的 GROUP BY domain 表格此前有 22 页落在"无域"组，现已全部归位
+
+### 三、workspace 的 related 加引号（26 处 / 8 文件）
+- 机制：frontmatter 里裸的双链被 YAML 解析成嵌套数组，Obsidian 不认；写成带引号的字符串才进图谱与反链
+- 涉及：Skills编写规范、博客写作完全指南、如何构建知识体系、oh-my-wiki AI个人知识库实践、Agent/_tracker、一文彻底搞懂Agent、MachineLearning/_tracker、UA基础知识扫盲
+- 只改规范允许的 related 字段，未动正文；按既定规则不 stage（workspace 由用户自行提交）
+
+### 四、新增 wiki/synthesis/howto/Obsidian关系图谱配置指南.md
+- 四步法：身份分色（7 条 first-match-wins 分组，含色值与可直接粘贴的 JSON）→ 过滤四开关 → 力学实测参数 → 33 词命名空间
+- 收录两个机制说明：frontmatter 链接需加引号；wiki→raw 的 730 条引用边用 -path:"raw" 分离
+- 回链 2 处：RAG、LLM-Wiki（两页正文本就讨论 Graph View）
+- 用户提供的通用调研做了精简，以本库专属配置为主
+
+### 更正（方案阶段的误报）
+- 方案里曾称"lint 有裸名断链盲区、7 处真断链"，复核为我的统计脚本误报：
+  lint 的 resolve() 走 basename + alias 双通道，金字塔原理→Pyramid-Principle、Logistic回归→Logistic-回归、ACI→ACI-Agent-Computer-Interface 均能解析，lint 无盲区，未修任何链接
+
+### 结果
+- lint：标签 33 ✓、graph.json 一致（370 节点 848 边）、页面 193（+1 指南）、孤页 17 未增
+- 唯一错误仍是 workspace/Doing 两文件的 4 张图片断链（已知问题，待用户决定处理方式）
+- 另有未入本库词表的 workspace 自由标签约 70 个（ffmpeg、UA、jottings 等），不参与 lint 校验、本轮未纳入命名空间
+
+---
+
 ## [2026-10-06] ingest | 补建 5 个基础概念页（模式识别/监督/无监督/欠拟合/假设空间）
 
 ### 背景

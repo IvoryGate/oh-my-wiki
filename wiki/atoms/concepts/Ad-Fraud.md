@@ -5,7 +5,7 @@ updated: 2026-09-04
 type: concept
 domain: 增长与营销
 description: 广告作弊分类与防作弊体系
-tags: [出海投放, 反作弊]
+tags: [域/增长与营销, 主题/反作弊]
 sources:
   - [[raw/articles/广告作弊Ad Fraud（一）.md]]
   - [[raw/articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？.md]]

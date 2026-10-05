@@ -5,7 +5,7 @@ updated: 2026-04-20
 type: concept
 domain: 写作与技术博客
 description: 标题 4U：紧迫、独特、明确、有用
-tags: [写作]
+tags: [域/写作与技术博客]
 sources:
   - [[raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md]]
 status: active

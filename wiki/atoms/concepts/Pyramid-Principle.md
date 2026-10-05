@@ -6,7 +6,7 @@ updated: 2026-08-21
 type: concept
 domain: 写作与技术博客
 description: 结论先行、归类分组、SCQ，及技术大纲三「上下」
-tags: [写作, 结构化思维]
+tags: [域/写作与技术博客, 方法/结构化思维]
 sources:
   - [[raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md]]
   - [[raw/articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！.md]]

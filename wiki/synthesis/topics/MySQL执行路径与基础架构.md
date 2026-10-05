@@ -1,8 +1,9 @@
 ---
 title: "MySQL执行路径与基础架构"
 type: topic
+domain: 数据库
 description: 一条 SQL 从连接到返回结果的完整链路，Server 层与存储引擎层的分工，以及权限体系的生效时机
-tags: [数据库]
+tags: [域/数据库]
 category: topics
 status: stable
 version: 1.0

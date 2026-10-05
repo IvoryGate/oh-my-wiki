@@ -5,7 +5,7 @@ updated: 2026-09-04
 type: concept
 domain: 增长与营销
 description: 虚假安装：设备农场与机器人
-tags: [出海投放, 反作弊]
+tags: [域/增长与营销, 主题/反作弊]
 sources:
   - [[raw/articles/广告作弊Ad Fraud（二）.md]]
   - [[raw/articles/广告作弊Ad Fraud（一）.md]]

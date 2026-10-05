@@ -5,7 +5,7 @@ updated: 2026-09-04
 type: concept
 domain: 增长与营销
 description: 广告冷启动问题
-tags: [出海投放]
+tags: [域/增长与营销]
 sources:
   - [[raw/articles/广告中的Pacing模型以及冷启动.md]]
 status: active

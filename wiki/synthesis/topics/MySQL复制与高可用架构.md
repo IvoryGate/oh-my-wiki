@@ -1,8 +1,9 @@
 ---
 title: "MySQL复制与高可用架构"
 type: topic
+domain: 数据库
 description: 主备复制的三步流程与一致性保证、延迟成因与判断、读写分离的过期读、切换与容灾套件选型
-tags: [数据库, 优化]
+tags: [域/数据库, 主题/优化]
 category: topics
 status: stable
 version: 1.0

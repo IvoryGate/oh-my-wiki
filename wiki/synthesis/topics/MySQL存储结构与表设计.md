@@ -1,8 +1,9 @@
 ---
 title: "MySQL存储结构与表设计"
 type: topic
+domain: 数据库
 description: 表结构与字段类型选择、空间回收与压缩、count 统计、临时表与内存表、自增机制与分区表
-tags: [数据库]
+tags: [域/数据库]
 category: topics
 status: stable
 version: 1.0

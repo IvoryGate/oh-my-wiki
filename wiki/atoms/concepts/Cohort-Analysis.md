@@ -5,7 +5,7 @@ updated: 2026-09-04
 type: concept
 domain: 增长与营销
 description: 队列分析
-tags: [出海投放, 数据分析]
+tags: [域/增长与营销, 主题/数据分析]
 sources:
   - [[raw/articles/什么是Cohort队列？.md]]
   - [[raw/articles/Unity平台ROAS开启条件和数据差异问题.md]]

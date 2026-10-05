@@ -5,7 +5,7 @@ updated: 2026-10-05
 type: concept
 domain: 数据库
 description: Server 层的逻辑日志，追加写入，用于归档与主备复制
-tags: [数据库, 优化]
+tags: [域/数据库, 主题/优化]
 sources:
   - [[raw/columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？.md]]
   - [[raw/columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题.md]]

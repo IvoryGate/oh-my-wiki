@@ -2,6 +2,7 @@
 id: SimoneLee
 title: SimoneLee
 type: entity
+domain: 增长与营销
 description: 出海投放与广告归因/反作弊系列作者
 created: 2026-09-22
 updated: 2026-09-22
@@ -25,9 +26,9 @@ sources:
   - [[raw/articles/Unity平台ROAS开启条件和数据差异问题.md]]
   - [[raw/articles/渠道MMPBI的数据差异剖析.md]]
 tags:
-  - 广告归因
-  - 出海投放
-  - 反作弊
+  - 主题/广告归因
+  - 域/增长与营销
+  - 主题/反作弊
 ---
 
 ## 定义

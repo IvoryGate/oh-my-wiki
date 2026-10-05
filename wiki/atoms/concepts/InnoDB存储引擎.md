@@ -5,7 +5,7 @@ updated: 2026-10-05
 type: concept
 domain: 数据库
 description: MySQL 默认存储引擎——索引组织表、buffer pool 与改进 LRU，以及与其他引擎的取舍
-tags: [数据库]
+tags: [域/数据库]
 sources:
   - [[raw/columns/MySQL实战45讲/38  都说InnoDB好，那还要不要使用Memory引擎？.md]]
   - [[raw/columns/MySQL实战45讲/33  我查这么多数据，会不会把数据库内存打爆？.md]]

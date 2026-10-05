@@ -1,8 +1,9 @@
 ---
 title: "MySQL事务隔离与锁机制"
 type: topic
+domain: 数据库
 description: 四种隔离级别的语义、MVCC 快照读与当前读、锁的层级与代价，以及 45讲 的加锁规则速查
-tags: [数据库, 优化]
+tags: [域/数据库, 主题/优化]
 category: topics
 status: stable
 version: 1.0

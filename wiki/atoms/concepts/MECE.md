@@ -5,7 +5,7 @@ updated: 2026-04-20
 type: concept
 domain: 写作与技术博客
 description: 相互独立、完全穷尽的分类原则
-tags: [写作, 结构化思维]
+tags: [域/写作与技术博客, 方法/结构化思维]
 sources:
   - [[raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md]]
 status: active

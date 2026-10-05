@@ -6,7 +6,7 @@ updated: 2026-04-23
 type: concept
 domain: 机器学习
 description: 联系函数的二分类
-tags: [机器学习, 分类]
+tags: [域/机器学习, 任务/分类]
 sources:
   - [[raw/columns/机器学习40讲/15 从回归到分类：联系函数与降维.md]]
   - [[raw/columns/机器学习40讲/16 建模非正态分布：广义线性模型.md]]

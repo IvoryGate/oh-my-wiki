@@ -5,7 +5,7 @@ updated: 2026-04-23
 type: concept
 domain: 机器学习
 description: 随机近似推断
-tags: [机器学习, 贝叶斯]
+tags: [域/机器学习, 主题/贝叶斯]
 sources:
   - [[raw/columns/机器学习40讲/37 随机近似推断：MCMC.md]]
 status: draft

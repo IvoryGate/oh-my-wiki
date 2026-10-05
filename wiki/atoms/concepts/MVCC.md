@@ -5,7 +5,7 @@ updated: 2026-10-05
 type: concept
 domain: 数据库
 description: 通过事务 id、row trx_id 与一致性读视图实现快照读，让读操作不加锁
-tags: [数据库]
+tags: [域/数据库]
 sources:
   - [[raw/columns/MySQL实战45讲/08  事务到底是隔离的还是不隔离的？.md]]
   - [[raw/columns/MySQL实战45讲/03  事务隔离：为什么你改了我还看不见？.md]]

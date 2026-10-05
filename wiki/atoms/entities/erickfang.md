@@ -4,13 +4,15 @@ title: erickfang
 aliases:
   - Erick Fang
 type: entity
+domain: 增长与营销
 description: 出海增长专家，《出海增长浅谈》作者
 created: 2026-04-18
 updated: 2026-04-18
 sources:
   - [[raw/articles/关于归因你可能不知道的那些事(一）.md]]
 tags:
-  - 广告归因
+  - 主题/广告归因
+  - 域/增长与营销
 ---
 
 ## 定义

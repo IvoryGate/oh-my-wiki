@@ -1,8 +1,9 @@
 ---
 title: "MySQL性能诊断与资源管理"
 type: topic
+domain: 数据库
 description: 刷脏页导致的抖动、饮鸩止渴的救火手段清单、内存的边界（边读边发与改进 LRU）
-tags: [数据库, 优化]
+tags: [域/数据库, 主题/优化]
 category: topics
 status: stable
 version: 1.0

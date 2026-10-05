@@ -5,7 +5,7 @@ updated: 2026-04-23
 type: concept
 domain: 机器学习
 description: 非参数局部
-tags: [机器学习, 分类]
+tags: [域/机器学习, 任务/分类]
 sources:
   - [[raw/columns/机器学习40讲/19 非参数化的局部模型：K近邻.md]]
 status: draft

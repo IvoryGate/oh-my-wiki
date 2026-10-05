@@ -5,7 +5,7 @@ updated: 2026-09-04
 type: concept
 domain: 增长与营销
 description: AppsFlyer 防作弊套件
-tags: [出海投放, 反作弊, MMP]
+tags: [域/增长与营销, 主题/反作弊, 主题/MMP]
 sources:
   - [[raw/articles/广告作弊Ad Fraud（四）.md]]
   - [[raw/articles/广告作弊Ad Fraud（五）.md]]

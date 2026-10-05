@@ -4,13 +4,14 @@ title: OpenAI
 aliases:
   - OpenAI公司
 type: entity
+domain: Agent 架构与工程
 description: AI 研究和部署公司
 created: 2026-04-18
 updated: 2026-04-20
 sources:
   - [[raw/articles/工程技术：在智能体优先的世界中利用 Codex.md]]
 tags:
-  - Agent工程
+  - 域/Agent架构与工程
 ---
 
 ## 定义

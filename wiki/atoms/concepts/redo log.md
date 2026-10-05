@@ -5,7 +5,7 @@ updated: 2026-10-05
 type: concept
 domain: 数据库
 description: InnoDB 特有的物理日志，循环写入，提供 crash-safe 能力
-tags: [数据库, 优化]
+tags: [域/数据库, 主题/优化]
 sources:
   - [[raw/columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？.md]]
   - [[raw/columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题.md]]

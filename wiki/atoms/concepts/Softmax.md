@@ -5,7 +5,7 @@ updated: 2026-04-23
 type: concept
 domain: 机器学习
 description: 多分类概率归一化
-tags: [机器学习, 分类, 神经网络]
+tags: [域/机器学习, 任务/分类, 主题/神经网络]
 sources:
   - [[raw/columns/机器学习40讲/17 几何角度看分类：支持向量机.md]]
 status: draft

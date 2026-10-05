@@ -15,7 +15,7 @@ sources:
   - [[raw/articles/如何定义受众-正篇.md]]
   - [[raw/articles/如何定义受众-科普篇.md]]
 tags:
-  - 出海投放
+  - 域/增长与营销
 ---
 
 ## 定义

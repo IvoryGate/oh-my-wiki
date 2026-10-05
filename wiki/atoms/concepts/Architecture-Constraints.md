@@ -12,7 +12,7 @@ updated: 2026-04-18
 sources:
   - [[raw/articles/工程技术：在智能体优先的世界中利用 Codex.md]]
 tags:
-  - Agent工程
+  - 域/Agent-First开发
 ---
 
 ## 定义

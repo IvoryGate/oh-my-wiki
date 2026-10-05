@@ -5,7 +5,7 @@ updated: 2026-04-20
 type: concept
 domain: LLM 与知识管理
 description: 检索增强生成技术
-tags: [知识管理]
+tags: [域/LLM与知识管理]
 sources:
   - [[raw/articles/llm-wiki.md]]
 status: active
@@ -43,7 +43,7 @@ RAG 让 LLM 在生成回答前先检索相关文档，将检索到的内容作�
 ## 相关概念
 
 - [[LLM-Wiki]]：编译器模式的知识管理
-- 知识图谱（Knowledge Graph）：另一种知识组织方式（库内未单独建页，可用 Obsidian Graph View 浏览链接网络）
+- 知识图谱（Knowledge Graph）：另一种知识组织方式（库内未单独建页，可用 Obsidian Graph View 浏览链接网络，本库配色与过滤见 [[Obsidian关系图谱配置指南]]）
 
 ## 来源
 

@@ -5,7 +5,7 @@ updated: 2026-09-04
 type: concept
 domain: 增长与营销
 description: ROAS 数据对齐与差异排查
-tags: [出海投放, 数据分析]
+tags: [域/增长与营销, 主题/数据分析]
 sources:
   - [[raw/articles/Unity平台ROAS开启条件和数据差异问题.md]]
   - [[raw/articles/渠道MMPBI的数据差异剖析.md]]

@@ -5,7 +5,7 @@ updated: 2026-09-22
 type: concept
 domain: LLM 与知识管理
 description: 使用 LLM 构建个人知识库的模式
-tags: [知识管理]
+tags: [域/LLM与知识管理]
 sources:
   - [[raw/articles/llm-wiki.md]]
 status: active
@@ -87,7 +87,7 @@ Schema 是关键配置文件：它让 LLM 成为有纪律的 wiki 维护者，�
 ## 相关概念
 
 - [[RAG]]：检索增强生成，LLM Wiki 的对比方案
-- 知识图谱（Knowledge Graph）：另一种知识组织方式，以实体-关系为核心的图结构
+- 知识图谱（Knowledge Graph）：另一种知识组织方式，以实体-关系为核心的图结构；本库 Graph View 的身份分色与降噪开关见 [[Obsidian关系图谱配置指南]]
 
 ## 相关实体
 

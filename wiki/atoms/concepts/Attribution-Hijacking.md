@@ -5,7 +5,7 @@ updated: 2026-09-04
 type: concept
 domain: 增长与营销
 description: 归因劫持：抢夺其他渠道归因
-tags: [出海投放, 反作弊, 广告归因]
+tags: [域/增长与营销, 主题/反作弊, 主题/广告归因]
 sources:
   - [[raw/articles/广告作弊Ad Fraud（三）.md]]
   - [[raw/articles/广告作弊Ad Fraud（一）.md]]

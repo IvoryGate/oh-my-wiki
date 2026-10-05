@@ -278,6 +278,11 @@
       "path": "wiki/atoms/concepts/OPTM-Framework.md"
     },
     {
+      "id": "Obsidian关系图谱配置指南",
+      "type": "howto",
+      "path": "wiki/synthesis/howto/Obsidian关系图谱配置指南.md"
+    },
+    {
       "id": "OpenAI",
       "type": "entity",
       "path": "wiki/atoms/entities/OpenAI.md"
@@ -2994,6 +2999,12 @@
     },
     {
       "from": "LLM-Wiki",
+      "to": "Obsidian关系图谱配置指南",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "LLM-Wiki",
       "to": "RAG",
       "relation": "compares_to",
       "context": ""
@@ -4165,6 +4176,12 @@
     {
       "from": "RAG",
       "to": "LLM-Wiki",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "RAG",
+      "to": "Obsidian关系图谱配置指南",
       "relation": "links_to",
       "context": ""
     },
@@ -7104,12 +7121,12 @@
     }
   ],
   "stats": {
-    "totalNodes": 369,
-    "totalEdges": 846,
+    "totalNodes": 370,
+    "totalEdges": 848,
     "byType": {
       "concept": 170,
       "entity": 10,
-      "howto": 1,
+      "howto": 2,
       "source": 177,
       "topic": 11
     }

@@ -5,7 +5,7 @@ updated: 2026-04-19
 type: concept
 domain: 复盘与方法论
 description: 任务后检视：美军敏捷复盘方法
-tags: [复盘]
+tags: [域/复盘与方法论]
 sources:
   - [[raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？.md]]
 status: active
