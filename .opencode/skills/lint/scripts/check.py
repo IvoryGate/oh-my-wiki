@@ -130,7 +130,7 @@ check_broken = [r for r in all_md
                 and not r.startswith(".opencode/")]
 for r in check_broken:
     for target in links_of(r):
-        if target.startswith(("http", "raw/", "wiki/")):
+        if target.startswith(("http", "wiki/")):  # raw/ 目标纳入校验：resolve() 可直接判定文件是否存在
             continue
         if resolve(target) is None and target not in KNOWN_BROKEN.get(r, []):
             broken[r].append(target)

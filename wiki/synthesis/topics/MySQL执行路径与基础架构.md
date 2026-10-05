@@ -10,10 +10,12 @@ created: 2026-10-05
 updated: 2026-10-05
 confidence: medium
 sources:
-  - [[raw/columns/MySQL实战45讲/00  开篇词  这一次，让我们一起来搞懂MySQL.md]]
+  - [[raw/columns/MySQL实战45讲/00 开篇词  这一次，让我们一起来搞懂MySQL.md]]
   - [[raw/columns/MySQL实战45讲/01  基础架构：一条SQL查询语句是如何执行的？.md]]
   - [[raw/columns/MySQL实战45讲/42  grant之后要跟着flush privileges吗？.md]]
-  - [[raw/columns/MySQL实战宝典/00  开篇词  从业务出发，开启海量 MySQL 架构设计.md]]
+  - [[raw/columns/MySQL实战宝典/00 开篇词  从业务出发，开启海量 MySQL 架构设计.md]]
+  - [[raw/columns/MySQL实战45讲/我的MySQL心路历程.md]]
+  - [[raw/columns/MySQL实战45讲/结束语  点线网面，一起构建MySQL知识网络.md]]
 related_atoms:
   - [[binlog]]
   - [[redo log]]

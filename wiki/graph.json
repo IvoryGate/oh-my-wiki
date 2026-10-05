@@ -238,6 +238,11 @@
       "path": "wiki/synthesis/topics/MySQL事务隔离与锁机制.md"
     },
     {
+      "id": "MySQL复制与高可用架构",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/MySQL复制与高可用架构.md"
+    },
+    {
       "id": "MySQL存储结构与表设计",
       "type": "topic",
       "path": "wiki/synthesis/topics/MySQL存储结构与表设计.md"
@@ -428,6 +433,11 @@
       "path": "wiki/synthesis/howto/中文技术文档写作规范.md"
     },
     {
+      "id": "主从复制",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/主从复制.md"
+    },
+    {
       "id": "主成分分析",
       "type": "concept",
       "path": "wiki/atoms/concepts/主成分分析.md"
@@ -476,6 +486,21 @@
       "id": "分区表",
       "type": "concept",
       "path": "wiki/atoms/concepts/分区表.md"
+    },
+    {
+      "id": "分布式事务",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/分布式事务.md"
+    },
+    {
+      "id": "分布式数据库与分库分表",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/分布式数据库与分库分表.md"
+    },
+    {
+      "id": "分库分表",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/分库分表.md"
     },
     {
       "id": "助攻率",
@@ -766,6 +791,11 @@
       "id": "计算学习理论",
       "type": "concept",
       "path": "wiki/atoms/concepts/计算学习理论.md"
+    },
+    {
+      "id": "读写分离",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/读写分离.md"
     },
     {
       "id": "贝叶斯学习模型体系",
@@ -1691,6 +1721,42 @@
       "context": ""
     },
     {
+      "from": "MySQL复制与高可用架构",
+      "to": "MySQL日志系统与数据可靠性",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "binlog",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "两阶段提交",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "主从复制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "分布式数据库与分库分表",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "读写分离",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "MySQL存储结构与表设计",
       "to": "B+树索引",
       "relation": "links_to",
@@ -2387,6 +2453,18 @@
       "context": ""
     },
     {
+      "from": "主从复制",
+      "to": "MySQL复制与高可用架构",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "主从复制",
+      "to": "binlog",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "主成分分析",
       "to": "线性判别分析",
       "relation": "links_to",
@@ -2515,6 +2593,72 @@
     {
       "from": "分区表",
       "to": "MySQL存储结构与表设计",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "分布式事务",
+      "to": "两阶段提交",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "分布式事务",
+      "to": "分布式数据库与分库分表",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "分布式数据库与分库分表",
+      "to": "MySQL复制与高可用架构",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "分布式数据库与分库分表",
+      "to": "MySQL存储结构与表设计",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "分布式数据库与分库分表",
+      "to": "MySQL索引体系与查询优化",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "分布式数据库与分库分表",
+      "to": "主从复制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "分布式数据库与分库分表",
+      "to": "分布式事务",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "分布式数据库与分库分表",
+      "to": "分库分表",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "分布式数据库与分库分表",
+      "to": "聚簇索引",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "分库分表",
+      "to": "分布式事务",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "分库分表",
+      "to": "分布式数据库与分库分表",
       "relation": "links_to",
       "context": ""
     },
@@ -3107,6 +3251,18 @@
       "context": ""
     },
     {
+      "from": "读写分离",
+      "to": "MySQL复制与高可用架构",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "读写分离",
+      "to": "主从复制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "贝叶斯学习模型体系",
       "to": "主成分分析",
       "relation": "links_to",
@@ -3258,13 +3414,13 @@
     }
   ],
   "stats": {
-    "totalNodes": 174,
-    "totalEdges": 397,
+    "totalNodes": 180,
+    "totalEdges": 418,
     "byType": {
-      "concept": 154,
+      "concept": 158,
       "entity": 10,
       "howto": 1,
-      "topic": 9
+      "topic": 11
     }
   }
 }
