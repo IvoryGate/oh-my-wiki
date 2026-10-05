@@ -63,6 +63,11 @@
       "path": "wiki/atoms/concepts/Audience-Definition.md"
     },
     {
+      "id": "B+树索引",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/B+树索引.md"
+    },
+    {
       "id": "Blog-Content-Writing-Practices",
       "type": "concept",
       "path": "wiki/atoms/concepts/Blog-Content-Writing-Practices.md"
@@ -236,6 +241,11 @@
       "id": "MySQL日志系统与数据可靠性",
       "type": "topic",
       "path": "wiki/synthesis/topics/MySQL日志系统与数据可靠性.md"
+    },
+    {
+      "id": "MySQL索引体系与查询优化",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/MySQL索引体系与查询优化.md"
     },
     {
       "id": "Network-Cognition-Gap",
@@ -473,6 +483,11 @@
       "path": "wiki/atoms/concepts/哥波尼世界.md"
     },
     {
+      "id": "回表",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/回表.md"
+    },
+    {
       "id": "基函数扩展",
       "type": "concept",
       "path": "wiki/atoms/concepts/基函数扩展.md"
@@ -653,6 +668,11 @@
       "path": "wiki/atoms/concepts/程序化广告.md"
     },
     {
+      "id": "索引选择性",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/索引选择性.md"
+    },
+    {
       "id": "线性判别分析",
       "type": "concept",
       "path": "wiki/atoms/concepts/线性判别分析.md"
@@ -683,6 +703,11 @@
       "path": "wiki/atoms/concepts/联系函数.md"
     },
     {
+      "id": "聚簇索引",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/聚簇索引.md"
+    },
+    {
       "id": "聚类分析",
       "type": "concept",
       "path": "wiki/atoms/concepts/聚类分析.md"
@@ -706,6 +731,11 @@
       "id": "表示学习",
       "type": "concept",
       "path": "wiki/atoms/concepts/表示学习.md"
+    },
+    {
+      "id": "覆盖索引与最左前缀",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/覆盖索引与最左前缀.md"
     },
     {
       "id": "计算学习理论",
@@ -1074,6 +1104,12 @@
     {
       "from": "Audience-Definition",
       "to": "User-App-Pair",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "B+树索引",
+      "to": "MySQL索引体系与查询优化",
       "relation": "links_to",
       "context": ""
     },
@@ -1619,6 +1655,12 @@
     },
     {
       "from": "MySQL执行路径与基础架构",
+      "to": "MySQL索引体系与查询优化",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL执行路径与基础架构",
       "to": "binlog",
       "relation": "links_to",
       "context": ""
@@ -1656,6 +1698,42 @@
     {
       "from": "MySQL日志系统与数据可靠性",
       "to": "两阶段提交",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "B+树索引",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "MySQL执行路径与基础架构",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "回表",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "索引选择性",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "聚簇索引",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "覆盖索引与最左前缀",
       "relation": "links_to",
       "context": ""
     },
@@ -2362,6 +2440,24 @@
       "context": ""
     },
     {
+      "from": "回表",
+      "to": "MySQL索引体系与查询优化",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "回表",
+      "to": "聚簇索引",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "回表",
+      "to": "覆盖索引与最左前缀",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "多触点归因",
       "to": "Last-Click-Rule",
       "relation": "links_to",
@@ -2770,6 +2866,18 @@
       "context": ""
     },
     {
+      "from": "索引选择性",
+      "to": "MySQL索引体系与查询优化",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "索引选择性",
+      "to": "聚簇索引",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "经典知识联系",
       "to": "直觉",
       "relation": "relates_to",
@@ -2778,6 +2886,24 @@
     {
       "from": "经典知识联系",
       "to": "知识体系",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "聚簇索引",
+      "to": "B+树索引",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "聚簇索引",
+      "to": "MySQL索引体系与查询优化",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "聚簇索引",
+      "to": "回表",
       "relation": "links_to",
       "context": ""
     },
@@ -2820,6 +2946,24 @@
     {
       "from": "行锁与表锁",
       "to": "间隙锁",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "覆盖索引与最左前缀",
+      "to": "MySQL索引体系与查询优化",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "覆盖索引与最左前缀",
+      "to": "回表",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "覆盖索引与最左前缀",
+      "to": "索引选择性",
       "relation": "links_to",
       "context": ""
     },
@@ -2975,13 +3119,13 @@
     }
   ],
   "stats": {
-    "totalNodes": 163,
-    "totalEdges": 359,
+    "totalNodes": 169,
+    "totalEdges": 378,
     "byType": {
-      "concept": 146,
+      "concept": 151,
       "entity": 10,
       "howto": 1,
-      "topic": 6
+      "topic": 7
     }
   }
 }
