@@ -26,6 +26,8 @@ status: active
 | **Orphans** | 平时关 | 体检时打开找孤页，配合 lint 使用 |
 | **Unresolved** | 保持开 | 让断链在图里现形 |
 
+> 本库当前值：`showTags/showAttachments/showOrphans=false`、`hideUnresolved=false`（即 Unresolved 开）。体检要看孤页时，在 Filters 里临时打开 Orphans。
+
 搜索框支持查询语法，是最强的降噪手段：
 
 ```
@@ -53,17 +55,19 @@ file:RAG                   按文件名
 
 ```json
 "colorGroups": [
-  { "query": "path:\"workspace\"",        "color": { "a": 1, "rgb": 4156482 } },
-  { "query": "path:\"wiki/synthesis\"",   "color": { "a": 1, "rgb": 15237978 } },
-  { "query": "path:\"wiki/atoms/concepts\"","color": { "a": 1, "rgb": 4025032 } },
-  { "query": "path:\"wiki/atoms\"",       "color": { "a": 1, "rgb": 2278836 } },
-  { "query": "path:\"wiki\"",             "color": { "a": 1, "rgb": 9133814 } },
-  { "query": "path:\"raw\"",              "color": { "a": 1, "rgb": 10170029 } },
-  { "query": "file:\"AGENTS.md\" OR file:\"README.md\" OR file:\"CONTEXT.md\" OR file:\"Home.md\" OR file:\"PROMPT.md\" OR file:\"BOUNDARY.md\"", "color": { "a": 1, "rgb": 11103056 } }
+  { "query": "path:\"workspace\"",        "color": { "a": 1, "rgb": 4171874 } },
+  { "query": "path:\"wiki/synthesis\"",   "color": { "a": 1, "rgb": 15237946 } },
+  { "query": "path:\"wiki/atoms/concepts\"","color": { "a": 1, "rgb": 4030184 } },
+  { "query": "path:\"wiki/atoms\"",       "color": { "a": 1, "rgb": 2274756 } },
+  { "query": "path:\"wiki\"",             "color": { "a": 1, "rgb": 9133302 } },
+  { "query": "path:\"raw\"",              "color": { "a": 1, "rgb": 10134445 } },
+  { "query": "file:\"AGENTS.md\" OR file:\"README.md\" OR file:\"CONTEXT.md\" OR file:\"Home.md\" OR file:\"PROMPT.md\" OR file:\"BOUNDARY.md\"", "color": { "a": 1, "rgb": 11107408 } }
 ]
 ```
 
 > rgb = `(R << 16) | (G << 8) | B`。若主题色压过分组色，属 Obsidian 已知个案，恢复图谱默认设置或补一条 CSS 即可。
+
+**本库已于 2026-10-06 直接写入 `.obsidian/graph.json`**（含下列三开关），无需手贴；重装设备时才需照此重配。
 
 ## 三、Display / Forces（本库实测值）
 

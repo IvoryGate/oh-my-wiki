@@ -5,6 +5,24 @@
 
 ---
 
+## [2026-10-06] config | 图谱身份分色与三开关写入配置 + 更正指南 rgb 值
+
+### 执行
+- 用户反馈"颜色组没有加进来"，经确认 Obsidian 未运行后，直接把 7 条 colorGroups 写入 .obsidian/graph.json（该文件被 .gitignore 第 20 行忽略，不入库、不影响仓库）
+- 同时按层 A 计划补写三个过滤开关：showTags=false（隐藏标签节点，消掉 clippings 巨型枢纽）、showAttachments=false、showOrphans=false；hideUnresolved 保持 false 即 Unresolved 显示，未改动
+- Display / Forces 参数原已是实测值，未改动
+- 分组顺序即 first-match-wins 顺序：workspace 绿 → wiki/synthesis 橙 → atoms/concepts 蓝 → atoms 青 → wiki 紫 → raw 灰 → 项目文档棕
+
+### 公开更正
+- Obsidian关系图谱配置指南 原 JSON 片段中 7 个 rgb 值是我手算的，全部有误（例：绿 #3FA862 应为 4171874，原写 4156482；其余 6 条同样偏差）。已改用脚本按 (R<<16)|(G<<8)|B 从 hex 精算并修正
+- 同页补两处状态说明：分组与三开关已直接写入配置文件；Filters 段列出本库当前值，体检时再临时开 Orphans
+
+### 校验
+- gen-graph 重建 graph.json：节点 370、边 848，与链接一致
+- lint：页面 193、标签 33 个、断链仅已知的 4 处 workspace 图片、孤页 17 个未增
+
+---
+
 ## [2026-10-06] refactor | 标签命名空间重构 31→33、补 22 页 domain、配置指南入库
 
 ### 背景
