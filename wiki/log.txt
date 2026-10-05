@@ -5,6 +5,27 @@
 
 ---
 
+## [2026-10-05] clip | 剪藏 MySQL实战45讲 / MySQL实战宝典 共 76 篇
+
+### 新增 raw 文件（76）
+- raw/columns/MySQL实战45讲/ 48 篇（00 开篇词 至 45 自增id用完怎么办，含我的MySQL心路历程、结束语）
+- raw/columns/MySQL实战宝典/ 28 篇（00 开篇词 至 27 分布式事务 2PC）
+- 均为标准剪藏 frontmatter（title/source/author/published/created/description/tags: clippings），created 统一 2026-10-05
+
+### 抓取方式
+- 站点 learn.lianglianglee.com 的 .md 链接实为 HTML 页，抓取后按 div.book-post 结构转 Markdown
+- 转换器用已剪藏的软件工程之美同文做过保真度校准（相似度 0.963，差异仅为页面后续更新的图片）
+- 请求侧：7 种设备 UA 轮换（含 sec-ch-ua / Accept-Language / Sec-Fetch 随机、带目录页 Referer）
+- 节奏：系统熵随机间隔 uniform(1.4, 3.8)s，12% 概率追加 8-18s 长停顿；3 线程共享 RateGate 控制聚合速率，任一线程遇 429 全员冷却
+- 修复活锁缺陷：RateGate.wait 原先每次醒来都重新抢占时间槽，导致线程互相延后、请求发不出（表象为"卡死但无报错"），改为槽位只抢占一次
+
+### 登记与校验
+- raw/manifest.json 新增 76 条 status=pending，更新 lastScan
+- 校验：76 篇 frontmatter 完整、代码围栏配对、无残留 HTML、图片均为绝对地址
+- 未入库 wiki，待用户逐篇或批量走 Ingest 流程
+
+---
+
 ## [2026-10-05] restructure | raw 目录按专栏分层（新增 columns/）
 
 ### 背景

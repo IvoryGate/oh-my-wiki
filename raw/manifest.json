@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastScan": "2026-10-05T19:25:51+08:00",
+  "lastScan": "2026-10-05T20:19:04+08:00",
   "files": [
     {
       "path": "videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响.md",
@@ -1489,6 +1489,386 @@
         "wiki/atoms/concepts/Behavioral-Interview.md",
         "wiki/atoms/concepts/PG-Eight-Questions.md"
       ]
+    },
+    {
+      "path": "columns/MySQL实战45讲/00 开篇词  这一次，让我们一起来搞懂MySQL.md",
+      "size": 6297,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/01  基础架构：一条SQL查询语句是如何执行的？.md",
+      "size": 13457,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？.md",
+      "size": 14237,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/03  事务隔离：为什么你改了我还看不见？.md",
+      "size": 12156,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/04  深入浅出索引（上）.md",
+      "size": 16094,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/05  深入浅出索引（下）.md",
+      "size": 11707,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/06  全局锁和表锁 ：给表加个字段怎么有这么多阻碍？.md",
+      "size": 13222,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/07  行锁功过：怎么减少行锁对性能的影响？.md",
+      "size": 12501,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/08  事务到底是隔离的还是不隔离的？.md",
+      "size": 19682,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/09  普通索引和唯一索引，应该怎么选择？.md",
+      "size": 17743,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/10  MySQL为什么有时候会选错索引？.md",
+      "size": 19106,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/11  怎么给字符串字段加索引？.md",
+      "size": 13440,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/12  为什么我的MySQL会“抖”一下？.md",
+      "size": 15535,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/13  为什么表数据删掉一半，表文件大小不变？.md",
+      "size": 13966,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/14  count()这么慢，我该怎么办？.md",
+      "size": 15691,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题.md",
+      "size": 22740,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/16  “order by”是怎么工作的？.md",
+      "size": 20899,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/17  如何正确地显示随机消息？.md",
+      "size": 19552,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/18  为什么这些SQL语句逻辑相同，性能却差异巨大？.md",
+      "size": 16677,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/19  为什么我只查一行的语句，也执行这么慢？.md",
+      "size": 15267,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/20  幻读是什么，幻读有什么问题？.md",
+      "size": 19391,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/21  为什么我只改一行的语句，锁这么多？.md",
+      "size": 18138,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/22  MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
+      "size": 15799,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/23  MySQL是怎么保证数据不丢的？.md",
+      "size": 16991,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/24  MySQL是怎么保证主备一致的？.md",
+      "size": 20248,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/25  MySQL是怎么保证高可用的？.md",
+      "size": 17934,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/26  备库为什么会延迟好几个小时？.md",
+      "size": 23158,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/27  主库出问题了，从库怎么办？.md",
+      "size": 18960,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/28  读写分离有哪些坑？.md",
+      "size": 21180,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/29  如何判断一个数据库是不是出问题了？.md",
+      "size": 15485,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/30  答疑文章（二）：用动态的观点看加锁.md",
+      "size": 15471,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/31  误删数据后除了跑路，还能怎么办？.md",
+      "size": 15154,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/32  为什么还有kill不掉的语句？.md",
+      "size": 15394,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/33  我查这么多数据，会不会把数据库内存打爆？.md",
+      "size": 15030,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/34  到底可不可以使用join？.md",
+      "size": 16087,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/35  join语句怎么优化？.md",
+      "size": 16547,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/36  为什么临时表可以重名？.md",
+      "size": 16483,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/37  什么时候会使用内部临时表？.md",
+      "size": 14214,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/38  都说InnoDB好，那还要不要使用Memory引擎？.md",
+      "size": 14143,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/39  自增主键为什么不是连续的？.md",
+      "size": 17574,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/40  insert语句的锁为什么这么多？.md",
+      "size": 13458,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/41  怎么最快地复制一张表？.md",
+      "size": 13610,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/42  grant之后要跟着flush privileges吗？.md",
+      "size": 12558,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/43  要不要使用分区表？.md",
+      "size": 13501,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/44  答疑文章（三）：说一说这些好问题.md",
+      "size": 17034,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/45  自增id用完怎么办？.md",
+      "size": 15956,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/我的MySQL心路历程.md",
+      "size": 13968,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战45讲/结束语  点线网面，一起构建MySQL知识网络.md",
+      "size": 8009,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/00 开篇词  从业务出发，开启海量 MySQL 架构设计.md",
+      "size": 7695,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/01  数字类型：避免自增踩坑.md",
+      "size": 12698,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/02  字符串类型：不能忽略的 COLLATION.md",
+      "size": 15819,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/03  日期类型：TIMESTAMP 可能是巨坑.md",
+      "size": 12946,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/04  非结构存储：用好 JSON 这张牌.md",
+      "size": 14056,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/05  表结构设计：忘记范式准则.md",
+      "size": 14486,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/06  表压缩：不仅仅是空间压缩.md",
+      "size": 10246,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/07  表的访问设计：你该选择 SQL 还是 NoSQL？.md",
+      "size": 11939,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/08  索引：排序的艺术.md",
+      "size": 14465,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/09  索引组织表：万物皆索引.md",
+      "size": 15409,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/10  组合索引：用好，性能提升 10 倍！.md",
+      "size": 16613,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/11  索引出错：请理解 CBO 的工作原理.md",
+      "size": 16071,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/12  JOIN 连接：到底能不能写 JOIN？.md",
+      "size": 14185,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/13  子查询：放心地使用子查询功能吧！.md",
+      "size": 10547,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/14  分区表：哪些场景我不建议用分区表？.md",
+      "size": 11084,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/15  MySQL 复制：最简单也最容易配置出错.md",
+      "size": 12574,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/16  读写分离设计：复制延迟？其实是你用错了.md",
+      "size": 11257,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/17  高可用设计：你怎么活用三大架构方案？.md",
+      "size": 10854,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/18  金融级高可用架构：必不可少的数据核对.md",
+      "size": 11696,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/19  高可用套件：选择这么多，你该如何选？.md",
+      "size": 10123,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/20  InnoDB Cluster：改变历史的新产品.md",
+      "size": 11135,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/21  数据库备份：备份文件也要检查！.md",
+      "size": 13854,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/22  分布式数据库架构：彻底理解什么叫分布式数据库.md",
+      "size": 7573,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/23  分布式数据库表结构设计：如何正确地将数据分片？.md",
+      "size": 13669,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/24  分布式数据库索引设计：二级索引、全局索引的最佳设计实践.md",
+      "size": 10236,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/25  分布式数据库架构选型：分库分表 or 中间件 ？.md",
+      "size": 8057,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/26  分布式设计之禅：全链路的条带化设计.md",
+      "size": 7357,
+      "status": "pending"
+    },
+    {
+      "path": "columns/MySQL实战宝典/27  分布式事务：我们到底要不要使用 2PC？.md",
+      "size": 9178,
+      "status": "pending"
     }
   ],
   "stats": {
