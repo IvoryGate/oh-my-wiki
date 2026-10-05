@@ -1570,6 +1570,11 @@
       "path": "wiki/atoms/concepts/助攻率.md"
     },
     {
+      "id": "参数学习",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/参数学习.md"
+    },
+    {
       "id": "反向传播",
       "type": "concept",
       "path": "wiki/atoms/concepts/反向传播.md"
@@ -1618,6 +1623,11 @@
       "id": "媒介即隐喻",
       "type": "concept",
       "path": "wiki/atoms/concepts/媒介即隐喻.md"
+    },
+    {
+      "id": "实验设计",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/实验设计.md"
     },
     {
       "id": "岭回归",
@@ -1675,6 +1685,11 @@
       "path": "wiki/atoms/concepts/朴素贝叶斯.md"
     },
     {
+      "id": "机器学习任务分类",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/机器学习任务分类.md"
+    },
+    {
       "id": "机器学习工程师",
       "type": "concept",
       "path": "wiki/atoms/concepts/机器学习工程师.md"
@@ -1683,6 +1698,11 @@
       "id": "机器学习模型体系",
       "type": "topic",
       "path": "wiki/synthesis/topics/机器学习模型体系.md"
+    },
+    {
+      "id": "机器学习适用条件",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/机器学习适用条件.md"
     },
     {
       "id": "核函数",
@@ -1708,6 +1728,21 @@
       "id": "概率图模型",
       "type": "concept",
       "path": "wiki/atoms/concepts/概率图模型.md"
+    },
+    {
+      "id": "模型分类方式",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/模型分类方式.md"
+    },
+    {
+      "id": "模型评估指标",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/模型评估指标.md"
+    },
+    {
+      "id": "模型验证",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/模型验证.md"
     },
     {
       "id": "正则化",
@@ -5177,6 +5212,60 @@
       "context": ""
     },
     {
+      "from": "参数学习",
+      "to": "EM算法",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "参数学习",
+      "to": "MCMC",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "参数学习",
+      "to": "raw/columns/机器学习40讲/38 完备数据下的参数学习：有向图与无向图",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "参数学习",
+      "to": "最大似然估计",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "参数学习",
+      "to": "朴素贝叶斯",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "参数学习",
+      "to": "概率图模型",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "参数学习",
+      "to": "结构学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "参数学习",
+      "to": "贝叶斯网络",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "参数学习",
+      "to": "马尔可夫随机场",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "反向传播",
       "to": "raw/columns/机器学习40讲/22 自适应的基函数：神经网络",
       "relation": "cites",
@@ -5381,6 +5470,30 @@
       "context": ""
     },
     {
+      "from": "实验设计",
+      "to": "raw/columns/机器学习40讲/09 实验设计",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "实验设计",
+      "to": "主成分分析",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "实验设计",
+      "to": "模型验证",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "实验设计",
+      "to": "超参数",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "岭回归",
       "to": "raw/columns/机器学习40讲/12 正则化处理：收缩方法与边际化",
       "relation": "cites",
@@ -5537,6 +5650,30 @@
       "context": ""
     },
     {
+      "from": "机器学习任务分类",
+      "to": "K近邻",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习任务分类",
+      "to": "raw/columns/机器学习40讲/03 学什么与怎么学",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "机器学习任务分类",
+      "to": "机器学习适用条件",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习任务分类",
+      "to": "聚类分析",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "机器学习工程师",
       "to": "raw/columns/机器学习40讲/如何成为机器学习工程师？",
       "relation": "cites",
@@ -5639,6 +5776,30 @@
       "context": ""
     },
     {
+      "from": "机器学习适用条件",
+      "to": "PAC可学习性",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习适用条件",
+      "to": "raw/columns/机器学习40讲/03 学什么与怎么学",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "机器学习适用条件",
+      "to": "机器学习任务分类",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习适用条件",
+      "to": "计算学习理论",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "核函数",
       "to": "raw/columns/机器学习40讲/18 从全局到局部：核技巧",
       "relation": "cites",
@@ -5714,6 +5875,114 @@
       "from": "概率图模型",
       "to": "raw/columns/机器学习40讲/30 无向图模型：马尔可夫随机场",
       "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "模型分类方式",
+      "to": "K近邻",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型分类方式",
+      "to": "Logistic-回归",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型分类方式",
+      "to": "raw/columns/机器学习40讲/05 模型的分类方式",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "模型分类方式",
+      "to": "决策树",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型分类方式",
+      "to": "朴素贝叶斯",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型分类方式",
+      "to": "线性回归",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型分类方式",
+      "to": "贝叶斯定理",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型分类方式",
+      "to": "随机森林",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型评估指标",
+      "to": "raw/columns/机器学习40讲/08 模型的评估指标",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "模型评估指标",
+      "to": "决策树",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型评估指标",
+      "to": "朴素贝叶斯",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型评估指标",
+      "to": "模型分类方式",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型评估指标",
+      "to": "模型验证",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型验证",
+      "to": "raw/columns/机器学习40讲/07 模型的验证方法",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "模型验证",
+      "to": "实验设计",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型验证",
+      "to": "模型评估指标",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型验证",
+      "to": "超参数",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "模型验证",
+      "to": "过拟合",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -5994,8 +6263,20 @@
     },
     {
       "from": "结构学习",
+      "to": "raw/columns/机器学习40讲/38 完备数据下的参数学习：有向图与无向图",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "结构学习",
       "to": "raw/columns/机器学习40讲/40 结构学习：基于约束与基于评分",
       "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "结构学习",
+      "to": "参数学习",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -6372,6 +6653,12 @@
     },
     {
       "from": "过拟合",
+      "to": "raw/columns/机器学习40讲/07 模型的验证方法",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "过拟合",
       "to": "raw/columns/机器学习40讲/12 正则化处理：收缩方法与边际化",
       "relation": "cites",
       "context": ""
@@ -6379,6 +6666,12 @@
     {
       "from": "过拟合",
       "to": "岭回归",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "过拟合",
+      "to": "模型验证",
       "relation": "links_to",
       "context": ""
     },
@@ -6546,10 +6839,10 @@
     }
   ],
   "stats": {
-    "totalNodes": 357,
-    "totalEdges": 763,
+    "totalNodes": 364,
+    "totalEdges": 806,
     "byType": {
-      "concept": 158,
+      "concept": 165,
       "entity": 10,
       "howto": 1,
       "source": 177,
