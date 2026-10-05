@@ -6,8 +6,8 @@ type: entity
 description: 复盘专家，《跟着高手学复盘》专栏作者
 tags: [复盘]
 sources:
-  - [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
-  - [[raw/articles/02 OPTM框架：怎么使用CLAP模型？.md]]
+  - [[raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
+  - [[raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？.md]]
 status: active
 ---
 
@@ -95,5 +95,5 @@ CLAP模型 + OPTM框架:
 
 ---
 
-> 来源: [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
-> 来源: [[raw/articles/02 OPTM框架：怎么使用CLAP模型？.md]]
+> 来源: [[raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
+> 来源: [[raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？.md]]

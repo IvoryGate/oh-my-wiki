@@ -7,8 +7,8 @@ domain: 复盘与方法论
 description: 复盘三层框架：组织-流程-工具方法
 tags: [复盘]
 sources:
-  - [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
-  - [[raw/articles/02 OPTM框架：怎么使用CLAP模型？.md]]
+  - [[raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
+  - [[raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？.md]]
 status: active
 ---
 
@@ -172,5 +172,5 @@ OPTM框架是 [[CLAP-Model]] 的实践框架,包含三个层级:组织(Organizat
 
 ---
 
-> 来源: [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
-> 来源: [[raw/articles/02 OPTM框架：怎么使用CLAP模型？.md]]
+> 来源: [[raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
+> 来源: [[raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？.md]]

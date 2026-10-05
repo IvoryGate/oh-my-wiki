@@ -7,7 +7,7 @@ domain: 机器学习
 description: 隐变量估计
 tags: [机器学习]
 sources:
-  - [[raw/articles/39 隐变量下的参数学习：EM方法与混合模型.md]]
+  - [[raw/columns/机器学习40讲/39 隐变量下的参数学习：EM方法与混合模型.md]]
 status: draft
 ---
 
@@ -38,4 +38,4 @@ status: draft
 
 ## 来源
 
-- [[raw/articles/39 隐变量下的参数学习：EM方法与混合模型.md]]
+- [[raw/columns/机器学习40讲/39 隐变量下的参数学习：EM方法与混合模型.md]]

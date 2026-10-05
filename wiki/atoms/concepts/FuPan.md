@@ -7,8 +7,8 @@ domain: 复盘与方法论
 description: 复盘方法论：通过对过去的分析优化未来
 tags: [复盘]
 sources:
-  - [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
-  - [[raw/articles/02 OPTM框架：怎么使用CLAP模型？.md]]
+  - [[raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
+  - [[raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？.md]]
 status: active
 ---
 
@@ -217,5 +217,5 @@ status: active
 
 ---
 
-> 来源: [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
-> 来源: [[raw/articles/02 OPTM框架：怎么使用CLAP模型？.md]]
+> 来源: [[raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
+> 来源: [[raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？.md]]

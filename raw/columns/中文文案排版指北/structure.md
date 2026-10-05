@@ -1,3 +1,14 @@
+---
+title: "中文文案排版指北：文档体系"
+source: "https://github.com/sparanoid/chinese-copywriting-guidelines"
+author: "Tunghsiao Liu"
+published:
+created: 2026-10-05
+description: "中文文案排版指北分段摘录：文档体系"
+tags:
+  - "clippings"
+---
+
 # 文档体系
 
 ## 结构

@@ -8,8 +8,8 @@ domain: 机器学习
 description: 联系函数的二分类
 tags: [机器学习, 分类]
 sources:
-  - [[raw/articles/15 从回归到分类：联系函数与降维.md]]
-  - [[raw/articles/16 建模非正态分布：广义线性模型.md]]
+  - [[raw/columns/机器学习40讲/15 从回归到分类：联系函数与降维.md]]
+  - [[raw/columns/机器学习40讲/16 建模非正态分布：广义线性模型.md]]
 status: draft
 ---
 
@@ -41,5 +41,5 @@ Logistic 回归使用 **最大似然估计**（MLE）确定参数，无法直接
 
 ## 来源
 
-- [[raw/articles/15 从回归到分类：联系函数与降维.md]]
-- [[raw/articles/16 建模非正态分布：广义线性模型.md]]
+- [[raw/columns/机器学习40讲/15 从回归到分类：联系函数与降维.md]]
+- [[raw/columns/机器学习40讲/16 建模非正态分布：广义线性模型.md]]

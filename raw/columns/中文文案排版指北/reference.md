@@ -1,3 +1,14 @@
+---
+title: "中文文案排版指北：参考链接"
+source: "https://github.com/sparanoid/chinese-copywriting-guidelines"
+author: "Tunghsiao Liu"
+published:
+created: 2026-10-05
+description: "中文文案排版指北分段摘录：参考链接"
+tags:
+  - "clippings"
+---
+
 # 参考链接
 
 - [产品手册中文写作规范](https://www.taodocs.com/p-51273.html), by 华为

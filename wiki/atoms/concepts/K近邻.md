@@ -7,7 +7,7 @@ domain: 机器学习
 description: 非参数局部
 tags: [机器学习, 分类]
 sources:
-  - [[raw/articles/19 非参数化的局部模型：K近邻.md]]
+  - [[raw/columns/机器学习40讲/19 非参数化的局部模型：K近邻.md]]
 status: draft
 ---
 
@@ -42,4 +42,4 @@ K近邻（K-Nearest Neighbors, KNN）是最简单的机器学习算法，是一�
 
 ## 来源
 
-- [[raw/articles/19 非参数化的局部模型：K近邻.md]]
+- [[raw/columns/机器学习40讲/19 非参数化的局部模型：K近邻.md]]

@@ -7,7 +7,7 @@ domain: 复盘与方法论
 description: 柳传志环：沙盘推演-执行-复盘
 tags: [复盘]
 sources:
-  - [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
+  - [[raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
 status: active
 ---
 
@@ -203,4 +203,4 @@ FuPan(复盘) → 事后复盘总结 → 虚拟做
 
 ---
 
-> 来源: [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
+> 来源: [[raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]

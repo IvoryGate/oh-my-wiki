@@ -7,7 +7,7 @@ domain: 机器学习
 description: 随机近似推断
 tags: [机器学习, 贝叶斯]
 sources:
-  - [[raw/articles/37 随机近似推断：MCMC.md]]
+  - [[raw/columns/机器学习40讲/37 随机近似推断：MCMC.md]]
 status: draft
 ---
 
@@ -38,4 +38,4 @@ status: draft
 
 ## 来源
 
-- [[raw/articles/37 随机近似推断：MCMC.md]]
+- [[raw/columns/机器学习40讲/37 随机近似推断：MCMC.md]]

@@ -7,7 +7,7 @@ domain: 机器学习
 description: L1正则化线性回归
 tags: [机器学习, 回归]
 sources:
-  - [[raw/articles/12 正则化处理：收缩方法与边际化.md]]
+  - [[raw/columns/机器学习40讲/12 正则化处理：收缩方法与边际化.md]]
 status: draft
 ---
 
@@ -39,4 +39,4 @@ $$\tilde E(\mathbf{w}) = \frac{1}{2}\sum_{n=1}^{N}(y_n - \mathbf{w}^T \mathbf{x}
 
 ## 来源
 
-- [[raw/articles/12 正则化处理：收缩方法与边际化.md]]
+- [[raw/columns/机器学习40讲/12 正则化处理：收缩方法与边际化.md]]

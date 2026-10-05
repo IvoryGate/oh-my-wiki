@@ -7,7 +7,7 @@ domain: 复盘与方法论
 description: 戴明环：质量管理经典模型
 tags: [复盘]
 sources:
-  - [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
+  - [[raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
 status: active
 ---
 
@@ -160,4 +160,4 @@ PDCA带来的卓越质量品控能力
 
 ---
 
-> 来源: [[raw/articles/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]
+> 来源: [[raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？.md]]

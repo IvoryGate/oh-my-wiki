@@ -1,3 +1,14 @@
+---
+title: "中文文案排版指北：数值"
+source: "https://github.com/sparanoid/chinese-copywriting-guidelines"
+author: "Tunghsiao Liu"
+published:
+created: 2026-10-05
+description: "中文文案排版指北分段摘录：数值"
+tags:
+  - "clippings"
+---
+
 # 数值
 
 ## 半角数字

@@ -5,6 +5,42 @@
 
 ---
 
+## [2026-10-05] restructure | raw 目录按专栏分层（新增 columns/）
+
+### 背景
+- raw/articles/ 混装 95 个文件，其中 48 个来自 lianglianglee 专栏，与散装文章混杂
+- 经用户确认方案后授权执行（raw 只读规则的明确例外：仅移动文件与更新路径，不改正文）
+
+### 目录变更
+- 新增 raw/columns/，下设 4 个专栏目录
+- 移动 56 个文件（git mv，内容不变）：
+  - 机器学习40讲 43 篇
+  - 软件工程之美 3 篇
+  - 跟着高手学复盘 2 篇
+  - 中文文案排版指北 8 篇（7 个分段摘录 + sparanoid 原文全文）
+- raw/articles/ 保留散装单篇 47 篇
+
+### 内容改动（经用户授权的唯一例外）
+- 7 个排版摘录文件补写 frontmatter（title/source/author/created/description/tags）
+
+### 同步更新
+- raw/manifest.json：56 条 path 改写；清理陈旧条目 articles/渠道MMPBI的数据差异剖析 1.md（磁盘已不存在）；更新 lastScan
+- wiki 页面：71 个文件、159 处 raw 路径引用改写，全部校验可解析
+- 修复既有断链：ROAS-Data-Reconciliation 的来源由已删除的「渠道MMPBI的数据差异剖析 1.md」改为现存的「渠道MMPBI的数据差异剖析.md」
+
+### 后续
+- 待剪藏的 MySQL实战45讲（46 篇）、MySQL实战宝典（28 篇）直接落 raw/columns/<专栏名>/
+
+---
+
+## [2026-10-05] writing | 新建笔记 workspace/Doing/色彩搭配原理.md
+
+- 触发：用户研究 Paletton 配色网站（逆向 app.compiled.js 得到色轮/模型/梯度/URL 序列化四层机制）后，决定先沉淀色彩搭配原理笔记，复刻网站暂缓
+- 笔记结构：三维度（色相/饱和度/明度+tint/shade/tone）→ 色轮模型（RYB/HSL/OKLCH）→ 七种配色方案 → 从方案到色板（明度对比/层级/60-30-10）→ 验证（WCAG/色盲/实例）→ Paletton 工程化案例
+- 写作依据：写作方法论（结论先行）+ 中文技术文档写作规范（成稿已自检）
+- 新增标签「设计」仅用于 workspace 笔记，不进 wiki 标签词表（lint 只统计 wiki/，EXPECTED_TAG_COUNT 维持 30）
+- 待办：复刻 Paletton 网站（技术栈与功能范围未定）；笔记成熟后可走 Flow 流入 wiki/synthesis/topics/
+
 ## [2026-10-03] amend | AGENTS.md 新增「五、写作协助」工作流：写作须遵循库内方法论与格式规范
 
 - 触发：用户要求把写作类知识固化为 Agent 规则

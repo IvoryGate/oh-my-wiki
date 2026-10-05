@@ -7,7 +7,7 @@ domain: 机器学习
 description: 概率近似正确
 tags: [机器学习, 学习理论]
 sources:
-  - [[raw/articles/04 计算学习理论.md]]
+  - [[raw/columns/机器学习40讲/04 计算学习理论.md]]
 status: draft
 ---
 
