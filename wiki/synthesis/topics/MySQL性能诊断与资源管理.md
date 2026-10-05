@@ -119,6 +119,13 @@ related_atoms:
 - 索引与执行计划见 [[MySQL索引体系与查询优化]]
 - 可用性诊断与 kill 的更多细节见 [[MySQL日志系统与数据可靠性]] 第六节
 
+## 来源
+
+- [[raw/columns/MySQL实战45讲/12  为什么我的MySQL会“抖”一下？.md]]
+- [[raw/columns/MySQL实战45讲/22  MySQL有哪些“饮鸩止渴”提高性能的方法？.md]]
+- [[raw/columns/MySQL实战45讲/33  我查这么多数据，会不会把数据库内存打爆？.md]]
+- [[raw/columns/MySQL实战45讲/44  答疑文章（三）：说一说这些好问题.md]]
+
 ## 变更日志
 
 | 日期 | 版本 | 变更内容 |

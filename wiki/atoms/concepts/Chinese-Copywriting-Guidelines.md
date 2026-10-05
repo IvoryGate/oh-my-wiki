@@ -57,3 +57,8 @@ status: active
 - [[Blog-Content-Writing-Practices]]
 - [[中文技术文档写作规范]]
 - [[写作价值心法]]
+
+## 来源
+
+- [[raw/columns/中文文案排版指北/sparanoidchinese-copywriting-guidelines Chinese copywriting guidelines for better written communication／中文文案排版指北.md]]
+

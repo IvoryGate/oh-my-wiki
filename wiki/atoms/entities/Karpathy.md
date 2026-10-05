@@ -46,3 +46,8 @@ status: active
 - [Twitter](https://twitter.com/karpathy)
 - [GitHub](https://github.com/karpathy)
 - [个人网站](https://karpathy.ai)
+
+## 来源
+
+- [[raw/articles/llm-wiki.md]]
+

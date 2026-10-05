@@ -49,4 +49,8 @@ redo log 是 **InnoDB 引擎特有的物理日志**，记录"在某个数据页�
 
 ## 来源
 
+- [[raw/columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？.md]]
+- [[raw/columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题.md]]
+- [[raw/columns/MySQL实战45讲/23  MySQL是怎么保证数据不丢的？.md]]
+
 > 见 [[MySQL日志系统与数据可靠性]]

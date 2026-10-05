@@ -121,6 +121,16 @@ related_atoms:
 - 执行链路上的组件见 [[MySQL执行路径与基础架构]]
 - 长事务与锁的代价见 [[MySQL事务隔离与锁机制]]
 
+## 来源
+
+- [[raw/columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？.md]]
+- [[raw/columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题.md]]
+- [[raw/columns/MySQL实战45讲/23  MySQL是怎么保证数据不丢的？.md]]
+- [[raw/columns/MySQL实战45讲/29  如何判断一个数据库是不是出问题了？.md]]
+- [[raw/columns/MySQL实战45讲/31  误删数据后除了跑路，还能怎么办？.md]]
+- [[raw/columns/MySQL实战45讲/32  为什么还有kill不掉的语句？.md]]
+- [[raw/columns/MySQL实战宝典/21  数据库备份：备份文件也要检查！.md]]
+
 ## 变更日志
 
 | 日期 | 版本 | 变更内容 |

@@ -7,6 +7,8 @@
 
 输入:
   wiki/**/*.md（排除 index.md 与 templates/）中的 [[链接]]      → 基础边 relation=links_to
+  raw/**/*.md 中的文件                                          → 节点 type=source
+  页面中指向 raw/ 的链接（正文 ## 来源 段与 frontmatter sources） → 边 relation=cites
   wiki/graph.relations.json 中的语义关系（策展判断件，优先级更高）
 
 输出:
@@ -54,8 +56,32 @@ def load_wiki_pages():
     return pages
 
 
-def build_resolver(pages):
-    """stem 与 aliases → stem 的解析器（限定 wiki 页）"""
+def load_raw_files():
+    """返回 {raw_id: {path, title}}，raw_id = 去掉 .md 的相对路径
+
+    raw/ 是只读原始资料，此处仅登记为图谱节点，不做任何写入。
+    """
+    raws = {}
+    base = ROOT / "raw"
+    if not base.is_dir():
+        return raws
+    for p in sorted(base.rglob("*.md")):
+        rel = p.relative_to(ROOT).as_posix()
+        rid = rel[:-3] if rel.endswith(".md") else rel
+        text = p.read_text(encoding="utf-8", errors="replace")
+        m = re.match(r"^---\s*\n(.*?)\n---", text, re.S)
+        title = ""
+        if m:
+            tm = re.search(r"^title:\s*[\"']?(.+?)[\"']?\s*$", m.group(1), re.M)
+            if tm:
+                title = tm.group(1).strip()
+        raws[rid] = {"path": rel, "title": title or p.stem}
+    return raws
+
+
+def build_resolver(pages, raw_files=None):
+    """stem 与 aliases → stem 的解析器（wiki 页；raw/ 路径解析为 raw 节点 id）"""
+    raw_files = raw_files or {}
     by_lower = defaultdict(list)
     alias_map = {}
     for stem, info in pages.items():
@@ -74,13 +100,16 @@ def build_resolver(pages):
         t = target.replace("\\|", "|").split("|")[0].split("#")[0].strip()
         if not t:
             return None
-        if "/" in t:  # 路径式链接：仅接受 wiki/ 下
-            if not t.startswith("wiki/"):
-                return None
-            t = t[3:]
-            if t.endswith(".md"):
-                t = t[:-3]
-            return t if t in pages else None
+        if "/" in t:  # 路径式链接：wiki/ 页面 或 raw/ 原始资料
+            if t.startswith("wiki/"):
+                t = t[3:]
+                if t.endswith(".md"):
+                    t = t[:-3]
+                return t if t in pages else None
+            if t.startswith("raw/"):
+                rid = t[:-3] if t.endswith(".md") else t
+                return rid if rid in raw_files else None
+            return None
         if t in pages:
             return t
         hits = by_lower.get(t.lower(), [])
@@ -95,25 +124,31 @@ def build_resolver(pages):
 
 def build_graph():
     pages = load_wiki_pages()
-    resolve = build_resolver(pages)
+    raw_files = load_raw_files()
+    resolve = build_resolver(pages, raw_files)
 
     nodes = [
         {"id": stem, "type": info["type"], "path": info["path"]}
         for stem, info in pages.items()
     ]
+    nodes += [
+        {"id": rid, "type": "source", "path": info["path"], "title": info["title"]}
+        for rid, info in raw_files.items()
+    ]
     nodes.sort(key=lambda n: n["id"])
 
     edge_map = {}
 
-    # 1) 基础边：正文/元数据中的 wiki 内部链接
+    # 1) 基础边：正文/frontmatter 中的链接（wiki → wiki 为 links_to；wiki → raw 为 cites）
     for stem, info in pages.items():
         clean = re.sub(r"```.*?```", "", info["text"], flags=re.S)
         for m in re.finditer(r"\[\[([^\[\]]+?)\]\]", clean):
             target = resolve(m.group(1))
             if target and target != stem:
+                rel = "cites" if target.startswith("raw/") else "links_to"
                 edge_map.setdefault(
                     (stem, target),
-                    {"from": stem, "to": target, "relation": "links_to", "context": ""},
+                    {"from": stem, "to": target, "relation": rel, "context": ""},
                 )
 
     # 2) 语义策展层：graph.relations.json（优先级高于链接默认值）

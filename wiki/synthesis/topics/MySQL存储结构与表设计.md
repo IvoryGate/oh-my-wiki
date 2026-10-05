@@ -199,6 +199,26 @@ related_atoms:
 - 内存与 Buffer Pool、诊断手段见 [[MySQL性能诊断与资源管理]]
 - 自增主键与业务主键的取舍见 [[MySQL执行路径与基础架构]]（宝典开篇：INT 做业务主键不可取）
 
+## 来源
+
+- [[raw/columns/MySQL实战45讲/13  为什么表数据删掉一半，表文件大小不变？.md]]
+- [[raw/columns/MySQL实战45讲/14  count()这么慢，我该怎么办？.md]]
+- [[raw/columns/MySQL实战45讲/36  为什么临时表可以重名？.md]]
+- [[raw/columns/MySQL实战45讲/37  什么时候会使用内部临时表？.md]]
+- [[raw/columns/MySQL实战45讲/38  都说InnoDB好，那还要不要使用Memory引擎？.md]]
+- [[raw/columns/MySQL实战45讲/39  自增主键为什么不是连续的？.md]]
+- [[raw/columns/MySQL实战45讲/41  怎么最快地复制一张表？.md]]
+- [[raw/columns/MySQL实战45讲/43  要不要使用分区表？.md]]
+- [[raw/columns/MySQL实战45讲/45  自增id用完怎么办？.md]]
+- [[raw/columns/MySQL实战宝典/01  数字类型：避免自增踩坑.md]]
+- [[raw/columns/MySQL实战宝典/02  字符串类型：不能忽略的 COLLATION.md]]
+- [[raw/columns/MySQL实战宝典/03  日期类型：TIMESTAMP 可能是巨坑.md]]
+- [[raw/columns/MySQL实战宝典/04  非结构存储：用好 JSON 这张牌.md]]
+- [[raw/columns/MySQL实战宝典/05  表结构设计：忘记范式准则.md]]
+- [[raw/columns/MySQL实战宝典/06  表压缩：不仅仅是空间压缩.md]]
+- [[raw/columns/MySQL实战宝典/07  表的访问设计：你该选择 SQL 还是 NoSQL？.md]]
+- [[raw/columns/MySQL实战宝典/14  分区表：哪些场景我不建议用分区表？.md]]
+
 ## 变更日志
 
 | 日期 | 版本 | 变更内容 |

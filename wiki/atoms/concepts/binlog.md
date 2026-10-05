@@ -45,4 +45,9 @@ binlog 是 **MySQL Server 层**的**逻辑日志**，记录语句的原始逻辑
 
 ## 来源
 
+- [[raw/columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？.md]]
+- [[raw/columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题.md]]
+- [[raw/columns/MySQL实战45讲/23  MySQL是怎么保证数据不丢的？.md]]
+- [[raw/columns/MySQL实战45讲/31  误删数据后除了跑路，还能怎么办？.md]]
+
 > 见 [[MySQL日志系统与数据可靠性]]

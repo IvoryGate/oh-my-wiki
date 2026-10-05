@@ -59,4 +59,8 @@ InnoDB 表可以通过三种协议访问，**底层都是表、都存 InnoDB**�
 
 ## 来源
 
+- [[raw/columns/MySQL实战45讲/38  都说InnoDB好，那还要不要使用Memory引擎？.md]]
+- [[raw/columns/MySQL实战45讲/33  我查这么多数据，会不会把数据库内存打爆？.md]]
+- [[raw/columns/MySQL实战宝典/07  表的访问设计：你该选择 SQL 还是 NoSQL？.md]]
+
 > 见 [[MySQL存储结构与表设计]]、[[MySQL性能诊断与资源管理]]

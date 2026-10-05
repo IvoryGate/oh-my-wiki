@@ -53,3 +53,10 @@ AppsFlyer 提供的防作弊体系，分为免费的 Protect LITE 和付费的 P
 - [[Fake-Installation]]
 - [[CTIT-Analysis]]
 - [[MMP-Attribution]]
+
+## 来源
+
+- [[raw/articles/广告作弊Ad Fraud（四）.md]]
+- [[raw/articles/广告作弊Ad Fraud（五）.md]]
+- [[raw/articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？.md]]
+

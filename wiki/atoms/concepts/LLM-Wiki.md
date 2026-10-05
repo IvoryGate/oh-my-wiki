@@ -96,3 +96,8 @@ Schema 是关键配置文件：它让 LLM 成为有纪律的 wiki 维护者，�
 ## 延伸阅读
 
 - [原始 Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+
+## 来源
+
+- [[raw/articles/llm-wiki.md]]
+

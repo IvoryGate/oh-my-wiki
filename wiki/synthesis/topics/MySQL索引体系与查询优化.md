@@ -193,6 +193,25 @@ related_atoms:
 - 执行链路上优化器的位置见 [[MySQL执行路径与基础架构]]
 - `count()`、临时表、Memory 引擎、分区表等存储侧内容归入「存储结构与表设计」主题（批次 3）
 
+## 来源
+
+- [[raw/columns/MySQL实战45讲/04  深入浅出索引（上）.md]]
+- [[raw/columns/MySQL实战45讲/05  深入浅出索引（下）.md]]
+- [[raw/columns/MySQL实战45讲/09  普通索引和唯一索引，应该怎么选择？.md]]
+- [[raw/columns/MySQL实战45讲/10  MySQL为什么有时候会选错索引？.md]]
+- [[raw/columns/MySQL实战45讲/11  怎么给字符串字段加索引？.md]]
+- [[raw/columns/MySQL实战45讲/16  “order by”是怎么工作的？.md]]
+- [[raw/columns/MySQL实战45讲/17  如何正确地显示随机消息？.md]]
+- [[raw/columns/MySQL实战45讲/18  为什么这些SQL语句逻辑相同，性能却差异巨大？.md]]
+- [[raw/columns/MySQL实战45讲/34  到底可不可以使用join？.md]]
+- [[raw/columns/MySQL实战45讲/35  join语句怎么优化？.md]]
+- [[raw/columns/MySQL实战宝典/08  索引：排序的艺术.md]]
+- [[raw/columns/MySQL实战宝典/09  索引组织表：万物皆索引.md]]
+- [[raw/columns/MySQL实战宝典/10  组合索引：用好，性能提升 10 倍！.md]]
+- [[raw/columns/MySQL实战宝典/11  索引出错：请理解 CBO 的工作原理.md]]
+- [[raw/columns/MySQL实战宝典/12  JOIN 连接：到底能不能写 JOIN？.md]]
+- [[raw/columns/MySQL实战宝典/13  子查询：放心地使用子查询功能吧！.md]]
+
 ## 变更日志
 
 | 日期 | 版本 | 变更内容 |

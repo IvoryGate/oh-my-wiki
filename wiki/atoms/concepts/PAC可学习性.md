@@ -38,3 +38,8 @@ PAC（Probably Approximately Correct）可学习性是机器学习理论中的�
 
 - [[计算学习理论]]
 - [[VC维]]
+
+## 来源
+
+- [[raw/columns/机器学习40讲/04 计算学习理论.md]]
+

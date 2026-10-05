@@ -260,6 +260,20 @@ relay_log_info_repository = TABLE
 - 备份与恢复、可用性诊断见 [[MySQL日志系统与数据可靠性]]
 - 横向扩展见 [[分布式数据库与分库分表]]
 
+## 来源
+
+- [[raw/columns/MySQL实战45讲/24  MySQL是怎么保证主备一致的？.md]]
+- [[raw/columns/MySQL实战45讲/25  MySQL是怎么保证高可用的？.md]]
+- [[raw/columns/MySQL实战45讲/26  备库为什么会延迟好几个小时？.md]]
+- [[raw/columns/MySQL实战45讲/27  主库出问题了，从库怎么办？.md]]
+- [[raw/columns/MySQL实战45讲/28  读写分离有哪些坑？.md]]
+- [[raw/columns/MySQL实战宝典/15  MySQL 复制：最简单也最容易配置出错.md]]
+- [[raw/columns/MySQL实战宝典/16  读写分离设计：复制延迟？其实是你用错了.md]]
+- [[raw/columns/MySQL实战宝典/17  高可用设计：你怎么活用三大架构方案？.md]]
+- [[raw/columns/MySQL实战宝典/18  金融级高可用架构：必不可少的数据核对.md]]
+- [[raw/columns/MySQL实战宝典/19  高可用套件：选择这么多，你该如何选？.md]]
+- [[raw/columns/MySQL实战宝典/20  InnoDB Cluster：改变历史的新产品.md]]
+
 ## 变更日志
 
 | 日期 | 版本 | 变更内容 |

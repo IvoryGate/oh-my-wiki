@@ -46,3 +46,8 @@ status: active
 
 - [[Pacing-Model]]
 - [[ROAS-Data-Reconciliation]]
+
+## 来源
+
+- [[raw/articles/广告中的Pacing模型以及冷启动.md]]
+

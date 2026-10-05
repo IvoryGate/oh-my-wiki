@@ -36,3 +36,8 @@ $$\text{Softmax}(x_i) = \frac{e^{x_i}}{\sum_{j=1}^{K} e^{x_j}}$$
 
 - [[交叉熵]]
 - [[Logistic回归]]
+
+## 来源
+
+- [[raw/columns/机器学习40讲/17 几何角度看分类：支持向量机.md]]
+

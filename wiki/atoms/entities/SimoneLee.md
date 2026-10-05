@@ -48,3 +48,25 @@ SimoneLee 是出海广告投放领域的公众号作者，本库 raw 中署名�
 ## 相关实体
 
 - [[erickfang]]：同领域作者，《出海增长浅谈》系列
+
+## 来源
+
+- [[raw/articles/出海投放基础知识之归因（一）.md]]
+- [[raw/articles/出海投放基础知识之归因（二）.md]]
+- [[raw/articles/出海投放基础知识之归因（三）.md]]
+- [[raw/articles/出海投放基础知识之归因(四)+SKAN(一).md]]
+- [[raw/articles/出海投放基础知识之数据统计（一）.md]]
+- [[raw/articles/广告作弊Ad Fraud（一）.md]]
+- [[raw/articles/广告作弊Ad Fraud（二）.md]]
+- [[raw/articles/广告作弊Ad Fraud（三）.md]]
+- [[raw/articles/广告作弊Ad Fraud（四）.md]]
+- [[raw/articles/广告作弊Ad Fraud（五）.md]]
+- [[raw/articles/广告作弊Ad Fraud（六）.md]]
+- [[raw/articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？.md]]
+- [[raw/articles/广告竞价背后的逻辑和模型算法（一）.md]]
+- [[raw/articles/广告竞价背后的逻辑和模型算法（二）.md]]
+- [[raw/articles/广告中的Pacing模型以及冷启动.md]]
+- [[raw/articles/什么是Cohort队列？.md]]
+- [[raw/articles/Unity平台ROAS开启条件和数据差异问题.md]]
+- [[raw/articles/渠道MMPBI的数据差异剖析.md]]
+

@@ -105,6 +105,37 @@ SORT updated DESC
 
 ---
 
+## 原始资料 (raw)
+
+> 只读原文。每篇被哪些知识页引用，由各页 `## 来源` 段与 frontmatter `sources` 建立；
+> 点开任一原文，Obsidian 反链面板即显示引用它的知识页；`graph.json` 中原文为 `type=source` 节点
+
+```dataviewjs
+const srcs = dv.pages('"raw"').array();
+const groups = {};
+for (const p of srcs) {
+  const folder = p.file.folder || "raw";
+  (groups[folder] = groups[folder] || []).push(p);
+}
+const folders = Object.keys(groups).sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
+dv.table(
+  ["来源目录", "篇数", "已被引用", "尚未被引用"],
+  folders.map(f => {
+    const ps = groups[f].sort((a, b) =>
+      a.file.name.localeCompare(b.file.name, "zh-Hans-CN"));
+    const uncited = ps.filter(p => p.file.inlinks.length === 0);
+    return [
+      f,
+      ps.length,
+      ps.length - uncited.length,
+      uncited.length ? uncited.map(p => p.file.link) : "—",
+    ];
+  })
+);
+```
+
+---
+
 ## 知识流转规则
 
 ```

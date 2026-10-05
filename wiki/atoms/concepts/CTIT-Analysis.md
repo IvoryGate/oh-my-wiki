@@ -42,3 +42,9 @@ CTIT（Click Time to Install）是分析广告流量质量的核心指标，通�
 - [[Click-Flooding]]
 - [[Fake-Installation]]
 - [[Protect360]]
+
+## 来源
+
+- [[raw/articles/广告作弊Ad Fraud（三）.md]]
+- [[raw/articles/广告作弊Ad Fraud（五）.md]]
+

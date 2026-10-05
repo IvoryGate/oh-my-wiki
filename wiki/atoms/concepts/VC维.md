@@ -41,3 +41,8 @@ VC 维（Vapnik-Chervonenkis Dimension）是对假设空间复杂度的一种度
 
 - [[计算学习理论]]
 - [[PAC可学习性]]
+
+## 来源
+
+- [[raw/columns/机器学习40讲/04 计算学习理论.md]]
+

@@ -474,12 +474,18 @@ status: draft|active|archived
 [[概念名]]
 [[实体名|显示文本]]
 
-# 引用原始资料
-> 来源: [[raw/articles/xxx.md]]
+# 引用原始资料：frontmatter sources 与正文 ## 来源 段必须同时存在
+## 来源
+
+- [[raw/articles/xxx.md]]
 
 # 外部链接
 [显示文本](https://example.com)
 ```
+
+> `sources:` 只写在 frontmatter 里正文是看不到的，图谱与反链也不可靠；
+> **正文必须有 `## 来源` 段列出同样的链接**（单条来源可用 `> 来源: [[raw/...]]` 一行）。
+> 位置：已有 `## 来源` 标题则填在其下；否则放在 `## 变更日志` 之前；再无则追加到文末。
 
 ---
 
@@ -516,6 +522,8 @@ python .opencode/skills/gen-graph/scripts/gen_graph.py --check  # 校验与链�
 ```
 
 - 基础边：页面间 `[[链接]]` 自动生成，relation=links_to
+- 原文节点：`raw/**/*.md` 登记为 `type=source`（id 为去掉 `.md` 的相对路径）
+- 引用边：页面指向 `raw/` 的链接（正文 `## 来源` 段与 frontmatter `sources`），relation=cites
 - 语义边：维护在 `wiki/graph.relations.json`（策展层，同 (from,to) 时优先）
 - 查询影响范围：找到所有 `edges` 中包含某节点的记录
 - 页面增删改后不重建 → lint 报 graph 不一致
@@ -667,6 +675,7 @@ confidence: medium    # low | medium | high
 
 | 版本 | 日期 | 说明 |
 |------|------|------|
+| 1.6 | 2026-10-06 | 关联链补全：正文强制 `## 来源` 段（180/180 页）、gen-graph 把 `raw/` 登记为 `type=source` 节点并生成 `cites` 边、lint 把 raw/ 链接纳入断链校验、index 新增「原始资料」栏目 |
 | 1.5 | 2026-10-03 | 新增「五、写作协助」工作流：写作与改稿须遵循库内写作方法论（写作方法论）与格式规范（中文技术文档写作规范），含必读页面清单、四步流程与交付边界 |
 | 1.4 | 2026-10-02 | 与 AGENTS.md 合并为单一入口（统一 AGENTS.md 标准命名，删除 Agent.md） |
 | 1.3 | 2026-10-02 | 管理方法重构：index 全面 Dataview 化（frontmatter 新增 domain/description）、log.md→log.txt（去链接）、graph.json 生成化、工具固化为 lint/gen-graph skills |

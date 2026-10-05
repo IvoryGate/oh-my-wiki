@@ -54,4 +54,7 @@ InnoDB 页大小 **16KB**；非叶结点每项 = 主键（BIGINT 8B）+ 指针�
 
 ## 来源
 
+- [[raw/columns/MySQL实战45讲/04  深入浅出索引（上）.md]]
+- [[raw/columns/MySQL实战宝典/08  索引：排序的艺术.md]]
+
 > 见 [[MySQL索引体系与查询优化]]

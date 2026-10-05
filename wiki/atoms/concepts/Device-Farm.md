@@ -32,3 +32,8 @@ status: active
 - [[Fake-Installation]]
 - [[Attribution-Hijacking]]
 - [[CTIT-Analysis]]
+
+## 来源
+
+- [[raw/articles/广告作弊Ad Fraud（二）.md]]
+

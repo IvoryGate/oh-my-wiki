@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-05",
+  "lastUpdated": "2026-10-06",
   "nodes": [
     {
       "id": "AAR-Model",
@@ -416,6 +416,1068 @@
       "id": "erickfang",
       "type": "entity",
       "path": "wiki/atoms/entities/erickfang.md"
+    },
+    {
+      "id": "raw/articles/Linux tmux 基础使用教程",
+      "type": "source",
+      "path": "raw/articles/Linux tmux 基础使用教程.md",
+      "title": "Linux tmux 基础使用教程"
+    },
+    {
+      "id": "raw/articles/Unity平台ROAS开启条件和数据差异问题",
+      "type": "source",
+      "path": "raw/articles/Unity平台ROAS开启条件和数据差异问题.md",
+      "title": "Unity平台ROAS开启条件和数据差异问题"
+    },
+    {
+      "id": "raw/articles/llm-wiki",
+      "type": "source",
+      "path": "raw/articles/llm-wiki.md",
+      "title": "llm-wiki"
+    },
+    {
+      "id": "raw/articles/什么是Cohort队列？",
+      "type": "source",
+      "path": "raw/articles/什么是Cohort队列？.md",
+      "title": "什么是Cohort队列？"
+    },
+    {
+      "id": "raw/articles/什么是「STAR 法则」，有哪些优秀的「STAR 法则」使用案例？",
+      "type": "source",
+      "path": "raw/articles/什么是「STAR 法则」，有哪些优秀的「STAR 法则」使用案例？.md",
+      "title": "什么是「STAR 法则」，有哪些优秀的「STAR 法则」使用案例？"
+    },
+    {
+      "id": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "type": "source",
+      "path": "raw/articles/你不知道的 Agent：原理、架构与工程实践.md",
+      "title": "你不知道的 Agent：原理、架构与工程实践"
+    },
+    {
+      "id": "raw/articles/关于写作，这是我目前能想到最全的",
+      "type": "source",
+      "path": "raw/articles/关于写作，这是我目前能想到最全的.md",
+      "title": "关于写作，这是我目前能想到最全的"
+    },
+    {
+      "id": "raw/articles/关于归因你可能不知道的那些事(一）",
+      "type": "source",
+      "path": "raw/articles/关于归因你可能不知道的那些事(一）.md",
+      "title": "关于归因你可能不知道的那些事(一）"
+    },
+    {
+      "id": "raw/articles/关于归因你可能不知道的那些事（三）-策略篇",
+      "type": "source",
+      "path": "raw/articles/关于归因你可能不知道的那些事（三）-策略篇.md",
+      "title": "关于归因你可能不知道的那些事（三）-策略篇"
+    },
+    {
+      "id": "raw/articles/关于归因你可能不知道的那些事（二）-Skan篇",
+      "type": "source",
+      "path": "raw/articles/关于归因你可能不知道的那些事（二）-Skan篇.md",
+      "title": "关于归因你可能不知道的那些事（二）-Skan篇"
+    },
+    {
+      "id": "raw/articles/写了 200 多篇文章后，我总结的写作心得",
+      "type": "source",
+      "path": "raw/articles/写了 200 多篇文章后，我总结的写作心得.md",
+      "title": "写了 200 多篇文章后，我总结的写作心得"
+    },
+    {
+      "id": "raw/articles/出海投放基础知识之归因(四)+SKAN(一)",
+      "type": "source",
+      "path": "raw/articles/出海投放基础知识之归因(四)+SKAN(一).md",
+      "title": "出海投放基础知识之归因（四）SKAN归因"
+    },
+    {
+      "id": "raw/articles/出海投放基础知识之归因（一）",
+      "type": "source",
+      "path": "raw/articles/出海投放基础知识之归因（一）.md",
+      "title": "出海投放基础知识之归因（一）"
+    },
+    {
+      "id": "raw/articles/出海投放基础知识之归因（三）",
+      "type": "source",
+      "path": "raw/articles/出海投放基础知识之归因（三）.md",
+      "title": "出海投放基础知识之归因（三）"
+    },
+    {
+      "id": "raw/articles/出海投放基础知识之归因（二）",
+      "type": "source",
+      "path": "raw/articles/出海投放基础知识之归因（二）.md",
+      "title": "出海投放基础知识之归因（二）"
+    },
+    {
+      "id": "raw/articles/出海投放基础知识之数据统计（一）",
+      "type": "source",
+      "path": "raw/articles/出海投放基础知识之数据统计（一）.md",
+      "title": "出海投放基础知识之数据统计（一）"
+    },
+    {
+      "id": "raw/articles/增长从确定目标开始",
+      "type": "source",
+      "path": "raw/articles/增长从确定目标开始.md",
+      "title": "增长从确定目标开始"
+    },
+    {
+      "id": "raw/articles/如何定义受众-正篇",
+      "type": "source",
+      "path": "raw/articles/如何定义受众-正篇.md",
+      "title": "如何定义受众-正篇"
+    },
+    {
+      "id": "raw/articles/如何定义受众-科普篇",
+      "type": "source",
+      "path": "raw/articles/如何定义受众-科普篇.md",
+      "title": "如何定义受众-科普篇"
+    },
+    {
+      "id": "raw/articles/如何撰写一篇阅读10w+博文（10个成功秘诀）",
+      "type": "source",
+      "path": "raw/articles/如何撰写一篇阅读10w+博文（10个成功秘诀）.md",
+      "title": "如何撰写一篇阅读10w+博文（10个成功秘诀）"
+    },
+    {
+      "id": "raw/articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！",
+      "type": "source",
+      "path": "raw/articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！.md",
+      "title": "如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！"
+    },
+    {
+      "id": "raw/articles/工程技术：在智能体优先的世界中利用 Codex",
+      "type": "source",
+      "path": "raw/articles/工程技术：在智能体优先的世界中利用 Codex.md",
+      "title": "工程技术：在智能体优先的世界中利用 Codex"
+    },
+    {
+      "id": "raw/articles/广告中的Pacing模型以及冷启动",
+      "type": "source",
+      "path": "raw/articles/广告中的Pacing模型以及冷启动.md",
+      "title": "广告中的Pacing模型以及冷启动"
+    },
+    {
+      "id": "raw/articles/广告作弊Ad Fraud（一）",
+      "type": "source",
+      "path": "raw/articles/广告作弊Ad Fraud（一）.md",
+      "title": "广告作弊Ad Fraud（一）"
+    },
+    {
+      "id": "raw/articles/广告作弊Ad Fraud（三）",
+      "type": "source",
+      "path": "raw/articles/广告作弊Ad Fraud（三）.md",
+      "title": "广告作弊Ad Fraud（三）"
+    },
+    {
+      "id": "raw/articles/广告作弊Ad Fraud（二）",
+      "type": "source",
+      "path": "raw/articles/广告作弊Ad Fraud（二）.md",
+      "title": "广告作弊Ad Fraud（二）"
+    },
+    {
+      "id": "raw/articles/广告作弊Ad Fraud（五）",
+      "type": "source",
+      "path": "raw/articles/广告作弊Ad Fraud（五）.md",
+      "title": "广告作弊Ad Fraud（五）"
+    },
+    {
+      "id": "raw/articles/广告作弊Ad Fraud（六）",
+      "type": "source",
+      "path": "raw/articles/广告作弊Ad Fraud（六）.md",
+      "title": "广告作弊Ad Fraud（六）"
+    },
+    {
+      "id": "raw/articles/广告作弊Ad Fraud（四）",
+      "type": "source",
+      "path": "raw/articles/广告作弊Ad Fraud（四）.md",
+      "title": "广告作弊Ad Fraud（四）"
+    },
+    {
+      "id": "raw/articles/广告归因8种模型：预算怎么分才不浪费？",
+      "type": "source",
+      "path": "raw/articles/广告归因8种模型：预算怎么分才不浪费？.md",
+      "title": "广告归因8种模型：预算怎么分才不浪费？"
+    },
+    {
+      "id": "raw/articles/广告竞价背后的逻辑和模型算法（一）",
+      "type": "source",
+      "path": "raw/articles/广告竞价背后的逻辑和模型算法（一）.md",
+      "title": "广告竞价背后的逻辑和模型算法（一）"
+    },
+    {
+      "id": "raw/articles/广告竞价背后的逻辑和模型算法（二）",
+      "type": "source",
+      "path": "raw/articles/广告竞价背后的逻辑和模型算法（二）.md",
+      "title": "广告竞价背后的逻辑和模型算法（二）"
+    },
+    {
+      "id": "raw/articles/渠道MMPBI的数据差异剖析",
+      "type": "source",
+      "path": "raw/articles/渠道MMPBI的数据差异剖析.md",
+      "title": "渠道/MMP/BI的数据差异剖析"
+    },
+    {
+      "id": "raw/articles/渠道不起量的原因都在这里了！",
+      "type": "source",
+      "path": "raw/articles/渠道不起量的原因都在这里了！.md",
+      "title": "渠道不起量的原因都在这里了！"
+    },
+    {
+      "id": "raw/articles/用户到底被哪个广告打动了？三种主流归因模型全解析",
+      "type": "source",
+      "path": "raw/articles/用户到底被哪个广告打动了？三种主流归因模型全解析.md",
+      "title": "用户到底被哪个广告打动了？三种主流归因模型全解析"
+    },
+    {
+      "id": "raw/articles/程序员怎样才能写出一篇好的博客或者技术文章",
+      "type": "source",
+      "path": "raw/articles/程序员怎样才能写出一篇好的博客或者技术文章.md",
+      "title": "程序员怎样才能写出一篇好的博客或者技术文章"
+    },
+    {
+      "id": "raw/articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？",
+      "type": "source",
+      "path": "raw/articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？.md",
+      "title": "除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？"
+    },
+    {
+      "id": "raw/articles/马尔可夫链的宿命论",
+      "type": "source",
+      "path": "raw/articles/马尔可夫链的宿命论.md",
+      "title": "马尔可夫链的宿命论"
+    },
+    {
+      "id": "raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验",
+      "type": "source",
+      "path": "raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验.md",
+      "title": "鹅厂多位技术同学关于如何写好技术文章的经验"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/00 开篇词  这一次，让我们一起来搞懂MySQL",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/00 开篇词  这一次，让我们一起来搞懂MySQL.md",
+      "title": "00 开篇词  这一次，让我们一起来搞懂MySQL"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/01  基础架构：一条SQL查询语句是如何执行的？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/01  基础架构：一条SQL查询语句是如何执行的？.md",
+      "title": "01  基础架构：一条SQL查询语句是如何执行的？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？.md",
+      "title": "02  日志系统：一条SQL更新语句是如何执行的？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/03  事务隔离：为什么你改了我还看不见？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/03  事务隔离：为什么你改了我还看不见？.md",
+      "title": "03  事务隔离：为什么你改了我还看不见？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/04  深入浅出索引（上）",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/04  深入浅出索引（上）.md",
+      "title": "04  深入浅出索引（上）"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/05  深入浅出索引（下）",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/05  深入浅出索引（下）.md",
+      "title": "05  深入浅出索引（下）"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/06  全局锁和表锁 ：给表加个字段怎么有这么多阻碍？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/06  全局锁和表锁 ：给表加个字段怎么有这么多阻碍？.md",
+      "title": "06  全局锁和表锁 ：给表加个字段怎么有这么多阻碍？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/07  行锁功过：怎么减少行锁对性能的影响？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/07  行锁功过：怎么减少行锁对性能的影响？.md",
+      "title": "07  行锁功过：怎么减少行锁对性能的影响？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/08  事务到底是隔离的还是不隔离的？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/08  事务到底是隔离的还是不隔离的？.md",
+      "title": "08  事务到底是隔离的还是不隔离的？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/09  普通索引和唯一索引，应该怎么选择？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/09  普通索引和唯一索引，应该怎么选择？.md",
+      "title": "09  普通索引和唯一索引，应该怎么选择？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/10  MySQL为什么有时候会选错索引？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/10  MySQL为什么有时候会选错索引？.md",
+      "title": "10  MySQL为什么有时候会选错索引？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/11  怎么给字符串字段加索引？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/11  怎么给字符串字段加索引？.md",
+      "title": "11  怎么给字符串字段加索引？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/12  为什么我的MySQL会“抖”一下？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/12  为什么我的MySQL会“抖”一下？.md",
+      "title": "12  为什么我的MySQL会“抖”一下？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/13  为什么表数据删掉一半，表文件大小不变？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/13  为什么表数据删掉一半，表文件大小不变？.md",
+      "title": "13  为什么表数据删掉一半，表文件大小不变？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/14  count()这么慢，我该怎么办？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/14  count()这么慢，我该怎么办？.md",
+      "title": "14  count()这么慢，我该怎么办？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题.md",
+      "title": "15  答疑文章（一）：日志和索引相关问题"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/16  “order by”是怎么工作的？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/16  “order by”是怎么工作的？.md",
+      "title": "16  “order by”是怎么工作的？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/17  如何正确地显示随机消息？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/17  如何正确地显示随机消息？.md",
+      "title": "17  如何正确地显示随机消息？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/18  为什么这些SQL语句逻辑相同，性能却差异巨大？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/18  为什么这些SQL语句逻辑相同，性能却差异巨大？.md",
+      "title": "18  为什么这些SQL语句逻辑相同，性能却差异巨大？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/19  为什么我只查一行的语句，也执行这么慢？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/19  为什么我只查一行的语句，也执行这么慢？.md",
+      "title": "19  为什么我只查一行的语句，也执行这么慢？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/20  幻读是什么，幻读有什么问题？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/20  幻读是什么，幻读有什么问题？.md",
+      "title": "20  幻读是什么，幻读有什么问题？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/21  为什么我只改一行的语句，锁这么多？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/21  为什么我只改一行的语句，锁这么多？.md",
+      "title": "21  为什么我只改一行的语句，锁这么多？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/22  MySQL有哪些“饮鸩止渴”提高性能的方法？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/22  MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
+      "title": "22  MySQL有哪些“饮鸩止渴”提高性能的方法？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/23  MySQL是怎么保证数据不丢的？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/23  MySQL是怎么保证数据不丢的？.md",
+      "title": "23  MySQL是怎么保证数据不丢的？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/24  MySQL是怎么保证主备一致的？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/24  MySQL是怎么保证主备一致的？.md",
+      "title": "24  MySQL是怎么保证主备一致的？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/25  MySQL是怎么保证高可用的？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/25  MySQL是怎么保证高可用的？.md",
+      "title": "25  MySQL是怎么保证高可用的？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/26  备库为什么会延迟好几个小时？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/26  备库为什么会延迟好几个小时？.md",
+      "title": "26  备库为什么会延迟好几个小时？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/27  主库出问题了，从库怎么办？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/27  主库出问题了，从库怎么办？.md",
+      "title": "27  主库出问题了，从库怎么办？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/28  读写分离有哪些坑？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/28  读写分离有哪些坑？.md",
+      "title": "28  读写分离有哪些坑？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/29  如何判断一个数据库是不是出问题了？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/29  如何判断一个数据库是不是出问题了？.md",
+      "title": "29  如何判断一个数据库是不是出问题了？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/30  答疑文章（二）：用动态的观点看加锁",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/30  答疑文章（二）：用动态的观点看加锁.md",
+      "title": "30  答疑文章（二）：用动态的观点看加锁"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/31  误删数据后除了跑路，还能怎么办？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/31  误删数据后除了跑路，还能怎么办？.md",
+      "title": "31  误删数据后除了跑路，还能怎么办？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/32  为什么还有kill不掉的语句？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/32  为什么还有kill不掉的语句？.md",
+      "title": "32  为什么还有kill不掉的语句？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/33  我查这么多数据，会不会把数据库内存打爆？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/33  我查这么多数据，会不会把数据库内存打爆？.md",
+      "title": "33  我查这么多数据，会不会把数据库内存打爆？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/34  到底可不可以使用join？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/34  到底可不可以使用join？.md",
+      "title": "34  到底可不可以使用join？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/35  join语句怎么优化？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/35  join语句怎么优化？.md",
+      "title": "35  join语句怎么优化？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/36  为什么临时表可以重名？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/36  为什么临时表可以重名？.md",
+      "title": "36  为什么临时表可以重名？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/37  什么时候会使用内部临时表？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/37  什么时候会使用内部临时表？.md",
+      "title": "37  什么时候会使用内部临时表？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/38  都说InnoDB好，那还要不要使用Memory引擎？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/38  都说InnoDB好，那还要不要使用Memory引擎？.md",
+      "title": "38  都说InnoDB好，那还要不要使用Memory引擎？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/39  自增主键为什么不是连续的？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/39  自增主键为什么不是连续的？.md",
+      "title": "39  自增主键为什么不是连续的？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/40  insert语句的锁为什么这么多？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/40  insert语句的锁为什么这么多？.md",
+      "title": "40  insert语句的锁为什么这么多？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/41  怎么最快地复制一张表？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/41  怎么最快地复制一张表？.md",
+      "title": "41  怎么最快地复制一张表？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/42  grant之后要跟着flush privileges吗？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/42  grant之后要跟着flush privileges吗？.md",
+      "title": "42  grant之后要跟着flush privileges吗？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/43  要不要使用分区表？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/43  要不要使用分区表？.md",
+      "title": "43  要不要使用分区表？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/44  答疑文章（三）：说一说这些好问题",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/44  答疑文章（三）：说一说这些好问题.md",
+      "title": "44  答疑文章（三）：说一说这些好问题"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/45  自增id用完怎么办？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/45  自增id用完怎么办？.md",
+      "title": "45  自增id用完怎么办？"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/我的MySQL心路历程",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/我的MySQL心路历程.md",
+      "title": "我的MySQL心路历程"
+    },
+    {
+      "id": "raw/columns/MySQL实战45讲/结束语  点线网面，一起构建MySQL知识网络",
+      "type": "source",
+      "path": "raw/columns/MySQL实战45讲/结束语  点线网面，一起构建MySQL知识网络.md",
+      "title": "结束语  点线网面，一起构建MySQL知识网络"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/00 开篇词  从业务出发，开启海量 MySQL 架构设计",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/00 开篇词  从业务出发，开启海量 MySQL 架构设计.md",
+      "title": "00 开篇词  从业务出发，开启海量 MySQL 架构设计"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/01  数字类型：避免自增踩坑",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/01  数字类型：避免自增踩坑.md",
+      "title": "01  数字类型：避免自增踩坑"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/02  字符串类型：不能忽略的 COLLATION",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/02  字符串类型：不能忽略的 COLLATION.md",
+      "title": "02  字符串类型：不能忽略的 COLLATION"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/03  日期类型：TIMESTAMP 可能是巨坑",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/03  日期类型：TIMESTAMP 可能是巨坑.md",
+      "title": "03  日期类型：TIMESTAMP 可能是巨坑"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/04  非结构存储：用好 JSON 这张牌",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/04  非结构存储：用好 JSON 这张牌.md",
+      "title": "04  非结构存储：用好 JSON 这张牌"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/05  表结构设计：忘记范式准则",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/05  表结构设计：忘记范式准则.md",
+      "title": "05  表结构设计：忘记范式准则"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/06  表压缩：不仅仅是空间压缩",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/06  表压缩：不仅仅是空间压缩.md",
+      "title": "06  表压缩：不仅仅是空间压缩"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/07  表的访问设计：你该选择 SQL 还是 NoSQL？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/07  表的访问设计：你该选择 SQL 还是 NoSQL？.md",
+      "title": "07  表的访问设计：你该选择 SQL 还是 NoSQL？"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/08  索引：排序的艺术",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/08  索引：排序的艺术.md",
+      "title": "08  索引：排序的艺术"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/09  索引组织表：万物皆索引",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/09  索引组织表：万物皆索引.md",
+      "title": "09  索引组织表：万物皆索引"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/10  组合索引：用好，性能提升 10 倍！",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/10  组合索引：用好，性能提升 10 倍！.md",
+      "title": "10  组合索引：用好，性能提升 10 倍！"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/11  索引出错：请理解 CBO 的工作原理",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/11  索引出错：请理解 CBO 的工作原理.md",
+      "title": "11  索引出错：请理解 CBO 的工作原理"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/12  JOIN 连接：到底能不能写 JOIN？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/12  JOIN 连接：到底能不能写 JOIN？.md",
+      "title": "12  JOIN 连接：到底能不能写 JOIN？"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/13  子查询：放心地使用子查询功能吧！",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/13  子查询：放心地使用子查询功能吧！.md",
+      "title": "13  子查询：放心地使用子查询功能吧！"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/14  分区表：哪些场景我不建议用分区表？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/14  分区表：哪些场景我不建议用分区表？.md",
+      "title": "14  分区表：哪些场景我不建议用分区表？"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/15  MySQL 复制：最简单也最容易配置出错",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/15  MySQL 复制：最简单也最容易配置出错.md",
+      "title": "15  MySQL 复制：最简单也最容易配置出错"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/16  读写分离设计：复制延迟？其实是你用错了",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/16  读写分离设计：复制延迟？其实是你用错了.md",
+      "title": "16  读写分离设计：复制延迟？其实是你用错了"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/17  高可用设计：你怎么活用三大架构方案？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/17  高可用设计：你怎么活用三大架构方案？.md",
+      "title": "17  高可用设计：你怎么活用三大架构方案？"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/18  金融级高可用架构：必不可少的数据核对",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/18  金融级高可用架构：必不可少的数据核对.md",
+      "title": "18  金融级高可用架构：必不可少的数据核对"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/19  高可用套件：选择这么多，你该如何选？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/19  高可用套件：选择这么多，你该如何选？.md",
+      "title": "19  高可用套件：选择这么多，你该如何选？"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/20  InnoDB Cluster：改变历史的新产品",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/20  InnoDB Cluster：改变历史的新产品.md",
+      "title": "20  InnoDB Cluster：改变历史的新产品"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/21  数据库备份：备份文件也要检查！",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/21  数据库备份：备份文件也要检查！.md",
+      "title": "21  数据库备份：备份文件也要检查！"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/22  分布式数据库架构：彻底理解什么叫分布式数据库",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/22  分布式数据库架构：彻底理解什么叫分布式数据库.md",
+      "title": "22  分布式数据库架构：彻底理解什么叫分布式数据库"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/23  分布式数据库表结构设计：如何正确地将数据分片？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/23  分布式数据库表结构设计：如何正确地将数据分片？.md",
+      "title": "23  分布式数据库表结构设计：如何正确地将数据分片？"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/24  分布式数据库索引设计：二级索引、全局索引的最佳设计实践",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/24  分布式数据库索引设计：二级索引、全局索引的最佳设计实践.md",
+      "title": "24  分布式数据库索引设计：二级索引、全局索引的最佳设计实践"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/25  分布式数据库架构选型：分库分表 or 中间件 ？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/25  分布式数据库架构选型：分库分表 or 中间件 ？.md",
+      "title": "25  分布式数据库架构选型：分库分表 or 中间件 ？"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/26  分布式设计之禅：全链路的条带化设计",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/26  分布式设计之禅：全链路的条带化设计.md",
+      "title": "26  分布式设计之禅：全链路的条带化设计"
+    },
+    {
+      "id": "raw/columns/MySQL实战宝典/27  分布式事务：我们到底要不要使用 2PC？",
+      "type": "source",
+      "path": "raw/columns/MySQL实战宝典/27  分布式事务：我们到底要不要使用 2PC？.md",
+      "title": "27  分布式事务：我们到底要不要使用 2PC？"
+    },
+    {
+      "id": "raw/columns/中文文案排版指北/marks",
+      "type": "source",
+      "path": "raw/columns/中文文案排版指北/marks.md",
+      "title": "中文文案排版指北：标点符号"
+    },
+    {
+      "id": "raw/columns/中文文案排版指北/number",
+      "type": "source",
+      "path": "raw/columns/中文文案排版指北/number.md",
+      "title": "中文文案排版指北：数值"
+    },
+    {
+      "id": "raw/columns/中文文案排版指北/paragraph",
+      "type": "source",
+      "path": "raw/columns/中文文案排版指北/paragraph.md",
+      "title": "中文文案排版指北：段落"
+    },
+    {
+      "id": "raw/columns/中文文案排版指北/reference",
+      "type": "source",
+      "path": "raw/columns/中文文案排版指北/reference.md",
+      "title": "中文文案排版指北：参考链接"
+    },
+    {
+      "id": "raw/columns/中文文案排版指北/sparanoidchinese-copywriting-guidelines Chinese copywriting guidelines for better written communication／中文文案排版指北",
+      "type": "source",
+      "path": "raw/columns/中文文案排版指北/sparanoidchinese-copywriting-guidelines Chinese copywriting guidelines for better written communication／中文文案排版指北.md",
+      "title": "sparanoid/chinese-copywriting-guidelines: Chinese copywriting guidelines for better written communication／中文文案排版指北"
+    },
+    {
+      "id": "raw/columns/中文文案排版指北/structure",
+      "type": "source",
+      "path": "raw/columns/中文文案排版指北/structure.md",
+      "title": "中文文案排版指北：文档体系"
+    },
+    {
+      "id": "raw/columns/中文文案排版指北/text",
+      "type": "source",
+      "path": "raw/columns/中文文案排版指北/text.md",
+      "title": "中文文案排版指北：文本"
+    },
+    {
+      "id": "raw/columns/中文文案排版指北/title",
+      "type": "source",
+      "path": "raw/columns/中文文案排版指北/title.md",
+      "title": "中文文案排版指北：标题"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/01 频率视角下的机器学习",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/01 频率视角下的机器学习.md",
+      "title": "01 频率视角下的机器学习"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/02 贝叶斯视角下的机器学习",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/02 贝叶斯视角下的机器学习.md",
+      "title": "02 贝叶斯视角下的机器学习"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/03 学什么与怎么学",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/03 学什么与怎么学.md",
+      "title": "03 学什么与怎么学"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/04 计算学习理论",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/04 计算学习理论.md",
+      "title": "04 计算学习理论"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/05 模型的分类方式",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/05 模型的分类方式.md",
+      "title": "05 模型的分类方式"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/06 模型的设计准则",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/06 模型的设计准则.md",
+      "title": "06 模型的设计准则"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/07 模型的验证方法",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/07 模型的验证方法.md",
+      "title": "07 模型的验证方法"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/08 模型的评估指标",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/08 模型的评估指标.md",
+      "title": "08 模型的评估指标"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/09 实验设计",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/09 实验设计.md",
+      "title": "09 实验设计"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/10 特征预处理",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/10 特征预处理.md",
+      "title": "10 特征预处理"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/11 基础线性回归：一元与多元",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/11 基础线性回归：一元与多元.md",
+      "title": "11 基础线性回归：一元与多元"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/12 正则化处理：收缩方法与边际化",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/12 正则化处理：收缩方法与边际化.md",
+      "title": "12 正则化处理：收缩方法与边际化"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/13 线性降维：主成分的使用",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/13 线性降维：主成分的使用.md",
+      "title": "13 线性降维：主成分的使用"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/14 非线性降维：流形学习",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/14 非线性降维：流形学习.md",
+      "title": "14 非线性降维：流形学习"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/15 从回归到分类：联系函数与降维",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/15 从回归到分类：联系函数与降维.md",
+      "title": "15 从回归到分类：联系函数与降维"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/16 建模非正态分布：广义线性模型",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/16 建模非正态分布：广义线性模型.md",
+      "title": "16 建模非正态分布：广义线性模型"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/17 几何角度看分类：支持向量机",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/17 几何角度看分类：支持向量机.md",
+      "title": "17 几何角度看分类：支持向量机"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/18 从全局到局部：核技巧",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/18 从全局到局部：核技巧.md",
+      "title": "18 从全局到局部：核技巧"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/19 非参数化的局部模型：K近邻",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/19 非参数化的局部模型：K近邻.md",
+      "title": "19 非参数化的局部模型：K近邻"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/20 基于距离的学习：聚类与度量学习",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/20 基于距离的学习：聚类与度量学习.md",
+      "title": "20 基于距离的学习：聚类与度量学习"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/21 基函数扩展：属性的非线性化",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/21 基函数扩展：属性的非线性化.md",
+      "title": "21 基函数扩展：属性的非线性化"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/22 自适应的基函数：神经网络",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/22 自适应的基函数：神经网络.md",
+      "title": "22 自适应的基函数：神经网络"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/23 层次化的神经网络：深度学习",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/23 层次化的神经网络：深度学习.md",
+      "title": "23 层次化的神经网络：深度学习"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/24 深度编解码：表示学习",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/24 深度编解码：表示学习.md",
+      "title": "24 深度编解码：表示学习"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/25 基于特征的区域划分：树模型",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/25 基于特征的区域划分：树模型.md",
+      "title": "25 基于特征的区域划分：树模型"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/26 集成化处理：Boosting与Bagging",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/26 集成化处理：Boosting与Bagging.md",
+      "title": "26 集成化处理：Boosting与Bagging"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/27 万能模型：梯度提升与随机森林",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/27 万能模型：梯度提升与随机森林.md",
+      "title": "27 万能模型：梯度提升与随机森林"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/28 最简单的概率图：朴素贝叶斯",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/28 最简单的概率图：朴素贝叶斯.md",
+      "title": "28 最简单的概率图：朴素贝叶斯"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/29 有向图模型：贝叶斯网络",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/29 有向图模型：贝叶斯网络.md",
+      "title": "29 有向图模型：贝叶斯网络"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/30 无向图模型：马尔可夫随机场",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/30 无向图模型：马尔可夫随机场.md",
+      "title": "30 无向图模型：马尔可夫随机场"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/31 建模连续分布：高斯网络",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/31 建模连续分布：高斯网络.md",
+      "title": "31 建模连续分布：高斯网络"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/32 从有限到无限：高斯过程",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/32 从有限到无限：高斯过程.md",
+      "title": "32 从有限到无限：高斯过程"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/33 序列化建模：隐马尔可夫模型",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/33 序列化建模：隐马尔可夫模型.md",
+      "title": "33 序列化建模：隐马尔可夫模型"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/34 连续序列化模型：线性动态系统",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/34 连续序列化模型：线性动态系统.md",
+      "title": "34 连续序列化模型：线性动态系统"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/35 精确推断：变量消除及其拓展",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/35 精确推断：变量消除及其拓展.md",
+      "title": "35 精确推断：变量消除及其拓展"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/36 确定近似推断：变分贝叶斯",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/36 确定近似推断：变分贝叶斯.md",
+      "title": "36 确定近似推断：变分贝叶斯"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/37 随机近似推断：MCMC",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/37 随机近似推断：MCMC.md",
+      "title": "37 随机近似推断：MCMC"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/38 完备数据下的参数学习：有向图与无向图",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/38 完备数据下的参数学习：有向图与无向图.md",
+      "title": "38 完备数据下的参数学习：有向图与无向图"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/39 隐变量下的参数学习：EM方法与混合模型",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/39 隐变量下的参数学习：EM方法与混合模型.md",
+      "title": "39 隐变量下的参数学习：EM方法与混合模型"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/40 结构学习：基于约束与基于评分",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/40 结构学习：基于约束与基于评分.md",
+      "title": "40 结构学习：基于约束与基于评分"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/如何成为机器学习工程师？",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/如何成为机器学习工程师？.md",
+      "title": "如何成为机器学习工程师？"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/总结课 机器学习的模型体系",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/总结课 机器学习的模型体系.md",
+      "title": "总结课 机器学习的模型体系"
+    },
+    {
+      "id": "raw/columns/机器学习40讲/总结课 贝叶斯学习的模型体系",
+      "type": "source",
+      "path": "raw/columns/机器学习40讲/总结课 贝叶斯学习的模型体系.md",
+      "title": "总结课 贝叶斯学习的模型体系"
+    },
+    {
+      "id": "raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？",
+      "type": "source",
+      "path": "raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
+      "title": "01 CLAP模型：一个优秀的复盘模型是什么样的？"
+    },
+    {
+      "id": "raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？",
+      "type": "source",
+      "path": "raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？.md",
+      "title": "02 OPTM框架：怎么使用CLAP模型？"
+    },
+    {
+      "id": "raw/columns/软件工程之美/00 开篇词 你为什么应该学好软件工程？",
+      "type": "source",
+      "path": "raw/columns/软件工程之美/00 开篇词 你为什么应该学好软件工程？.md",
+      "title": "00 开篇词 你为什么应该学好软件工程？"
+    },
+    {
+      "id": "raw/columns/软件工程之美/01 到底应该怎样理解软件工程？",
+      "type": "source",
+      "path": "raw/columns/软件工程之美/01 到底应该怎样理解软件工程？.md",
+      "title": "01 到底应该怎样理解软件工程？"
+    },
+    {
+      "id": "raw/columns/软件工程之美/02 工程思维：把每件事都当作一个项目来推进",
+      "type": "source",
+      "path": "raw/columns/软件工程之美/02 工程思维：把每件事都当作一个项目来推进.md",
+      "title": "02 工程思维：把每件事都当作一个项目来推进"
+    },
+    {
+      "id": "raw/videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD)",
+      "type": "source",
+      "path": "raw/videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md",
+      "title": "白话讲解领域驱动设计domain driven design (DDD)"
+    },
+    {
+      "id": "raw/videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响",
+      "type": "source",
+      "path": "raw/videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响.md",
+      "title": "【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响"
+    },
+    {
+      "id": "raw/videos/2026-04-26-四个步骤，建立知识体系的简单方法，借助直觉，直觉不是瞎猜，不是超能力【吸收人类优秀学习理论32】",
+      "type": "source",
+      "path": "raw/videos/2026-04-26-四个步骤，建立知识体系的简单方法，借助直觉，直觉不是瞎猜，不是超能力【吸收人类优秀学习理论32】.md",
+      "title": "四个步骤，建立知识体系的简单方法，借助直觉，直觉不是瞎猜，不是超能力【吸收人类优秀学习理论32】"
+    },
+    {
+      "id": "raw/videos/行为面试圣经，宝洁八大问破解之路？（上）",
+      "type": "source",
+      "path": "raw/videos/行为面试圣经，宝洁八大问破解之路？（上）.md",
+      "title": "行为面试圣经，宝洁八大问破解之路？（上）"
+    },
+    {
+      "id": "raw/videos/行为面试圣经，宝洁八大问破解之路？（下）",
+      "type": "source",
+      "path": "raw/videos/行为面试圣经，宝洁八大问破解之路？（下）.md",
+      "title": "行为面试圣经，宝洁八大问破解之路？（下）"
+    },
+    {
+      "id": "raw/videos/行为面试圣经，宝洁八大问破解之路？（中）",
+      "type": "source",
+      "path": "raw/videos/行为面试圣经，宝洁八大问破解之路？（中）.md",
+      "title": "行为面试圣经，宝洁八大问破解之路？（中）"
     },
     {
       "id": "redo log",
@@ -923,6 +1985,12 @@
       "context": ""
     },
     {
+      "from": "AAR-Model",
+      "to": "raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "ACI-Agent-Computer-Interface",
       "to": "Agent-Loop",
       "relation": "links_to",
@@ -932,6 +2000,12 @@
       "from": "ACI-Agent-Computer-Interface",
       "to": "Context-Engineering",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "ACI-Agent-Computer-Interface",
+      "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -983,6 +2057,18 @@
       "context": ""
     },
     {
+      "from": "Ad-Fraud",
+      "to": "raw/articles/广告作弊Ad Fraud（一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Ad-Fraud",
+      "to": "raw/articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Agent-Control-Patterns",
       "to": "Agent-Loop",
       "relation": "links_to",
@@ -1001,6 +2087,12 @@
       "context": ""
     },
     {
+      "from": "Agent-Control-Patterns",
+      "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Agent-Evaluation",
       "to": "Agent-Tracing",
       "relation": "links_to",
@@ -1010,6 +2102,12 @@
       "from": "Agent-Evaluation",
       "to": "Harness-Engineering",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent-Evaluation",
+      "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1043,6 +2141,12 @@
       "context": ""
     },
     {
+      "from": "Agent-First-Development",
+      "to": "raw/articles/工程技术：在智能体优先的世界中利用 Codex",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Agent-Loop",
       "to": "ACI-Agent-Computer-Interface",
       "relation": "links_to",
@@ -1073,6 +2177,12 @@
       "context": ""
     },
     {
+      "from": "Agent-Loop",
+      "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Agent-Tracing",
       "to": "Agent-Evaluation",
       "relation": "links_to",
@@ -1082,6 +2192,12 @@
       "from": "Agent-Tracing",
       "to": "Harness-Engineering",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent-Tracing",
+      "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1103,6 +2219,12 @@
       "context": ""
     },
     {
+      "from": "Architecture-Constraints",
+      "to": "raw/articles/工程技术：在智能体优先的世界中利用 Codex",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Attribution-Gap",
       "to": "Last-Click-Rule",
       "relation": "links_to",
@@ -1112,6 +2234,18 @@
       "from": "Attribution-Gap",
       "to": "MMP-Attribution",
       "relation": "measures",
+      "context": ""
+    },
+    {
+      "from": "Attribution-Gap",
+      "to": "raw/articles/关于归因你可能不知道的那些事(一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Attribution-Gap",
+      "to": "raw/articles/渠道MMPBI的数据差异剖析",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1145,6 +2279,18 @@
       "context": ""
     },
     {
+      "from": "Attribution-Hijacking",
+      "to": "raw/articles/广告作弊Ad Fraud（一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Attribution-Hijacking",
+      "to": "raw/articles/广告作弊Ad Fraud（三）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Audience-Definition",
       "to": "Channel-Launch-Strategy",
       "relation": "links_to",
@@ -1163,9 +2309,39 @@
       "context": ""
     },
     {
+      "from": "Audience-Definition",
+      "to": "raw/articles/增长从确定目标开始",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Audience-Definition",
+      "to": "raw/articles/如何定义受众-正篇",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Audience-Definition",
+      "to": "raw/articles/如何定义受众-科普篇",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "B+树索引",
       "to": "MySQL索引体系与查询优化",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "B+树索引",
+      "to": "raw/columns/MySQL实战45讲/04  深入浅出索引（上）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "B+树索引",
+      "to": "raw/columns/MySQL实战宝典/08  索引：排序的艺术",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1178,6 +2354,12 @@
       "from": "Blog-Content-Writing-Practices",
       "to": "Title-4U-Formula",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Blog-Content-Writing-Practices",
+      "to": "raw/articles/如何撰写一篇阅读10w+博文（10个成功秘诀）",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1217,6 +2399,18 @@
       "context": ""
     },
     {
+      "from": "CLAP-Model",
+      "to": "raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "CLAP-Model",
+      "to": "raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "CTIT-Analysis",
       "to": "Attribution-Hijacking",
       "relation": "links_to",
@@ -1241,6 +2435,18 @@
       "context": ""
     },
     {
+      "from": "CTIT-Analysis",
+      "to": "raw/articles/广告作弊Ad Fraud（三）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "CTIT-Analysis",
+      "to": "raw/articles/广告作弊Ad Fraud（五）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Channel-Launch-Strategy",
       "to": "Audience-Definition",
       "relation": "links_to",
@@ -1253,9 +2459,21 @@
       "context": ""
     },
     {
+      "from": "Channel-Launch-Strategy",
+      "to": "raw/articles/渠道不起量的原因都在这里了！",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Chinese-Copywriting-Guidelines",
       "to": "Blog-Content-Writing-Practices",
       "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Chinese-Copywriting-Guidelines",
+      "to": "raw/columns/中文文案排版指北/sparanoidchinese-copywriting-guidelines Chinese copywriting guidelines for better written communication／中文文案排版指北",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1289,6 +2507,12 @@
       "context": ""
     },
     {
+      "from": "Click-Flooding",
+      "to": "raw/articles/广告作弊Ad Fraud（三）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Codex",
       "to": "Agent-First-Development",
       "relation": "enables",
@@ -1304,6 +2528,12 @@
       "from": "Codex",
       "to": "OpenAI",
       "relation": "developed_by",
+      "context": ""
+    },
+    {
+      "from": "Codex",
+      "to": "raw/articles/工程技术：在智能体优先的世界中利用 Codex",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1325,6 +2555,18 @@
       "context": ""
     },
     {
+      "from": "Cohort-Analysis",
+      "to": "raw/articles/Unity平台ROAS开启条件和数据差异问题",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Cohort-Analysis",
+      "to": "raw/articles/什么是Cohort队列？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Cold-Start",
       "to": "Pacing-Model",
       "relation": "links_to",
@@ -1334,6 +2576,12 @@
       "from": "Cold-Start",
       "to": "ROAS-Data-Reconciliation",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Cold-Start",
+      "to": "raw/articles/广告中的Pacing模型以及冷启动",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1361,6 +2609,12 @@
       "context": ""
     },
     {
+      "from": "Context-Engineering",
+      "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "DAU-Retention-Rate",
       "to": "Cohort-Analysis",
       "relation": "links_to",
@@ -1379,6 +2633,12 @@
       "context": ""
     },
     {
+      "from": "DAU-Retention-Rate",
+      "to": "raw/articles/出海投放基础知识之数据统计（一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "DDD",
       "to": "Architecture-Constraints",
       "relation": "links_to",
@@ -1394,6 +2654,12 @@
       "from": "DDD",
       "to": "Pyramid-Principle",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "DDD",
+      "to": "raw/videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD)",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1421,6 +2687,12 @@
       "context": ""
     },
     {
+      "from": "Device-Farm",
+      "to": "raw/articles/广告作弊Ad Fraud（二）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Duplicate-Attribution",
       "to": "Last-Click-Rule",
       "relation": "links_to",
@@ -1436,6 +2708,18 @@
       "from": "Duplicate-Attribution",
       "to": "SKAN-Attribution",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Duplicate-Attribution",
+      "to": "raw/articles/关于归因你可能不知道的那些事(一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "EM算法",
+      "to": "raw/columns/机器学习40讲/39 隐变量下的参数学习：EM方法与混合模型",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1460,6 +2744,18 @@
       "from": "Fake-Installation",
       "to": "Protect360",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Fake-Installation",
+      "to": "raw/articles/广告作弊Ad Fraud（一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Fake-Installation",
+      "to": "raw/articles/广告作弊Ad Fraud（二）",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1493,6 +2789,18 @@
       "context": ""
     },
     {
+      "from": "FuPan",
+      "to": "raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "FuPan",
+      "to": "raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Harness-Engineering",
       "to": "Agent-Evaluation",
       "relation": "includes",
@@ -1517,6 +2825,18 @@
       "context": ""
     },
     {
+      "from": "Harness-Engineering",
+      "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Harness-Engineering",
+      "to": "raw/articles/工程技术：在智能体优先的世界中利用 Codex",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "High-Value-Channel",
       "to": "Channel-Launch-Strategy",
       "relation": "requires",
@@ -1526,6 +2846,12 @@
       "from": "High-Value-Channel",
       "to": "MMP-Attribution",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "High-Value-Channel",
+      "to": "raw/articles/关于归因你可能不知道的那些事（三）-策略篇",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1548,6 +2874,24 @@
     },
     {
       "from": "InnoDB存储引擎",
+      "to": "raw/columns/MySQL实战45讲/33  我查这么多数据，会不会把数据库内存打爆？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "InnoDB存储引擎",
+      "to": "raw/columns/MySQL实战45讲/38  都说InnoDB好，那还要不要使用Memory引擎？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "InnoDB存储引擎",
+      "to": "raw/columns/MySQL实战宝典/07  表的访问设计：你该选择 SQL 还是 NoSQL？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "InnoDB存储引擎",
       "to": "聚簇索引",
       "relation": "links_to",
       "context": ""
@@ -1565,6 +2909,24 @@
       "context": ""
     },
     {
+      "from": "Karpathy",
+      "to": "raw/articles/llm-wiki",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "K近邻",
+      "to": "raw/columns/机器学习40讲/19 非参数化的局部模型：K近邻",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "LASSO",
+      "to": "raw/columns/机器学习40讲/12 正则化处理：收缩方法与边际化",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "LLM-Wiki",
       "to": "Karpathy",
       "relation": "proposed_by",
@@ -1577,9 +2939,39 @@
       "context": ""
     },
     {
+      "from": "LLM-Wiki",
+      "to": "raw/articles/llm-wiki",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Last-Click-Rule",
+      "to": "raw/articles/关于归因你可能不知道的那些事(一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Last-Click-Rule",
+      "to": "raw/articles/出海投放基础知识之归因（一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Last-Click-Rule",
       "to": "多触点归因",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Logistic-回归",
+      "to": "raw/columns/机器学习40讲/15 从回归到分类：联系函数与降维",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Logistic-回归",
+      "to": "raw/columns/机器学习40讲/16 建模非正态分布：广义线性模型",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1601,6 +2993,18 @@
       "context": ""
     },
     {
+      "from": "Long-Task-Management",
+      "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MCMC",
+      "to": "raw/columns/机器学习40讲/37 随机近似推断：MCMC",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "MECE",
       "to": "Pyramid-Principle",
       "relation": "supports",
@@ -1610,6 +3014,12 @@
       "from": "MECE",
       "to": "Tech-Blog-Article-Types",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MECE",
+      "to": "raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1631,9 +3041,33 @@
       "context": ""
     },
     {
+      "from": "MMP-Attribution",
+      "to": "raw/articles/关于归因你可能不知道的那些事(一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MMP-Attribution",
+      "to": "raw/articles/出海投放基础知识之归因（一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "MVCC",
       "to": "MySQL事务隔离与锁机制",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MVCC",
+      "to": "raw/columns/MySQL实战45讲/03  事务隔离：为什么你改了我还看不见？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MVCC",
+      "to": "raw/columns/MySQL实战45讲/08  事务到底是隔离的还是不隔离的？",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1667,6 +3101,12 @@
       "context": ""
     },
     {
+      "from": "Memory-System",
+      "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Multi-Agent-Organization",
       "to": "Agent-Control-Patterns",
       "relation": "links_to",
@@ -1676,6 +3116,12 @@
       "from": "Multi-Agent-Organization",
       "to": "Agent-Loop",
       "relation": "extends",
+      "context": ""
+    },
+    {
+      "from": "Multi-Agent-Organization",
+      "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1694,6 +3140,60 @@
       "from": "MySQL事务隔离与锁机制",
       "to": "MySQL日志系统与数据可靠性",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "raw/columns/MySQL实战45讲/03  事务隔离：为什么你改了我还看不见？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "raw/columns/MySQL实战45讲/06  全局锁和表锁 ：给表加个字段怎么有这么多阻碍？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "raw/columns/MySQL实战45讲/07  行锁功过：怎么减少行锁对性能的影响？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "raw/columns/MySQL实战45讲/08  事务到底是隔离的还是不隔离的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "raw/columns/MySQL实战45讲/19  为什么我只查一行的语句，也执行这么慢？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "raw/columns/MySQL实战45讲/20  幻读是什么，幻读有什么问题？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "raw/columns/MySQL实战45讲/21  为什么我只改一行的语句，锁这么多？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "raw/columns/MySQL实战45讲/30  答疑文章（二）：用动态的观点看加锁",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "raw/columns/MySQL实战45讲/40  insert语句的锁为什么这么多？",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1730,6 +3230,72 @@
       "from": "MySQL复制与高可用架构",
       "to": "binlog",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "raw/columns/MySQL实战45讲/24  MySQL是怎么保证主备一致的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "raw/columns/MySQL实战45讲/25  MySQL是怎么保证高可用的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "raw/columns/MySQL实战45讲/26  备库为什么会延迟好几个小时？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "raw/columns/MySQL实战45讲/27  主库出问题了，从库怎么办？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "raw/columns/MySQL实战45讲/28  读写分离有哪些坑？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "raw/columns/MySQL实战宝典/15  MySQL 复制：最简单也最容易配置出错",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "raw/columns/MySQL实战宝典/16  读写分离设计：复制延迟？其实是你用错了",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "raw/columns/MySQL实战宝典/17  高可用设计：你怎么活用三大架构方案？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "raw/columns/MySQL实战宝典/18  金融级高可用架构：必不可少的数据核对",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "raw/columns/MySQL实战宝典/19  高可用套件：选择这么多，你该如何选？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL复制与高可用架构",
+      "to": "raw/columns/MySQL实战宝典/20  InnoDB Cluster：改变历史的新产品",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1782,6 +3348,108 @@
     },
     {
       "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战45讲/13  为什么表数据删掉一半，表文件大小不变？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战45讲/14  count()这么慢，我该怎么办？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战45讲/36  为什么临时表可以重名？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战45讲/37  什么时候会使用内部临时表？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战45讲/38  都说InnoDB好，那还要不要使用Memory引擎？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战45讲/39  自增主键为什么不是连续的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战45讲/41  怎么最快地复制一张表？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战45讲/43  要不要使用分区表？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战45讲/45  自增id用完怎么办？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战宝典/01  数字类型：避免自增踩坑",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战宝典/02  字符串类型：不能忽略的 COLLATION",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战宝典/03  日期类型：TIMESTAMP 可能是巨坑",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战宝典/04  非结构存储：用好 JSON 这张牌",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战宝典/05  表结构设计：忘记范式准则",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战宝典/06  表压缩：不仅仅是空间压缩",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战宝典/07  表的访问设计：你该选择 SQL 还是 NoSQL？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
+      "to": "raw/columns/MySQL实战宝典/14  分区表：哪些场景我不建议用分区表？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL存储结构与表设计",
       "to": "分区表",
       "relation": "links_to",
       "context": ""
@@ -1824,6 +3492,30 @@
     },
     {
       "from": "MySQL性能诊断与资源管理",
+      "to": "raw/columns/MySQL实战45讲/12  为什么我的MySQL会“抖”一下？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL性能诊断与资源管理",
+      "to": "raw/columns/MySQL实战45讲/22  MySQL有哪些“饮鸩止渴”提高性能的方法？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL性能诊断与资源管理",
+      "to": "raw/columns/MySQL实战45讲/33  我查这么多数据，会不会把数据库内存打爆？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL性能诊断与资源管理",
+      "to": "raw/columns/MySQL实战45讲/44  答疑文章（三）：说一说这些好问题",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL性能诊断与资源管理",
       "to": "行锁与表锁",
       "relation": "links_to",
       "context": ""
@@ -1854,6 +3546,42 @@
     },
     {
       "from": "MySQL执行路径与基础架构",
+      "to": "raw/columns/MySQL实战45讲/00 开篇词  这一次，让我们一起来搞懂MySQL",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL执行路径与基础架构",
+      "to": "raw/columns/MySQL实战45讲/01  基础架构：一条SQL查询语句是如何执行的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL执行路径与基础架构",
+      "to": "raw/columns/MySQL实战45讲/42  grant之后要跟着flush privileges吗？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL执行路径与基础架构",
+      "to": "raw/columns/MySQL实战45讲/我的MySQL心路历程",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL执行路径与基础架构",
+      "to": "raw/columns/MySQL实战45讲/结束语  点线网面，一起构建MySQL知识网络",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL执行路径与基础架构",
+      "to": "raw/columns/MySQL实战宝典/00 开篇词  从业务出发，开启海量 MySQL 架构设计",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL执行路径与基础架构",
       "to": "redo log",
       "relation": "links_to",
       "context": ""
@@ -1878,6 +3606,48 @@
     },
     {
       "from": "MySQL日志系统与数据可靠性",
+      "to": "raw/columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL日志系统与数据可靠性",
+      "to": "raw/columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL日志系统与数据可靠性",
+      "to": "raw/columns/MySQL实战45讲/23  MySQL是怎么保证数据不丢的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL日志系统与数据可靠性",
+      "to": "raw/columns/MySQL实战45讲/29  如何判断一个数据库是不是出问题了？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL日志系统与数据可靠性",
+      "to": "raw/columns/MySQL实战45讲/31  误删数据后除了跑路，还能怎么办？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL日志系统与数据可靠性",
+      "to": "raw/columns/MySQL实战45讲/32  为什么还有kill不掉的语句？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL日志系统与数据可靠性",
+      "to": "raw/columns/MySQL实战宝典/21  数据库备份：备份文件也要检查！",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL日志系统与数据可靠性",
       "to": "redo log",
       "relation": "links_to",
       "context": ""
@@ -1898,6 +3668,102 @@
       "from": "MySQL索引体系与查询优化",
       "to": "MySQL执行路径与基础架构",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战45讲/04  深入浅出索引（上）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战45讲/05  深入浅出索引（下）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战45讲/09  普通索引和唯一索引，应该怎么选择？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战45讲/10  MySQL为什么有时候会选错索引？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战45讲/11  怎么给字符串字段加索引？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战45讲/16  “order by”是怎么工作的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战45讲/17  如何正确地显示随机消息？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战45讲/18  为什么这些SQL语句逻辑相同，性能却差异巨大？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战45讲/34  到底可不可以使用join？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战45讲/35  join语句怎么优化？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战宝典/08  索引：排序的艺术",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战宝典/09  索引组织表：万物皆索引",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战宝典/10  组合索引：用好，性能提升 10 倍！",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战宝典/11  索引出错：请理解 CBO 的工作原理",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战宝典/12  JOIN 连接：到底能不能写 JOIN？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MySQL索引体系与查询优化",
+      "to": "raw/columns/MySQL实战宝典/13  子查询：放心地使用子查询功能吧！",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -1937,6 +3803,12 @@
       "context": ""
     },
     {
+      "from": "Network-Cognition-Gap",
+      "to": "raw/articles/如何定义受众-正篇",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "OPTM-Framework",
       "to": "AAR-Model",
       "relation": "links_to",
@@ -1967,6 +3839,18 @@
       "context": ""
     },
     {
+      "from": "OPTM-Framework",
+      "to": "raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "OPTM-Framework",
+      "to": "raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "OpenAI",
       "to": "Agent-First-Development",
       "relation": "links_to",
@@ -1985,9 +3869,21 @@
       "context": ""
     },
     {
+      "from": "OpenAI",
+      "to": "raw/articles/工程技术：在智能体优先的世界中利用 Codex",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "PAC可学习性",
       "to": "VC维",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "PAC可学习性",
+      "to": "raw/columns/机器学习40讲/04 计算学习理论",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2015,6 +3911,12 @@
       "context": ""
     },
     {
+      "from": "PDCA-Model",
+      "to": "raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "PDF-Model",
       "to": "CLAP-Model",
       "relation": "links_to",
@@ -2039,9 +3941,21 @@
       "context": ""
     },
     {
+      "from": "PDF-Model",
+      "to": "raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Pacing-Model",
       "to": "Cold-Start",
       "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "Pacing-Model",
+      "to": "raw/articles/广告中的Pacing模型以及冷启动",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2054,6 +3968,12 @@
       "from": "Phodal",
       "to": "Tech-Blog-Article-Types",
       "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "Phodal",
+      "to": "raw/articles/程序员怎样才能写出一篇好的博客或者技术文章",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2075,6 +3995,12 @@
       "context": ""
     },
     {
+      "from": "Platform-LVL-Validation",
+      "to": "raw/articles/广告作弊Ad Fraud（六）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Progressive-Disclosure",
       "to": "Context-Engineering",
       "relation": "relates_to",
@@ -2084,6 +4010,12 @@
       "from": "Progressive-Disclosure",
       "to": "Skills-System",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Progressive-Disclosure",
+      "to": "raw/articles/工程技术：在智能体优先的世界中利用 Codex",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2117,6 +4049,24 @@
       "context": ""
     },
     {
+      "from": "Protect360",
+      "to": "raw/articles/广告作弊Ad Fraud（五）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Protect360",
+      "to": "raw/articles/广告作弊Ad Fraud（四）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Protect360",
+      "to": "raw/articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Pyramid-Principle",
       "to": "MECE",
       "relation": "uses",
@@ -2135,9 +4085,27 @@
       "context": ""
     },
     {
+      "from": "Pyramid-Principle",
+      "to": "raw/articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Pyramid-Principle",
+      "to": "raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "RAG",
       "to": "LLM-Wiki",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "RAG",
+      "to": "raw/articles/llm-wiki",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2165,6 +4133,18 @@
       "context": ""
     },
     {
+      "from": "ROAS-Data-Reconciliation",
+      "to": "raw/articles/Unity平台ROAS开启条件和数据差异问题",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "ROAS-Data-Reconciliation",
+      "to": "raw/articles/渠道MMPBI的数据差异剖析",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "SCQ法则",
       "to": "MECE",
       "relation": "links_to",
@@ -2174,6 +4154,12 @@
       "from": "SCQ法则",
       "to": "Pyramid-Principle",
       "relation": "belongs_to",
+      "context": ""
+    },
+    {
+      "from": "SCQ法则",
+      "to": "raw/articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2195,6 +4181,18 @@
       "context": ""
     },
     {
+      "from": "SKAN-Attribution",
+      "to": "raw/articles/关于归因你可能不知道的那些事（二）-Skan篇",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SKAN-Attribution",
+      "to": "raw/articles/出海投放基础知识之归因(四)+SKAN(一)",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Session-Tracking",
       "to": "Cohort-Analysis",
       "relation": "links_to",
@@ -2210,6 +4208,18 @@
       "from": "Session-Tracking",
       "to": "ROAS-Data-Reconciliation",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Session-Tracking",
+      "to": "raw/articles/出海投放基础知识之数据统计（一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Shapley值",
+      "to": "raw/articles/用户到底被哪个广告打动了？三种主流归因模型全解析",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2256,6 +4266,114 @@
     },
     {
       "from": "SimoneLee",
+      "to": "raw/articles/Unity平台ROAS开启条件和数据差异问题",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/什么是Cohort队列？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/出海投放基础知识之归因(四)+SKAN(一)",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/出海投放基础知识之归因（一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/出海投放基础知识之归因（三）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/出海投放基础知识之归因（二）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/出海投放基础知识之数据统计（一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/广告中的Pacing模型以及冷启动",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/广告作弊Ad Fraud（一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/广告作弊Ad Fraud（三）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/广告作弊Ad Fraud（二）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/广告作弊Ad Fraud（五）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/广告作弊Ad Fraud（六）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/广告作弊Ad Fraud（四）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/广告竞价背后的逻辑和模型算法（一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/广告竞价背后的逻辑和模型算法（二）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/渠道MMPBI的数据差异剖析",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
+      "to": "raw/articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "SimoneLee",
       "to": "多触点归因",
       "relation": "links_to",
       "context": ""
@@ -2273,9 +4391,21 @@
       "context": ""
     },
     {
+      "from": "Skills-System",
+      "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Softmax",
       "to": "Logistic-回归",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Softmax",
+      "to": "raw/columns/机器学习40讲/17 几何角度看分类：支持向量机",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2303,9 +4433,27 @@
       "context": ""
     },
     {
+      "from": "Tech-Blog-Article-Types",
+      "to": "raw/articles/程序员怎样才能写出一篇好的博客或者技术文章",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Title-4U-Formula",
       "to": "Tech-Blog-Article-Types",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Title-4U-Formula",
+      "to": "raw/articles/鹅厂多位技术同学关于如何写好技术文章的经验",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Tmux",
+      "to": "raw/articles/Linux tmux 基础使用教程",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2327,9 +4475,27 @@
       "context": ""
     },
     {
+      "from": "User-App-Pair",
+      "to": "raw/articles/如何定义受众-正篇",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "User-App-Pair",
+      "to": "raw/articles/如何定义受众-科普篇",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "VC维",
       "to": "PAC可学习性",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "VC维",
+      "to": "raw/columns/机器学习40讲/04 计算学习理论",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2348,6 +4514,12 @@
       "from": "Workflow-vs-Agent",
       "to": "Agent-Loop",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Workflow-vs-Agent",
+      "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2387,9 +4559,45 @@
       "context": ""
     },
     {
+      "from": "ZhangPeng",
+      "to": "raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "ZhangPeng",
+      "to": "raw/columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "binlog",
       "to": "MySQL日志系统与数据可靠性",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "binlog",
+      "to": "raw/columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "binlog",
+      "to": "raw/columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "binlog",
+      "to": "raw/columns/MySQL实战45讲/23  MySQL是怎么保证数据不丢的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "binlog",
+      "to": "raw/columns/MySQL实战45讲/31  误删数据后除了跑路，还能怎么办？",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2405,6 +4613,48 @@
       "context": ""
     },
     {
+      "from": "erickfang",
+      "to": "raw/articles/关于归因你可能不知道的那些事(一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "erickfang",
+      "to": "raw/articles/关于归因你可能不知道的那些事（三）-策略篇",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "erickfang",
+      "to": "raw/articles/关于归因你可能不知道的那些事（二）-Skan篇",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "erickfang",
+      "to": "raw/articles/增长从确定目标开始",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "erickfang",
+      "to": "raw/articles/如何定义受众-正篇",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "erickfang",
+      "to": "raw/articles/如何定义受众-科普篇",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "erickfang",
+      "to": "raw/articles/渠道不起量的原因都在这里了！",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "redo log",
       "to": "MySQL日志系统与数据可靠性",
       "relation": "links_to",
@@ -2414,6 +4664,24 @@
       "from": "redo log",
       "to": "binlog",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "redo log",
+      "to": "raw/columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "redo log",
+      "to": "raw/columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "redo log",
+      "to": "raw/columns/MySQL实战45讲/23  MySQL是怎么保证数据不丢的？",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2432,6 +4700,18 @@
       "from": "两阶段提交",
       "to": "binlog",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "两阶段提交",
+      "to": "raw/columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "两阶段提交",
+      "to": "raw/columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2453,6 +4733,48 @@
       "context": ""
     },
     {
+      "from": "中文技术文档写作规范",
+      "to": "raw/columns/中文文案排版指北/marks",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "中文技术文档写作规范",
+      "to": "raw/columns/中文文案排版指北/number",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "中文技术文档写作规范",
+      "to": "raw/columns/中文文案排版指北/paragraph",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "中文技术文档写作规范",
+      "to": "raw/columns/中文文案排版指北/reference",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "中文技术文档写作规范",
+      "to": "raw/columns/中文文案排版指北/structure",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "中文技术文档写作规范",
+      "to": "raw/columns/中文文案排版指北/text",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "中文技术文档写作规范",
+      "to": "raw/columns/中文文案排版指北/title",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "主从复制",
       "to": "MySQL复制与高可用架构",
       "relation": "links_to",
@@ -2462,6 +4784,30 @@
       "from": "主从复制",
       "to": "binlog",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "主从复制",
+      "to": "raw/columns/MySQL实战45讲/24  MySQL是怎么保证主备一致的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "主从复制",
+      "to": "raw/columns/MySQL实战45讲/26  备库为什么会延迟好几个小时？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "主从复制",
+      "to": "raw/columns/MySQL实战宝典/15  MySQL 复制：最简单也最容易配置出错",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "主成分分析",
+      "to": "raw/columns/机器学习40讲/13 线性降维：主成分的使用",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2484,6 +4830,18 @@
     },
     {
       "from": "事务隔离级别",
+      "to": "raw/columns/MySQL实战45讲/03  事务隔离：为什么你改了我还看不见？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "事务隔离级别",
+      "to": "raw/columns/MySQL实战45讲/20  幻读是什么，幻读有什么问题？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "事务隔离级别",
       "to": "幻读",
       "relation": "links_to",
       "context": ""
@@ -2502,8 +4860,20 @@
     },
     {
       "from": "交叉熵",
+      "to": "raw/columns/机器学习40讲/17 几何角度看分类：支持向量机",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "交叉熵",
       "to": "损失函数",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "伪语境",
+      "to": "raw/videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2526,8 +4896,26 @@
     },
     {
       "from": "作品意识与打磨意识",
+      "to": "raw/articles/关于写作，这是我目前能想到最全的",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "作品意识与打磨意识",
+      "to": "raw/articles/写了 200 多篇文章后，我总结的写作心得",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "作品意识与打磨意识",
       "to": "中文技术文档写作规范",
       "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "写作价值心法",
+      "to": "raw/articles/关于写作，这是我目前能想到最全的",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2552,6 +4940,24 @@
       "from": "写作方法论",
       "to": "SCQ法则",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "raw/articles/关于写作，这是我目前能想到最全的",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "raw/articles/写了 200 多篇文章后，我总结的写作心得",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "写作方法论",
+      "to": "raw/articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2586,14 +4992,44 @@
     },
     {
       "from": "写作起步-日常书写",
+      "to": "raw/articles/关于写作，这是我目前能想到最全的",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "写作起步-日常书写",
       "to": "工作记忆",
       "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "决策树",
+      "to": "raw/columns/机器学习40讲/25 基于特征的区域划分：树模型",
+      "relation": "cites",
       "context": ""
     },
     {
       "from": "分区表",
       "to": "MySQL存储结构与表设计",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "分区表",
+      "to": "raw/columns/MySQL实战45讲/43  要不要使用分区表？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "分区表",
+      "to": "raw/columns/MySQL实战宝典/14  分区表：哪些场景我不建议用分区表？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "分布式事务",
+      "to": "raw/columns/MySQL实战宝典/27  分布式事务：我们到底要不要使用 2PC？",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2628,6 +5064,42 @@
     },
     {
       "from": "分布式数据库与分库分表",
+      "to": "raw/columns/MySQL实战宝典/22  分布式数据库架构：彻底理解什么叫分布式数据库",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "分布式数据库与分库分表",
+      "to": "raw/columns/MySQL实战宝典/23  分布式数据库表结构设计：如何正确地将数据分片？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "分布式数据库与分库分表",
+      "to": "raw/columns/MySQL实战宝典/24  分布式数据库索引设计：二级索引、全局索引的最佳设计实践",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "分布式数据库与分库分表",
+      "to": "raw/columns/MySQL实战宝典/25  分布式数据库架构选型：分库分表 or 中间件 ？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "分布式数据库与分库分表",
+      "to": "raw/columns/MySQL实战宝典/26  分布式设计之禅：全链路的条带化设计",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "分布式数据库与分库分表",
+      "to": "raw/columns/MySQL实战宝典/27  分布式事务：我们到底要不要使用 2PC？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "分布式数据库与分库分表",
       "to": "主从复制",
       "relation": "links_to",
       "context": ""
@@ -2648,6 +5120,24 @@
       "from": "分布式数据库与分库分表",
       "to": "聚簇索引",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "分库分表",
+      "to": "raw/columns/MySQL实战宝典/23  分布式数据库表结构设计：如何正确地将数据分片？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "分库分表",
+      "to": "raw/columns/MySQL实战宝典/24  分布式数据库索引设计：二级索引、全局索引的最佳设计实践",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "分库分表",
+      "to": "raw/columns/MySQL实战宝典/25  分布式数据库架构选型：分库分表 or 中间件 ？",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2676,8 +5166,20 @@
     },
     {
       "from": "助攻率",
+      "to": "raw/articles/出海投放基础知识之归因（三）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "助攻率",
       "to": "多触点归因",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "反向传播",
+      "to": "raw/columns/机器学习40讲/22 自适应的基函数：神经网络",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2690,6 +5192,24 @@
       "from": "反向传播",
       "to": "神经网络",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "变分推断",
+      "to": "raw/columns/机器学习40讲/36 确定近似推断：变分贝叶斯",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "变量消除",
+      "to": "raw/columns/机器学习40讲/35 精确推断：变量消除及其拓展",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "哥波尼世界",
+      "to": "raw/videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2718,6 +5238,18 @@
     },
     {
       "from": "回表",
+      "to": "raw/columns/MySQL实战45讲/05  深入浅出索引（下）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "回表",
+      "to": "raw/columns/MySQL实战45讲/18  为什么这些SQL语句逻辑相同，性能却差异巨大？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "回表",
       "to": "聚簇索引",
       "relation": "links_to",
       "context": ""
@@ -2726,6 +5258,12 @@
       "from": "回表",
       "to": "覆盖索引与最左前缀",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "基函数扩展",
+      "to": "raw/columns/机器学习40讲/21 基函数扩展：属性的非线性化",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2742,6 +5280,18 @@
     },
     {
       "from": "多触点归因",
+      "to": "raw/articles/广告归因8种模型：预算怎么分才不浪费？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "多触点归因",
+      "to": "raw/articles/用户到底被哪个广告打动了？三种主流归因模型全解析",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "多触点归因",
       "to": "助攻率",
       "relation": "links_to",
       "context": ""
@@ -2750,6 +5300,12 @@
       "from": "多触点归因",
       "to": "马尔可夫链归因",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "奥威尔与赫胥黎",
+      "to": "raw/videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2768,6 +5324,12 @@
       "from": "奥威尔与赫胥黎",
       "to": "媒介即隐喻",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "娱乐至死",
+      "to": "raw/videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2796,6 +5358,12 @@
     },
     {
       "from": "媒介即隐喻",
+      "to": "raw/videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "媒介即隐喻",
       "to": "伪语境",
       "relation": "links_to",
       "context": ""
@@ -2810,6 +5378,18 @@
       "from": "媒介即隐喻",
       "to": "娱乐至死",
       "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "岭回归",
+      "to": "raw/columns/机器学习40讲/12 正则化处理：收缩方法与边际化",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "工作记忆",
+      "to": "raw/videos/2026-04-26-四个步骤，建立知识体系的简单方法，借助直觉，直觉不是瞎猜，不是超能力【吸收人类优秀学习理论32】",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2838,8 +5418,26 @@
     },
     {
       "from": "幻读",
+      "to": "raw/columns/MySQL实战45讲/20  幻读是什么，幻读有什么问题？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "幻读",
+      "to": "raw/columns/MySQL实战45讲/30  答疑文章（二）：用动态的观点看加锁",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "幻读",
       "to": "间隙锁",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "广义线性模型",
+      "to": "raw/columns/机器学习40讲/16 建模非正态分布：广义线性模型",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2861,6 +5459,24 @@
       "context": ""
     },
     {
+      "from": "归因链接",
+      "to": "raw/articles/出海投放基础知识之归因（二）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "感知器",
+      "to": "raw/columns/机器学习40讲/22 自适应的基函数：神经网络",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "损失函数",
+      "to": "raw/columns/机器学习40讲/11 基础线性回归：一元与多元",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "损失函数",
       "to": "梯度下降",
       "relation": "links_to",
@@ -2873,9 +5489,57 @@
       "context": ""
     },
     {
+      "from": "推断",
+      "to": "raw/columns/机器学习40讲/35 精确推断：变量消除及其拓展",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "推断",
+      "to": "raw/columns/机器学习40讲/36 确定近似推断：变分贝叶斯",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "推断",
+      "to": "raw/columns/机器学习40讲/37 随机近似推断：MCMC",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "支持向量机",
+      "to": "raw/columns/机器学习40讲/17 几何角度看分类：支持向量机",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "支持向量机",
       "to": "核技巧",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "最大似然估计",
+      "to": "raw/columns/机器学习40讲/01 频率视角下的机器学习",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "最大似然估计",
+      "to": "raw/columns/机器学习40讲/02 贝叶斯视角下的机器学习",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "朴素贝叶斯",
+      "to": "raw/columns/机器学习40讲/28 最简单的概率图：朴素贝叶斯",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "机器学习工程师",
+      "to": "raw/columns/机器学习40讲/如何成为机器学习工程师？",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2888,6 +5552,12 @@
       "from": "机器学习模型体系",
       "to": "K近邻",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "raw/columns/机器学习40讲/总结课 机器学习的模型体系",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -2970,6 +5640,18 @@
     },
     {
       "from": "核函数",
+      "to": "raw/columns/机器学习40讲/18 从全局到局部：核技巧",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "核函数",
+      "to": "raw/columns/机器学习40讲/32 从有限到无限：高斯过程",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "核函数",
       "to": "支持向量机",
       "relation": "links_to",
       "context": ""
@@ -2987,6 +5669,18 @@
       "context": ""
     },
     {
+      "from": "核技巧",
+      "to": "raw/columns/机器学习40讲/18 从全局到局部：核技巧",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "梯度下降",
+      "to": "raw/columns/机器学习40讲/11 基础线性回归：一元与多元",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "梯度下降",
       "to": "反向传播",
       "relation": "links_to",
@@ -2999,6 +5693,48 @@
       "context": ""
     },
     {
+      "from": "梯度提升",
+      "to": "raw/columns/机器学习40讲/27 万能模型：梯度提升与随机森林",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "概率图模型",
+      "to": "raw/columns/机器学习40讲/28 最简单的概率图：朴素贝叶斯",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "概率图模型",
+      "to": "raw/columns/机器学习40讲/29 有向图模型：贝叶斯网络",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "概率图模型",
+      "to": "raw/columns/机器学习40讲/30 无向图模型：马尔可夫随机场",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "正则化",
+      "to": "raw/columns/机器学习40讲/12 正则化处理：收缩方法与边际化",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "流形学习",
+      "to": "raw/columns/机器学习40讲/14 非线性降维：流形学习",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "深度学习",
+      "to": "raw/columns/机器学习40讲/23 层次化的神经网络：深度学习",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "深度学习",
       "to": "神经网络",
       "relation": "links_to",
@@ -3008,6 +5744,18 @@
       "from": "深度学习",
       "to": "表示学习",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "混合模型",
+      "to": "raw/columns/机器学习40讲/39 隐变量下的参数学习：EM方法与混合模型",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "清脑作者",
+      "to": "raw/articles/关于写作，这是我目前能想到最全的",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3048,8 +5796,20 @@
     },
     {
       "from": "滑梯理论",
+      "to": "raw/articles/关于写作，这是我目前能想到最全的",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "滑梯理论",
       "to": "写作价值心法",
       "relation": "relates_to",
+      "context": ""
+    },
+    {
+      "from": "激活函数",
+      "to": "raw/columns/机器学习40讲/22 自适应的基函数：神经网络",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3062,6 +5822,12 @@
       "from": "激活函数",
       "to": "神经网络",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "特征工程",
+      "to": "raw/columns/机器学习40讲/10 特征预处理",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3083,6 +5849,18 @@
       "context": ""
     },
     {
+      "from": "皮卡小宝",
+      "to": "raw/articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "直觉",
+      "to": "raw/videos/2026-04-26-四个步骤，建立知识体系的简单方法，借助直觉，直觉不是瞎猜，不是超能力【吸收人类优秀学习理论32】",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "直觉",
       "to": "工作记忆",
       "relation": "links_to",
@@ -3102,6 +5880,12 @@
     },
     {
       "from": "知识体系",
+      "to": "raw/videos/2026-04-26-四个步骤，建立知识体系的简单方法，借助直觉，直觉不是瞎猜，不是超能力【吸收人类优秀学习理论32】",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "知识体系",
       "to": "工作记忆",
       "relation": "uses",
       "context": ""
@@ -3116,6 +5900,18 @@
       "from": "知识体系",
       "to": "经典知识联系",
       "relation": "uses",
+      "context": ""
+    },
+    {
+      "from": "神经网络",
+      "to": "raw/columns/机器学习40讲/22 自适应的基函数：神经网络",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "神经网络",
+      "to": "raw/columns/机器学习40讲/23 层次化的神经网络：深度学习",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3137,6 +5933,12 @@
       "context": ""
     },
     {
+      "from": "程序化广告",
+      "to": "raw/articles/广告竞价背后的逻辑和模型算法（一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "索引选择性",
       "to": "MySQL索引体系与查询优化",
       "relation": "links_to",
@@ -3144,8 +5946,38 @@
     },
     {
       "from": "索引选择性",
+      "to": "raw/columns/MySQL实战45讲/11  怎么给字符串字段加索引？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "索引选择性",
       "to": "聚簇索引",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "线性判别分析",
+      "to": "raw/columns/机器学习40讲/15 从回归到分类：联系函数与降维",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "线性动态系统",
+      "to": "raw/columns/机器学习40讲/34 连续序列化模型：线性动态系统",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "线性回归",
+      "to": "raw/columns/机器学习40讲/11 基础线性回归：一元与多元",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "经典知识联系",
+      "to": "raw/videos/2026-04-26-四个步骤，建立知识体系的简单方法，借助直觉，直觉不是瞎猜，不是超能力【吸收人类优秀学习理论32】",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3158,6 +5990,24 @@
       "from": "经典知识联系",
       "to": "知识体系",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "结构学习",
+      "to": "raw/columns/机器学习40讲/40 结构学习：基于约束与基于评分",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "联系函数",
+      "to": "raw/columns/机器学习40讲/15 从回归到分类：联系函数与降维",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "联系函数",
+      "to": "raw/columns/机器学习40讲/16 建模非正态分布：广义线性模型",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3174,8 +6024,38 @@
     },
     {
       "from": "聚簇索引",
+      "to": "raw/columns/MySQL实战45讲/04  深入浅出索引（上）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "聚簇索引",
+      "to": "raw/columns/MySQL实战45讲/09  普通索引和唯一索引，应该怎么选择？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "聚簇索引",
+      "to": "raw/columns/MySQL实战宝典/09  索引组织表：万物皆索引",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "聚簇索引",
       "to": "回表",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "聚类分析",
+      "to": "raw/columns/机器学习40讲/20 基于距离的学习：聚类与度量学习",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "自编码器",
+      "to": "raw/columns/机器学习40讲/24 深度编解码：表示学习",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3209,6 +6089,30 @@
       "context": ""
     },
     {
+      "from": "行为面试",
+      "to": "raw/articles/什么是「STAR 法则」，有哪些优秀的「STAR 法则」使用案例？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "行为面试",
+      "to": "raw/videos/行为面试圣经，宝洁八大问破解之路？（上）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "行为面试",
+      "to": "raw/videos/行为面试圣经，宝洁八大问破解之路？（下）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "行为面试",
+      "to": "raw/videos/行为面试圣经，宝洁八大问破解之路？（中）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "行锁与表锁",
       "to": "MySQL事务隔离与锁机制",
       "relation": "links_to",
@@ -3216,8 +6120,32 @@
     },
     {
       "from": "行锁与表锁",
+      "to": "raw/columns/MySQL实战45讲/06  全局锁和表锁 ：给表加个字段怎么有这么多阻碍？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "行锁与表锁",
+      "to": "raw/columns/MySQL实战45讲/07  行锁功过：怎么减少行锁对性能的影响？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "行锁与表锁",
+      "to": "raw/columns/MySQL实战45讲/19  为什么我只查一行的语句，也执行这么慢？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "行锁与表锁",
       "to": "间隙锁",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "表示学习",
+      "to": "raw/columns/机器学习40讲/24 深度编解码：表示学习",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3233,9 +6161,39 @@
       "context": ""
     },
     {
+      "from": "表空间与碎片",
+      "to": "raw/columns/MySQL实战45讲/13  为什么表数据删掉一半，表文件大小不变？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "表空间与碎片",
+      "to": "raw/columns/MySQL实战宝典/06  表压缩：不仅仅是空间压缩",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "覆盖索引与最左前缀",
       "to": "MySQL索引体系与查询优化",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "覆盖索引与最左前缀",
+      "to": "raw/columns/MySQL实战45讲/05  深入浅出索引（下）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "覆盖索引与最左前缀",
+      "to": "raw/columns/MySQL实战45讲/16  “order by”是怎么工作的？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "覆盖索引与最左前缀",
+      "to": "raw/columns/MySQL实战宝典/10  组合索引：用好，性能提升 10 倍！",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3251,6 +6209,12 @@
       "context": ""
     },
     {
+      "from": "计算学习理论",
+      "to": "raw/columns/机器学习40讲/04 计算学习理论",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "读写分离",
       "to": "MySQL复制与高可用架构",
       "relation": "links_to",
@@ -3258,8 +6222,26 @@
     },
     {
       "from": "读写分离",
+      "to": "raw/columns/MySQL实战45讲/28  读写分离有哪些坑？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "读写分离",
+      "to": "raw/columns/MySQL实战宝典/16  读写分离设计：复制延迟？其实是你用错了",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "读写分离",
       "to": "主从复制",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "raw/columns/机器学习40讲/总结课 贝叶斯学习的模型体系",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3300,8 +6282,20 @@
     },
     {
       "from": "贝叶斯学派",
+      "to": "raw/columns/机器学习40讲/02 贝叶斯视角下的机器学习",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学派",
       "to": "频率学派",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯定理",
+      "to": "raw/columns/机器学习40讲/02 贝叶斯视角下的机器学习",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3317,6 +6311,18 @@
       "context": ""
     },
     {
+      "from": "贝叶斯网络",
+      "to": "raw/columns/机器学习40讲/29 有向图模型：贝叶斯网络",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "超参数",
+      "to": "raw/columns/机器学习40讲/06 模型的设计准则",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "超参数",
       "to": "梯度下降",
       "relation": "links_to",
@@ -3329,6 +6335,30 @@
       "context": ""
     },
     {
+      "from": "距离度量",
+      "to": "raw/columns/机器学习40讲/10 特征预处理",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "软件工程",
+      "to": "raw/columns/软件工程之美/00 开篇词 你为什么应该学好软件工程？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "软件工程",
+      "to": "raw/columns/软件工程之美/01 到底应该怎样理解软件工程？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "软件工程",
+      "to": "raw/columns/软件工程之美/02 工程思维：把每件事都当作一个项目来推进",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "软件工程",
       "to": "机器学习工程师",
       "relation": "links_to",
@@ -3338,6 +6368,12 @@
       "from": "过拟合",
       "to": "LASSO",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "过拟合",
+      "to": "raw/columns/机器学习40讲/12 正则化处理：收缩方法与边际化",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3360,8 +6396,32 @@
     },
     {
       "from": "间隙锁",
+      "to": "raw/columns/MySQL实战45讲/21  为什么我只改一行的语句，锁这么多？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "间隙锁",
+      "to": "raw/columns/MySQL实战45讲/30  答疑文章（二）：用动态的观点看加锁",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "间隙锁",
+      "to": "raw/columns/MySQL实战45讲/40  insert语句的锁为什么这么多？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "间隙锁",
       "to": "幻读",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "阿宝哥",
+      "to": "raw/articles/写了 200 多篇文章后，我总结的写作心得",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3371,15 +6431,63 @@
       "context": ""
     },
     {
+      "from": "降维",
+      "to": "raw/columns/机器学习40讲/13 线性降维：主成分的使用",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "降维",
+      "to": "raw/columns/机器学习40讲/14 非线性降维：流形学习",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "随机森林",
+      "to": "raw/columns/机器学习40讲/27 万能模型：梯度提升与随机森林",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "隐马尔可夫模型",
+      "to": "raw/columns/机器学习40讲/33 序列化建模：隐马尔可夫模型",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "集成学习",
+      "to": "raw/columns/机器学习40讲/26 集成化处理：Boosting与Bagging",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "顶级信息论与输入输出比",
+      "to": "raw/articles/关于写作，这是我目前能想到最全的",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "顶级信息论与输入输出比",
       "to": "写作价值心法",
       "relation": "links_to",
       "context": ""
     },
     {
+      "from": "频率学派",
+      "to": "raw/columns/机器学习40讲/01 频率视角下的机器学习",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "马尔可夫链",
       "to": "MCMC",
       "relation": "used_by",
+      "context": ""
+    },
+    {
+      "from": "马尔可夫链",
+      "to": "raw/articles/马尔可夫链的宿命论",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3408,18 +6516,43 @@
     },
     {
       "from": "马尔可夫链归因",
+      "to": "raw/articles/广告归因8种模型：预算怎么分才不浪费？",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "马尔可夫链归因",
       "to": "多触点归因",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "马尔可夫随机场",
+      "to": "raw/columns/机器学习40讲/30 无向图模型：马尔可夫随机场",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "高斯网络",
+      "to": "raw/columns/机器学习40讲/31 建模连续分布：高斯网络",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "高斯过程",
+      "to": "raw/columns/机器学习40讲/32 从有限到无限：高斯过程",
+      "relation": "cites",
       "context": ""
     }
   ],
   "stats": {
-    "totalNodes": 180,
-    "totalEdges": 418,
+    "totalNodes": 357,
+    "totalEdges": 763,
     "byType": {
       "concept": 158,
       "entity": 10,
       "howto": 1,
+      "source": 177,
       "topic": 11
     }
   }
