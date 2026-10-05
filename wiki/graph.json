@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-02",
+  "lastUpdated": "2026-10-05",
   "nodes": [
     {
       "id": "AAR-Model",
@@ -208,6 +208,11 @@
       "path": "wiki/atoms/concepts/MMP-Attribution.md"
     },
     {
+      "id": "MVCC",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/MVCC.md"
+    },
+    {
       "id": "Memory-System",
       "type": "concept",
       "path": "wiki/atoms/concepts/Memory-System.md"
@@ -216,6 +221,21 @@
       "id": "Multi-Agent-Organization",
       "type": "concept",
       "path": "wiki/atoms/concepts/Multi-Agent-Organization.md"
+    },
+    {
+      "id": "MySQL事务隔离与锁机制",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/MySQL事务隔离与锁机制.md"
+    },
+    {
+      "id": "MySQL执行路径与基础架构",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/MySQL执行路径与基础架构.md"
+    },
+    {
+      "id": "MySQL日志系统与数据可靠性",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/MySQL日志系统与数据可靠性.md"
     },
     {
       "id": "Network-Cognition-Gap",
@@ -358,9 +378,24 @@
       "path": "wiki/atoms/entities/ZhangPeng.md"
     },
     {
+      "id": "binlog",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/binlog.md"
+    },
+    {
       "id": "erickfang",
       "type": "entity",
       "path": "wiki/atoms/entities/erickfang.md"
+    },
+    {
+      "id": "redo log",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/redo log.md"
+    },
+    {
+      "id": "两阶段提交",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/两阶段提交.md"
     },
     {
       "id": "中文技术文档写作规范",
@@ -371,6 +406,11 @@
       "id": "主成分分析",
       "type": "concept",
       "path": "wiki/atoms/concepts/主成分分析.md"
+    },
+    {
+      "id": "事务隔离级别",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/事务隔离级别.md"
     },
     {
       "id": "交叉熵",
@@ -466,6 +506,11 @@
       "id": "工作记忆",
       "type": "concept",
       "path": "wiki/atoms/concepts/工作记忆.md"
+    },
+    {
+      "id": "幻读",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/幻读.md"
     },
     {
       "id": "广义线性模型",
@@ -653,6 +698,11 @@
       "path": "wiki/atoms/concepts/行为面试.md"
     },
     {
+      "id": "行锁与表锁",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/行锁与表锁.md"
+    },
+    {
       "id": "表示学习",
       "type": "concept",
       "path": "wiki/atoms/concepts/表示学习.md"
@@ -701,6 +751,11 @@
       "id": "过拟合",
       "type": "concept",
       "path": "wiki/atoms/concepts/过拟合.md"
+    },
+    {
+      "id": "间隙锁",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/间隙锁.md"
     },
     {
       "id": "阿宝哥",
@@ -1461,6 +1516,24 @@
       "context": ""
     },
     {
+      "from": "MVCC",
+      "to": "MySQL事务隔离与锁机制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MVCC",
+      "to": "幻读",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MVCC",
+      "to": "间隙锁",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "Memory-System",
       "to": "Agent-Loop",
       "relation": "links_to",
@@ -1488,6 +1561,102 @@
       "from": "Multi-Agent-Organization",
       "to": "Agent-Loop",
       "relation": "extends",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "MVCC",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "MySQL执行路径与基础架构",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "MySQL日志系统与数据可靠性",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "事务隔离级别",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "幻读",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "行锁与表锁",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL事务隔离与锁机制",
+      "to": "间隙锁",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL执行路径与基础架构",
+      "to": "MySQL事务隔离与锁机制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL执行路径与基础架构",
+      "to": "MySQL日志系统与数据可靠性",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL执行路径与基础架构",
+      "to": "binlog",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL执行路径与基础架构",
+      "to": "redo log",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL日志系统与数据可靠性",
+      "to": "MySQL事务隔离与锁机制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL日志系统与数据可靠性",
+      "to": "MySQL执行路径与基础架构",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL日志系统与数据可靠性",
+      "to": "binlog",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL日志系统与数据可靠性",
+      "to": "redo log",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MySQL日志系统与数据可靠性",
+      "to": "两阶段提交",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -1953,9 +2122,57 @@
       "context": ""
     },
     {
+      "from": "binlog",
+      "to": "MySQL日志系统与数据可靠性",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "binlog",
+      "to": "两阶段提交",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "erickfang",
       "to": "MMP-Attribution",
       "relation": "authored",
+      "context": ""
+    },
+    {
+      "from": "redo log",
+      "to": "MySQL日志系统与数据可靠性",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "redo log",
+      "to": "binlog",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "redo log",
+      "to": "两阶段提交",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "两阶段提交",
+      "to": "MySQL日志系统与数据可靠性",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "两阶段提交",
+      "to": "binlog",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "两阶段提交",
+      "to": "redo log",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -1973,6 +2190,24 @@
     {
       "from": "主成分分析",
       "to": "线性判别分析",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "事务隔离级别",
+      "to": "MVCC",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "事务隔离级别",
+      "to": "MySQL事务隔离与锁机制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "事务隔离级别",
+      "to": "幻读",
       "relation": "links_to",
       "context": ""
     },
@@ -2219,6 +2454,24 @@
     {
       "from": "工作记忆",
       "to": "知识体系",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "幻读",
+      "to": "MVCC",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "幻读",
+      "to": "MySQL事务隔离与锁机制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "幻读",
+      "to": "间隙锁",
       "relation": "links_to",
       "context": ""
     },
@@ -2559,6 +2812,18 @@
       "context": ""
     },
     {
+      "from": "行锁与表锁",
+      "to": "MySQL事务隔离与锁机制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "行锁与表锁",
+      "to": "间隙锁",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "贝叶斯学习模型体系",
       "to": "主成分分析",
       "relation": "links_to",
@@ -2649,6 +2914,18 @@
       "context": ""
     },
     {
+      "from": "间隙锁",
+      "to": "MySQL事务隔离与锁机制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "间隙锁",
+      "to": "幻读",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "阿宝哥",
       "to": "作品意识与打磨意识",
       "relation": "authored",
@@ -2698,13 +2975,13 @@
     }
   ],
   "stats": {
-    "totalNodes": 152,
-    "totalEdges": 322,
+    "totalNodes": 163,
+    "totalEdges": 359,
     "byType": {
-      "concept": 138,
+      "concept": 146,
       "entity": 10,
       "howto": 1,
-      "topic": 3
+      "topic": 6
     }
   }
 }

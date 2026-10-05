@@ -22,7 +22,7 @@ from collections import defaultdict
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-EXPECTED_TAG_COUNT = 30  # 标签词表策略（调整词表时同步此值）
+EXPECTED_TAG_COUNT = 31  # 标签词表策略（调整词表时同步此值）
 
 KNOWN_BROKEN = {
     # workspace 正文不可编辑，已知历史断链（历史 lint 已记录，用户未选择处理）
