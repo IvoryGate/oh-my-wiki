@@ -1,9 +1,6 @@
 [
   "dataview",
-  "obsidian42-brat",
-  "marp-slides",
   "contribution-graph",
   "obsidian-local-rest-api",
-  "homepage",
-  "galaxy-view"
+  "homepage"
 ]
