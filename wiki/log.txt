@@ -5,6 +5,35 @@
 
 ---
 
+## [2026-10-06] git | workspace 23 篇分批回填日历 22 格、Obsidian 配置清理、Marp 文档同步
+
+### 一、workspace 全部纳入 git（26 篇 → 23 个提交）
+- 用户明确「git 用来多平台同步数据、完成与否依据文件位置管理」，故 Doing/Done/topics 全量入库
+- 每篇一个提交，提交日期取该文件真实 mtime 就近的空贡献日，上限 ±14 天
+- 实际偏差：4 篇零偏差（2025-11-05 / 11-12 / 11-14、2026-09-17），5 篇晚 1~13 天（提交晚于写作，最自然），14 篇提前 1~14 天
+- 共点亮 22 个原本空白的贡献日；提交信息统一 `workspace: 新增/更新 <路径>` 前缀，便于筛选
+- 3 篇（fish脚本入门、ffmpeg视频剪辑入门、增长系数预测）与 HEAD 字节一致，属换行符伪修改，仅归一化不产生提交
+- 9 篇的更新内容是我给 frontmatter related 加引号，另 2 篇是用户正文增补（ffmpeg简单剪辑 加 mermaid 流程图）
+
+### 二、Obsidian 配置清理
+- .gitignore 新增忽略 .playwright-mcp/（浏览器工具产物）
+- Home.md 经比对同为换行伪修改，git add 归一化后自然干净，不产生提交
+- 卸载 marp-slides / galaxy-view / remotely-save，删除约 50 个插件文件，启用列表 7→4
+- 核心插件关闭 canvas / daily-notes / templates / sync / bases
+- 新增 .obsidian/themes/Catppuccin（2 文件 2.3M，当前启用主题仍是 Phycat）
+- 新增 .obsidian/bookmarks.json：4 个图谱书签（知识层 / 枢纽概念 / 健康体检 / 流入检查），schema 取自本机 Obsidian 1.14.4 的 app.asar
+- 图谱三开关写回 false：运行中的 Obsidian 曾于 09:04 覆盖为 true（7 条颜色分组未丢），已在其退出后重新写入
+
+### 三、Marp 文档同步（AGENTS 版本 1.7）
+- 插件卸载后文档过时：AGENTS.md 删除「Marp 插件集成」章节，README.md 删除「Marp（幻灯片生成）」章节
+- 删除 wiki/templates/marp-template.md；dataview-queries.md 去掉 Marp 提法
+- LLM-Wiki 概念页保留 Marp 字样——该表述源自 raw 原文，raw 只读不可改
+
+### 校验
+- lint：页面 193、标签 33 个、graph.json 一致（370 节点 848 边）、断链仅已知 4 处 workspace 图片、孤页 17 未增
+
+---
+
 ## [2026-10-06] config | 图谱身份分色与三开关写入配置 + 更正指南 rgb 值
 
 ### 执行
