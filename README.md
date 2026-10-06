@@ -175,14 +175,6 @@ cp article.md raw/articles/
 - 无需手动维护统计数据
 - 可自定义查询模板（见 `wiki/templates/dataview-queries.md`）
 
-### Marp（幻灯片生成）
-
-安装 [Marp](https://marp.app/) 插件后：
-
-- 可将 wiki 内容转换为演示文稿
-- Agent 支持生成 Marp 格式输出
-- 模板见 `wiki/templates/marp-template.md`
-
 ### Graph View（知识图谱）
 
 Obsidian 内置功能：

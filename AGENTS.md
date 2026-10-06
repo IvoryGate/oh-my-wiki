@@ -561,36 +561,6 @@ status: draft|active|archived  # 可选
 
 ---
 
-### Marp
-
-[Marp](https://marp.app/) 插件可以将 Markdown 转换为幻灯片。
-
-**使用场景**：
-- 用户请求生成演示文稿时
-- Agent 可将 wiki 内容组装成 Marp 格式
-- 输出文件建议放在 `workspace/` 或用户指定位置
-
-**Marp 格式示例**：
-```markdown
----
-marp: true
-theme: default
-paginate: true
----
-
-# 幻灯片标题
-
----
-
-## 第二页
-
-内容...
-```
-
-**模板位置**：`wiki/templates/marp-template.md`
-
----
-
 ### Graph View
 
 Obsidian 内置的知识图谱视图。
@@ -675,6 +645,7 @@ confidence: medium    # low | medium | high
 
 | 版本 | 日期 | 说明 |
 |------|------|------|
+| 1.7 | 2026-10-06 | 移除 Marp 插件集成章节与 wiki/templates/marp-template.md（插件已卸载），README 同步 |
 | 1.6 | 2026-10-06 | 关联链补全：正文强制 `## 来源` 段（180/180 页）、gen-graph 把 `raw/` 登记为 `type=source` 节点并生成 `cites` 边、lint 把 raw/ 链接纳入断链校验、index 新增「原始资料」栏目 |
 | 1.5 | 2026-10-03 | 新增「五、写作协助」工作流：写作与改稿须遵循库内写作方法论（写作方法论）与格式规范（中文技术文档写作规范），含必读页面清单、四步流程与交付边界 |
 | 1.4 | 2026-10-02 | 与 AGENTS.md 合并为单一入口（统一 AGENTS.md 标准命名，删除 Agent.md） |

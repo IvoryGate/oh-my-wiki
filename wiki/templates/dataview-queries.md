@@ -118,7 +118,7 @@ FROM "wiki/atoms/concepts"
 SORT title
 ```
 
-> 将结果复制到 Marp 幻灯片中使用
+> 可将结果复制到幻灯片或文档中使用
 
 ---
 
