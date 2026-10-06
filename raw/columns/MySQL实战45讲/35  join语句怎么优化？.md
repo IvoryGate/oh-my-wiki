@@ -6,7 +6,7 @@ published:
 created: 2026-10-05
 description: "35  join语句怎么优化？"
 tags:
-  - "clippings"
+  - "域/数据库"
 ---
 
 在上一篇文章中，我和你介绍了 join 语句的两种算法，分别是 Index Nested-Loop Join(NLJ) 和 Block Nested-Loop Join(BNL)。

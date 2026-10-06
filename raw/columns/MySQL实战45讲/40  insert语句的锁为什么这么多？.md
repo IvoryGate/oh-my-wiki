@@ -6,7 +6,7 @@ published:
 created: 2026-10-05
 description: "40  insert语句的锁为什么这么多？"
 tags:
-  - "clippings"
+  - "域/数据库"
 ---
 
 在上一篇文章中，我提到 MySQL 对自增主键锁做了优化，尽量在申请到自增 id 以后，就释放自增锁。

@@ -7,7 +7,7 @@
 检查项目:
   1. 断链        wiki 内容页 [[链接]] 无法解析（含别名解析）
   2. frontmatter 必填字段与格式（概念页必填 domain）
-  3. 标签词表    不同标签数 == EXPECTED_TAG_COUNT
+  3. 标签词表    wiki/workspace/raw 全部标签 ∈ VOCAB（39 词，含引用去引号）
   4. index 反漂移 不得出现手工统计数字/手工概念表格（应由 Dataview 生成）
   5. graph.json  调用 gen-graph --check（--no-graph 跳过）
   6. 孤页        无入链的内容页（警告，不判失败）
@@ -22,7 +22,7 @@ from collections import defaultdict
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-EXPECTED_TAG_COUNT = 33  # 标签词表策略（2026-10-06 命名空间重构：域13/任务4/方法2/主题14）
+EXPECTED_TAG_COUNT = 39  # 标签词表策略（2026-10-06 扩容：域13/任务4/方法2/主题20，与下方 VOCAB 双处同步）
 
 KNOWN_BROKEN = {
     # workspace 正文不可编辑，已知历史断链（历史 lint 已记录，用户未选择处理）
@@ -163,24 +163,56 @@ for r in sorted(all_md):
         errors.append(f"{r}: 缺 tags")
 
 # ---------- 3) 标签词表 ----------
-tag_set = set()
+# 词表 39 词 = 域13/任务4/方法2/主题20（2026-10-06 扩容：+视频剪辑/网络与代理/终端与Shell/
+# 个人随笔/视觉设计/经济与金融；同批将 workspace 与 raw 标签纳入校验，覆盖三区）
+VOCAB = frozenset("""
+域/机器学习 域/增长与营销 域/数据库 域/写作与技术博客 域/Agent架构与工程 域/复盘与方法论
+域/LLM与知识管理 域/媒介理论 域/Agent-First开发 域/软件架构与建模 域/软件工程 域/开发工具 域/面试方法论
+任务/分类 任务/回归 任务/降维 任务/聚类
+方法/结构化思维 方法/排版规范
+主题/优化 主题/广告归因 主题/概率图模型 主题/反作弊 主题/贝叶斯 主题/统计 主题/神经网络 主题/认知
+主题/数据分析 主题/学习理论 主题/特征工程 主题/集成学习 主题/广告技术 主题/MMP
+主题/视频剪辑 主题/网络与代理 主题/终端与Shell 主题/个人随笔 主题/视觉设计 主题/经济与金融
+""".split())
+if len(VOCAB) != EXPECTED_TAG_COUNT:
+    errors.append(f"词表定义 {len(VOCAB)} 词 != EXPECTED_TAG_COUNT={EXPECTED_TAG_COUNT}（改词表需同步两处）")
+
+
+def collect_tags(fm: str):
+    """提取 frontmatter 标签：行内 [a, b] 或块式 - a（统一去引号）"""
+    mi = re.search(r"^tags:[ \t]*(\[[^\]]*\])", fm, re.M)
+    if mi:
+        return [t.strip().strip("\"'") for t in mi.group(1).strip("[]").split(",") if t.strip()]
+    mb = re.search(r"^tags:[ \t]*\n((?:[ \t]+-[ \t]*.*\n?)+)", fm, re.M)
+    if mb:
+        return [t.strip().strip("\"'")
+                for t in re.findall(r"^[ \t]+-[ \t]*(.+?)\s*$", mb.group(1), re.M)]
+    return []
+
+
+used = set()
+out_of_vocab = defaultdict(list)
 for r in sorted(all_md):
-    if not is_content(r):
+    if not r.startswith(("wiki/", "raw/", "workspace/")):
+        continue
+    if "templates" in r.split("/"):
         continue
     fm = fm_and_body(r)[0]
-    mi = re.search(r"^tags:\s*\[(.*?)\]", fm, re.M)
-    if mi:
-        tag_set.update(t.strip() for t in mi.group(1).split(",") if t.strip())
-    else:
-        mb = re.search(r"^tags:\s*\n((?:[ \t]+-(?:[ \t]+)?.*\n?)+)", fm, re.M)
-        if mb:
-            tag_set.update(t.strip() for t in re.findall(r"^[ \t]+-[ \t]*(.+)$", mb.group(1), re.M))
-if len(tag_set) != EXPECTED_TAG_COUNT:
-    errors.append(f"标签数 {len(tag_set)} != {EXPECTED_TAG_COUNT}: {sorted(tag_set)}")
-# 假标签检测（历史 bug：- -- ）
-bad_tags = {t for t in tag_set if t.startswith("-") or t.startswith("--") or not t.strip()}
-if bad_tags:
-    errors.append(f"非法标签值: {sorted(bad_tags)}")
+    if not fm:
+        continue
+    for t in collect_tags(fm):
+        if not t or t.startswith("-"):   # 假标签检测（历史 bug：- -- ）
+            errors.append(f"{r}: 非法标签值 {t!r}")
+            continue
+        used.add(t)
+        if t not in VOCAB:
+            out_of_vocab[t].append(r)
+if out_of_vocab:
+    errors.append("词表外标签: " + "; ".join(
+        f"#{t} × {len(fs)}（如 {fs[0]}）" for t, fs in sorted(out_of_vocab.items())))
+unused = sorted(VOCAB - used)
+if unused:
+    warnings.append("词表内零使用: " + " ".join("#" + u for u in unused))
 
 # ---------- 4) index 反漂移 ----------
 idx_path = ROOT / "wiki" / "index.md"
@@ -234,7 +266,7 @@ for r in pages:
 print("=== Lint 结果 ===")
 print(f"页面: 总{len(pages)} 概念{counts['concept']} 实体{counts['entity']} "
       f"主题{counts['topic']} 指南{counts['howto']}")
-print(f"标签: {len(tag_set)} 个")
+print(f"标签: {len(used)} 个在用 / 词表 {len(VOCAB)}")
 print(f"断链: {sum(len(v) for v in broken.values())} 处")
 print(f"孤页: {len(orphans)} 个" + (f" → {orphans}" if orphans else ""))
 if warnings:

@@ -6,7 +6,7 @@ published:
 created: 2026-10-05
 description: "00 开篇词  从业务出发，开启海量 MySQL 架构设计"
 tags:
-  - "clippings"
+  - "域/数据库"
 ---
 
 你好，我是姜承尧（常用ID：破产码农），目前是腾讯金融数据平台与研发中心总监。

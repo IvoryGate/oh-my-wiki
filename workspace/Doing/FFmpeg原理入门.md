@@ -5,9 +5,8 @@ created: 2026-10-03
 updated: 2026-10-04
 status: doing
 tags:
-  - ffmpeg
-  - 视频剪辑
-  - 入门
+  - 域/开发工具
+  - 主题/视频剪辑
 ---
 # FFmpeg 原理入门
 

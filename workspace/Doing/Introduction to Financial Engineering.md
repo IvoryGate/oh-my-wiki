@@ -1,3 +1,12 @@
+---
+title: Introduction to Financial Engineering
+type: note
+created: 2026-09-17
+updated: 2026-09-17
+status: doing
+tags:
+  - 主题/经济与金融
+---
 # Introduction to Financial Engineering
 
 ## Interest Rate Theory, Cash Flow Analysis, and Bonds

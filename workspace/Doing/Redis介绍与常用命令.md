@@ -3,6 +3,8 @@ title: Redis介绍与常用命令
 type: note
 created: 2026-09-01
 status: doing
+tags:
+  - 域/数据库
 ---
 
 Redis 是 什么

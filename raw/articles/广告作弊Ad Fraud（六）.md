@@ -7,7 +7,7 @@ published:
 created: 2026-09-04
 description: "巧设天罗地网，细究安装真假——论Google、Amazon、Apple之防作弊奇术"
 tags:
-  - "clippings"
+  - "域/增长与营销"
 ---
 SimoneLee 出海流量研究僧 *2025年2月24日 09:00*
 

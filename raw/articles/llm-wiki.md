@@ -6,7 +6,7 @@ published:
 created: 2026-04-17
 description: "llm-wiki. GitHub Gist: instantly share code, notes, and snippets."
 tags:
-  - "clippings"
+  - "域/LLM与知识管理"
 ---
 ## LLM Wiki
 

@@ -4,7 +4,7 @@ type: note
 created: 2026-04-19
 updated: 2026-04-19
 status: doing
-tags: [macOS, dotfiles, 效率工具]
+tags: [域/开发工具]
 ---
 
 # oh-my-dotfiles

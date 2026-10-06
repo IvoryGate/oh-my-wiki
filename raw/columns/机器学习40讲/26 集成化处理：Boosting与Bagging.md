@@ -6,7 +6,8 @@ published:
 created: 2026-04-23
 description: "26 集成化处理：Boosting与Bagging"
 tags:
-  - "clippings"
+  - "域/机器学习"
+  - "主题/集成学习"
 ---
 伊壁鸠鲁（Epicurus）是古希腊一位伟大的哲学家，其哲学思想自成一派。在认识论上，伊壁鸠鲁最核心的观点就是“多重解释原则”（Prinicple of Multiple Explanantions），其内容是当多种理论都能符合观察到的现象时，就要将它们全部保留。这在某种程度上可以看成是机器学习中集成方法的哲学基础。
 

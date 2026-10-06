@@ -6,7 +6,7 @@ published:
 created: 2026-10-05
 description: "34  到底可不可以使用join？"
 tags:
-  - "clippings"
+  - "域/数据库"
 ---
 
 在实际生产中，关于 join 语句使用的问题，一般会集中在以下两类：

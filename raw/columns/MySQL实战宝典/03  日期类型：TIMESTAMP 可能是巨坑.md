@@ -6,7 +6,7 @@ published:
 created: 2026-10-05
 description: "03  日期类型：TIMESTAMP 可能是巨坑"
 tags:
-  - "clippings"
+  - "域/数据库"
 ---
 
 前两讲我带你了解了 MySQL 数据库中常见的数字类型和字符串类型，除了这两种类型外，日期类型也较为常见。

@@ -6,7 +6,7 @@ published:
 created: 2026-10-05
 description: "15  MySQL 复制：最简单也最容易配置出错"
 tags:
-  - "clippings"
+  - "域/数据库"
 ---
 
 从今天开始，我们正式进入高可用架构的设计环节。

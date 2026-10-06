@@ -4,7 +4,7 @@ type: note
 created: 2026-07-29
 updated: 2026-07-29
 status: draft
-tags: [机器学习, 集成学习, bagging, 统计学]
+tags: [域/机器学习, 主题/集成学习, 主题/统计]
 ---
 
 # Bootstrap 的 37%：一个数字背后是整个集成学习的根基

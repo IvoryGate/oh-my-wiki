@@ -7,7 +7,7 @@ published:
 created: 2026-09-04
 description: "广告投放中的同周期分析指的到底是什么？"
 tags:
-  - "clippings"
+  - "域/增长与营销"
 ---
 SimoneLee 出海流量研究僧 *2024年12月16日 09:00*
 

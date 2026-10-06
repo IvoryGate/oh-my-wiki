@@ -4,7 +4,7 @@ type: topic
 created: 2026-07-29
 updated: 2026-07-29
 status: doing
-tags: [机器学习, 数据科学]
+tags: [域/机器学习]
 related:
   - "[[决策树]]"
   - "[[集成学习]]"

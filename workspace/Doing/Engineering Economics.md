@@ -1,3 +1,12 @@
+---
+title: Engineering Economics
+type: note
+created: 2026-09-20
+updated: 2026-09-20
+status: doing
+tags:
+  - 主题/经济与金融
+---
 # Engineering Economics
 
 ## Introduction

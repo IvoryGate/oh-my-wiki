@@ -6,7 +6,7 @@ published:
 created: 2026-10-05
 description: "20  InnoDB Cluster：改变历史的新产品"
 tags:
-  - "clippings"
+  - "域/数据库"
 ---
 
 前面几讲，我们围绕 MySQL 复制技术构建了读写分离方案、数据库高可用解决方案，以及数据库的管理平台。可以看到，我们所有的讨论都是基于 MySQL 的复制技术。

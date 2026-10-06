@@ -6,7 +6,7 @@ published:
 created: 2026-04-19
 description: "02 OPTM框架：怎么使用CLAP模型？"
 tags:
-  - "clippings"
+  - "域/复盘与方法论"
 ---
 你好，我是张鹏。
 

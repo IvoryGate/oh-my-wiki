@@ -6,7 +6,7 @@ published:
 created: 2026-10-05
 description: "25  MySQL是怎么保证高可用的？"
 tags:
-  - "clippings"
+  - "域/数据库"
 ---
 
 在上一篇文章中，我和你介绍了 binlog 的基本内容，在一个主备关系中，每个备库接收主库的 binlog 并执行。

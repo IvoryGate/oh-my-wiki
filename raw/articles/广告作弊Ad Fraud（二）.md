@@ -7,7 +7,7 @@ published:
 created: 2026-09-04
 description: "虚假安装是怎么回事？"
 tags:
-  - "clippings"
+  - "域/增长与营销"
 ---
 SimoneLee 出海流量研究僧 *2025年1月20日 09:00*
 

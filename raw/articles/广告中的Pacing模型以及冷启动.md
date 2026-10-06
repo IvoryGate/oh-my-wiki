@@ -7,7 +7,7 @@ published:
 created: 2026-09-04
 description: "预算控不住，到底是因为什么？"
 tags:
-  - "clippings"
+  - "域/增长与营销"
 ---
 SimoneLee 出海流量研究僧 *2024年11月12日 12:45*
 

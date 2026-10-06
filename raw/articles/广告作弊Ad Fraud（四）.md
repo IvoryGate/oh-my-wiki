@@ -7,7 +7,7 @@ published:
 created: 2026-09-04
 description: "新的一年，继续探索与总结！"
 tags:
-  - "clippings"
+  - "域/增长与营销"
 ---
 SimoneLee 出海流量研究僧 *2025年2月10日 09:00*
 

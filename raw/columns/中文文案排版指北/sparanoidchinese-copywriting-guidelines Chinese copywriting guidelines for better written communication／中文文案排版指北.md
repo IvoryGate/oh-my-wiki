@@ -6,7 +6,8 @@ published:
 created: 2026-09-03
 description: "Chinese copywriting guidelines for better written communication／中文文案排版指北 - sparanoid/chinese-copywriting-guidelines"
 tags:
-  - "clippings"
+  - "域/写作与技术博客"
+  - "方法/排版规范"
 ---
 ## 中文文案排版指北
 

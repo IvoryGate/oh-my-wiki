@@ -6,7 +6,8 @@ author:
 published: 2024-12-03
 description: "系统性讲解 SKAN 归因"
 tags:
-  - "clippings"
+  - "域/增长与营销"
+  - "主题/广告归因"
 ---
 原创 SimoneLee 出海流量研究僧
 

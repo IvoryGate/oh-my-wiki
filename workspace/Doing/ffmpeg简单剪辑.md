@@ -4,7 +4,7 @@ type: note
 created: 2026-07-23
 updated: 2026-07-23
 status: doing
-tags: [ffmpeg, 视频剪辑, 工具]
+tags: [域/开发工具, 主题/视频剪辑]
 ---
 # 豪意冲天之ffmpeg快剪
 

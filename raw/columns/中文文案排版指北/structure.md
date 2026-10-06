@@ -6,7 +6,8 @@ published:
 created: 2026-10-05
 description: "中文文案排版指北分段摘录：文档体系"
 tags:
-  - "clippings"
+  - "域/写作与技术博客"
+  - "方法/排版规范"
 ---
 
 # 文档体系

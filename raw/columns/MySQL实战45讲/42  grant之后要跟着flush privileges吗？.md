@@ -6,7 +6,7 @@ published:
 created: 2026-10-05
 description: "42  grant之后要跟着flush privileges吗？"
 tags:
-  - "clippings"
+  - "域/数据库"
 ---
 
 在 MySQL 里面，grant 语句是用来给用户赋权的。不知道你有没有见过一些操作文档里面提到，grant 之后要马上跟着执行一个 flush privileges 命令，才能使赋权语句生效。我最开始使用 MySQL 的时候，就是照着一个操作文档的说明按照这个顺序操作的。

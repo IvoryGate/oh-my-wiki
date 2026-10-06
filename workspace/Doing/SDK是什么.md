@@ -1,7 +1,7 @@
 ---
 Date: Thu Sep 18 2025 22:29:29 GMT+0800
 tags:
-  - jottings
+  - 主题/个人随笔
 ---
 [SDK是什么，SDK和API有什么区别](https://zhuanlan.zhihu.com/p/883479561)
 

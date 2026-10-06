@@ -3,7 +3,7 @@ title: 一文彻底搞懂Agent
 type: draft
 created: 2026-04-23
 status: doing
-tags: [Agent, LLM, 架构]
+tags: [域/Agent架构与工程, 域/LLM与知识管理]
 related:
   - "[[Agent-Loop]]"
   - "[[Workflow-vs-Agent]]"

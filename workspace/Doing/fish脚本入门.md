@@ -4,6 +4,9 @@ type: note
 created: 2026-06-09
 updated: 2026-06-09
 status: doing
+tags:
+  - 域/开发工具
+  - 主题/终端与Shell
 ---
 
 # fish脚本入门

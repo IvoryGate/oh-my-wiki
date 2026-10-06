@@ -7,7 +7,8 @@ published:
 created: 2026-09-04
 description: "广告主要不要自建归因？"
 tags:
-  - "clippings"
+  - "域/增长与营销"
+  - "主题/广告归因"
 ---
 SimoneLee 出海流量研究僧 *2025年1月7日 10:00*
 

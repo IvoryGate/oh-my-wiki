@@ -4,7 +4,7 @@ type: note
 created: 2026-05-27
 updated: 2026-05-27
 status: doing
-tags: [user-acquisition, iaa, casual-games, overseas]
+tags: [域/增长与营销]
 ---
 
 # 出海IAA休闲游戏投放：市场节奏与增长策略

@@ -7,7 +7,7 @@ published:
 created: 2026-09-04
 description: "STAR法则其实是一种关于在简历上进行结构化叙述的原则，可以显著突出提升简历的亮点，增加面试官的认可度。详细的说明如下： STAR主要分为 情境（Situation），任务（Task），行动（Action），结果（Result）四大…"
 tags:
-  - "clippings"
+  - "域/面试方法论"
 ---
 [收录于 · 求职——简历优化及岗位认知打造](https://www.zhihu.com/column/c_1768283622727938048)
 

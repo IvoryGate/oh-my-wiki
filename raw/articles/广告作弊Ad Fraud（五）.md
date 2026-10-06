@@ -7,7 +7,7 @@ published:
 created: 2026-09-04
 description: "Adjust和Singular的防作弊方案"
 tags:
-  - "clippings"
+  - "域/增长与营销"
 ---
 SimoneLee 出海流量研究僧 *2025年2月17日 10:30*
 

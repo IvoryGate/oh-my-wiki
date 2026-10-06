@@ -6,7 +6,7 @@ published:
 created: 2026-10-05
 description: "02  字符串类型：不能忽略的 COLLATION"
 tags:
-  - "clippings"
+  - "域/数据库"
 ---
 
 今天我想和你聊一聊字符串类型的排序规则。

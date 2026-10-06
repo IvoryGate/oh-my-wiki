@@ -4,7 +4,7 @@ type: draft
 created: 2026-07-29
 updated: 2026-07-29
 status: doing
-tags: [机器学习, 决策树, 集成学习, bagging, boosting, 梯度提升]
+tags: [域/机器学习, 主题/集成学习]
 ---
 
 # 决策树与集成学习：从 Bagging 到梯度提升

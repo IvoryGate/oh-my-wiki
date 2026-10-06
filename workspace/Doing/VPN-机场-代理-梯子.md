@@ -4,7 +4,7 @@ type: draft
 created: 2026-07-29
 updated: 2026-07-29
 status: doing
-tags: [vpn, proxy, network, 网络协议]
+tags: [主题/网络与代理]
 ---
 
 # VPN、机场、代理、梯子：一篇讲清楚

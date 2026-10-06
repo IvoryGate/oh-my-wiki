@@ -7,7 +7,8 @@ published:
 created: 2026-04-18
 description: "这肯定是你见过的观点最全的关于Skan的介绍"
 tags:
-  - "clippings"
+  - "域/增长与营销"
+  - "主题/广告归因"
 ---
 erickfang *2024年7月8日 20:18*
 

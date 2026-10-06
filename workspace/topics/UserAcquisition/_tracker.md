@@ -4,7 +4,7 @@ type: topic
 created: 2026-04-21
 updated: 2026-04-21
 status: todo
-tags: [海外投放, 广告, 用户获取, UA]
+tags: [域/增长与营销]
 ---
 
 # UserAcquisition

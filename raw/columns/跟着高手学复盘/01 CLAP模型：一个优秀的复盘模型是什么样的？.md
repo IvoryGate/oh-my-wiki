@@ -6,7 +6,7 @@ published:
 created: 2026-04-19
 description: "01 CLAP模型：一个优秀的复盘模型是什么样的？"
 tags:
-  - "clippings"
+  - "域/复盘与方法论"
 ---
 你好，我是张鹏。
 

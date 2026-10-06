@@ -4,7 +4,7 @@ type: draft
 created: 2026-07-23
 updated: 2026-07-29
 status: doing
-tags: [ffmpeg, 视频剪辑, 入门, 博客]
+tags: [域/开发工具, 主题/视频剪辑]
 ---
 
 # FFmpeg 视频剪辑入门：从原理到实战

@@ -6,7 +6,7 @@ published:
 created: 2026-10-05
 description: "38  都说InnoDB好，那还要不要使用Memory引擎？"
 tags:
-  - "clippings"
+  - "域/数据库"
 ---
 
 我在上一篇文章末尾留给你的问题是：两个 group by 语句都用了 order by null，为什么使用内存临时表得到的语句结果里，0 这个值在最后一行；而使用磁盘临时表得到的结果里，0 这个值在第一行？

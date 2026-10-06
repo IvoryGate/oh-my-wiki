@@ -7,7 +7,7 @@ author: "JimmyCoding"
 upload_date: "2022-01-23"
 subtitle_lang: "中文"
 created: "2026-04-19"
-tags: ["clippings", "bilibili"]
+tags: ["域/软件架构与建模"]
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=508441679&bvid=BV11u411176h&cid=490682708&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>

@@ -4,7 +4,7 @@ type: draft
 created: 2026-07-30
 updated: 2026-07-30
 status: doing
-tags: [nginx, web, 服务器]
+tags: [域/开发工具]
 ---
 # nginx 入门
 
