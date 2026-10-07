@@ -17,49 +17,49 @@
       "query": "path:\"workspace\"",
       "color": {
        "a": 1,
-       "rgb": 13940586
+       "rgb": 16636058
       }
      },
      {
       "query": "path:\"wiki/synthesis\"",
       "color": {
        "a": 1,
-       "rgb": 8225712
+       "rgb": 11756428
       }
      },
      {
       "query": "path:\"wiki/atoms/concepts\"",
       "color": {
        "a": 1,
-       "rgb": 5462674
+       "rgb": 9261711
       }
      },
      {
       "query": "path:\"wiki/atoms\"",
       "color": {
        "a": 1,
-       "rgb": 3225973
+       "rgb": 6571146
       }
      },
      {
       "query": "path:\"wiki\"",
       "color": {
        "a": 1,
-       "rgb": 1581144
+       "rgb": 3684477
       }
      },
      {
       "query": "path:\"raw\"",
       "color": {
        "a": 1,
-       "rgb": 9409960
+       "rgb": 15635325
       }
      },
      {
       "query": "file:\"AGENTS.md\" OR file:\"README.md\" OR file:\"CONTEXT.md\" OR file:\"Home.md\" OR file:\"PROMPT.md\" OR file:\"BOUNDARY.md\"",
       "color": {
        "a": 1,
-       "rgb": 5725550
+       "rgb": 16561278
       }
      }
     ],
@@ -94,49 +94,49 @@
       "query": "path:\"workspace\"",
       "color": {
        "a": 1,
-       "rgb": 13940586
+       "rgb": 16636058
       }
      },
      {
       "query": "path:\"wiki/synthesis\"",
       "color": {
        "a": 1,
-       "rgb": 8225712
+       "rgb": 11756428
       }
      },
      {
       "query": "path:\"wiki/atoms/concepts\"",
       "color": {
        "a": 1,
-       "rgb": 5462674
+       "rgb": 9261711
       }
      },
      {
       "query": "path:\"wiki/atoms\"",
       "color": {
        "a": 1,
-       "rgb": 3225973
+       "rgb": 6571146
       }
      },
      {
       "query": "path:\"wiki\"",
       "color": {
        "a": 1,
-       "rgb": 1581144
+       "rgb": 3684477
       }
      },
      {
       "query": "path:\"raw\"",
       "color": {
        "a": 1,
-       "rgb": 9409960
+       "rgb": 15635325
       }
      },
      {
       "query": "file:\"AGENTS.md\" OR file:\"README.md\" OR file:\"CONTEXT.md\" OR file:\"Home.md\" OR file:\"PROMPT.md\" OR file:\"BOUNDARY.md\"",
       "color": {
        "a": 1,
-       "rgb": 5725550
+       "rgb": 16561278
       }
      }
     ],
@@ -171,49 +171,49 @@
       "query": "path:\"workspace\"",
       "color": {
        "a": 1,
-       "rgb": 13940586
+       "rgb": 16636058
       }
      },
      {
       "query": "path:\"wiki/synthesis\"",
       "color": {
        "a": 1,
-       "rgb": 8225712
+       "rgb": 11756428
       }
      },
      {
       "query": "path:\"wiki/atoms/concepts\"",
       "color": {
        "a": 1,
-       "rgb": 5462674
+       "rgb": 9261711
       }
      },
      {
       "query": "path:\"wiki/atoms\"",
       "color": {
        "a": 1,
-       "rgb": 3225973
+       "rgb": 6571146
       }
      },
      {
       "query": "path:\"wiki\"",
       "color": {
        "a": 1,
-       "rgb": 1581144
+       "rgb": 3684477
       }
      },
      {
       "query": "path:\"raw\"",
       "color": {
        "a": 1,
-       "rgb": 9409960
+       "rgb": 15635325
       }
      },
      {
       "query": "file:\"AGENTS.md\" OR file:\"README.md\" OR file:\"CONTEXT.md\" OR file:\"Home.md\" OR file:\"PROMPT.md\" OR file:\"BOUNDARY.md\"",
       "color": {
        "a": 1,
-       "rgb": 5725550
+       "rgb": 16561278
       }
      }
     ],
@@ -248,49 +248,49 @@
       "query": "path:\"workspace\"",
       "color": {
        "a": 1,
-       "rgb": 13940586
+       "rgb": 16636058
       }
      },
      {
       "query": "path:\"wiki/synthesis\"",
       "color": {
        "a": 1,
-       "rgb": 8225712
+       "rgb": 11756428
       }
      },
      {
       "query": "path:\"wiki/atoms/concepts\"",
       "color": {
        "a": 1,
-       "rgb": 5462674
+       "rgb": 9261711
       }
      },
      {
       "query": "path:\"wiki/atoms\"",
       "color": {
        "a": 1,
-       "rgb": 3225973
+       "rgb": 6571146
       }
      },
      {
       "query": "path:\"wiki\"",
       "color": {
        "a": 1,
-       "rgb": 1581144
+       "rgb": 3684477
       }
      },
      {
       "query": "path:\"raw\"",
       "color": {
        "a": 1,
-       "rgb": 9409960
+       "rgb": 15635325
       }
      },
      {
       "query": "file:\"AGENTS.md\" OR file:\"README.md\" OR file:\"CONTEXT.md\" OR file:\"Home.md\" OR file:\"PROMPT.md\" OR file:\"BOUNDARY.md\"",
       "color": {
        "a": 1,
-       "rgb": 5725550
+       "rgb": 16561278
       }
      }
     ],

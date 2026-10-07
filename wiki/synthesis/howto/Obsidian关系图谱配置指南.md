@@ -41,33 +41,37 @@ file:RAG                   按文件名
 
 颜色分组按**自上而下首个匹配**生效（first-match-wins），因此最具体的排最前。这 7 条回答"谁写的"——你写的（workspace）、Agent 生成的（wiki）、剪藏的（raw），外加项目文档。
 
-**配色设计（2026-10-07 换版）**：色相＝身份，明度＝聚类层级（越活跃越亮）。色板取自 [Paletton Complementary 方案](https://paletton.com/#uid=72P0U0kllllaFw0g0qFqFg0w0aF)（靛蓝 CSS 233° ↔ 橙黄 CSS 44° 互补对）：
+**配色设计（2026-10-07 二次改版：连续渐变色板）**：8 色一整条渐变——明度从亮到暗**等差递减**，色相从橙黄**单调过渡**到靛蓝（经红/品红/紫），用 OKLCH 感知均匀插值、等彩度（依据《色彩搭配原理》：等角度步长＝等感知变化），不再是"四色各做四档"。端点互补对仍取 [Paletton 方案](https://paletton.com/#uid=72P0U0kllllaFw0g0qFqFg0w0aF)（靛蓝 CSS 233° ↔ 橙黄 CSS 44°）：
 
-- ✍️ **橙黄＝你手写**（workspace）— 暖色，人工创作
-- 🤖 **靛蓝＝Agent 维护**（wiki）— 冷色，机器维护，族内 4 级明度阶梯分聚类
-- 📰 **中性石板灰＝外来**（raw/项目文档）— 去饱和，不参与互补对
+- ✍️ **亮橙黄＝你手写**（workspace）— 渐变最亮端，人工创作
+- 🤖 **紫→靛蓝＝Agent 维护**（wiki）— 渐变最暗端，族内 4 级明度阶梯分聚类（越活跃越亮）
+- 📰 **中段珊瑚/鲑红＝外来与文档**（raw、项目文档）— 处在你与 Agent 之间
+- 第 4 梯位 玫红 `#D47885` 为**备用分组色**，暂无查询占用
 
-| # | 查询 | 色 | 含义 |
-|---|------|----|------|
-| 1 | `path:"workspace"` | 中橙黄 `#D4B76A` | 你的个人创作 |
-| 2 | `path:"wiki/synthesis"` | 浅靛 `#7D83B0` | 综合层（最活跃→最亮） |
-| 3 | `path:"wiki/atoms/concepts"` | 中靛 `#535A92` | 概念页（稳定） |
-| 4 | `path:"wiki/atoms"` | 基靛 `#313975` | 其余原子（实体/数据） |
-| 5 | `path:"wiki"` | 深靛 `#182058` | wiki 兜底（index/templates） |
-| 6 | `path:"raw"` | 石板灰 `#8F95A8` | 原始剪藏（中性低存在感） |
-| 7 | `file:"AGENTS.md" OR file:"README.md" OR file:"CONTEXT.md" OR file:"Home.md" OR file:"PROMPT.md" OR file:"BOUNDARY.md"` | 暗石板 `#575D6E` | 项目文档 |
+**梯位即身份**（数组顺序与梯位无关，仍按查询特异性排列，first-match-wins）：
+
+| 梯位 | 查询 | 色 | 含义 |
+|------|------|----|------|
+| 1 | `path:"workspace"` | 亮橙黄 `#FDD89A` | 你的个人创作（最亮端） |
+| 2 | `file:"AGENTS.md" OR file:"README.md" OR file:"CONTEXT.md" OR file:"Home.md" OR file:"PROMPT.md" OR file:"BOUNDARY.md"` | 珊瑚橙 `#FCB47E` | 项目文档 |
+| 3 | `path:"raw"` | 鲑红 `#EE937D` | 原始剪藏 |
+| 4 | —（备用） | 玫红 `#D47885` | 预留分组色 |
+| 5 | `path:"wiki/synthesis"` | 品红 `#B3638C` | 综合层（最活跃→wiki 最亮） |
+| 6 | `path:"wiki/atoms/concepts"` | 玫紫 `#8D528F` | 概念页（稳定） |
+| 7 | `path:"wiki/atoms"` | 紫 `#64448A` | 其余原子（实体/数据） |
+| 8 | `path:"wiki"` | 靛蓝 `#38387D` | wiki 兜底（最暗端） |
 
 等价的 JSON（关闭 Obsidian 后贴进 `.obsidian/graph.json` 的 `colorGroups`）：
 
 ```json
 "colorGroups": [
-  { "query": "path:\"workspace\"",        "color": { "a": 1, "rgb": 13940586 } },
-  { "query": "path:\"wiki/synthesis\"",   "color": { "a": 1, "rgb": 8225712 } },
-  { "query": "path:\"wiki/atoms/concepts\"","color": { "a": 1, "rgb": 5462674 } },
-  { "query": "path:\"wiki/atoms\"",       "color": { "a": 1, "rgb": 3225973 } },
-  { "query": "path:\"wiki\"",             "color": { "a": 1, "rgb": 1581144 } },
-  { "query": "path:\"raw\"",              "color": { "a": 1, "rgb": 9409960 } },
-  { "query": "file:\"AGENTS.md\" OR file:\"README.md\" OR file:\"CONTEXT.md\" OR file:\"Home.md\" OR file:\"PROMPT.md\" OR file:\"BOUNDARY.md\"", "color": { "a": 1, "rgb": 5725550 } }
+  { "query": "path:\"workspace\"",        "color": { "a": 1, "rgb": 16636058 } },
+  { "query": "path:\"wiki/synthesis\"",   "color": { "a": 1, "rgb": 11756428 } },
+  { "query": "path:\"wiki/atoms/concepts\"","color": { "a": 1, "rgb": 9261711 } },
+  { "query": "path:\"wiki/atoms\"",       "color": { "a": 1, "rgb": 6571146 } },
+  { "query": "path:\"wiki\"",             "color": { "a": 1, "rgb": 3684477 } },
+  { "query": "path:\"raw\"",              "color": { "a": 1, "rgb": 15635325 } },
+  { "query": "file:\"AGENTS.md\" OR file:\"README.md\" OR file:\"CONTEXT.md\" OR file:\"Home.md\" OR file:\"PROMPT.md\" OR file:\"BOUNDARY.md\"", "color": { "a": 1, "rgb": 16561278 } }
 ]
 ```
 
@@ -134,6 +138,7 @@ Link distance        （默认 500，可试 300 看是否更紧凑）
 
 | 日期 | 版本 | 变更内容 |
 |------|------|----------|
+| 2026-10-07 | 1.3 | 二次改版：4 色×4 档模块化配色改为 8 色连续渐变（OKLCH 等差明度、等彩度，橙黄→靛蓝经红/品红/紫），梯位＝身份（1 手写 / 2 文档 / 3 剪藏 / 4 备用 / 5–8 wiki 阶梯）；graph.json 与 4 个书签同步 |
 | 2026-10-07 | 1.2 | 配色换版：Paletton 靛蓝(233°)↔橙黄(44°)互补色卡，色相＝身份（橙黄=手写/靛蓝=Agent/石板灰=剪藏）、明度＝聚类，7 组全部替换 |
 | 2026-10-06 | 1.1 | 词表 33→39（+视频剪辑/网络与代理/终端与Shell/个人随笔/视觉设计/经济与金融）；workspace 71 自由词与 raw 177 篇剪藏归域纳入 lint 子集校验 |
 | 2026-10-06 | 1.0 | 初版：身份分组 7 条、四开关、力学实测值、33 词标签命名空间、related 引号机制 |
