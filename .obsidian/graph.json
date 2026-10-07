@@ -1,0 +1,107 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"attachments\"",
+      "color": {
+        "a": 1,
+        "rgb": 9409960
+      }
+    },
+    {
+      "query": "path:\"workspace\"",
+      "color": {
+        "a": 1,
+        "rgb": 16636058
+      }
+    },
+    {
+      "query": "path:\"wiki/synthesis\"",
+      "color": {
+        "a": 1,
+        "rgb": 11756428
+      }
+    },
+    {
+      "query": "path:\"wiki/atoms/concepts\"",
+      "color": {
+        "a": 1,
+        "rgb": 9261711
+      }
+    },
+    {
+      "query": "path:\"wiki/atoms\"",
+      "color": {
+        "a": 1,
+        "rgb": 6571146
+      }
+    },
+    {
+      "query": "path:\"wiki\"",
+      "color": {
+        "a": 1,
+        "rgb": 3684477
+      }
+    },
+    {
+      "query": "path:\"raw\"",
+      "color": {
+        "a": 1,
+        "rgb": 15635325
+      }
+    },
+    {
+      "query": "file:\"AGENTS.md\" OR file:\"README.md\" OR file:\"CONTEXT.md\" OR file:\"Home.md\" OR file:\"PROMPT.md\" OR file:\"BOUNDARY.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 16561278
+      }
+    },
+    {
+      "query": "tag:#域",
+      "color": {
+        "a": 1,
+        "rgb": 5423033
+      }
+    },
+    {
+      "query": "tag:#主题",
+      "color": {
+        "a": 1,
+        "rgb": 3121821
+      }
+    },
+    {
+      "query": "tag:#任务",
+      "color": {
+        "a": 1,
+        "rgb": 1475968
+      }
+    },
+    {
+      "query": "tag:#方法",
+      "color": {
+        "a": 1,
+        "rgb": 1009764
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1.5,
+  "nodeSizeMultiplier": 1.52228586652458,
+  "lineSizeMultiplier": 0.707686159584388,
+  "collapse-forces": false,
+  "centerStrength": 0.652590915145864,
+  "repelStrength": 12.3954158756943,
+  "linkStrength": 0.904089516451312,
+  "linkDistance": 500,
+  "scale": 0.27268599173600827,
+  "close": false
+}
