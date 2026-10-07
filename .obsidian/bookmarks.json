@@ -7,12 +7,19 @@
    "options": {
     "collapse-filter": false,
     "search": "path:\"wiki\"",
-    "showTags": false,
-    "showAttachments": false,
+    "showTags": true,
+    "showAttachments": true,
     "hideUnresolved": false,
-    "showOrphans": false,
+    "showOrphans": true,
     "collapse-color-groups": false,
     "colorGroups": [
+     {
+      "query": "path:\"attachments\"",
+      "color": {
+       "a": 1,
+       "rgb": 9409960
+      }
+     },
      {
       "query": "path:\"workspace\"",
       "color": {
@@ -60,6 +67,34 @@
       "color": {
        "a": 1,
        "rgb": 16561278
+      }
+     },
+     {
+      "query": "tag:#域",
+      "color": {
+       "a": 1,
+       "rgb": 5423033
+      }
+     },
+     {
+      "query": "tag:#主题",
+      "color": {
+       "a": 1,
+       "rgb": 3121821
+      }
+     },
+     {
+      "query": "tag:#任务",
+      "color": {
+       "a": 1,
+       "rgb": 1475968
+      }
+     },
+     {
+      "query": "tag:#方法",
+      "color": {
+       "a": 1,
+       "rgb": 1009764
       }
      }
     ],
@@ -84,12 +119,19 @@
    "options": {
     "collapse-filter": false,
     "search": "path:\"wiki/atoms/concepts\"",
-    "showTags": false,
-    "showAttachments": false,
+    "showTags": true,
+    "showAttachments": true,
     "hideUnresolved": false,
-    "showOrphans": false,
+    "showOrphans": true,
     "collapse-color-groups": false,
     "colorGroups": [
+     {
+      "query": "path:\"attachments\"",
+      "color": {
+       "a": 1,
+       "rgb": 9409960
+      }
+     },
      {
       "query": "path:\"workspace\"",
       "color": {
@@ -137,6 +179,34 @@
       "color": {
        "a": 1,
        "rgb": 16561278
+      }
+     },
+     {
+      "query": "tag:#域",
+      "color": {
+       "a": 1,
+       "rgb": 5423033
+      }
+     },
+     {
+      "query": "tag:#主题",
+      "color": {
+       "a": 1,
+       "rgb": 3121821
+      }
+     },
+     {
+      "query": "tag:#任务",
+      "color": {
+       "a": 1,
+       "rgb": 1475968
+      }
+     },
+     {
+      "query": "tag:#方法",
+      "color": {
+       "a": 1,
+       "rgb": 1009764
       }
      }
     ],
@@ -161,12 +231,19 @@
    "options": {
     "collapse-filter": false,
     "search": "-path:\"raw\"",
-    "showTags": false,
-    "showAttachments": false,
+    "showTags": true,
+    "showAttachments": true,
     "hideUnresolved": false,
     "showOrphans": true,
     "collapse-color-groups": false,
     "colorGroups": [
+     {
+      "query": "path:\"attachments\"",
+      "color": {
+       "a": 1,
+       "rgb": 9409960
+      }
+     },
      {
       "query": "path:\"workspace\"",
       "color": {
@@ -214,6 +291,34 @@
       "color": {
        "a": 1,
        "rgb": 16561278
+      }
+     },
+     {
+      "query": "tag:#域",
+      "color": {
+       "a": 1,
+       "rgb": 5423033
+      }
+     },
+     {
+      "query": "tag:#主题",
+      "color": {
+       "a": 1,
+       "rgb": 3121821
+      }
+     },
+     {
+      "query": "tag:#任务",
+      "color": {
+       "a": 1,
+       "rgb": 1475968
+      }
+     },
+     {
+      "query": "tag:#方法",
+      "color": {
+       "a": 1,
+       "rgb": 1009764
       }
      }
     ],
@@ -238,12 +343,19 @@
    "options": {
     "collapse-filter": false,
     "search": "path:\"workspace\"",
-    "showTags": false,
-    "showAttachments": false,
+    "showTags": true,
+    "showAttachments": true,
     "hideUnresolved": false,
-    "showOrphans": false,
+    "showOrphans": true,
     "collapse-color-groups": false,
     "colorGroups": [
+     {
+      "query": "path:\"attachments\"",
+      "color": {
+       "a": 1,
+       "rgb": 9409960
+      }
+     },
      {
       "query": "path:\"workspace\"",
       "color": {
@@ -291,6 +403,34 @@
       "color": {
        "a": 1,
        "rgb": 16561278
+      }
+     },
+     {
+      "query": "tag:#域",
+      "color": {
+       "a": 1,
+       "rgb": 5423033
+      }
+     },
+     {
+      "query": "tag:#主题",
+      "color": {
+       "a": 1,
+       "rgb": 3121821
+      }
+     },
+     {
+      "query": "tag:#任务",
+      "color": {
+       "a": 1,
+       "rgb": 1475968
+      }
+     },
+     {
+      "query": "tag:#方法",
+      "color": {
+       "a": 1,
+       "rgb": 1009764
       }
      }
     ],
