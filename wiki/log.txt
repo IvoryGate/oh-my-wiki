@@ -5,6 +5,14 @@
 
 ---
 
+## [2026-10-07] graph | 图谱配色换版：Paletton 靛蓝↔橙黄互补色卡（7 组全替换）
+
+- 动机：旧 7 组配色（绿橙蓝青紫灰棕）观感杂乱，且三种身份（手写/剪藏/Agent wiki）区分不明显
+- 色板取自 Paletton Complementary 方案（uid=72P0U0kllllaFw0g0qFqFg0w0aF）：Base Hue 250 → CSS 233° 靛蓝，Complement → CSS 44° 橙黄，互补对
+- 设计逻辑：色相＝身份，明度＝聚类层级——橙黄 #D4B76A＝workspace 手写；靛蓝 4 级阶梯＝wiki Agent 维护（synthesis 浅靛 #7D83B0 → concepts 中靛 #535A92 → atoms 基靛 #313975 → 兜底 深靛 #182058）；石板灰 #8F95A8＝raw 剪藏；暗石板 #575D6E＝项目文档
+- 写入 .obsidian/graph.json（Obsidian 关闭态写入；该文件被 .gitignore 忽略，不入库，换设备需照指南重配）
+- workspace 保持单色不细分（用户确认）；配置指南 §二 表格与 JSON 同步、变更日志 1.2
+
 ## [2026-10-06] tag | 标签全库纳管：词表 33→39，raw 177 篇与 workspace 42 篇归域
 
 ### 一、词表扩容（33 → 39）与 lint 升级
