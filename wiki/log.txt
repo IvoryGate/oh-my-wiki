@@ -5,6 +5,13 @@
 
 ---
 
+## [2026-10-07] graph | 恢复被误重置的图谱设置，并同步书签内的旧配色快照
+
+- 用户误触"重置图谱设置"，.obsidian/graph.json 回到默认值（colorGroups 清空、力道/显示/开关复位）
+- Obsidian 关闭态回写恢复：7 组 colorGroups（新 Paletton 配色，照配置指南 §二）、三开关 false、showArrow true、textFadeMultiplier -1.5、节点 1.5223 / 连线 0.7077、力道 center 0.6526 / repel 12.3954 / linkStrength 0.9041 / linkDistance 500、scale 0.1945（参数取自 4 个图谱书签存档的一致快照）
+- 顺带修复：4 个图谱书签各自存的 colorGroups 还是换版前的旧色（绿橙蓝青紫），点书签会切回旧色——已全部同步为新 7 组，graph.json 与书签现已一致
+- graph.json 仍被 .gitignore 忽略不入库；bookmarks.json 入库随本条提交
+
 ## [2026-10-07] graph | 图谱配色换版：Paletton 靛蓝↔橙黄互补色卡（7 组全替换）
 
 - 动机：旧 7 组配色（绿橙蓝青紫灰棕）观感杂乱，且三种身份（手写/剪藏/Agent wiki）区分不明显
