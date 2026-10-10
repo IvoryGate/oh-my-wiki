@@ -68,6 +68,11 @@
       "path": "wiki/atoms/concepts/B+树索引.md"
     },
     {
+      "id": "BERT",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/BERT.md"
+    },
+    {
       "id": "Blog-Content-Writing-Practices",
       "type": "concept",
       "path": "wiki/atoms/concepts/Blog-Content-Writing-Practices.md"
@@ -153,6 +158,11 @@
       "path": "wiki/atoms/concepts/FuPan.md"
     },
     {
+      "id": "GPT",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/GPT.md"
+    },
+    {
       "id": "Harness-Engineering",
       "type": "concept",
       "path": "wiki/atoms/concepts/Harness-Engineering.md"
@@ -186,6 +196,11 @@
       "id": "LLM-Wiki",
       "type": "concept",
       "path": "wiki/atoms/concepts/LLM-Wiki.md"
+    },
+    {
+      "id": "LSTM",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/LSTM.md"
     },
     {
       "id": "Last-Click-Rule",
@@ -266,6 +281,11 @@
       "id": "MySQL索引体系与查询优化",
       "type": "topic",
       "path": "wiki/synthesis/topics/MySQL索引体系与查询优化.md"
+    },
+    {
+      "id": "NLP模型演进与核心任务",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/NLP模型演进与核心任务.md"
     },
     {
       "id": "Network-Cognition-Gap",
@@ -353,6 +373,11 @@
       "path": "wiki/atoms/concepts/SKAN-Attribution.md"
     },
     {
+      "id": "Seq2Seq",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Seq2Seq.md"
+    },
+    {
       "id": "Session-Tracking",
       "type": "concept",
       "path": "wiki/atoms/concepts/Session-Tracking.md"
@@ -393,6 +418,11 @@
       "path": "wiki/atoms/concepts/Tmux.md"
     },
     {
+      "id": "Transformer",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Transformer.md"
+    },
+    {
       "id": "User-App-Pair",
       "type": "concept",
       "path": "wiki/atoms/concepts/User-App-Pair.md"
@@ -401,6 +431,11 @@
       "id": "VC维",
       "type": "concept",
       "path": "wiki/atoms/concepts/VC维.md"
+    },
+    {
+      "id": "Word2Vec",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Word2Vec.md"
     },
     {
       "id": "Workflow-vs-Agent",
@@ -2141,6 +2176,11 @@
       "path": "wiki/atoms/concepts/假设空间.md"
     },
     {
+      "id": "关系抽取",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/关系抽取.md"
+    },
+    {
       "id": "写作价值心法",
       "type": "concept",
       "path": "wiki/atoms/concepts/写作价值心法.md"
@@ -2204,6 +2244,11 @@
       "id": "变量消除",
       "type": "concept",
       "path": "wiki/atoms/concepts/变量消除.md"
+    },
+    {
+      "id": "命名实体识别",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/命名实体识别.md"
     },
     {
       "id": "哥波尼世界",
@@ -2271,6 +2316,11 @@
       "path": "wiki/atoms/concepts/归因链接.md"
     },
     {
+      "id": "情感分析",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/情感分析.md"
+    },
+    {
       "id": "感知器",
       "type": "concept",
       "path": "wiki/atoms/concepts/感知器.md"
@@ -2289,6 +2339,11 @@
       "id": "支持向量机",
       "type": "concept",
       "path": "wiki/atoms/concepts/支持向量机.md"
+    },
+    {
+      "id": "文本分类",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/文本分类.md"
     },
     {
       "id": "无监督学习",
@@ -2379,6 +2434,11 @@
       "id": "正则化",
       "type": "concept",
       "path": "wiki/atoms/concepts/正则化.md"
+    },
+    {
+      "id": "注意力机制",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/注意力机制.md"
     },
     {
       "id": "流形学习",
@@ -3016,6 +3076,30 @@
       "context": ""
     },
     {
+      "from": "BERT",
+      "to": "Transformer",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "BERT",
+      "to": "raw/columns/菜鸟教程NLP/14 预训练模型",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "BERT",
+      "to": "raw/columns/菜鸟教程NLP/15 BERT 系列模型",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "BERT",
+      "to": "注意力机制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "Blog-Content-Writing-Practices",
       "to": "Tech-Blog-Article-Types",
       "relation": "links_to",
@@ -3472,6 +3556,30 @@
       "context": ""
     },
     {
+      "from": "GPT",
+      "to": "Transformer",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "GPT",
+      "to": "raw/columns/菜鸟教程NLP/14 预训练模型",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "GPT",
+      "to": "raw/columns/菜鸟教程NLP/16 生成式预训练模型",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "GPT",
+      "to": "注意力机制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "Harness-Engineering",
       "to": "Agent-Evaluation",
       "relation": "includes",
@@ -3619,6 +3727,30 @@
       "from": "LLM-Wiki",
       "to": "raw/articles/llm-wiki",
       "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "LSTM",
+      "to": "raw/columns/菜鸟教程NLP/10 循环神经网络（RNN）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "LSTM",
+      "to": "深度学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "LSTM",
+      "to": "激活函数",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "LSTM",
+      "to": "神经网络",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -4468,6 +4600,120 @@
       "context": ""
     },
     {
+      "from": "NLP模型演进与核心任务",
+      "to": "BERT",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "GPT",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "LSTM",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "Seq2Seq",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "Transformer",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "Word2Vec",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "raw/columns/菜鸟教程NLP/00 NLP 教程",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "raw/columns/菜鸟教程NLP/01 NLP 简介",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "raw/columns/菜鸟教程NLP/12 Transformer 架构",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "raw/columns/菜鸟教程NLP/14 预训练模型",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "关系抽取",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "命名实体识别",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "情感分析",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "文本分类",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "机器学习模型体系",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "注意力机制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "深度学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "神经网络",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
+      "to": "表示学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "Network-Cognition-Gap",
       "to": "High-Value-Channel",
       "relation": "links_to",
@@ -4882,6 +5128,30 @@
       "context": ""
     },
     {
+      "from": "Seq2Seq",
+      "to": "LSTM",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Seq2Seq",
+      "to": "Transformer",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Seq2Seq",
+      "to": "raw/columns/菜鸟教程NLP/13 序列到序列模型",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Seq2Seq",
+      "to": "注意力机制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "Session-Tracking",
       "to": "Cohort-Analysis",
       "relation": "links_to",
@@ -5146,6 +5416,42 @@
       "context": ""
     },
     {
+      "from": "Transformer",
+      "to": "BERT",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Transformer",
+      "to": "GPT",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Transformer",
+      "to": "Seq2Seq",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Transformer",
+      "to": "raw/columns/菜鸟教程NLP/12 Transformer 架构",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Transformer",
+      "to": "注意力机制",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Transformer",
+      "to": "深度学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "User-App-Pair",
       "to": "Audience-Definition",
       "relation": "foundation_of",
@@ -5196,6 +5502,30 @@
     {
       "from": "VC维",
       "to": "计算学习理论",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Word2Vec",
+      "to": "raw/columns/菜鸟教程NLP/04 文本表示方法",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Word2Vec",
+      "to": "深度学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Word2Vec",
+      "to": "神经网络",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Word2Vec",
+      "to": "表示学习",
       "relation": "links_to",
       "context": ""
     },
@@ -5650,6 +5980,18 @@
       "context": ""
     },
     {
+      "from": "关系抽取",
+      "to": "raw/columns/菜鸟教程NLP/08 关系抽取",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "关系抽取",
+      "to": "命名实体识别",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "写作价值心法",
       "to": "raw/articles/关于写作，这是我目前能想到最全的",
       "relation": "cites",
@@ -5998,6 +6340,24 @@
       "context": ""
     },
     {
+      "from": "命名实体识别",
+      "to": "raw/columns/菜鸟教程NLP/07 命名实体识别（NER）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "命名实体识别",
+      "to": "关系抽取",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "命名实体识别",
+      "to": "文本分类",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "哥波尼世界",
       "to": "raw/videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响",
       "relation": "cites",
@@ -6280,6 +6640,18 @@
       "context": ""
     },
     {
+      "from": "情感分析",
+      "to": "raw/columns/菜鸟教程NLP/06 情感分析",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "情感分析",
+      "to": "文本分类",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "感知器",
       "to": "raw/columns/机器学习40讲/22 自适应的基函数：神经网络",
       "relation": "cites",
@@ -6330,6 +6702,30 @@
     {
       "from": "支持向量机",
       "to": "核技巧",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "文本分类",
+      "to": "Softmax",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "文本分类",
+      "to": "raw/columns/菜鸟教程NLP/05 文本分类",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "文本分类",
+      "to": "交叉熵",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "文本分类",
+      "to": "损失函数",
       "relation": "links_to",
       "context": ""
     },
@@ -6444,6 +6840,12 @@
     {
       "from": "机器学习模型体系",
       "to": "K近邻",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "NLP模型演进与核心任务",
       "relation": "links_to",
       "context": ""
     },
@@ -6804,6 +7206,24 @@
     {
       "from": "正则化",
       "to": "raw/columns/机器学习40讲/12 正则化处理：收缩方法与边际化",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "注意力机制",
+      "to": "Softmax",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "注意力机制",
+      "to": "Transformer",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "注意力机制",
+      "to": "raw/columns/菜鸟教程NLP/11 注意力机制",
       "relation": "cites",
       "context": ""
     },
@@ -7727,14 +8147,14 @@
     }
   ],
   "stats": {
-    "totalNodes": 471,
-    "totalEdges": 848,
+    "totalNodes": 483,
+    "totalEdges": 908,
     "byType": {
-      "concept": 170,
+      "concept": 181,
       "entity": 10,
       "howto": 2,
       "source": 278,
-      "topic": 11
+      "topic": 12
     }
   }
 }

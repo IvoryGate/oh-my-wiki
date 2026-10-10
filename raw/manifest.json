@@ -1873,107 +1873,168 @@
   {
    "path": "columns/菜鸟教程NLP/00 NLP 教程.md",
    "size": 3288,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00",
+   "producedPages": [
+    "wiki/synthesis/topics/NLP模型演进与核心任务.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程NLP/01 NLP 简介.md",
    "size": 15544,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程NLP/02 语言学基础.md",
    "size": 30359,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程NLP/03 文本预处理.md",
    "size": 5866,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程NLP/04 文本表示方法.md",
    "size": 8740,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Word2Vec.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程NLP/05 文本分类.md",
    "size": 6414,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/文本分类.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程NLP/06 情感分析.md",
    "size": 6699,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/情感分析.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程NLP/07 命名实体识别（NER）.md",
    "size": 3786,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/命名实体识别.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程NLP/08 关系抽取.md",
    "size": 3884,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/关系抽取.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程NLP/09 文本相似度计算.md",
    "size": 5811,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程NLP/10 循环神经网络（RNN）.md",
    "size": 7749,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/LSTM.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程NLP/11 注意力机制.md",
    "size": 8990,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/注意力机制.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程NLP/12 Transformer 架构.md",
    "size": 9726,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Transformer.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程NLP/13 序列到序列模型.md",
    "size": 5606,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Seq2Seq.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程NLP/14 预训练模型.md",
    "size": 5853,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/BERT.md",
+    "wiki/atoms/concepts/GPT.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程NLP/15 BERT 系列模型.md",
    "size": 7030,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/BERT.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程NLP/16 生成式预训练模型.md",
    "size": 5689,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/GPT.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程NLP/17 多模态预训练模型.md",
    "size": 7115,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程NLP/18 Python NLP 生态.md",
    "size": 6042,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程NLP/19 深度学习框架.md",
    "size": 6098,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程NLP/20 数据处理工具.md",
    "size": 6285,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T20:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI/00 AI 入门教程.md",

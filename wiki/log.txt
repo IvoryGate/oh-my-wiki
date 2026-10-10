@@ -5,6 +5,15 @@
 
 ---
 
+## [2026-10-11] ingest | NLP 系列结构化：11 概念页 + 1 主题页，21 篇 manifest 置 done
+
+- 概念页（wiki/atoms/concepts/，均 域/机器学习）：主线 Transformer / 注意力机制 / BERT / GPT / LSTM / Seq2Seq / Word2Vec（主题/神经网络），任务 文本分类 / 情感分析 / 命名实体识别 / 关系抽取（任务/分类）
+- 主题页：wiki/synthesis/topics/NLP模型演进与核心任务.md（模型演进线 + 经典任务线双主线综述，sources 取自菜鸟教程NLP）
+- 关联：机器学习模型体系 v1.1 补 NLP 主题回链（孤页消解）
+- manifest：菜鸟教程NLP 21 条 pending→done，回填 compiledAt 与 producedPages
+- gen-graph：483 节点 / 908 边（概念 170→181、主题 11→12）；lint 通过（唯一错误仍为 4 处历史图片断链）
+- 标签决议：用户选定方案 C（拆分 域/LLM与知识管理 → 域/LLM + 域/知识管理），待下一批执行
+
 ## [2026-10-11] ingest | 剪藏菜鸟教程三系列 101 篇（NLP / AI / AI 智能体）
 
 - 来源：runoob.com 三个教程系列——NLP 教程 21 篇、AI 入门教程 30 篇、AI Agent(智能体) 教程 50 篇（基础 15 + 智能体工具 21 + Python 实现 14），共 101 篇
