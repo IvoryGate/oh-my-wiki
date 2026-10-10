@@ -6,7 +6,7 @@ published:
 created: 2026-10-11
 description: "04 Prompt 提示词"
 tags:
-  - "域/LLM与知识管理"
+  - "域/LLM"
 ---
 # Prompt 提示词
 

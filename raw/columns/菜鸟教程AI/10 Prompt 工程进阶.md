@@ -6,7 +6,7 @@ published:
 created: 2026-10-11
 description: "10 Prompt 工程进阶"
 tags:
-  - "域/LLM与知识管理"
+  - "域/LLM"
 ---
 # Prompt 工程进阶
 

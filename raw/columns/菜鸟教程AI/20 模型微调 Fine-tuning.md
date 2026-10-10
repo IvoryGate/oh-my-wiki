@@ -6,7 +6,7 @@ published:
 created: 2026-10-11
 description: "20 模型微调 Fine-tuning"
 tags:
-  - "域/LLM与知识管理"
+  - "域/LLM"
 ---
 # 模型微调 Fine-tuning
 

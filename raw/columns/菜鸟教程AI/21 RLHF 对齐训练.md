@@ -6,7 +6,7 @@ published:
 created: 2026-10-11
 description: "21 RLHF 对齐训练"
 tags:
-  - "域/LLM与知识管理"
+  - "域/LLM"
 ---
 # RLHF 对齐训练
 

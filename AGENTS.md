@@ -31,7 +31,7 @@
 ### 1. 只读原则
 **raw/ 目录的正文永远只读**。原始资料是不可变的真相来源，任何情况下不得修改。
 
-**唯一例外（2026-10-06 用户授权）**：frontmatter 的 `tags` 字段可修改——仅限标签归域与改名，正文、其他字段一律不动。raw 标签须遵守 39 词词表（词表定义见 `wiki/synthesis/howto/Obsidian关系图谱配置指南.md` §五，校验见 lint `check.py`）。
+**唯一例外（2026-10-06 用户授权）**：frontmatter 的 `tags` 字段可修改——仅限标签归域与改名，正文、其他字段一律不动。raw 标签须遵守 40 词词表（词表定义见 `wiki/synthesis/howto/Obsidian关系图谱配置指南.md` §五，校验见 lint `check.py`）。
 
 ### 2. 结构分层
 ```
@@ -647,6 +647,7 @@ confidence: medium    # low | medium | high
 
 | 版本 | 日期 | 说明 |
 |------|------|------|
+| 1.9 | 2026-10-11 | 标签词表 39→40：拆分 `域/LLM与知识管理` → `域/LLM` + `域/知识管理`（42 页重挂，check.py 与指南 §五 同步） |
 | 1.8 | 2026-10-06 | 标签全库纳管：词表 33→39（+6 主题词），workspace 71 自由词归并、raw 177 篇剪藏归域（删除 clippings）；raw 只读规则开出 tags 字段唯一例外；lint 改为三区子集校验 |
 | 1.7 | 2026-10-06 | 移除 Marp 插件集成章节与 wiki/templates/marp-template.md（插件已卸载），README 同步 |
 | 1.6 | 2026-10-06 | 关联链补全：正文强制 `## 来源` 段（180/180 页）、gen-graph 把 `raw/` 登记为 `type=source` 节点并生成 `cites` 边、lint 把 raw/ 链接纳入断链校验、index 新增「原始资料」栏目 |

@@ -5,6 +5,14 @@
 
 ---
 
+## [2026-10-11] tag | 词表拆分：域/LLM与知识管理 → 域/LLM + 域/知识管理（39→40 词）
+
+- 背景：旧复合域是索引分区桶（源自旧自由标签"知识管理"→domain 字段→命名空间化），名似并集实为交集，用户选定方案 C 拆分
+- 归属：域/LLM（技术侧）——RAG、Karpathy、菜鸟教程AI 30 篇、一文彻底搞懂Agent；域/知识管理（认知与KM侧）——LLM-Wiki、工作记忆、直觉、知识体系、经典知识联系、Obsidian关系图谱配置指南、raw llm-wiki、workspace 2 篇（各自保留第二个域标签不变）
+- 同步件：check.py（VOCAB + EXPECTED_TAG_COUNT 39→40 + 注释）、指南 §五与自身 frontmatter（v1.5）、AGENTS.md（40 词词表 + 版本记录 1.9）
+- 影响面：42 个内容文件重挂（仅 frontmatter）；.obsidian 配色验证不含旧标签名，无需改动
+- 校验：lint 通过，40 词在用 = 词表 40；图谱 483 节点 / 908 边一致
+
 ## [2026-10-11] ingest | NLP 系列结构化：11 概念页 + 1 主题页，21 篇 manifest 置 done
 
 - 概念页（wiki/atoms/concepts/，均 域/机器学习）：主线 Transformer / 注意力机制 / BERT / GPT / LSTM / Seq2Seq / Word2Vec（主题/神经网络），任务 文本分类 / 情感分析 / 命名实体识别 / 关系抽取（任务/分类）

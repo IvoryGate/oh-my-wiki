@@ -5,7 +5,7 @@ category: insight
 created: 2026-04-19
 updated: 2026-04-19
 ajtatus: doing
-tags: [域/LLM与知识管理, 域/开发工具]
+tags: [域/知识管理, 域/开发工具]
 related:
   - "[[LLM-Wiki]]"
   - "[[RAG]]"

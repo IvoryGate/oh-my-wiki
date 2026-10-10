@@ -7,7 +7,7 @@
 检查项目:
   1. 断链        wiki 内容页 [[链接]] 无法解析（含别名解析）
   2. frontmatter 必填字段与格式（概念页必填 domain）
-  3. 标签词表    wiki/workspace/raw 全部标签 ∈ VOCAB（39 词，含引用去引号）
+  3. 标签词表    wiki/workspace/raw 全部标签 ∈ VOCAB（40 词，含引用去引号）
   4. index 反漂移 不得出现手工统计数字/手工概念表格（应由 Dataview 生成）
   5. graph.json  调用 gen-graph --check（--no-graph 跳过）
   6. 孤页        无入链的内容页（警告，不判失败）
@@ -22,7 +22,7 @@ from collections import defaultdict
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-EXPECTED_TAG_COUNT = 39  # 标签词表策略（2026-10-06 扩容：域13/任务4/方法2/主题20，与下方 VOCAB 双处同步）
+EXPECTED_TAG_COUNT = 40  # 标签词表策略（2026-10-11 拆分：域/LLM与知识管理→域/LLM+域/知识管理，域14/任务4/方法2/主题20，与下方 VOCAB 双处同步）
 
 KNOWN_BROKEN = {
     # workspace 正文不可编辑，已知历史断链（历史 lint 已记录，用户未选择处理）
@@ -163,11 +163,12 @@ for r in sorted(all_md):
         errors.append(f"{r}: 缺 tags")
 
 # ---------- 3) 标签词表 ----------
-# 词表 39 词 = 域13/任务4/方法2/主题20（2026-10-06 扩容：+视频剪辑/网络与代理/终端与Shell/
-# 个人随笔/视觉设计/经济与金融；同批将 workspace 与 raw 标签纳入校验，覆盖三区）
+# 词表 40 词 = 域14/任务4/方法2/主题20（2026-10-06 扩容：+视频剪辑/网络与代理/终端与Shell/
+# 个人随笔/视觉设计/经济与金融；同批将 workspace 与 raw 标签纳入校验，覆盖三区；
+# 2026-10-11 拆分：域/LLM与知识管理 → 域/LLM + 域/知识管理）
 VOCAB = frozenset("""
 域/机器学习 域/增长与营销 域/数据库 域/写作与技术博客 域/Agent架构与工程 域/复盘与方法论
-域/LLM与知识管理 域/媒介理论 域/Agent-First开发 域/软件架构与建模 域/软件工程 域/开发工具 域/面试方法论
+域/LLM 域/知识管理 域/媒介理论 域/Agent-First开发 域/软件架构与建模 域/软件工程 域/开发工具 域/面试方法论
 任务/分类 任务/回归 任务/降维 任务/聚类
 方法/结构化思维 方法/排版规范
 主题/优化 主题/广告归因 主题/概率图模型 主题/反作弊 主题/贝叶斯 主题/统计 主题/神经网络 主题/认知

@@ -3,9 +3,9 @@ title: LLM Wiki
 created: 2026-04-17
 updated: 2026-09-22
 type: concept
-domain: LLM 与知识管理
+domain: 知识管理
 description: 使用 LLM 构建个人知识库的模式
-tags: [域/LLM与知识管理]
+tags: [域/知识管理]
 sources:
   - [[raw/articles/llm-wiki.md]]
 status: active

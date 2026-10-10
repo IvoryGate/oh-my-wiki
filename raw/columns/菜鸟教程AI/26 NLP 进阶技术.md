@@ -6,7 +6,7 @@ published:
 created: 2026-10-11
 description: "26 NLP 进阶技术"
 tags:
-  - "域/LLM与知识管理"
+  - "域/LLM"
 ---
 # NLP 进阶技术
 

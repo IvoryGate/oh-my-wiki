@@ -6,7 +6,7 @@ published:
 created: 2026-10-11
 description: "12 RAG 检索增强生成"
 tags:
-  - "域/LLM与知识管理"
+  - "域/LLM"
 ---
 # RAG 检索增强生成
 

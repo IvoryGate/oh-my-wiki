@@ -6,7 +6,7 @@ published:
 created: 2026-10-11
 description: "02 AGI 简介"
 tags:
-  - "域/LLM与知识管理"
+  - "域/LLM"
 ---
 # AGI (通用人工智能)
 

@@ -6,7 +6,7 @@ published:
 created: 2026-10-11
 description: "19 Transformer 深度解析"
 tags:
-  - "域/LLM与知识管理"
+  - "域/LLM"
 ---
 # Transformer 深度解析
 

@@ -6,7 +6,7 @@ published:
 created: 2026-10-11
 description: "11 AI API 开发"
 tags:
-  - "域/LLM与知识管理"
+  - "域/LLM"
 ---
 # AI API 开发
 
