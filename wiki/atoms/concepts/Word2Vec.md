@@ -7,6 +7,7 @@ domain: 机器学习
 description: CBOW 与 Skip-gram 的轻量词向量训练方法
 tags: [域/机器学习, 主题/神经网络]
 sources:
+  - [[raw/columns/菜鸟教程AI/26 NLP 进阶技术.md]]
   - [[raw/columns/菜鸟教程NLP/04 文本表示方法.md]]
 status: active
 ---
@@ -68,3 +69,4 @@ Word2Vec 产出的词向量具有以下特点：
 ## 来源
 
 - [[raw/columns/菜鸟教程NLP/04 文本表示方法.md]]
+- [[raw/columns/菜鸟教程AI/26 NLP 进阶技术.md]]

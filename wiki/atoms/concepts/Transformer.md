@@ -7,6 +7,7 @@ domain: 机器学习
 description: 编码器-解码器与自注意力构成的序列建模架构
 tags: [域/机器学习, 主题/神经网络]
 sources:
+  - [[raw/columns/菜鸟教程AI/19 Transformer 深度解析.md]]
   - [[raw/columns/菜鸟教程NLP/12 Transformer 架构.md]]
 status: active
 ---
@@ -73,3 +74,4 @@ Transformer 没有循环或卷积结构，无法直接感知序列顺序，因�
 ## 来源
 
 - [[raw/columns/菜鸟教程NLP/12 Transformer 架构.md]]
+- [[raw/columns/菜鸟教程AI/19 Transformer 深度解析.md]]

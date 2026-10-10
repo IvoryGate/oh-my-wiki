@@ -5,6 +5,15 @@
 
 ---
 
+## [2026-10-11] ingest | AI 系列结构化：10 概念页 + 1 主题页，30 篇 manifest 置 done
+
+- 新概念页（域/LLM）：大语言模型（含 27 篇 Scaling Law/MoE 归纳）、Prompt工程（04+10）、微调、RLHF、向量数据库、AGI、多模态、提示词注入、LLM评测（29 篇，无法归纳故新建）；卷积神经网络（25 篇，域/机器学习）
+- 归纳补充现有页（补来源 + updated）：RAG←12、Transformer←19、深度学习←24、神经网络←06、BERT/GPT/Word2Vec←26、Agent-Loop/Memory-System/ACI←13（13 篇按"能归纳则归纳"原则分流三页）
+- 主题页：wiki/synthesis/topics/大模型应用技术栈.md（基座→Prompt→RAG→微调→对齐→评测选型逻辑）
+- 关联：深度学习补卷积神经网络回链；NLP 主题页补技术栈回链
+- manifest：菜鸟教程AI 30 条 pending→done，回填 compiledAt 与 producedPages
+- gen-graph：494 节点 / 977 边（概念 181→191、主题 12→13）；lint 通过，孤页回落基线 16
+
 ## [2026-10-11] tag | 词表拆分：域/LLM与知识管理 → 域/LLM + 域/知识管理（39→40 词）
 
 - 背景：旧复合域是索引分区桶（源自旧自由标签"知识管理"→domain 字段→命名空间化），名似并集实为交集，用户选定方案 C 拆分

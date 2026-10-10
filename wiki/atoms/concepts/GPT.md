@@ -7,6 +7,7 @@ domain: 机器学习
 description: 基于 Transformer 解码器的自回归生成模型
 tags: [域/机器学习, 主题/神经网络]
 sources:
+  - [[raw/columns/菜鸟教程AI/26 NLP 进阶技术.md]]
   - [[raw/columns/菜鸟教程NLP/16 生成式预训练模型.md]]
   - [[raw/columns/菜鸟教程NLP/14 预训练模型.md]]
 status: active
@@ -68,3 +69,4 @@ GPT（Generative Pre-trained Transformer）是基于 [[Transformer]] 解码器�
 
 - [[raw/columns/菜鸟教程NLP/16 生成式预训练模型.md]]
 - [[raw/columns/菜鸟教程NLP/14 预训练模型.md]]
+- [[raw/columns/菜鸟教程AI/26 NLP 进阶技术.md]]

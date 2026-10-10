@@ -13,6 +13,11 @@
       "path": "wiki/atoms/concepts/ACI-Agent-Computer-Interface.md"
     },
     {
+      "id": "AGI",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/AGI.md"
+    },
+    {
       "id": "Ad-Fraud",
       "type": "concept",
       "path": "wiki/atoms/concepts/Ad-Fraud.md"
@@ -198,6 +203,11 @@
       "path": "wiki/atoms/concepts/LLM-Wiki.md"
     },
     {
+      "id": "LLM评测",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/LLM评测.md"
+    },
+    {
       "id": "LSTM",
       "type": "concept",
       "path": "wiki/atoms/concepts/LSTM.md"
@@ -343,6 +353,11 @@
       "path": "wiki/atoms/concepts/Progressive-Disclosure.md"
     },
     {
+      "id": "Prompt工程",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Prompt工程.md"
+    },
+    {
       "id": "Protect360",
       "type": "concept",
       "path": "wiki/atoms/concepts/Protect360.md"
@@ -356,6 +371,11 @@
       "id": "RAG",
       "type": "concept",
       "path": "wiki/atoms/concepts/RAG.md"
+    },
+    {
+      "id": "RLHF",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/RLHF.md"
     },
     {
       "id": "ROAS-Data-Reconciliation",
@@ -2226,6 +2246,11 @@
       "path": "wiki/atoms/concepts/助攻率.md"
     },
     {
+      "id": "卷积神经网络",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/卷积神经网络.md"
+    },
+    {
       "id": "参数学习",
       "type": "concept",
       "path": "wiki/atoms/concepts/参数学习.md"
@@ -2244,6 +2269,11 @@
       "id": "变量消除",
       "type": "concept",
       "path": "wiki/atoms/concepts/变量消除.md"
+    },
+    {
+      "id": "向量数据库",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/向量数据库.md"
     },
     {
       "id": "命名实体识别",
@@ -2266,9 +2296,24 @@
       "path": "wiki/atoms/concepts/基函数扩展.md"
     },
     {
+      "id": "多模态",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/多模态.md"
+    },
+    {
       "id": "多触点归因",
       "type": "concept",
       "path": "wiki/atoms/concepts/多触点归因.md"
+    },
+    {
+      "id": "大模型应用技术栈",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/大模型应用技术栈.md"
+    },
+    {
+      "id": "大语言模型",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/大语言模型.md"
     },
     {
       "id": "奥威尔与赫胥黎",
@@ -2316,6 +2361,11 @@
       "path": "wiki/atoms/concepts/归因链接.md"
     },
     {
+      "id": "微调",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/微调.md"
+    },
+    {
       "id": "情感分析",
       "type": "concept",
       "path": "wiki/atoms/concepts/情感分析.md"
@@ -2334,6 +2384,11 @@
       "id": "推断",
       "type": "concept",
       "path": "wiki/atoms/concepts/推断.md"
+    },
+    {
+      "id": "提示词注入",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/提示词注入.md"
     },
     {
       "id": "支持向量机",
@@ -2740,6 +2795,30 @@
       "context": ""
     },
     {
+      "from": "ACI-Agent-Computer-Interface",
+      "to": "raw/columns/菜鸟教程AI/13 AI 智能体",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "AGI",
+      "to": "GPT",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "AGI",
+      "to": "raw/columns/菜鸟教程AI/02 AGI 简介",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "AGI",
+      "to": "大语言模型",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "Ad-Fraud",
       "to": "Attribution-Hijacking",
       "relation": "includes",
@@ -2914,6 +2993,12 @@
       "context": ""
     },
     {
+      "from": "Agent-Loop",
+      "to": "raw/columns/菜鸟教程AI/13 AI 智能体",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Agent-Tracing",
       "to": "Agent-Evaluation",
       "relation": "links_to",
@@ -3079,6 +3164,12 @@
       "from": "BERT",
       "to": "Transformer",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "BERT",
+      "to": "raw/columns/菜鸟教程AI/26 NLP 进阶技术",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -3563,6 +3654,12 @@
     },
     {
       "from": "GPT",
+      "to": "raw/columns/菜鸟教程AI/26 NLP 进阶技术",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "GPT",
       "to": "raw/columns/菜鸟教程NLP/14 预训练模型",
       "relation": "cites",
       "context": ""
@@ -3727,6 +3824,36 @@
       "from": "LLM-Wiki",
       "to": "raw/articles/llm-wiki",
       "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "LLM评测",
+      "to": "Agent-Evaluation",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "LLM评测",
+      "to": "RLHF",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "LLM评测",
+      "to": "raw/columns/菜鸟教程AI/29 AI 评测与安全研究",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "LLM评测",
+      "to": "大语言模型",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "LLM评测",
+      "to": "提示词注入",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -3912,6 +4039,12 @@
     {
       "from": "Memory-System",
       "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Memory-System",
+      "to": "raw/columns/菜鸟教程AI/13 AI 智能体",
       "relation": "cites",
       "context": ""
     },
@@ -4673,6 +4806,12 @@
     },
     {
       "from": "NLP模型演进与核心任务",
+      "to": "大模型应用技术栈",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "NLP模型演进与核心任务",
       "to": "情感分析",
       "relation": "links_to",
       "context": ""
@@ -4948,6 +5087,36 @@
       "context": ""
     },
     {
+      "from": "Prompt工程",
+      "to": "Context-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Prompt工程",
+      "to": "raw/columns/菜鸟教程AI/04 Prompt 提示词",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Prompt工程",
+      "to": "raw/columns/菜鸟教程AI/10 Prompt 工程进阶",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Prompt工程",
+      "to": "大语言模型",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Prompt工程",
+      "to": "提示词注入",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "Protect360",
       "to": "Ad-Fraud",
       "relation": "links_to",
@@ -5041,6 +5210,30 @@
       "from": "RAG",
       "to": "raw/articles/llm-wiki",
       "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "RAG",
+      "to": "raw/columns/菜鸟教程AI/12 RAG 检索增强生成",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "RLHF",
+      "to": "raw/columns/菜鸟教程AI/21 RLHF 对齐训练",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "RLHF",
+      "to": "大语言模型",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "RLHF",
+      "to": "微调",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -5435,6 +5628,12 @@
     },
     {
       "from": "Transformer",
+      "to": "raw/columns/菜鸟教程AI/19 Transformer 深度解析",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Transformer",
       "to": "raw/columns/菜鸟教程NLP/12 Transformer 架构",
       "relation": "cites",
       "context": ""
@@ -5503,6 +5702,12 @@
       "from": "VC维",
       "to": "计算学习理论",
       "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Word2Vec",
+      "to": "raw/columns/菜鸟教程AI/26 NLP 进阶技术",
+      "relation": "cites",
       "context": ""
     },
     {
@@ -6256,6 +6461,30 @@
       "context": ""
     },
     {
+      "from": "卷积神经网络",
+      "to": "raw/columns/菜鸟教程AI/25 计算机视觉 AI",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "卷积神经网络",
+      "to": "深度学习",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "卷积神经网络",
+      "to": "激活函数",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "卷积神经网络",
+      "to": "神经网络",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "参数学习",
       "to": "EM算法",
       "relation": "links_to",
@@ -6340,6 +6569,24 @@
       "context": ""
     },
     {
+      "from": "向量数据库",
+      "to": "RAG",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "向量数据库",
+      "to": "raw/columns/菜鸟教程AI/22 向量数据库",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "向量数据库",
+      "to": "大语言模型",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "命名实体识别",
       "to": "raw/columns/菜鸟教程NLP/07 命名实体识别（NER）",
       "relation": "cites",
@@ -6418,6 +6665,30 @@
       "context": ""
     },
     {
+      "from": "多模态",
+      "to": "CLAP-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "多模态",
+      "to": "GPT",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "多模态",
+      "to": "raw/columns/菜鸟教程AI/14 AI 多模态",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "多模态",
+      "to": "大语言模型",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "多触点归因",
       "to": "Last-Click-Rule",
       "relation": "links_to",
@@ -6450,6 +6721,150 @@
     {
       "from": "多触点归因",
       "to": "马尔可夫链归因",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "Agent-Loop",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "LLM评测",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "NLP模型演进与核心任务",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "Prompt工程",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "RAG",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "RLHF",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "Workflow-vs-Agent",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "raw/columns/菜鸟教程AI/00 AI 入门教程",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "raw/columns/菜鸟教程AI/03 大模型相关概念",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "raw/columns/菜鸟教程AI/12 RAG 检索增强生成",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "raw/columns/菜鸟教程AI/20 模型微调 Fine-tuning",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "向量数据库",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "多模态",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "大语言模型",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "微调",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "提示词注入",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大语言模型",
+      "to": "AGI",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大语言模型",
+      "to": "BERT",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大语言模型",
+      "to": "GPT",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大语言模型",
+      "to": "RLHF",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大语言模型",
+      "to": "Transformer",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大语言模型",
+      "to": "raw/columns/菜鸟教程AI/03 大模型相关概念",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "大语言模型",
+      "to": "raw/columns/菜鸟教程AI/27 前沿研究动态",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "大语言模型",
+      "to": "微调",
       "relation": "links_to",
       "context": ""
     },
@@ -6640,6 +7055,30 @@
       "context": ""
     },
     {
+      "from": "微调",
+      "to": "RAG",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "微调",
+      "to": "RLHF",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "微调",
+      "to": "raw/columns/菜鸟教程AI/20 模型微调 Fine-tuning",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "微调",
+      "to": "大语言模型",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "情感分析",
       "to": "raw/columns/菜鸟教程NLP/06 情感分析",
       "relation": "cites",
@@ -6690,6 +7129,18 @@
     {
       "from": "推断",
       "to": "raw/columns/机器学习40讲/37 随机近似推断：MCMC",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "提示词注入",
+      "to": "Prompt工程",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "提示词注入",
+      "to": "raw/columns/菜鸟教程AI/18 AI 安全进阶",
       "relation": "cites",
       "context": ""
     },
@@ -7241,6 +7692,18 @@
     },
     {
       "from": "深度学习",
+      "to": "raw/columns/菜鸟教程AI/24 深度学习基础",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "深度学习",
+      "to": "卷积神经网络",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "深度学习",
       "to": "神经网络",
       "relation": "links_to",
       "context": ""
@@ -7458,6 +7921,12 @@
     {
       "from": "神经网络",
       "to": "raw/columns/机器学习40讲/23 层次化的神经网络：深度学习",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "神经网络",
+      "to": "raw/columns/菜鸟教程AI/06 AI 工作原理",
       "relation": "cites",
       "context": ""
     },
@@ -8147,14 +8616,14 @@
     }
   ],
   "stats": {
-    "totalNodes": 483,
-    "totalEdges": 908,
+    "totalNodes": 494,
+    "totalEdges": 977,
     "byType": {
-      "concept": 181,
+      "concept": 191,
       "entity": 10,
       "howto": 2,
       "source": 278,
-      "topic": 12
+      "topic": 13
     }
   }
 }

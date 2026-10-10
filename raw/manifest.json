@@ -2039,152 +2039,243 @@
   {
    "path": "columns/菜鸟教程AI/00 AI 入门教程.md",
    "size": 4126,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/synthesis/topics/大模型应用技术栈.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/01 AI 简介.md",
    "size": 18033,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI/02 AGI 简介.md",
    "size": 13654,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/AGI.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/03 大模型相关概念.md",
    "size": 24576,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/大语言模型.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/04 Prompt 提示词.md",
    "size": 18977,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Prompt工程.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/05 AI 工具全景.md",
    "size": 17725,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI/06 AI 工作原理.md",
    "size": 13076,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/神经网络.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/07 AI 伦理与安全.md",
    "size": 22291,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI/08 AI 应用场景.md",
    "size": 25545,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI/09 AI 行业生态.md",
    "size": 21336,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI/10 Prompt 工程进阶.md",
    "size": 52139,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Prompt工程.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/11 AI API 开发.md",
    "size": 44610,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI/12 RAG 检索增强生成.md",
    "size": 24066,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/RAG.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/13 AI 智能体.md",
    "size": 36615,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Agent-Loop.md",
+    "wiki/atoms/concepts/Memory-System.md",
+    "wiki/atoms/concepts/ACI-Agent-Computer-Interface.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/14 AI 多模态.md",
    "size": 42128,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/多模态.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/15 AI 工作流自动化.md",
    "size": 21986,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI/16 AI 产品设计.md",
    "size": 25189,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI/17 本地模型部署.md",
    "size": 31269,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI/18 AI 安全进阶.md",
    "size": 23431,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/提示词注入.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/19 Transformer 深度解析.md",
    "size": 39585,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Transformer.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/20 模型微调 Fine-tuning.md",
    "size": 49576,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/微调.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/21 RLHF 对齐训练.md",
    "size": 33123,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/RLHF.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/22 向量数据库.md",
    "size": 42143,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/向量数据库.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/23 AI 工程化部署.md",
    "size": 79950,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI/24 深度学习基础.md",
    "size": 54372,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/深度学习.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/25 计算机视觉 AI.md",
    "size": 62962,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/卷积神经网络.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/26 NLP 进阶技术.md",
    "size": 45778,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/BERT.md",
+    "wiki/atoms/concepts/GPT.md",
+    "wiki/atoms/concepts/Word2Vec.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/27 前沿研究动态.md",
    "size": 28499,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/大语言模型.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI/28 AI 系统架构.md",
    "size": 21589,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI/29 AI 评测与安全研究.md",
    "size": 52347,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T22:00:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/LLM评测.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/00 AI Agent(智能体) 教程.md",

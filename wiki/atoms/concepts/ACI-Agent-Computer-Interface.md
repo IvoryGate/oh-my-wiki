@@ -9,8 +9,9 @@ type: concept
 domain: Agent 架构与工程
 description: Agent-Computer Interface：工具设计原则
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-10-11
 sources:
+  - [[raw/columns/菜鸟教程AI/13 AI 智能体.md]]
   - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
 tags:
   - 域/Agent架构与工程
@@ -96,3 +97,4 @@ const updateTool = betaZodTool({
 ## 来源
 
 - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]] §4
+- [[raw/columns/菜鸟教程AI/13 AI 智能体.md]]

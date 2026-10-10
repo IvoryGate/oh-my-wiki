@@ -7,6 +7,7 @@ domain: 机器学习
 description: 基于 Transformer 编码器的双向预训练语言模型
 tags: [域/机器学习, 主题/神经网络]
 sources:
+  - [[raw/columns/菜鸟教程AI/26 NLP 进阶技术.md]]
   - [[raw/columns/菜鸟教程NLP/15 BERT 系列模型.md]]
   - [[raw/columns/菜鸟教程NLP/14 预训练模型.md]]
 status: active
@@ -73,3 +74,4 @@ BERT 通过两种预训练任务实现双向上下文理解：
 
 - [[raw/columns/菜鸟教程NLP/15 BERT 系列模型.md]]
 - [[raw/columns/菜鸟教程NLP/14 预训练模型.md]]
+- [[raw/columns/菜鸟教程AI/26 NLP 进阶技术.md]]

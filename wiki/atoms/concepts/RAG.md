@@ -1,12 +1,13 @@
 ---
 title: RAG
 created: 2026-04-17
-updated: 2026-04-20
+updated: 2026-10-11
 type: concept
 domain: LLM
 description: 检索增强生成技术
 tags: [域/LLM]
 sources:
+  - [[raw/columns/菜鸟教程AI/12 RAG 检索增强生成.md]]
   - [[raw/articles/llm-wiki.md]]
 status: active
 ---
@@ -48,4 +49,5 @@ RAG 让 LLM 在生成回答前先检索相关文档，将检索到的内容作�
 ## 来源
 
 - [[raw/articles/llm-wiki.md]]
+- [[raw/columns/菜鸟教程AI/12 RAG 检索增强生成.md]]
 
