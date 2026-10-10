@@ -1,1880 +1,2385 @@
 {
-  "version": "1.0",
-  "lastScan": "2026-10-05T20:19:04+08:00",
-  "files": [
-    {
-      "path": "videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响.md",
-      "size": 35000,
-      "status": "done",
-      "compiledAt": "2026-04-27T18:00:00+08:00",
-      "domains": [
-        "媒介理论",
-        "社会批判",
-        "读书"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/媒介即隐喻.md",
-        "wiki/atoms/concepts/娱乐至死.md",
-        "wiki/atoms/concepts/伪语境.md",
-        "wiki/atoms/concepts/哥波尼世界.md",
-        "wiki/atoms/concepts/奥威尔与赫胥黎.md"
-      ]
-    },
-    {
-      "path": "videos/2026-04-26-四个步骤，建立知识体系的简单方法，借助直觉，直觉不是瞎猜，不是超能力【吸收人类优秀学习理论32】.md",
-      "size": 35000,
-      "status": "done",
-      "compiledAt": "2026-04-26T18:00:00+08:00",
-      "domains": [
-        "知识管理",
-        "学习方法"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/知识体系.md",
-        "wiki/atoms/concepts/经典知识联系.md",
-        "wiki/atoms/concepts/工作记忆.md",
-        "wiki/atoms/concepts/直觉.md"
-      ]
-    },
-    {
-      "path": "articles/llm-wiki.md",
-      "hash": "sha256:156ef9d71b75aebcd64e6c7b5616c540a12660e76d5b3a7dfc3217ca2fc34826",
-      "size": 12228,
-      "status": "done",
-      "compiledAt": "2026-04-17T22:40:00+08:00",
-      "domains": [
-        "AI",
-        "知识管理",
-        "LLM"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/LLM-Wiki.md",
-        "wiki/atoms/concepts/RAG.md",
-        "wiki/atoms/entities/Karpathy.md"
-      ]
-    },
-    {
-      "path": "columns/软件工程之美/00 开篇词 你为什么应该学好软件工程？.md",
-      "size": 11579,
-      "status": "done",
-      "compiledAt": "2026-04-29T14:30:00+08:00",
-      "domains": [
-        "软件工程",
-        "方法论"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/软件工程.md"
-      ]
-    },
-    {
-      "path": "columns/软件工程之美/01 到底应该怎样理解软件工程？.md",
-      "size": 11202,
-      "status": "done",
-      "compiledAt": "2026-04-29T14:30:00+08:00",
-      "domains": [
-        "软件工程",
-        "方法论"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/软件工程.md",
-        "wiki/atoms/concepts/软件危机.md",
-        "wiki/atoms/concepts/瀑布模型.md",
-        "wiki/atoms/concepts/人月神话.md",
-        "wiki/atoms/concepts/敏捷开发.md"
-      ]
-    },
-    {
-      "path": "columns/软件工程之美/02 工程思维：把每件事都当作一个项目来推进.md",
-      "size": 11073,
-      "status": "done",
-      "compiledAt": "2026-04-29T14:30:00+08:00",
-      "domains": [
-        "软件工程",
-        "思维"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/工程思维.md"
-      ]
-    },
-    {
-      "path": "columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
-      "hash": "sha256:7a75c7cbf9b650d6ca49af5d9b2ea879ded531245081e12e2ff3d5f2f9c88ef6",
-      "size": 15347,
-      "status": "done",
-      "compiledAt": "2026-04-19T10:00:00+08:00",
-      "domains": [
-        "复盘",
-        "方法论",
-        "管理"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/CLAP-Model.md",
-        "wiki/atoms/concepts/OPTM-Framework.md",
-        "wiki/atoms/concepts/PDCA-Model.md",
-        "wiki/atoms/concepts/PDF-Model.md",
-        "wiki/atoms/concepts/AAR-Model.md",
-        "wiki/atoms/concepts/FuPan.md",
-        "wiki/atoms/entities/ZhangPeng.md"
-      ]
-    },
-    {
-      "path": "columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？.md",
-      "hash": "sha256:4f6dce066dcbcf418e8febf1b018e2bb041d05e6053e317c24e45ef69962ecef",
-      "size": 16036,
-      "status": "done",
-      "compiledAt": "2026-04-19T10:00:00+08:00",
-      "domains": [
-        "复盘",
-        "方法论",
-        "管理"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/CLAP-Model.md",
-        "wiki/atoms/concepts/OPTM-Framework.md",
-        "wiki/atoms/concepts/AAR-Model.md"
-      ]
-    },
-    {
-      "path": "articles/你不知道的 Agent：原理、架构与工程实践.md",
-      "hash": "sha256:a1b2c3d4e5f6",
-      "size": 35000,
-      "status": "done",
-      "compiledAt": "2026-04-18T10:50:00+08:00",
-      "domains": [
-        "AI",
-        "Agent",
-        "工程实践"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Agent-Loop.md",
-        "wiki/atoms/concepts/Workflow-vs-Agent.md",
-        "wiki/atoms/concepts/Agent-Control-Patterns.md",
-        "wiki/atoms/concepts/Harness-Engineering.md",
-        "wiki/atoms/concepts/Context-Engineering.md",
-        "wiki/atoms/concepts/Skills-System.md",
-        "wiki/atoms/concepts/ACI-Agent-Computer-Interface.md",
-        "wiki/atoms/concepts/Memory-System.md",
-        "wiki/atoms/concepts/Multi-Agent-Organization.md",
-        "wiki/atoms/concepts/Agent-Evaluation.md",
-        "wiki/atoms/concepts/Agent-Tracing.md",
-        "wiki/atoms/concepts/Long-Task-Management.md"
-      ]
-    },
-    {
-      "path": "articles/工程技术：在智能体优先的世界中利用 Codex.md",
-      "hash": "sha256:g7h8i9j0k1l2",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-18T10:50:00+08:00",
-      "domains": [
-        "AI",
-        "Agent",
-        "工程实践",
-        "Codex"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Harness-Engineering.md",
-        "wiki/atoms/concepts/Agent-First-Development.md",
-        "wiki/atoms/concepts/Architecture-Constraints.md",
-        "wiki/atoms/concepts/Progressive-Disclosure.md",
-        "wiki/atoms/entities/Codex.md",
-        "wiki/atoms/entities/OpenAI.md"
-      ]
-    },
-    {
-      "path": "articles/关于归因你可能不知道的那些事(一）.md",
-      "size": 8500,
-      "status": "done",
-      "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": [
-        "增长",
-        "营销",
-        "归因",
-        "广告"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/MMP-Attribution.md",
-        "wiki/atoms/concepts/Last-Click-Rule.md",
-        "wiki/atoms/concepts/Duplicate-Attribution.md",
-        "wiki/atoms/concepts/Attribution-Gap.md"
-      ]
-    },
-    {
-      "path": "articles/关于归因你可能不知道的那些事（二）-Skan篇.md",
-      "size": 7800,
-      "status": "done",
-      "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": [
-        "增长",
-        "营销",
-        "归因",
-        "iOS",
-        "隐私"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/SKAN-Attribution.md"
-      ]
-    },
-    {
-      "path": "articles/关于归因你可能不知道的那些事（三）-策略篇.md",
-      "size": 9200,
-      "status": "done",
-      "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": [
-        "增长",
-        "营销",
-        "归因",
-        "渠道策略"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/High-Value-Channel.md"
-      ]
-    },
-    {
-      "path": "articles/增长从确定目标开始.md",
-      "size": 4500,
-      "status": "done",
-      "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": [
-        "增长",
-        "营销",
-        "目标",
-        "哲学"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Audience-Definition.md"
-      ]
-    },
-    {
-      "path": "articles/如何定义受众-正篇.md",
-      "size": 11000,
-      "status": "done",
-      "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": [
-        "增长",
-        "营销",
-        "受众",
-        "渠道"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Audience-Definition.md",
-        "wiki/atoms/concepts/User-App-Pair.md",
-        "wiki/atoms/concepts/Network-Cognition-Gap.md"
-      ]
-    },
-    {
-      "path": "articles/如何定义受众-科普篇.md",
-      "size": 5200,
-      "status": "done",
-      "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": [
-        "增长",
-        "营销",
-        "受众",
-        "科普"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/User-App-Pair.md"
-      ]
-    },
-    {
-      "path": "articles/渠道不起量的原因都在这里了！.md",
-      "size": 8800,
-      "status": "done",
-      "compiledAt": "2026-04-18T15:30:00+08:00",
-      "domains": [
-        "增长",
-        "营销",
-        "渠道",
-        "起量"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Channel-Launch-Strategy.md"
-      ]
-    },
-    {
-      "path": "articles/Linux tmux 基础使用教程.md",
-      "hash": "sha256:b9f8e7d6c5a4",
-      "size": 17308,
-      "status": "done",
-      "compiledAt": "2026-04-19T15:30:00+08:00",
-      "domains": [
-        "Linux",
-        "CLI",
-        "工具",
-        "终端复用"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Tmux.md"
-      ]
-    },
-    {
-      "path": "articles/如何撰写一篇阅读10w+博文（10个成功秘诀）.md",
-      "hash": "sha256:e2288e4a4b8cd402ca89b1296d6b4bb303e6e8f5acf560b57ab212dd7fe596bf",
-      "size": 27626,
-      "status": "done",
-      "compiledAt": "2026-04-20T12:00:00+08:00",
-      "domains": [
-        "写作",
-        "内容营销",
-        "博客",
-        "SEO"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Blog-Content-Writing-Practices.md"
-      ]
-    },
-    {
-      "path": "articles/程序员怎样才能写出一篇好的博客或者技术文章.md",
-      "hash": "sha256:9628239534ef47bd7dd39383e74dd3f477a5581872493838461d55976ea3ede4",
-      "size": 12971,
-      "status": "done",
-      "compiledAt": "2026-04-20T12:00:00+08:00",
-      "domains": [
-        "写作",
-        "技术博客",
-        "程序员"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Tech-Blog-Article-Types.md",
-        "wiki/atoms/entities/Phodal.md"
-      ]
-    },
-    {
-      "path": "articles/鹅厂多位技术同学关于如何写好技术文章的经验.md",
-      "hash": "sha256:bf0772bb735f3799932c3c0515ca21757eb570e480a05fb43496f2b153333319",
-      "size": 31937,
-      "status": "done",
-      "compiledAt": "2026-04-20T12:00:00+08:00",
-      "domains": [
-        "写作",
-        "技术文档",
-        "方法论"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/MECE.md",
-        "wiki/atoms/concepts/Pyramid-Principle.md",
-        "wiki/atoms/concepts/Title-4U-Formula.md"
-      ]
-    },
-    {
-      "path": "videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md",
-      "hash": "sha256:cb707408031910ca252c4054d7240e00cc0ffc083b137d986b2616a20c77676b",
-      "size": 35595,
-      "status": "done",
-      "compiledAt": "2026-04-20T12:00:00+08:00",
-      "domains": [
-        "软件架构",
-        "DDD",
-        "后端",
-        "领域建模"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/DDD.md"
-      ]
-    },
-    {
-      "path": "articles/广告归因8种模型：预算怎么分才不浪费？.md",
-      "size": 34000,
-      "status": "done",
-      "compiledAt": "2026-04-21T18:00:00+08:00",
-      "domains": [
-        "归因",
-        "UA",
-        "模型"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/多触点归因.md",
-        "wiki/atoms/concepts/线性归因.md",
-        "wiki/atoms/concepts/时间衰减归因.md",
-        "wiki/atoms/concepts/U型归因.md"
-      ]
-    },
-    {
-      "path": "articles/用户到底被哪个广告打动了？三种主流归因模型全解析.md",
-      "size": 23900,
-      "status": "done",
-      "compiledAt": "2026-04-21T18:00:00+08:00",
-      "domains": [
-        "归因",
-        "MTA",
-        "算法"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/多触点归因.md",
-        "wiki/atoms/concepts/Shapley值.md"
-      ]
-    },
-    {
-      "path": "articles/出海投放基础知识之归因（一）.md",
-      "size": 200,
-      "status": "done",
-      "compiledAt": "2026-04-22T12:00:00+08:00",
-      "domains": [
-        "归因",
-        "MMP",
-        "基础知识"
-      ],
-      "producedPages": []
-    },
-    {
-      "path": "articles/出海投放基础知识之归因（二）.md",
-      "size": 133,
-      "status": "done",
-      "compiledAt": "2026-04-22T12:00:00+08:00",
-      "domains": [
-        "归因",
-        "MMP",
-        "技术"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/归因链接.md"
-      ]
-    },
-    {
-      "path": "articles/出海投放基础知识之归因（三）.md",
-      "size": 182,
-      "status": "done",
-      "compiledAt": "2026-04-22T12:00:00+08:00",
-      "domains": [
-        "归因",
-        "MMP",
-        "助攻率"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/助攻率.md"
-      ]
-    },
-    {
-      "path": "articles/出海投放基础知识之归因(四)+SKAN(一).md",
-      "size": 574,
-      "status": "done",
-      "compiledAt": "2026-04-22T12:00:00+08:00",
-      "domains": [
-        "归因",
-        "SKAN",
-        "iOS"
-      ],
-      "producedPages": []
-    },
-    {
-      "path": "articles/广告竞价背后的逻辑和模型算法（一）.md",
-      "size": 12638,
-      "status": "done",
-      "compiledAt": "2026-04-22T20:30:00+08:00",
-      "domains": [
-        "广告",
-        "竞价",
-        "RTB",
-        "DSP"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/DSP.md",
-        "wiki/atoms/concepts/ADX.md",
-        "wiki/atoms/concepts/SSP.md",
-        "wiki/atoms/concepts/RTB.md"
-      ]
-    },
-    {
-      "path": "articles/广告竞价背后的逻辑和模型算法（二）.md",
-      "size": 7475,
-      "status": "done",
-      "compiledAt": "2026-04-22T20:30:00+08:00",
-      "domains": [
-        "广告",
-        "竞价",
-        "Ad Request"
-      ],
-      "producedPages": []
-    },
-    {
-      "path": "articles/渠道MMPBI的数据差异剖析.md",
-      "size": 13246,
-      "status": "done",
-      "compiledAt": "2026-04-22T20:30:00+08:00",
-      "domains": [
-        "归因",
-        "数据",
-        "MMP"
-      ],
-      "producedPages": []
-    },
-    {
-      "path": "columns/机器学习40讲/01 频率视角下的机器学习.md",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "频率学派",
-        "概率"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/频率学派.md",
-        "wiki/atoms/concepts/最大似然估计.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/02 贝叶斯视角下的机器学习.md",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "贝叶斯学派",
-        "概率"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/贝叶斯学派.md",
-        "wiki/atoms/concepts/最大似然估计.md",
-        "wiki/atoms/concepts/贝叶斯定理.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/03 学什么与怎么学.md",
-      "size": 10000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "基础"
-      ],
-      "producedPages": []
-    },
-    {
-      "path": "columns/机器学习40讲/04 计算学习理论.md",
-      "size": 10000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "学习理论"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/计算学习理论.md",
-        "wiki/atoms/concepts/PAC可学习性.md",
-        "wiki/atoms/concepts/VC维.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/05 模型的分类方式.md",
-      "size": 8000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "模型"
-      ],
-      "producedPages": []
-    },
-    {
-      "path": "columns/机器学习40讲/06 模型的设计准则.md",
-      "size": 8000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "模型设计"
-      ],
-      "producedPages": []
-    },
-    {
-      "path": "columns/机器学习40讲/07 模型的验证方法.md",
-      "size": 9000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "模型验证"
-      ],
-      "producedPages": []
-    },
-    {
-      "path": "columns/机器学习40讲/08 模型的评估指标.md",
-      "size": 9000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "评估"
-      ],
-      "producedPages": []
-    },
-    {
-      "path": "columns/机器学习40讲/09 实验设计.md",
-      "size": 8000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "实验"
-      ],
-      "producedPages": []
-    },
-    {
-      "path": "columns/机器学习40讲/10 特征预处理.md",
-      "size": 11000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "特征工程"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/特征工程.md",
-        "wiki/atoms/concepts/距离度量.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/11 基础线性回归：一元与多元.md",
-      "size": 11000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "回归"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/线性回归.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/12 正则化处理：收缩方法与边际化.md",
-      "size": 13000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "正则化"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/正则化.md",
-        "wiki/atoms/concepts/岭回归.md",
-        "wiki/atoms/concepts/LASSO.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/13 线性降维：主成分的使用.md",
-      "size": 10000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "降维"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/主成分分析.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/14 非线性降维：流形学习.md",
-      "size": 10000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "降维"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/流形学习.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/15 从回归到分类：联系函数与降维.md",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "分类"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/联系函数.md",
-        "wiki/atoms/concepts/线性判别分析.md",
-        "wiki/atoms/concepts/Logistic-回归.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/16 建模非正态分布：广义线性模型.md",
-      "size": 11000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "概率模型"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/广义线性模型.md",
-        "wiki/atoms/concepts/Logistic-回归.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/17 几何角度看分类：支持向量机.md",
-      "size": 13000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "分类"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/支持向量机.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/18 从全局到局部：核技巧.md",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "核方法"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/核技巧.md",
-        "wiki/atoms/concepts/核函数.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/19 非参数化的局部模型：K近邻.md",
-      "size": 10000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "分类"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/K近邻.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/20 基于距离的学习：聚类与度量学习.md",
-      "size": 11000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "聚类"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/聚类分析.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/21 基函数扩展：属性的非线性化.md",
-      "size": 10000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "特征工程"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/基函数扩展.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/22 自适应的基函数：神经网络.md",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "神经网络"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/感知器.md",
-        "wiki/atoms/concepts/神经网络.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/23 层次化的神经网络：深度学习.md",
-      "size": 11000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "深度学习"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/神经网络.md",
-        "wiki/atoms/concepts/深度学习.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/24 深度编解码：表示学习.md",
-      "size": 11000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "表示学习"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/表示学习.md",
-        "wiki/atoms/concepts/自编码器.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/25 基于特征的区域划分：树模型.md",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "树模型"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/决策树.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/26 集成化处理：Boosting与Bagging.md",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "集成学习"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/集成学习.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/27 万能模型：梯度提升与随机森林.md",
-      "size": 13000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "集成学习"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/梯度提升.md",
-        "wiki/atoms/concepts/随机森林.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/28 最简单的概率图：朴素贝叶斯.md",
-      "size": 11000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "概率图"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/概率图模型.md",
-        "wiki/atoms/concepts/朴素贝叶斯.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/29 有向图模型：贝叶斯网络.md",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "概率图"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/贝叶斯网络.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/30 无向图模型：马尔可夫随机场.md",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "概率图"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/马尔可夫随机场.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/31 建模连续分布：高斯网络.md",
-      "size": 11000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "概率图"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/高斯网络.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/32 从有限到无限：高斯过程.md",
-      "size": 11000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "非参数"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/高斯过程.md",
-        "wiki/atoms/concepts/核函数.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/33 序列化建模：隐马尔可夫模型.md",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "序列模型"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/隐马尔可夫模型.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/34 连续序列化模型：线性动态系统.md",
-      "size": 10000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "序列模型"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/线性动态系统.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/35 精确推断：变量消除及其拓展.md",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "推断"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/推断.md",
-        "wiki/atoms/concepts/变量消除.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/36 确定近似推断：变分贝叶斯.md",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "推断"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/推断.md",
-        "wiki/atoms/concepts/变分推断.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/37 随机近似推断：MCMC.md",
-      "size": 12000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "推断"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/推断.md",
-        "wiki/atoms/concepts/MCMC.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/38 完备数据下的参数学习：有向图与无向图.md",
-      "size": 11000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "概率图"
-      ],
-      "producedPages": []
-    },
-    {
-      "path": "columns/机器学习40讲/39 隐变量下的参数学习：EM方法与混合模型.md",
-      "size": 13000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "参数学习"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/EM算法.md",
-        "wiki/atoms/concepts/混合模型.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/40 结构学习：基于约束与基于评分.md",
-      "size": 11000,
-      "status": "done",
-      "compiledAt": "2026-04-23",
-      "domains": [
-        "机器学习",
-        "结构学习"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/结构学习.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/如何成为机器学习工程师？.md",
-      "hash": "sha256:ba5536abeec91a818788e79782a2e45feecd2b897866334f3c11e06ea41ef64c",
-      "size": 7690,
-      "status": "done",
-      "compiledAt": "2026-08-18",
-      "domains": [
-        "机器学习",
-        "职业发展"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/机器学习工程师.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/总结课 机器学习的模型体系.md",
-      "hash": "sha256:460afdd014b3f4853e8c17de2348653091cca8c9d5aa65f867df6957de1637e6",
-      "size": 12013,
-      "status": "done",
-      "compiledAt": "2026-08-18",
-      "domains": [
-        "机器学习",
-        "模型体系"
-      ],
-      "producedPages": [
-        "wiki/synthesis/topics/机器学习模型体系.md"
-      ]
-    },
-    {
-      "path": "columns/机器学习40讲/总结课 贝叶斯学习的模型体系.md",
-      "hash": "sha256:ae80d3ee2ab400a953b2355a54317363f885452b2ddbbdf9e01f817acc0180bd",
-      "size": 7626,
-      "status": "done",
-      "compiledAt": "2026-08-18",
-      "domains": [
-        "机器学习",
-        "贝叶斯"
-      ],
-      "producedPages": [
-        "wiki/synthesis/topics/贝叶斯学习模型体系.md"
-      ]
-    },
-    {
-      "path": "articles/马尔可夫链的宿命论.md",
-      "hash": "sha256:6d5db3a04358dcd95a35ccea144d3f7357438686d22bf677c5b8087a1df90960",
-      "size": 21213,
-      "status": "done",
-      "compiledAt": "2026-08-18",
-      "domains": [
-        "机器学习",
-        "随机过程"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/马尔可夫链.md"
-      ]
-    },
-    {
-      "path": "columns/中文文案排版指北/marks.md",
-      "hash": "sha256:9a62d6496d21fae611dacff142ba1977a5e8d16e04af2135290220c2460a5193",
-      "size": 5162,
-      "status": "done",
-      "compiledAt": "2026-08-18",
-      "domains": [
-        "技术写作"
-      ],
-      "producedPages": [
-        "wiki/synthesis/howto/中文技术文档写作规范.md"
-      ]
-    },
-    {
-      "path": "columns/中文文案排版指北/number.md",
-      "hash": "sha256:cb0dab9db6b1749dc0284a4430a9f3cadd447ee198bd204d01f881ec1f6dc2e2",
-      "size": 1799,
-      "status": "done",
-      "compiledAt": "2026-08-18",
-      "domains": [
-        "技术写作"
-      ],
-      "producedPages": [
-        "wiki/synthesis/howto/中文技术文档写作规范.md"
-      ]
-    },
-    {
-      "path": "columns/中文文案排版指北/paragraph.md",
-      "hash": "sha256:5eed8539563c7e41380729d7ce077765ec1df7ffb3841f6b46510268a1353191",
-      "size": 864,
-      "status": "done",
-      "compiledAt": "2026-08-18",
-      "domains": [
-        "技术写作"
-      ],
-      "producedPages": [
-        "wiki/synthesis/howto/中文技术文档写作规范.md"
-      ]
-    },
-    {
-      "path": "columns/中文文案排版指北/reference.md",
-      "hash": "sha256:6e32b91e7fbcbfa6c659505a18bc6223249c5632ee62569472b51567378d69b3",
-      "size": 1443,
-      "status": "done",
-      "compiledAt": "2026-08-18",
-      "domains": [
-        "技术写作"
-      ],
-      "producedPages": [
-        "wiki/synthesis/howto/中文技术文档写作规范.md"
-      ]
-    },
-    {
-      "path": "columns/中文文案排版指北/structure.md",
-      "hash": "sha256:b1e07553b07d98f65305cadb53a77c9063d1f4e2168e31c2fd4bd9e9ea21cfad",
-      "size": 2074,
-      "status": "done",
-      "compiledAt": "2026-08-18",
-      "domains": [
-        "技术写作"
-      ],
-      "producedPages": [
-        "wiki/synthesis/howto/中文技术文档写作规范.md"
-      ]
-    },
-    {
-      "path": "columns/中文文案排版指北/text.md",
-      "hash": "sha256:e2589f8cd5a5629d6b70585220f0fdd69d93453addeb490450ecb21c4852f7e3",
-      "size": 5501,
-      "status": "done",
-      "compiledAt": "2026-08-18",
-      "domains": [
-        "技术写作"
-      ],
-      "producedPages": [
-        "wiki/synthesis/howto/中文技术文档写作规范.md"
-      ]
-    },
-    {
-      "path": "columns/中文文案排版指北/title.md",
-      "hash": "sha256:3aa8d43f716b4f2cee06449d7c76bd700141250bec2357fa9bc640011304eaaa",
-      "size": 1561,
-      "status": "done",
-      "compiledAt": "2026-08-18",
-      "domains": [
-        "技术写作"
-      ],
-      "producedPages": [
-        "wiki/synthesis/howto/中文技术文档写作规范.md"
-      ]
-    },
-    {
-      "path": "articles/关于写作，这是我目前能想到最全的.md",
-      "hash": "sha256:pending-2026-08-21",
-      "size": 28480,
-      "status": "done",
-      "compiledAt": "2026-08-21",
-      "domains": [
-        "写作",
-        "自我成长",
-        "表达"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/写作起步-日常书写.md",
-        "wiki/atoms/concepts/写作价值心法.md",
-        "wiki/atoms/concepts/顶级信息论与输入输出比.md",
-        "wiki/atoms/concepts/滑梯理论.md",
-        "wiki/atoms/concepts/作品意识与打磨意识.md",
-        "wiki/atoms/entities/清脑作者.md",
-        "wiki/synthesis/topics/写作方法论.md"
-      ]
-    },
-    {
-      "path": "articles/写了 200 多篇文章后，我总结的写作心得.md",
-      "hash": "sha256:pending-2026-08-21",
-      "size": 7680,
-      "status": "done",
-      "compiledAt": "2026-08-21",
-      "domains": [
-        "写作",
-        "技术博客",
-        "工具"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/作品意识与打磨意识.md",
-        "wiki/atoms/entities/阿宝哥.md",
-        "wiki/synthesis/topics/写作方法论.md"
-      ]
-    },
-    {
-      "path": "articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！.md",
-      "hash": "sha256:pending-2026-08-21",
-      "size": 10240,
-      "status": "done",
-      "compiledAt": "2026-08-21",
-      "domains": [
-        "写作",
-        "逻辑",
-        "表达"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/SCQ法则.md",
-        "wiki/atoms/concepts/Pyramid-Principle.md",
-        "wiki/atoms/entities/皮卡小宝.md",
-        "wiki/synthesis/topics/写作方法论.md"
-      ]
-    },
-    {
-      "path": "articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？.md",
-      "hash": "sha256:3f31360c3ad2c0d1c3141abaf08bf17d4ee380be6fcd459d115cf7c2359bf104",
-      "size": 6435,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "广告",
-        "反作弊",
-        "归因"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Ad-Fraud.md",
-        "wiki/atoms/concepts/Protect360.md"
-      ]
-    },
-    {
-      "path": "articles/广告作弊Ad Fraud（一）.md",
-      "hash": "sha256:c291a3bd7c0522d27e4c8813f02c25842e94543255aee1f7c6722944b7103ebc",
-      "size": 11461,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "广告",
-        "反作弊",
-        "归因"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Ad-Fraud.md",
-        "wiki/atoms/concepts/Attribution-Hijacking.md",
-        "wiki/atoms/concepts/Fake-Installation.md"
-      ]
-    },
-    {
-      "path": "articles/广告作弊Ad Fraud（二）.md",
-      "hash": "sha256:aca6f27199253854db9d47068c8c32abfb57e83ccd5ed3ba499ddacf92678db3",
-      "size": 10517,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "广告",
-        "反作弊",
-        "虚假安装"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Fake-Installation.md",
-        "wiki/atoms/concepts/Device-Farm.md"
-      ]
-    },
-    {
-      "path": "articles/广告作弊Ad Fraud（三）.md",
-      "hash": "sha256:1e77ead657f1a5425be4233e8698bdd32c9504dcdff0028228a56481d55f9206",
-      "size": 13065,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "广告",
-        "反作弊",
-        "归因劫持"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Attribution-Hijacking.md",
-        "wiki/atoms/concepts/Click-Flooding.md",
-        "wiki/atoms/concepts/CTIT-Analysis.md"
-      ]
-    },
-    {
-      "path": "articles/广告作弊Ad Fraud（四）.md",
-      "hash": "sha256:251790236cd9fd0983952ad3f5d61824872d243f540928d016668b133536236a",
-      "size": 11647,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "广告",
-        "反作弊",
-        "AppsFlyer"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Protect360.md"
-      ]
-    },
-    {
-      "path": "articles/广告作弊Ad Fraud（五）.md",
-      "hash": "sha256:0e1c89ec20e685a990dedf9b5490534548196fdf4fa5d5dd73982166744fc5cf",
-      "size": 1901,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "广告",
-        "反作弊",
-        "Adjust",
-        "Singular"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Protect360.md"
-      ]
-    },
-    {
-      "path": "articles/广告作弊Ad Fraud（六）.md",
-      "hash": "sha256:ea3b82bb1e32eb0780b53fe8b2526cb010eefe9e54e6e0813538cd2996f08151",
-      "size": 9924,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "广告",
-        "反作弊",
-        "Google",
-        "Apple",
-        "Amazon"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Platform-LVL-Validation.md"
-      ]
-    },
-    {
-      "path": "articles/广告中的Pacing模型以及冷启动.md",
-      "hash": "sha256:9c722b0f86308efdb0a04c4385ec95a41da3784179dd9fc41d70027fda1fbfe7",
-      "size": 16600,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "广告",
-        "投放",
-        "算法",
-        "预算控制"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Pacing-Model.md",
-        "wiki/atoms/concepts/Cold-Start.md"
-      ]
-    },
-    {
-      "path": "articles/Unity平台ROAS开启条件和数据差异问题.md",
-      "hash": "sha256:2aa0590a64a3bb88afc1271efb750a50701cb7ab84465a52791e584e05a22897",
-      "size": 8950,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "广告",
-        "ROAS",
-        "Unity",
-        "数据差异"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/ROAS-Data-Reconciliation.md",
-        "wiki/atoms/concepts/Cohort-Analysis.md"
-      ]
-    },
-    {
-      "path": "articles/出海投放基础知识之数据统计（一）.md",
-      "hash": "sha256:1ec6190e5a7212b1921587dcd13bcc08667710e4ae9de92be4e2f034d571f2ab",
-      "size": 8452,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "广告",
-        "数据统计",
-        "Session",
-        "DAU"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Session-Tracking.md",
-        "wiki/atoms/concepts/DAU-Retention-Rate.md"
-      ]
-    },
-    {
-      "path": "articles/什么是Cohort队列？.md",
-      "hash": "sha256:28e6cad9bf3999a8b2db6c8c22e0e0850433f9b4c08c19487b38aae9281d9771",
-      "size": 5131,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "广告",
-        "数据分析",
-        "Cohort"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Cohort-Analysis.md"
-      ]
-    },
-    {
-      "path": "articles/什么是「STAR 法则」，有哪些优秀的「STAR 法则」使用案例？.md",
-      "hash": "sha256:ba00024f6f541f921904c5b9f5f5dd75c27bffeaa3a225ccbae017cb13c622fc",
-      "size": 6718,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "面试",
-        "方法论",
-        "简历"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/STAR-Method.md"
-      ]
-    },
-    {
-      "path": "columns/中文文案排版指北/sparanoidchinese-copywriting-guidelines Chinese copywriting guidelines for better written communication／中文文案排版指北.md",
-      "hash": "sha256:ff1edcda1bfc232727464d5fb6860daaf13249f451af6824e5830b859e8a0fc7",
-      "size": 11264,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "写作",
-        "排版",
-        "中文规范"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Chinese-Copywriting-Guidelines.md"
-      ]
-    },
-    {
-      "path": "videos/行为面试圣经，宝洁八大问破解之路？（上）.md",
-      "hash": "sha256:207b79cff65c137caade92a98accc4cef199634df289ab459071c4967966bac0",
-      "size": 18918,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "面试",
-        "行为面试",
-        "宝洁"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Behavioral-Interview.md",
-        "wiki/atoms/concepts/PG-Eight-Questions.md"
-      ]
-    },
-    {
-      "path": "videos/行为面试圣经，宝洁八大问破解之路？（中）.md",
-      "hash": "sha256:165ec5ac4abc6a75b5f317a1d15cbcca9c39aa3c5648c25951312567d979914b",
-      "size": 15066,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "面试",
-        "行为面试",
-        "宝洁"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Behavioral-Interview.md",
-        "wiki/atoms/concepts/PG-Eight-Questions.md"
-      ]
-    },
-    {
-      "path": "videos/行为面试圣经，宝洁八大问破解之路？（下）.md",
-      "hash": "sha256:1ec13a73c10a16821b63ab842f2c58d25fe98fe40cc92ebaa6c9a1fdd19af3c0",
-      "size": 13768,
-      "status": "done",
-      "compiledAt": "2026-09-04",
-      "domains": [
-        "面试",
-        "行为面试",
-        "宝洁"
-      ],
-      "producedPages": [
-        "wiki/atoms/concepts/Behavioral-Interview.md",
-        "wiki/atoms/concepts/PG-Eight-Questions.md"
-      ]
-    },
-    {
-      "path": "columns/MySQL实战45讲/00 开篇词  这一次，让我们一起来搞懂MySQL.md",
-      "size": 6297,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/01  基础架构：一条SQL查询语句是如何执行的？.md",
-      "size": 13457,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？.md",
-      "size": 14237,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/03  事务隔离：为什么你改了我还看不见？.md",
-      "size": 12156,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/04  深入浅出索引（上）.md",
-      "size": 16094,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/05  深入浅出索引（下）.md",
-      "size": 11707,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/06  全局锁和表锁 ：给表加个字段怎么有这么多阻碍？.md",
-      "size": 13222,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/07  行锁功过：怎么减少行锁对性能的影响？.md",
-      "size": 12501,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/08  事务到底是隔离的还是不隔离的？.md",
-      "size": 19682,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/09  普通索引和唯一索引，应该怎么选择？.md",
-      "size": 17743,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/10  MySQL为什么有时候会选错索引？.md",
-      "size": 19106,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/11  怎么给字符串字段加索引？.md",
-      "size": 13440,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/12  为什么我的MySQL会“抖”一下？.md",
-      "size": 15535,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/13  为什么表数据删掉一半，表文件大小不变？.md",
-      "size": 13966,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/14  count()这么慢，我该怎么办？.md",
-      "size": 15691,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题.md",
-      "size": 22740,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/16  “order by”是怎么工作的？.md",
-      "size": 20899,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/17  如何正确地显示随机消息？.md",
-      "size": 19552,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/18  为什么这些SQL语句逻辑相同，性能却差异巨大？.md",
-      "size": 16677,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/19  为什么我只查一行的语句，也执行这么慢？.md",
-      "size": 15267,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/20  幻读是什么，幻读有什么问题？.md",
-      "size": 19391,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/21  为什么我只改一行的语句，锁这么多？.md",
-      "size": 18138,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/22  MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
-      "size": 15799,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/23  MySQL是怎么保证数据不丢的？.md",
-      "size": 16991,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/24  MySQL是怎么保证主备一致的？.md",
-      "size": 20248,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/25  MySQL是怎么保证高可用的？.md",
-      "size": 17934,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/26  备库为什么会延迟好几个小时？.md",
-      "size": 23158,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/27  主库出问题了，从库怎么办？.md",
-      "size": 18960,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/28  读写分离有哪些坑？.md",
-      "size": 21180,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/29  如何判断一个数据库是不是出问题了？.md",
-      "size": 15485,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/30  答疑文章（二）：用动态的观点看加锁.md",
-      "size": 15471,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/31  误删数据后除了跑路，还能怎么办？.md",
-      "size": 15154,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/32  为什么还有kill不掉的语句？.md",
-      "size": 15394,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/33  我查这么多数据，会不会把数据库内存打爆？.md",
-      "size": 15030,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/34  到底可不可以使用join？.md",
-      "size": 16087,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/35  join语句怎么优化？.md",
-      "size": 16547,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/36  为什么临时表可以重名？.md",
-      "size": 16483,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/37  什么时候会使用内部临时表？.md",
-      "size": 14214,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/38  都说InnoDB好，那还要不要使用Memory引擎？.md",
-      "size": 14143,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/39  自增主键为什么不是连续的？.md",
-      "size": 17574,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/40  insert语句的锁为什么这么多？.md",
-      "size": 13458,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/41  怎么最快地复制一张表？.md",
-      "size": 13610,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/42  grant之后要跟着flush privileges吗？.md",
-      "size": 12558,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/43  要不要使用分区表？.md",
-      "size": 13501,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/44  答疑文章（三）：说一说这些好问题.md",
-      "size": 17034,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/45  自增id用完怎么办？.md",
-      "size": 15956,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/我的MySQL心路历程.md",
-      "size": 13968,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战45讲/结束语  点线网面，一起构建MySQL知识网络.md",
-      "size": 8009,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/00 开篇词  从业务出发，开启海量 MySQL 架构设计.md",
-      "size": 7695,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/01  数字类型：避免自增踩坑.md",
-      "size": 12698,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/02  字符串类型：不能忽略的 COLLATION.md",
-      "size": 15819,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/03  日期类型：TIMESTAMP 可能是巨坑.md",
-      "size": 12946,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/04  非结构存储：用好 JSON 这张牌.md",
-      "size": 14056,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/05  表结构设计：忘记范式准则.md",
-      "size": 14486,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/06  表压缩：不仅仅是空间压缩.md",
-      "size": 10246,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/07  表的访问设计：你该选择 SQL 还是 NoSQL？.md",
-      "size": 11939,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/08  索引：排序的艺术.md",
-      "size": 14465,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/09  索引组织表：万物皆索引.md",
-      "size": 15409,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/10  组合索引：用好，性能提升 10 倍！.md",
-      "size": 16613,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/11  索引出错：请理解 CBO 的工作原理.md",
-      "size": 16071,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/12  JOIN 连接：到底能不能写 JOIN？.md",
-      "size": 14185,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/13  子查询：放心地使用子查询功能吧！.md",
-      "size": 10547,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/14  分区表：哪些场景我不建议用分区表？.md",
-      "size": 11084,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/15  MySQL 复制：最简单也最容易配置出错.md",
-      "size": 12574,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/16  读写分离设计：复制延迟？其实是你用错了.md",
-      "size": 11257,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/17  高可用设计：你怎么活用三大架构方案？.md",
-      "size": 10854,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/18  金融级高可用架构：必不可少的数据核对.md",
-      "size": 11696,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/19  高可用套件：选择这么多，你该如何选？.md",
-      "size": 10123,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/20  InnoDB Cluster：改变历史的新产品.md",
-      "size": 11135,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/21  数据库备份：备份文件也要检查！.md",
-      "size": 13854,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/22  分布式数据库架构：彻底理解什么叫分布式数据库.md",
-      "size": 7573,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/23  分布式数据库表结构设计：如何正确地将数据分片？.md",
-      "size": 13669,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/24  分布式数据库索引设计：二级索引、全局索引的最佳设计实践.md",
-      "size": 10236,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/25  分布式数据库架构选型：分库分表 or 中间件 ？.md",
-      "size": 8057,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/26  分布式设计之禅：全链路的条带化设计.md",
-      "size": 7357,
-      "status": "pending"
-    },
-    {
-      "path": "columns/MySQL实战宝典/27  分布式事务：我们到底要不要使用 2PC？.md",
-      "size": 9178,
-      "status": "pending"
-    }
-  ],
-  "stats": {
-    "total": 102,
-    "pending": 0,
-    "processing": 0,
-    "done": 102
+ "version": "1.0",
+ "lastScan": "2026-10-05T20:19:04+08:00",
+ "files": [
+  {
+   "path": "videos/2026-04-26-【30分钟读一本书】总沉迷短视频难以自拔？细读《娱乐至死》警惕媒介的隐秘影响.md",
+   "size": 35000,
+   "status": "done",
+   "compiledAt": "2026-04-27T18:00:00+08:00",
+   "domains": [
+    "媒介理论",
+    "社会批判",
+    "读书"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/媒介即隐喻.md",
+    "wiki/atoms/concepts/娱乐至死.md",
+    "wiki/atoms/concepts/伪语境.md",
+    "wiki/atoms/concepts/哥波尼世界.md",
+    "wiki/atoms/concepts/奥威尔与赫胥黎.md"
+   ]
+  },
+  {
+   "path": "videos/2026-04-26-四个步骤，建立知识体系的简单方法，借助直觉，直觉不是瞎猜，不是超能力【吸收人类优秀学习理论32】.md",
+   "size": 35000,
+   "status": "done",
+   "compiledAt": "2026-04-26T18:00:00+08:00",
+   "domains": [
+    "知识管理",
+    "学习方法"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/知识体系.md",
+    "wiki/atoms/concepts/经典知识联系.md",
+    "wiki/atoms/concepts/工作记忆.md",
+    "wiki/atoms/concepts/直觉.md"
+   ]
+  },
+  {
+   "path": "articles/llm-wiki.md",
+   "hash": "sha256:156ef9d71b75aebcd64e6c7b5616c540a12660e76d5b3a7dfc3217ca2fc34826",
+   "size": 12228,
+   "status": "done",
+   "compiledAt": "2026-04-17T22:40:00+08:00",
+   "domains": [
+    "AI",
+    "知识管理",
+    "LLM"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/LLM-Wiki.md",
+    "wiki/atoms/concepts/RAG.md",
+    "wiki/atoms/entities/Karpathy.md"
+   ]
+  },
+  {
+   "path": "columns/软件工程之美/00 开篇词 你为什么应该学好软件工程？.md",
+   "size": 11579,
+   "status": "done",
+   "compiledAt": "2026-04-29T14:30:00+08:00",
+   "domains": [
+    "软件工程",
+    "方法论"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/软件工程.md"
+   ]
+  },
+  {
+   "path": "columns/软件工程之美/01 到底应该怎样理解软件工程？.md",
+   "size": 11202,
+   "status": "done",
+   "compiledAt": "2026-04-29T14:30:00+08:00",
+   "domains": [
+    "软件工程",
+    "方法论"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/软件工程.md",
+    "wiki/atoms/concepts/软件危机.md",
+    "wiki/atoms/concepts/瀑布模型.md",
+    "wiki/atoms/concepts/人月神话.md",
+    "wiki/atoms/concepts/敏捷开发.md"
+   ]
+  },
+  {
+   "path": "columns/软件工程之美/02 工程思维：把每件事都当作一个项目来推进.md",
+   "size": 11073,
+   "status": "done",
+   "compiledAt": "2026-04-29T14:30:00+08:00",
+   "domains": [
+    "软件工程",
+    "思维"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/工程思维.md"
+   ]
+  },
+  {
+   "path": "columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？.md",
+   "hash": "sha256:7a75c7cbf9b650d6ca49af5d9b2ea879ded531245081e12e2ff3d5f2f9c88ef6",
+   "size": 15347,
+   "status": "done",
+   "compiledAt": "2026-04-19T10:00:00+08:00",
+   "domains": [
+    "复盘",
+    "方法论",
+    "管理"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/CLAP-Model.md",
+    "wiki/atoms/concepts/OPTM-Framework.md",
+    "wiki/atoms/concepts/PDCA-Model.md",
+    "wiki/atoms/concepts/PDF-Model.md",
+    "wiki/atoms/concepts/AAR-Model.md",
+    "wiki/atoms/concepts/FuPan.md",
+    "wiki/atoms/entities/ZhangPeng.md"
+   ]
+  },
+  {
+   "path": "columns/跟着高手学复盘/02 OPTM框架：怎么使用CLAP模型？.md",
+   "hash": "sha256:4f6dce066dcbcf418e8febf1b018e2bb041d05e6053e317c24e45ef69962ecef",
+   "size": 16036,
+   "status": "done",
+   "compiledAt": "2026-04-19T10:00:00+08:00",
+   "domains": [
+    "复盘",
+    "方法论",
+    "管理"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/CLAP-Model.md",
+    "wiki/atoms/concepts/OPTM-Framework.md",
+    "wiki/atoms/concepts/AAR-Model.md"
+   ]
+  },
+  {
+   "path": "articles/你不知道的 Agent：原理、架构与工程实践.md",
+   "hash": "sha256:a1b2c3d4e5f6",
+   "size": 35000,
+   "status": "done",
+   "compiledAt": "2026-04-18T10:50:00+08:00",
+   "domains": [
+    "AI",
+    "Agent",
+    "工程实践"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Agent-Loop.md",
+    "wiki/atoms/concepts/Workflow-vs-Agent.md",
+    "wiki/atoms/concepts/Agent-Control-Patterns.md",
+    "wiki/atoms/concepts/Harness-Engineering.md",
+    "wiki/atoms/concepts/Context-Engineering.md",
+    "wiki/atoms/concepts/Skills-System.md",
+    "wiki/atoms/concepts/ACI-Agent-Computer-Interface.md",
+    "wiki/atoms/concepts/Memory-System.md",
+    "wiki/atoms/concepts/Multi-Agent-Organization.md",
+    "wiki/atoms/concepts/Agent-Evaluation.md",
+    "wiki/atoms/concepts/Agent-Tracing.md",
+    "wiki/atoms/concepts/Long-Task-Management.md"
+   ]
+  },
+  {
+   "path": "articles/工程技术：在智能体优先的世界中利用 Codex.md",
+   "hash": "sha256:g7h8i9j0k1l2",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-18T10:50:00+08:00",
+   "domains": [
+    "AI",
+    "Agent",
+    "工程实践",
+    "Codex"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Harness-Engineering.md",
+    "wiki/atoms/concepts/Agent-First-Development.md",
+    "wiki/atoms/concepts/Architecture-Constraints.md",
+    "wiki/atoms/concepts/Progressive-Disclosure.md",
+    "wiki/atoms/entities/Codex.md",
+    "wiki/atoms/entities/OpenAI.md"
+   ]
+  },
+  {
+   "path": "articles/关于归因你可能不知道的那些事(一）.md",
+   "size": 8500,
+   "status": "done",
+   "compiledAt": "2026-04-18T15:30:00+08:00",
+   "domains": [
+    "增长",
+    "营销",
+    "归因",
+    "广告"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/MMP-Attribution.md",
+    "wiki/atoms/concepts/Last-Click-Rule.md",
+    "wiki/atoms/concepts/Duplicate-Attribution.md",
+    "wiki/atoms/concepts/Attribution-Gap.md"
+   ]
+  },
+  {
+   "path": "articles/关于归因你可能不知道的那些事（二）-Skan篇.md",
+   "size": 7800,
+   "status": "done",
+   "compiledAt": "2026-04-18T15:30:00+08:00",
+   "domains": [
+    "增长",
+    "营销",
+    "归因",
+    "iOS",
+    "隐私"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/SKAN-Attribution.md"
+   ]
+  },
+  {
+   "path": "articles/关于归因你可能不知道的那些事（三）-策略篇.md",
+   "size": 9200,
+   "status": "done",
+   "compiledAt": "2026-04-18T15:30:00+08:00",
+   "domains": [
+    "增长",
+    "营销",
+    "归因",
+    "渠道策略"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/High-Value-Channel.md"
+   ]
+  },
+  {
+   "path": "articles/增长从确定目标开始.md",
+   "size": 4500,
+   "status": "done",
+   "compiledAt": "2026-04-18T15:30:00+08:00",
+   "domains": [
+    "增长",
+    "营销",
+    "目标",
+    "哲学"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Audience-Definition.md"
+   ]
+  },
+  {
+   "path": "articles/如何定义受众-正篇.md",
+   "size": 11000,
+   "status": "done",
+   "compiledAt": "2026-04-18T15:30:00+08:00",
+   "domains": [
+    "增长",
+    "营销",
+    "受众",
+    "渠道"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Audience-Definition.md",
+    "wiki/atoms/concepts/User-App-Pair.md",
+    "wiki/atoms/concepts/Network-Cognition-Gap.md"
+   ]
+  },
+  {
+   "path": "articles/如何定义受众-科普篇.md",
+   "size": 5200,
+   "status": "done",
+   "compiledAt": "2026-04-18T15:30:00+08:00",
+   "domains": [
+    "增长",
+    "营销",
+    "受众",
+    "科普"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/User-App-Pair.md"
+   ]
+  },
+  {
+   "path": "articles/渠道不起量的原因都在这里了！.md",
+   "size": 8800,
+   "status": "done",
+   "compiledAt": "2026-04-18T15:30:00+08:00",
+   "domains": [
+    "增长",
+    "营销",
+    "渠道",
+    "起量"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Channel-Launch-Strategy.md"
+   ]
+  },
+  {
+   "path": "articles/Linux tmux 基础使用教程.md",
+   "hash": "sha256:b9f8e7d6c5a4",
+   "size": 17308,
+   "status": "done",
+   "compiledAt": "2026-04-19T15:30:00+08:00",
+   "domains": [
+    "Linux",
+    "CLI",
+    "工具",
+    "终端复用"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Tmux.md"
+   ]
+  },
+  {
+   "path": "articles/如何撰写一篇阅读10w+博文（10个成功秘诀）.md",
+   "hash": "sha256:e2288e4a4b8cd402ca89b1296d6b4bb303e6e8f5acf560b57ab212dd7fe596bf",
+   "size": 27626,
+   "status": "done",
+   "compiledAt": "2026-04-20T12:00:00+08:00",
+   "domains": [
+    "写作",
+    "内容营销",
+    "博客",
+    "SEO"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Blog-Content-Writing-Practices.md"
+   ]
+  },
+  {
+   "path": "articles/程序员怎样才能写出一篇好的博客或者技术文章.md",
+   "hash": "sha256:9628239534ef47bd7dd39383e74dd3f477a5581872493838461d55976ea3ede4",
+   "size": 12971,
+   "status": "done",
+   "compiledAt": "2026-04-20T12:00:00+08:00",
+   "domains": [
+    "写作",
+    "技术博客",
+    "程序员"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Tech-Blog-Article-Types.md",
+    "wiki/atoms/entities/Phodal.md"
+   ]
+  },
+  {
+   "path": "articles/鹅厂多位技术同学关于如何写好技术文章的经验.md",
+   "hash": "sha256:bf0772bb735f3799932c3c0515ca21757eb570e480a05fb43496f2b153333319",
+   "size": 31937,
+   "status": "done",
+   "compiledAt": "2026-04-20T12:00:00+08:00",
+   "domains": [
+    "写作",
+    "技术文档",
+    "方法论"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/MECE.md",
+    "wiki/atoms/concepts/Pyramid-Principle.md",
+    "wiki/atoms/concepts/Title-4U-Formula.md"
+   ]
+  },
+  {
+   "path": "videos/2026-04-19-白话讲解领域驱动设计domain driven design (DDD).md",
+   "hash": "sha256:cb707408031910ca252c4054d7240e00cc0ffc083b137d986b2616a20c77676b",
+   "size": 35595,
+   "status": "done",
+   "compiledAt": "2026-04-20T12:00:00+08:00",
+   "domains": [
+    "软件架构",
+    "DDD",
+    "后端",
+    "领域建模"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/DDD.md"
+   ]
+  },
+  {
+   "path": "articles/广告归因8种模型：预算怎么分才不浪费？.md",
+   "size": 34000,
+   "status": "done",
+   "compiledAt": "2026-04-21T18:00:00+08:00",
+   "domains": [
+    "归因",
+    "UA",
+    "模型"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/多触点归因.md",
+    "wiki/atoms/concepts/线性归因.md",
+    "wiki/atoms/concepts/时间衰减归因.md",
+    "wiki/atoms/concepts/U型归因.md"
+   ]
+  },
+  {
+   "path": "articles/用户到底被哪个广告打动了？三种主流归因模型全解析.md",
+   "size": 23900,
+   "status": "done",
+   "compiledAt": "2026-04-21T18:00:00+08:00",
+   "domains": [
+    "归因",
+    "MTA",
+    "算法"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/多触点归因.md",
+    "wiki/atoms/concepts/Shapley值.md"
+   ]
+  },
+  {
+   "path": "articles/出海投放基础知识之归因（一）.md",
+   "size": 200,
+   "status": "done",
+   "compiledAt": "2026-04-22T12:00:00+08:00",
+   "domains": [
+    "归因",
+    "MMP",
+    "基础知识"
+   ],
+   "producedPages": []
+  },
+  {
+   "path": "articles/出海投放基础知识之归因（二）.md",
+   "size": 133,
+   "status": "done",
+   "compiledAt": "2026-04-22T12:00:00+08:00",
+   "domains": [
+    "归因",
+    "MMP",
+    "技术"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/归因链接.md"
+   ]
+  },
+  {
+   "path": "articles/出海投放基础知识之归因（三）.md",
+   "size": 182,
+   "status": "done",
+   "compiledAt": "2026-04-22T12:00:00+08:00",
+   "domains": [
+    "归因",
+    "MMP",
+    "助攻率"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/助攻率.md"
+   ]
+  },
+  {
+   "path": "articles/出海投放基础知识之归因(四)+SKAN(一).md",
+   "size": 574,
+   "status": "done",
+   "compiledAt": "2026-04-22T12:00:00+08:00",
+   "domains": [
+    "归因",
+    "SKAN",
+    "iOS"
+   ],
+   "producedPages": []
+  },
+  {
+   "path": "articles/广告竞价背后的逻辑和模型算法（一）.md",
+   "size": 12638,
+   "status": "done",
+   "compiledAt": "2026-04-22T20:30:00+08:00",
+   "domains": [
+    "广告",
+    "竞价",
+    "RTB",
+    "DSP"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/DSP.md",
+    "wiki/atoms/concepts/ADX.md",
+    "wiki/atoms/concepts/SSP.md",
+    "wiki/atoms/concepts/RTB.md"
+   ]
+  },
+  {
+   "path": "articles/广告竞价背后的逻辑和模型算法（二）.md",
+   "size": 7475,
+   "status": "done",
+   "compiledAt": "2026-04-22T20:30:00+08:00",
+   "domains": [
+    "广告",
+    "竞价",
+    "Ad Request"
+   ],
+   "producedPages": []
+  },
+  {
+   "path": "articles/渠道MMPBI的数据差异剖析.md",
+   "size": 13246,
+   "status": "done",
+   "compiledAt": "2026-04-22T20:30:00+08:00",
+   "domains": [
+    "归因",
+    "数据",
+    "MMP"
+   ],
+   "producedPages": []
+  },
+  {
+   "path": "columns/机器学习40讲/01 频率视角下的机器学习.md",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "频率学派",
+    "概率"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/频率学派.md",
+    "wiki/atoms/concepts/最大似然估计.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/02 贝叶斯视角下的机器学习.md",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "贝叶斯学派",
+    "概率"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/贝叶斯学派.md",
+    "wiki/atoms/concepts/最大似然估计.md",
+    "wiki/atoms/concepts/贝叶斯定理.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/03 学什么与怎么学.md",
+   "size": 10000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "基础"
+   ],
+   "producedPages": []
+  },
+  {
+   "path": "columns/机器学习40讲/04 计算学习理论.md",
+   "size": 10000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "学习理论"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/计算学习理论.md",
+    "wiki/atoms/concepts/PAC可学习性.md",
+    "wiki/atoms/concepts/VC维.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/05 模型的分类方式.md",
+   "size": 8000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "模型"
+   ],
+   "producedPages": []
+  },
+  {
+   "path": "columns/机器学习40讲/06 模型的设计准则.md",
+   "size": 8000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "模型设计"
+   ],
+   "producedPages": []
+  },
+  {
+   "path": "columns/机器学习40讲/07 模型的验证方法.md",
+   "size": 9000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "模型验证"
+   ],
+   "producedPages": []
+  },
+  {
+   "path": "columns/机器学习40讲/08 模型的评估指标.md",
+   "size": 9000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "评估"
+   ],
+   "producedPages": []
+  },
+  {
+   "path": "columns/机器学习40讲/09 实验设计.md",
+   "size": 8000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "实验"
+   ],
+   "producedPages": []
+  },
+  {
+   "path": "columns/机器学习40讲/10 特征预处理.md",
+   "size": 11000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "特征工程"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/特征工程.md",
+    "wiki/atoms/concepts/距离度量.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/11 基础线性回归：一元与多元.md",
+   "size": 11000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "回归"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/线性回归.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/12 正则化处理：收缩方法与边际化.md",
+   "size": 13000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "正则化"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/正则化.md",
+    "wiki/atoms/concepts/岭回归.md",
+    "wiki/atoms/concepts/LASSO.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/13 线性降维：主成分的使用.md",
+   "size": 10000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "降维"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/主成分分析.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/14 非线性降维：流形学习.md",
+   "size": 10000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "降维"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/流形学习.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/15 从回归到分类：联系函数与降维.md",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "分类"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/联系函数.md",
+    "wiki/atoms/concepts/线性判别分析.md",
+    "wiki/atoms/concepts/Logistic-回归.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/16 建模非正态分布：广义线性模型.md",
+   "size": 11000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "概率模型"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/广义线性模型.md",
+    "wiki/atoms/concepts/Logistic-回归.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/17 几何角度看分类：支持向量机.md",
+   "size": 13000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "分类"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/支持向量机.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/18 从全局到局部：核技巧.md",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "核方法"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/核技巧.md",
+    "wiki/atoms/concepts/核函数.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/19 非参数化的局部模型：K近邻.md",
+   "size": 10000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "分类"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/K近邻.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/20 基于距离的学习：聚类与度量学习.md",
+   "size": 11000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "聚类"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/聚类分析.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/21 基函数扩展：属性的非线性化.md",
+   "size": 10000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "特征工程"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/基函数扩展.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/22 自适应的基函数：神经网络.md",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "神经网络"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/感知器.md",
+    "wiki/atoms/concepts/神经网络.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/23 层次化的神经网络：深度学习.md",
+   "size": 11000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "深度学习"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/神经网络.md",
+    "wiki/atoms/concepts/深度学习.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/24 深度编解码：表示学习.md",
+   "size": 11000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "表示学习"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/表示学习.md",
+    "wiki/atoms/concepts/自编码器.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/25 基于特征的区域划分：树模型.md",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "树模型"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/决策树.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/26 集成化处理：Boosting与Bagging.md",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "集成学习"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/集成学习.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/27 万能模型：梯度提升与随机森林.md",
+   "size": 13000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "集成学习"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/梯度提升.md",
+    "wiki/atoms/concepts/随机森林.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/28 最简单的概率图：朴素贝叶斯.md",
+   "size": 11000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "概率图"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/概率图模型.md",
+    "wiki/atoms/concepts/朴素贝叶斯.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/29 有向图模型：贝叶斯网络.md",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "概率图"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/贝叶斯网络.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/30 无向图模型：马尔可夫随机场.md",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "概率图"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/马尔可夫随机场.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/31 建模连续分布：高斯网络.md",
+   "size": 11000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "概率图"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/高斯网络.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/32 从有限到无限：高斯过程.md",
+   "size": 11000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "非参数"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/高斯过程.md",
+    "wiki/atoms/concepts/核函数.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/33 序列化建模：隐马尔可夫模型.md",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "序列模型"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/隐马尔可夫模型.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/34 连续序列化模型：线性动态系统.md",
+   "size": 10000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "序列模型"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/线性动态系统.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/35 精确推断：变量消除及其拓展.md",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "推断"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/推断.md",
+    "wiki/atoms/concepts/变量消除.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/36 确定近似推断：变分贝叶斯.md",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "推断"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/推断.md",
+    "wiki/atoms/concepts/变分推断.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/37 随机近似推断：MCMC.md",
+   "size": 12000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "推断"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/推断.md",
+    "wiki/atoms/concepts/MCMC.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/38 完备数据下的参数学习：有向图与无向图.md",
+   "size": 11000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "概率图"
+   ],
+   "producedPages": []
+  },
+  {
+   "path": "columns/机器学习40讲/39 隐变量下的参数学习：EM方法与混合模型.md",
+   "size": 13000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "参数学习"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/EM算法.md",
+    "wiki/atoms/concepts/混合模型.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/40 结构学习：基于约束与基于评分.md",
+   "size": 11000,
+   "status": "done",
+   "compiledAt": "2026-04-23",
+   "domains": [
+    "机器学习",
+    "结构学习"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/结构学习.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/如何成为机器学习工程师？.md",
+   "hash": "sha256:ba5536abeec91a818788e79782a2e45feecd2b897866334f3c11e06ea41ef64c",
+   "size": 7690,
+   "status": "done",
+   "compiledAt": "2026-08-18",
+   "domains": [
+    "机器学习",
+    "职业发展"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/机器学习工程师.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/总结课 机器学习的模型体系.md",
+   "hash": "sha256:460afdd014b3f4853e8c17de2348653091cca8c9d5aa65f867df6957de1637e6",
+   "size": 12013,
+   "status": "done",
+   "compiledAt": "2026-08-18",
+   "domains": [
+    "机器学习",
+    "模型体系"
+   ],
+   "producedPages": [
+    "wiki/synthesis/topics/机器学习模型体系.md"
+   ]
+  },
+  {
+   "path": "columns/机器学习40讲/总结课 贝叶斯学习的模型体系.md",
+   "hash": "sha256:ae80d3ee2ab400a953b2355a54317363f885452b2ddbbdf9e01f817acc0180bd",
+   "size": 7626,
+   "status": "done",
+   "compiledAt": "2026-08-18",
+   "domains": [
+    "机器学习",
+    "贝叶斯"
+   ],
+   "producedPages": [
+    "wiki/synthesis/topics/贝叶斯学习模型体系.md"
+   ]
+  },
+  {
+   "path": "articles/马尔可夫链的宿命论.md",
+   "hash": "sha256:6d5db3a04358dcd95a35ccea144d3f7357438686d22bf677c5b8087a1df90960",
+   "size": 21213,
+   "status": "done",
+   "compiledAt": "2026-08-18",
+   "domains": [
+    "机器学习",
+    "随机过程"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/马尔可夫链.md"
+   ]
+  },
+  {
+   "path": "columns/中文文案排版指北/marks.md",
+   "hash": "sha256:9a62d6496d21fae611dacff142ba1977a5e8d16e04af2135290220c2460a5193",
+   "size": 5162,
+   "status": "done",
+   "compiledAt": "2026-08-18",
+   "domains": [
+    "技术写作"
+   ],
+   "producedPages": [
+    "wiki/synthesis/howto/中文技术文档写作规范.md"
+   ]
+  },
+  {
+   "path": "columns/中文文案排版指北/number.md",
+   "hash": "sha256:cb0dab9db6b1749dc0284a4430a9f3cadd447ee198bd204d01f881ec1f6dc2e2",
+   "size": 1799,
+   "status": "done",
+   "compiledAt": "2026-08-18",
+   "domains": [
+    "技术写作"
+   ],
+   "producedPages": [
+    "wiki/synthesis/howto/中文技术文档写作规范.md"
+   ]
+  },
+  {
+   "path": "columns/中文文案排版指北/paragraph.md",
+   "hash": "sha256:5eed8539563c7e41380729d7ce077765ec1df7ffb3841f6b46510268a1353191",
+   "size": 864,
+   "status": "done",
+   "compiledAt": "2026-08-18",
+   "domains": [
+    "技术写作"
+   ],
+   "producedPages": [
+    "wiki/synthesis/howto/中文技术文档写作规范.md"
+   ]
+  },
+  {
+   "path": "columns/中文文案排版指北/reference.md",
+   "hash": "sha256:6e32b91e7fbcbfa6c659505a18bc6223249c5632ee62569472b51567378d69b3",
+   "size": 1443,
+   "status": "done",
+   "compiledAt": "2026-08-18",
+   "domains": [
+    "技术写作"
+   ],
+   "producedPages": [
+    "wiki/synthesis/howto/中文技术文档写作规范.md"
+   ]
+  },
+  {
+   "path": "columns/中文文案排版指北/structure.md",
+   "hash": "sha256:b1e07553b07d98f65305cadb53a77c9063d1f4e2168e31c2fd4bd9e9ea21cfad",
+   "size": 2074,
+   "status": "done",
+   "compiledAt": "2026-08-18",
+   "domains": [
+    "技术写作"
+   ],
+   "producedPages": [
+    "wiki/synthesis/howto/中文技术文档写作规范.md"
+   ]
+  },
+  {
+   "path": "columns/中文文案排版指北/text.md",
+   "hash": "sha256:e2589f8cd5a5629d6b70585220f0fdd69d93453addeb490450ecb21c4852f7e3",
+   "size": 5501,
+   "status": "done",
+   "compiledAt": "2026-08-18",
+   "domains": [
+    "技术写作"
+   ],
+   "producedPages": [
+    "wiki/synthesis/howto/中文技术文档写作规范.md"
+   ]
+  },
+  {
+   "path": "columns/中文文案排版指北/title.md",
+   "hash": "sha256:3aa8d43f716b4f2cee06449d7c76bd700141250bec2357fa9bc640011304eaaa",
+   "size": 1561,
+   "status": "done",
+   "compiledAt": "2026-08-18",
+   "domains": [
+    "技术写作"
+   ],
+   "producedPages": [
+    "wiki/synthesis/howto/中文技术文档写作规范.md"
+   ]
+  },
+  {
+   "path": "articles/关于写作，这是我目前能想到最全的.md",
+   "hash": "sha256:pending-2026-08-21",
+   "size": 28480,
+   "status": "done",
+   "compiledAt": "2026-08-21",
+   "domains": [
+    "写作",
+    "自我成长",
+    "表达"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/写作起步-日常书写.md",
+    "wiki/atoms/concepts/写作价值心法.md",
+    "wiki/atoms/concepts/顶级信息论与输入输出比.md",
+    "wiki/atoms/concepts/滑梯理论.md",
+    "wiki/atoms/concepts/作品意识与打磨意识.md",
+    "wiki/atoms/entities/清脑作者.md",
+    "wiki/synthesis/topics/写作方法论.md"
+   ]
+  },
+  {
+   "path": "articles/写了 200 多篇文章后，我总结的写作心得.md",
+   "hash": "sha256:pending-2026-08-21",
+   "size": 7680,
+   "status": "done",
+   "compiledAt": "2026-08-21",
+   "domains": [
+    "写作",
+    "技术博客",
+    "工具"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/作品意识与打磨意识.md",
+    "wiki/atoms/entities/阿宝哥.md",
+    "wiki/synthesis/topics/写作方法论.md"
+   ]
+  },
+  {
+   "path": "articles/如何逻辑思考，清晰表达？《金字塔原理》和本文值得一读！.md",
+   "hash": "sha256:pending-2026-08-21",
+   "size": 10240,
+   "status": "done",
+   "compiledAt": "2026-08-21",
+   "domains": [
+    "写作",
+    "逻辑",
+    "表达"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/SCQ法则.md",
+    "wiki/atoms/concepts/Pyramid-Principle.md",
+    "wiki/atoms/entities/皮卡小宝.md",
+    "wiki/synthesis/topics/写作方法论.md"
+   ]
+  },
+  {
+   "path": "articles/除了三方归因的付费P360服务，广告投放如何防作弊Ad Fraud？.md",
+   "hash": "sha256:3f31360c3ad2c0d1c3141abaf08bf17d4ee380be6fcd459d115cf7c2359bf104",
+   "size": 6435,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "广告",
+    "反作弊",
+    "归因"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Ad-Fraud.md",
+    "wiki/atoms/concepts/Protect360.md"
+   ]
+  },
+  {
+   "path": "articles/广告作弊Ad Fraud（一）.md",
+   "hash": "sha256:c291a3bd7c0522d27e4c8813f02c25842e94543255aee1f7c6722944b7103ebc",
+   "size": 11461,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "广告",
+    "反作弊",
+    "归因"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Ad-Fraud.md",
+    "wiki/atoms/concepts/Attribution-Hijacking.md",
+    "wiki/atoms/concepts/Fake-Installation.md"
+   ]
+  },
+  {
+   "path": "articles/广告作弊Ad Fraud（二）.md",
+   "hash": "sha256:aca6f27199253854db9d47068c8c32abfb57e83ccd5ed3ba499ddacf92678db3",
+   "size": 10517,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "广告",
+    "反作弊",
+    "虚假安装"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Fake-Installation.md",
+    "wiki/atoms/concepts/Device-Farm.md"
+   ]
+  },
+  {
+   "path": "articles/广告作弊Ad Fraud（三）.md",
+   "hash": "sha256:1e77ead657f1a5425be4233e8698bdd32c9504dcdff0028228a56481d55f9206",
+   "size": 13065,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "广告",
+    "反作弊",
+    "归因劫持"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Attribution-Hijacking.md",
+    "wiki/atoms/concepts/Click-Flooding.md",
+    "wiki/atoms/concepts/CTIT-Analysis.md"
+   ]
+  },
+  {
+   "path": "articles/广告作弊Ad Fraud（四）.md",
+   "hash": "sha256:251790236cd9fd0983952ad3f5d61824872d243f540928d016668b133536236a",
+   "size": 11647,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "广告",
+    "反作弊",
+    "AppsFlyer"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Protect360.md"
+   ]
+  },
+  {
+   "path": "articles/广告作弊Ad Fraud（五）.md",
+   "hash": "sha256:0e1c89ec20e685a990dedf9b5490534548196fdf4fa5d5dd73982166744fc5cf",
+   "size": 1901,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "广告",
+    "反作弊",
+    "Adjust",
+    "Singular"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Protect360.md"
+   ]
+  },
+  {
+   "path": "articles/广告作弊Ad Fraud（六）.md",
+   "hash": "sha256:ea3b82bb1e32eb0780b53fe8b2526cb010eefe9e54e6e0813538cd2996f08151",
+   "size": 9924,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "广告",
+    "反作弊",
+    "Google",
+    "Apple",
+    "Amazon"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Platform-LVL-Validation.md"
+   ]
+  },
+  {
+   "path": "articles/广告中的Pacing模型以及冷启动.md",
+   "hash": "sha256:9c722b0f86308efdb0a04c4385ec95a41da3784179dd9fc41d70027fda1fbfe7",
+   "size": 16600,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "广告",
+    "投放",
+    "算法",
+    "预算控制"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Pacing-Model.md",
+    "wiki/atoms/concepts/Cold-Start.md"
+   ]
+  },
+  {
+   "path": "articles/Unity平台ROAS开启条件和数据差异问题.md",
+   "hash": "sha256:2aa0590a64a3bb88afc1271efb750a50701cb7ab84465a52791e584e05a22897",
+   "size": 8950,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "广告",
+    "ROAS",
+    "Unity",
+    "数据差异"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/ROAS-Data-Reconciliation.md",
+    "wiki/atoms/concepts/Cohort-Analysis.md"
+   ]
+  },
+  {
+   "path": "articles/出海投放基础知识之数据统计（一）.md",
+   "hash": "sha256:1ec6190e5a7212b1921587dcd13bcc08667710e4ae9de92be4e2f034d571f2ab",
+   "size": 8452,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "广告",
+    "数据统计",
+    "Session",
+    "DAU"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Session-Tracking.md",
+    "wiki/atoms/concepts/DAU-Retention-Rate.md"
+   ]
+  },
+  {
+   "path": "articles/什么是Cohort队列？.md",
+   "hash": "sha256:28e6cad9bf3999a8b2db6c8c22e0e0850433f9b4c08c19487b38aae9281d9771",
+   "size": 5131,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "广告",
+    "数据分析",
+    "Cohort"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Cohort-Analysis.md"
+   ]
+  },
+  {
+   "path": "articles/什么是「STAR 法则」，有哪些优秀的「STAR 法则」使用案例？.md",
+   "hash": "sha256:ba00024f6f541f921904c5b9f5f5dd75c27bffeaa3a225ccbae017cb13c622fc",
+   "size": 6718,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "面试",
+    "方法论",
+    "简历"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/STAR-Method.md"
+   ]
+  },
+  {
+   "path": "columns/中文文案排版指北/sparanoidchinese-copywriting-guidelines Chinese copywriting guidelines for better written communication／中文文案排版指北.md",
+   "hash": "sha256:ff1edcda1bfc232727464d5fb6860daaf13249f451af6824e5830b859e8a0fc7",
+   "size": 11264,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "写作",
+    "排版",
+    "中文规范"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Chinese-Copywriting-Guidelines.md"
+   ]
+  },
+  {
+   "path": "videos/行为面试圣经，宝洁八大问破解之路？（上）.md",
+   "hash": "sha256:207b79cff65c137caade92a98accc4cef199634df289ab459071c4967966bac0",
+   "size": 18918,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "面试",
+    "行为面试",
+    "宝洁"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Behavioral-Interview.md",
+    "wiki/atoms/concepts/PG-Eight-Questions.md"
+   ]
+  },
+  {
+   "path": "videos/行为面试圣经，宝洁八大问破解之路？（中）.md",
+   "hash": "sha256:165ec5ac4abc6a75b5f317a1d15cbcca9c39aa3c5648c25951312567d979914b",
+   "size": 15066,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "面试",
+    "行为面试",
+    "宝洁"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Behavioral-Interview.md",
+    "wiki/atoms/concepts/PG-Eight-Questions.md"
+   ]
+  },
+  {
+   "path": "videos/行为面试圣经，宝洁八大问破解之路？（下）.md",
+   "hash": "sha256:1ec13a73c10a16821b63ab842f2c58d25fe98fe40cc92ebaa6c9a1fdd19af3c0",
+   "size": 13768,
+   "status": "done",
+   "compiledAt": "2026-09-04",
+   "domains": [
+    "面试",
+    "行为面试",
+    "宝洁"
+   ],
+   "producedPages": [
+    "wiki/atoms/concepts/Behavioral-Interview.md",
+    "wiki/atoms/concepts/PG-Eight-Questions.md"
+   ]
+  },
+  {
+   "path": "columns/MySQL实战45讲/00 开篇词  这一次，让我们一起来搞懂MySQL.md",
+   "size": 6297,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/01  基础架构：一条SQL查询语句是如何执行的？.md",
+   "size": 13457,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/02  日志系统：一条SQL更新语句是如何执行的？.md",
+   "size": 14237,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/03  事务隔离：为什么你改了我还看不见？.md",
+   "size": 12156,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/04  深入浅出索引（上）.md",
+   "size": 16094,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/05  深入浅出索引（下）.md",
+   "size": 11707,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/06  全局锁和表锁 ：给表加个字段怎么有这么多阻碍？.md",
+   "size": 13222,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/07  行锁功过：怎么减少行锁对性能的影响？.md",
+   "size": 12501,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/08  事务到底是隔离的还是不隔离的？.md",
+   "size": 19682,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/09  普通索引和唯一索引，应该怎么选择？.md",
+   "size": 17743,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/10  MySQL为什么有时候会选错索引？.md",
+   "size": 19106,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/11  怎么给字符串字段加索引？.md",
+   "size": 13440,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/12  为什么我的MySQL会“抖”一下？.md",
+   "size": 15535,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/13  为什么表数据删掉一半，表文件大小不变？.md",
+   "size": 13966,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/14  count()这么慢，我该怎么办？.md",
+   "size": 15691,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/15  答疑文章（一）：日志和索引相关问题.md",
+   "size": 22740,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/16  “order by”是怎么工作的？.md",
+   "size": 20899,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/17  如何正确地显示随机消息？.md",
+   "size": 19552,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/18  为什么这些SQL语句逻辑相同，性能却差异巨大？.md",
+   "size": 16677,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/19  为什么我只查一行的语句，也执行这么慢？.md",
+   "size": 15267,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/20  幻读是什么，幻读有什么问题？.md",
+   "size": 19391,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/21  为什么我只改一行的语句，锁这么多？.md",
+   "size": 18138,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/22  MySQL有哪些“饮鸩止渴”提高性能的方法？.md",
+   "size": 15799,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/23  MySQL是怎么保证数据不丢的？.md",
+   "size": 16991,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/24  MySQL是怎么保证主备一致的？.md",
+   "size": 20248,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/25  MySQL是怎么保证高可用的？.md",
+   "size": 17934,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/26  备库为什么会延迟好几个小时？.md",
+   "size": 23158,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/27  主库出问题了，从库怎么办？.md",
+   "size": 18960,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/28  读写分离有哪些坑？.md",
+   "size": 21180,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/29  如何判断一个数据库是不是出问题了？.md",
+   "size": 15485,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/30  答疑文章（二）：用动态的观点看加锁.md",
+   "size": 15471,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/31  误删数据后除了跑路，还能怎么办？.md",
+   "size": 15154,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/32  为什么还有kill不掉的语句？.md",
+   "size": 15394,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/33  我查这么多数据，会不会把数据库内存打爆？.md",
+   "size": 15030,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/34  到底可不可以使用join？.md",
+   "size": 16087,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/35  join语句怎么优化？.md",
+   "size": 16547,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/36  为什么临时表可以重名？.md",
+   "size": 16483,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/37  什么时候会使用内部临时表？.md",
+   "size": 14214,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/38  都说InnoDB好，那还要不要使用Memory引擎？.md",
+   "size": 14143,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/39  自增主键为什么不是连续的？.md",
+   "size": 17574,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/40  insert语句的锁为什么这么多？.md",
+   "size": 13458,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/41  怎么最快地复制一张表？.md",
+   "size": 13610,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/42  grant之后要跟着flush privileges吗？.md",
+   "size": 12558,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/43  要不要使用分区表？.md",
+   "size": 13501,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/44  答疑文章（三）：说一说这些好问题.md",
+   "size": 17034,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/45  自增id用完怎么办？.md",
+   "size": 15956,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/我的MySQL心路历程.md",
+   "size": 13968,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战45讲/结束语  点线网面，一起构建MySQL知识网络.md",
+   "size": 8009,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/00 开篇词  从业务出发，开启海量 MySQL 架构设计.md",
+   "size": 7695,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/01  数字类型：避免自增踩坑.md",
+   "size": 12698,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/02  字符串类型：不能忽略的 COLLATION.md",
+   "size": 15819,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/03  日期类型：TIMESTAMP 可能是巨坑.md",
+   "size": 12946,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/04  非结构存储：用好 JSON 这张牌.md",
+   "size": 14056,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/05  表结构设计：忘记范式准则.md",
+   "size": 14486,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/06  表压缩：不仅仅是空间压缩.md",
+   "size": 10246,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/07  表的访问设计：你该选择 SQL 还是 NoSQL？.md",
+   "size": 11939,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/08  索引：排序的艺术.md",
+   "size": 14465,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/09  索引组织表：万物皆索引.md",
+   "size": 15409,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/10  组合索引：用好，性能提升 10 倍！.md",
+   "size": 16613,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/11  索引出错：请理解 CBO 的工作原理.md",
+   "size": 16071,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/12  JOIN 连接：到底能不能写 JOIN？.md",
+   "size": 14185,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/13  子查询：放心地使用子查询功能吧！.md",
+   "size": 10547,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/14  分区表：哪些场景我不建议用分区表？.md",
+   "size": 11084,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/15  MySQL 复制：最简单也最容易配置出错.md",
+   "size": 12574,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/16  读写分离设计：复制延迟？其实是你用错了.md",
+   "size": 11257,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/17  高可用设计：你怎么活用三大架构方案？.md",
+   "size": 10854,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/18  金融级高可用架构：必不可少的数据核对.md",
+   "size": 11696,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/19  高可用套件：选择这么多，你该如何选？.md",
+   "size": 10123,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/20  InnoDB Cluster：改变历史的新产品.md",
+   "size": 11135,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/21  数据库备份：备份文件也要检查！.md",
+   "size": 13854,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/22  分布式数据库架构：彻底理解什么叫分布式数据库.md",
+   "size": 7573,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/23  分布式数据库表结构设计：如何正确地将数据分片？.md",
+   "size": 13669,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/24  分布式数据库索引设计：二级索引、全局索引的最佳设计实践.md",
+   "size": 10236,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/25  分布式数据库架构选型：分库分表 or 中间件 ？.md",
+   "size": 8057,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/26  分布式设计之禅：全链路的条带化设计.md",
+   "size": 7357,
+   "status": "pending"
+  },
+  {
+   "path": "columns/MySQL实战宝典/27  分布式事务：我们到底要不要使用 2PC？.md",
+   "size": 9178,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/00 NLP 教程.md",
+   "size": 3288,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/01 NLP 简介.md",
+   "size": 15544,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/02 语言学基础.md",
+   "size": 30359,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/03 文本预处理.md",
+   "size": 5866,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/04 文本表示方法.md",
+   "size": 8740,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/05 文本分类.md",
+   "size": 6414,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/06 情感分析.md",
+   "size": 6699,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/07 命名实体识别（NER）.md",
+   "size": 3786,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/08 关系抽取.md",
+   "size": 3884,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/09 文本相似度计算.md",
+   "size": 5811,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/10 循环神经网络（RNN）.md",
+   "size": 7749,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/11 注意力机制.md",
+   "size": 8990,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/12 Transformer 架构.md",
+   "size": 9726,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/13 序列到序列模型.md",
+   "size": 5606,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/14 预训练模型.md",
+   "size": 5853,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/15 BERT 系列模型.md",
+   "size": 7030,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/16 生成式预训练模型.md",
+   "size": 5689,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/17 多模态预训练模型.md",
+   "size": 7115,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/18 Python NLP 生态.md",
+   "size": 6042,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/19 深度学习框架.md",
+   "size": 6098,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程NLP/20 数据处理工具.md",
+   "size": 6285,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/00 AI 入门教程.md",
+   "size": 4126,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/01 AI 简介.md",
+   "size": 18033,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/02 AGI 简介.md",
+   "size": 13654,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/03 大模型相关概念.md",
+   "size": 24576,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/04 Prompt 提示词.md",
+   "size": 18977,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/05 AI 工具全景.md",
+   "size": 17725,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/06 AI 工作原理.md",
+   "size": 13076,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/07 AI 伦理与安全.md",
+   "size": 22291,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/08 AI 应用场景.md",
+   "size": 25545,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/09 AI 行业生态.md",
+   "size": 21336,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/10 Prompt 工程进阶.md",
+   "size": 52139,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/11 AI API 开发.md",
+   "size": 44610,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/12 RAG 检索增强生成.md",
+   "size": 24066,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/13 AI 智能体.md",
+   "size": 36615,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/14 AI 多模态.md",
+   "size": 42128,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/15 AI 工作流自动化.md",
+   "size": 21986,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/16 AI 产品设计.md",
+   "size": 25189,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/17 本地模型部署.md",
+   "size": 31269,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/18 AI 安全进阶.md",
+   "size": 23431,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/19 Transformer 深度解析.md",
+   "size": 39585,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/20 模型微调 Fine-tuning.md",
+   "size": 49576,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/21 RLHF 对齐训练.md",
+   "size": 33123,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/22 向量数据库.md",
+   "size": 42143,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/23 AI 工程化部署.md",
+   "size": 79950,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/24 深度学习基础.md",
+   "size": 54372,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/25 计算机视觉 AI.md",
+   "size": 62962,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/26 NLP 进阶技术.md",
+   "size": 45778,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/27 前沿研究动态.md",
+   "size": 28499,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/28 AI 系统架构.md",
+   "size": 21589,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI/29 AI 评测与安全研究.md",
+   "size": 52347,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/00 AI Agent(智能体) 教程.md",
+   "size": 6593,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/01 AI Agent 简介.md",
+   "size": 14789,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/02 AI Agent 核心组件.md",
+   "size": 17164,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/03 AI Agent 术语.md",
+   "size": 11520,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/04 AI Agent 工作原理.md",
+   "size": 19418,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/05 AI 底层架构.md",
+   "size": 19213,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/06 大语言模型基础.md",
+   "size": 16919,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/07 大模型多模态.md",
+   "size": 18110,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/08 提示词工程.md",
+   "size": 37384,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/09 Token (词元).md",
+   "size": 4414,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/10 推理与规划.md",
+   "size": 8229,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/11 向量数据库.md",
+   "size": 23377,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/12 RAG 与知识检索.md",
+   "size": 10195,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/13 Agent 上下文工程.md",
+   "size": 9689,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/14 Agent 架构.md",
+   "size": 27087,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/15 第一个 AI Agent.md",
+   "size": 4293,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/16 AI 智能体.md",
+   "size": 5575,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/17 OpenClaw (Clawdbot) 教程.md",
+   "size": 18588,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/18 OpenClaw 快速上手.md",
+   "size": 7792,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/19 QoderWork 教程.md",
+   "size": 7238,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/20 QoderWake 教程.md",
+   "size": 14856,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/21 WorkBuddy 入门教程.md",
+   "size": 16289,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/22 AI 工作流.md",
+   "size": 34805,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/23 CrewAI 构建智能体.md",
+   "size": 20133,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/24 LangChain 制作智能体.md",
+   "size": 28060,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/25 LangGraph 入门教程.md",
+   "size": 43885,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/26 Deep Agents 入门教程.md",
+   "size": 30834,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/27 GraphRAG 入门教程.md",
+   "size": 24546,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/28 Harness Engineering.md",
+   "size": 11323,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/29 Hermes Agent.md",
+   "size": 17917,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/30 Loop Engineering.md",
+   "size": 24008,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/31 Vibe Coding 入门教程.md",
+   "size": 19861,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/32 Dify 入门教程.md",
+   "size": 34704,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/33 n8n 入门教程.md",
+   "size": 40599,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/34 Pi Coding Agent.md",
+   "size": 32026,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/35 AI 3D (Blender).md",
+   "size": 10316,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/36 Python 实现 AI Agent.md",
+   "size": 27408,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/37 工具调用.md",
+   "size": 27315,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/38 记忆系统.md",
+   "size": 35400,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/39 Python 智能体环境配置.md",
+   "size": 25707,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/40 AI Agent 问答实例.md",
+   "size": 12736,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/41 Python 实现推理与规划.md",
+   "size": 26992,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/42 Python 实现 RAG 与知识检索.md",
+   "size": 25408,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/43 多智能体系统（Multi-Agent System）.md",
+   "size": 20831,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/44 AI Agent 工具与外部集成.md",
+   "size": 18545,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/45 多模态 Agent.md",
+   "size": 11866,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/46 Agent 评估、安全与对齐.md",
+   "size": 24368,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/47 AI Agent 生产部署与工程化.md",
+   "size": 15517,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/48 AI Agent 垂直应用场景.md",
+   "size": 17865,
+   "status": "pending"
+  },
+  {
+   "path": "columns/菜鸟教程AI智能体/49 Hugging Face Transformers.md",
+   "size": 26896,
+   "status": "pending"
   }
+ ],
+ "stats": {
+  "total": 102,
+  "pending": 0,
+  "processing": 0,
+  "done": 102
+ }
 }

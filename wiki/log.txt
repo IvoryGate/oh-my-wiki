@@ -5,6 +5,15 @@
 
 ---
 
+## [2026-10-11] ingest | 剪藏菜鸟教程三系列 101 篇（NLP / AI / AI 智能体）
+
+- 来源：runoob.com 三个教程系列——NLP 教程 21 篇、AI 入门教程 30 篇、AI Agent(智能体) 教程 50 篇（基础 15 + 智能体工具 21 + Python 实现 14），共 101 篇
+- 落盘：raw/columns/菜鸟教程NLP（00-20）、菜鸟教程AI（00-29）、菜鸟教程AI智能体（00-49），编号 NN 标题.md，沿用列目录规范
+- 格式：frontmatter 含 title/source/created/description/tags；正文取 div.article-body 转 markdown，清除顶部导航链接与"AI 思考中"挂件，图片保留远程 URL
+- 标签归域：NLP→域/机器学习、AI→域/LLM与知识管理、AI智能体→域/Agent架构与工程（均在 39 词词表内）
+- manifest.json 新增 101 条（177→278，全部 pending，待理解与结构化阶段消化）
+- gen-graph 重建：source 节点 177→278，全图 370→471 节点；lint 与基线一致（唯一错误仍为 4 处历史图片断链）
+
 ## [2026-10-08] graph | graph.json 移出 gitignore，配色随仓库跨设备同步
 
 - 背景：用户推送后发现另一端没有颜色组——colorGroups 主配置在 .obsidian/graph.json，被 .gitignore:20 忽略，此前只有 bookmarks.json（书签快照）入库，默认视图读不到

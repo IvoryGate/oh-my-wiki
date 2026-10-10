@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-06",
+  "lastUpdated": "2026-10-11",
   "nodes": [
     {
       "id": "AAR-Model",
@@ -1417,6 +1417,612 @@
       "type": "source",
       "path": "raw/columns/机器学习40讲/总结课 贝叶斯学习的模型体系.md",
       "title": "总结课 贝叶斯学习的模型体系"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/00 AI 入门教程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/00 AI 入门教程.md",
+      "title": "00 AI 入门教程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/01 AI 简介",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/01 AI 简介.md",
+      "title": "01 AI 简介"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/02 AGI 简介",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/02 AGI 简介.md",
+      "title": "02 AGI 简介"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/03 大模型相关概念",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/03 大模型相关概念.md",
+      "title": "03 大模型相关概念"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/04 Prompt 提示词",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/04 Prompt 提示词.md",
+      "title": "04 Prompt 提示词"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/05 AI 工具全景",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/05 AI 工具全景.md",
+      "title": "05 AI 工具全景"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/06 AI 工作原理",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/06 AI 工作原理.md",
+      "title": "06 AI 工作原理"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/07 AI 伦理与安全",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/07 AI 伦理与安全.md",
+      "title": "07 AI 伦理与安全"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/08 AI 应用场景",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/08 AI 应用场景.md",
+      "title": "08 AI 应用场景"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/09 AI 行业生态",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/09 AI 行业生态.md",
+      "title": "09 AI 行业生态"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/10 Prompt 工程进阶",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/10 Prompt 工程进阶.md",
+      "title": "10 Prompt 工程进阶"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/11 AI API 开发",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/11 AI API 开发.md",
+      "title": "11 AI API 开发"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/12 RAG 检索增强生成",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/12 RAG 检索增强生成.md",
+      "title": "12 RAG 检索增强生成"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/13 AI 智能体",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/13 AI 智能体.md",
+      "title": "13 AI 智能体"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/14 AI 多模态",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/14 AI 多模态.md",
+      "title": "14 AI 多模态"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/15 AI 工作流自动化",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/15 AI 工作流自动化.md",
+      "title": "15 AI 工作流自动化"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/16 AI 产品设计",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/16 AI 产品设计.md",
+      "title": "16 AI 产品设计"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/17 本地模型部署",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/17 本地模型部署.md",
+      "title": "17 本地模型部署"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/18 AI 安全进阶",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/18 AI 安全进阶.md",
+      "title": "18 AI 安全进阶"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/19 Transformer 深度解析",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/19 Transformer 深度解析.md",
+      "title": "19 Transformer 深度解析"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/20 模型微调 Fine-tuning",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/20 模型微调 Fine-tuning.md",
+      "title": "20 模型微调 Fine-tuning"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/21 RLHF 对齐训练",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/21 RLHF 对齐训练.md",
+      "title": "21 RLHF 对齐训练"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/22 向量数据库",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/22 向量数据库.md",
+      "title": "22 向量数据库"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/23 AI 工程化部署",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/23 AI 工程化部署.md",
+      "title": "23 AI 工程化部署"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/24 深度学习基础",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/24 深度学习基础.md",
+      "title": "24 深度学习基础"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/25 计算机视觉 AI",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/25 计算机视觉 AI.md",
+      "title": "25 计算机视觉 AI"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/26 NLP 进阶技术",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/26 NLP 进阶技术.md",
+      "title": "26 NLP 进阶技术"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/27 前沿研究动态",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/27 前沿研究动态.md",
+      "title": "27 前沿研究动态"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/28 AI 系统架构",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/28 AI 系统架构.md",
+      "title": "28 AI 系统架构"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI/29 AI 评测与安全研究",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI/29 AI 评测与安全研究.md",
+      "title": "29 AI 评测与安全研究"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/00 AI Agent(智能体) 教程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/00 AI Agent(智能体) 教程.md",
+      "title": "00 AI Agent(智能体) 教程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/01 AI Agent 简介",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/01 AI Agent 简介.md",
+      "title": "01 AI Agent 简介"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/02 AI Agent 核心组件",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/02 AI Agent 核心组件.md",
+      "title": "02 AI Agent 核心组件"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/03 AI Agent 术语",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/03 AI Agent 术语.md",
+      "title": "03 AI Agent 术语"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/04 AI Agent 工作原理",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/04 AI Agent 工作原理.md",
+      "title": "04 AI Agent 工作原理"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/05 AI 底层架构",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/05 AI 底层架构.md",
+      "title": "05 AI 底层架构"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/06 大语言模型基础",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/06 大语言模型基础.md",
+      "title": "06 大语言模型基础"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/07 大模型多模态",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/07 大模型多模态.md",
+      "title": "07 大模型多模态"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/08 提示词工程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/08 提示词工程.md",
+      "title": "08 提示词工程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/09 Token (词元)",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/09 Token (词元).md",
+      "title": "09 Token (词元)"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/10 推理与规划",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/10 推理与规划.md",
+      "title": "10 推理与规划"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/11 向量数据库",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/11 向量数据库.md",
+      "title": "11 向量数据库"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/12 RAG 与知识检索",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/12 RAG 与知识检索.md",
+      "title": "12 RAG 与知识检索"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/13 Agent 上下文工程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/13 Agent 上下文工程.md",
+      "title": "13 Agent 上下文工程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/14 Agent 架构",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/14 Agent 架构.md",
+      "title": "14 Agent 架构"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/15 第一个 AI Agent",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/15 第一个 AI Agent.md",
+      "title": "15 第一个 AI Agent"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/16 AI 智能体",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/16 AI 智能体.md",
+      "title": "16 AI 智能体"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/17 OpenClaw (Clawdbot) 教程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/17 OpenClaw (Clawdbot) 教程.md",
+      "title": "17 OpenClaw (Clawdbot) 教程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/18 OpenClaw 快速上手",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/18 OpenClaw 快速上手.md",
+      "title": "18 OpenClaw 快速上手"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/19 QoderWork 教程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/19 QoderWork 教程.md",
+      "title": "19 QoderWork 教程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/20 QoderWake 教程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/20 QoderWake 教程.md",
+      "title": "20 QoderWake 教程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/21 WorkBuddy 入门教程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/21 WorkBuddy 入门教程.md",
+      "title": "21 WorkBuddy 入门教程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/22 AI 工作流",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/22 AI 工作流.md",
+      "title": "22 AI 工作流"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/23 CrewAI 构建智能体",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/23 CrewAI 构建智能体.md",
+      "title": "23 CrewAI 构建智能体"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/24 LangChain 制作智能体",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/24 LangChain 制作智能体.md",
+      "title": "24 LangChain 制作智能体"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/25 LangGraph 入门教程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/25 LangGraph 入门教程.md",
+      "title": "25 LangGraph 入门教程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/26 Deep Agents 入门教程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/26 Deep Agents 入门教程.md",
+      "title": "26 Deep Agents 入门教程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/27 GraphRAG 入门教程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/27 GraphRAG 入门教程.md",
+      "title": "27 GraphRAG 入门教程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/28 Harness Engineering",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/28 Harness Engineering.md",
+      "title": "28 Harness Engineering"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/29 Hermes Agent",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/29 Hermes Agent.md",
+      "title": "29 Hermes Agent"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/30 Loop Engineering",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/30 Loop Engineering.md",
+      "title": "30 Loop Engineering"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/31 Vibe Coding 入门教程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/31 Vibe Coding 入门教程.md",
+      "title": "31 Vibe Coding 入门教程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/32 Dify 入门教程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/32 Dify 入门教程.md",
+      "title": "32 Dify 入门教程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/33 n8n 入门教程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/33 n8n 入门教程.md",
+      "title": "33 n8n 入门教程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/34 Pi Coding Agent",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/34 Pi Coding Agent.md",
+      "title": "34 Pi Coding Agent"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/35 AI 3D (Blender)",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/35 AI 3D (Blender).md",
+      "title": "35 AI 3D (Blender)"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/36 Python 实现 AI Agent",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/36 Python 实现 AI Agent.md",
+      "title": "36 Python 实现 AI Agent"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/37 工具调用",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/37 工具调用.md",
+      "title": "37 工具调用"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/38 记忆系统",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/38 记忆系统.md",
+      "title": "38 记忆系统"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/39 Python 智能体环境配置",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/39 Python 智能体环境配置.md",
+      "title": "39 Python 智能体环境配置"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/40 AI Agent 问答实例",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/40 AI Agent 问答实例.md",
+      "title": "40 AI Agent 问答实例"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/41 Python 实现推理与规划",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/41 Python 实现推理与规划.md",
+      "title": "41 Python 实现推理与规划"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/42 Python 实现 RAG 与知识检索",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/42 Python 实现 RAG 与知识检索.md",
+      "title": "42 Python 实现 RAG 与知识检索"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/43 多智能体系统（Multi-Agent System）",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/43 多智能体系统（Multi-Agent System）.md",
+      "title": "43 多智能体系统（Multi-Agent System）"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/44 AI Agent 工具与外部集成",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/44 AI Agent 工具与外部集成.md",
+      "title": "44 AI Agent 工具与外部集成"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/45 多模态 Agent",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/45 多模态 Agent.md",
+      "title": "45 多模态 Agent"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/46 Agent 评估、安全与对齐",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/46 Agent 评估、安全与对齐.md",
+      "title": "46 Agent 评估、安全与对齐"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/47 AI Agent 生产部署与工程化",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/47 AI Agent 生产部署与工程化.md",
+      "title": "47 AI Agent 生产部署与工程化"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/48 AI Agent 垂直应用场景",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/48 AI Agent 垂直应用场景.md",
+      "title": "48 AI Agent 垂直应用场景"
+    },
+    {
+      "id": "raw/columns/菜鸟教程AI智能体/49 Hugging Face Transformers",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程AI智能体/49 Hugging Face Transformers.md",
+      "title": "49 Hugging Face Transformers"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/00 NLP 教程",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/00 NLP 教程.md",
+      "title": "00 NLP 教程"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/01 NLP 简介",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/01 NLP 简介.md",
+      "title": "01 NLP 简介"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/02 语言学基础",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/02 语言学基础.md",
+      "title": "02 语言学基础"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/03 文本预处理",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/03 文本预处理.md",
+      "title": "03 文本预处理"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/04 文本表示方法",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/04 文本表示方法.md",
+      "title": "04 文本表示方法"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/05 文本分类",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/05 文本分类.md",
+      "title": "05 文本分类"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/06 情感分析",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/06 情感分析.md",
+      "title": "06 情感分析"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/07 命名实体识别（NER）",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/07 命名实体识别（NER）.md",
+      "title": "07 命名实体识别（NER）"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/08 关系抽取",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/08 关系抽取.md",
+      "title": "08 关系抽取"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/09 文本相似度计算",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/09 文本相似度计算.md",
+      "title": "09 文本相似度计算"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/10 循环神经网络（RNN）",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/10 循环神经网络（RNN）.md",
+      "title": "10 循环神经网络（RNN）"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/11 注意力机制",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/11 注意力机制.md",
+      "title": "11 注意力机制"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/12 Transformer 架构",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/12 Transformer 架构.md",
+      "title": "12 Transformer 架构"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/13 序列到序列模型",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/13 序列到序列模型.md",
+      "title": "13 序列到序列模型"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/14 预训练模型",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/14 预训练模型.md",
+      "title": "14 预训练模型"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/15 BERT 系列模型",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/15 BERT 系列模型.md",
+      "title": "15 BERT 系列模型"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/16 生成式预训练模型",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/16 生成式预训练模型.md",
+      "title": "16 生成式预训练模型"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/17 多模态预训练模型",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/17 多模态预训练模型.md",
+      "title": "17 多模态预训练模型"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/18 Python NLP 生态",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/18 Python NLP 生态.md",
+      "title": "18 Python NLP 生态"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/19 深度学习框架",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/19 深度学习框架.md",
+      "title": "19 深度学习框架"
+    },
+    {
+      "id": "raw/columns/菜鸟教程NLP/20 数据处理工具",
+      "type": "source",
+      "path": "raw/columns/菜鸟教程NLP/20 数据处理工具.md",
+      "title": "20 数据处理工具"
     },
     {
       "id": "raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？",
@@ -7121,13 +7727,13 @@
     }
   ],
   "stats": {
-    "totalNodes": 370,
+    "totalNodes": 471,
     "totalEdges": 848,
     "byType": {
       "concept": 170,
       "entity": 10,
       "howto": 2,
-      "source": 177,
+      "source": 278,
       "topic": 11
     }
   }
