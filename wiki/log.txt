@@ -1019,3 +1019,4 @@
 - 创建 manifest.json 和 graph.json
 - 编写 Agent.md 和 README.md
 - 创建 index.md 和 log.md
+[2026-10-10] workspace/topics/UserAcquisition/notes/主流广告平台对比.md：用户单次授权下增补官方资料——修复表格粘连，Google/Meta/TikTok 节补官方口径与来源链接，新写 AppLovin/Mintegral/Unity/Moloco/Tapjoy 五节（官网+库内文章依据），frontmatter updated 同步；未改动用户已写正文观点
