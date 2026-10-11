@@ -1059,3 +1059,13 @@
 - 对话细化经营目标、平台筛选、产品生命周期、季节节奏、账户搭建、日常诊断与每周素材研究测试复盘，并整理面试口述参考。
 - 明确产品生命周期与计划学习阶段分开，季节经验需用买量与变现数据验证，预算扩张需看成熟队列与新增预算回收；未将截图示例或建议写成用户已取得的成果。
 - 未修改workspace或raw文件，未新增知识页面，图谱无需重建。
+
+## [2026-10-12] query | IAA休闲游戏黑五放量与收缩判断
+
+- 联网核对Felix Braberg（2025-11-07）、Liftoff（2025-11-20，回顾2024平台数据）及CAS.ai（2026-01-20，发行团队案例）的原始发布内容。
+- 黑五是潜在广告变现旺季，同时存在买量竞价压力；放量依据应为分国家、系统、渠道的新增用户队列预估LTV与边际CPI，而非单独依据全盘eCPM或存量收入。
+- 修正黑五统一收缩、Q5统一放量的简化判断；节后买量成本与变现收入可能同时回落，需提前调整出价并校正季节性LTV预测。公开材料不构成全行业统一幅度或2026黑五实际结果。
+- 来源：https://felixbraberg.substack.com/p/8-jolly-ad-monetization-tips-for
+- 来源：https://liftoff.ai/blog/q5-opportunities-for-mobile-game-marketers/
+- 来源：https://cas.ai/blog/january-as-strong-as-black-friday-record-ua-efficiency-at-cas-ai/
+- 本次仅在对话回答并记录查询日志，未修改workspace或raw正文，未新增页面，图谱无需重建。
