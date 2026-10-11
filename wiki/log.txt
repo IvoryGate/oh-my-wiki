@@ -5,6 +5,15 @@
 
 ---
 
+## [2026-10-11] lint | 孤页修复：16 → 1（织入 11 页反向链接）
+
+- ML 族 11 个：贝叶斯学习模型体系（related_atoms + 补 推断/变分推断/变量消除/线性动态系统/自编码器/高斯网络）、推断←贝叶斯主题并回链 变量消除/变分推断、文本分类←特征工程、聚类分析←距离度量、广义线性模型←联系函数、马尔可夫链归因←马尔可夫链、机器学习模型体系←梯度提升
+- 规范族：中文技术文档写作规范 参考链接 ← Chinese-Copywriting-Guidelines
+- 归因：MMP-Attribution 相关概念 ← Duplicate-Attribution
+- 媒介：娱乐至死 正文表格 ← 奥威尔与赫胥黎
+- 实体：FuPan 提出者 ← ZhangPeng
+- 结果：孤页 16→1（余 Tmux，库内无自然挂点暂留）；图谱 500 节点/1066 边（+16）；lint 其余仅 4 处历史图片断链
+
 ## [2026-10-11] ingest | AI智能体系列结构化：5 概念页 + 13 页归纳 + 1 主题页，50 篇 manifest 置 done
 
 - 新概念页：AI Agent（基础枢纽页，00/01/02/04/05 五篇汇聚）、MCP（←44）、多模态Agent（←45）、Loop Engineering（←30，与 Harness-Engineering 成对）、Vibe Coding（←31+15，域/Agent-First开发，链 Karpathy）

@@ -3924,6 +3924,12 @@
     },
     {
       "from": "FuPan",
+      "to": "ZhangPeng",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "FuPan",
       "to": "raw/columns/跟着高手学复盘/01 CLAP模型：一个优秀的复盘模型是什么样的？",
       "relation": "cites",
       "context": ""
@@ -4303,6 +4309,12 @@
     {
       "from": "MMP-Attribution",
       "to": "Attribution-Gap",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MMP-Attribution",
+      "to": "Duplicate-Attribution",
       "relation": "links_to",
       "context": ""
     },
@@ -6372,6 +6384,12 @@
     },
     {
       "from": "中文技术文档写作规范",
+      "to": "Chinese-Copywriting-Guidelines",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "中文技术文档写作规范",
       "to": "Tech-Blog-Article-Types",
       "relation": "links_to",
       "context": ""
@@ -7499,6 +7517,12 @@
       "context": ""
     },
     {
+      "from": "广义线性模型",
+      "to": "联系函数",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "归因链接",
       "to": "Last-Click-Rule",
       "relation": "links_to",
@@ -7601,6 +7625,18 @@
       "context": ""
     },
     {
+      "from": "推断",
+      "to": "变分推断",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "推断",
+      "to": "变量消除",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "提示词注入",
       "to": "Prompt工程",
       "relation": "links_to",
@@ -7645,6 +7681,12 @@
     {
       "from": "文本分类",
       "to": "损失函数",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "文本分类",
+      "to": "特征工程",
       "relation": "links_to",
       "context": ""
     },
@@ -7795,6 +7837,12 @@
     {
       "from": "机器学习模型体系",
       "to": "核函数",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "机器学习模型体系",
+      "to": "梯度提升",
       "relation": "links_to",
       "context": ""
     },
@@ -8561,6 +8609,12 @@
       "context": ""
     },
     {
+      "from": "聚类分析",
+      "to": "距离度量",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "自编码器",
       "to": "raw/columns/机器学习40讲/24 深度编解码：表示学习",
       "relation": "cites",
@@ -8772,6 +8826,24 @@
     },
     {
       "from": "贝叶斯学习模型体系",
+      "to": "变分推断",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "变量消除",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "推断",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
       "to": "机器学习模型体系",
       "relation": "complements",
       "context": ""
@@ -8790,6 +8862,18 @@
     },
     {
       "from": "贝叶斯学习模型体系",
+      "to": "线性动态系统",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "自编码器",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
       "to": "贝叶斯定理",
       "relation": "based_on",
       "context": ""
@@ -8798,6 +8882,12 @@
       "from": "贝叶斯学习模型体系",
       "to": "隐马尔可夫模型",
       "relation": "includes",
+      "context": ""
+    },
+    {
+      "from": "贝叶斯学习模型体系",
+      "to": "高斯网络",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -9065,6 +9155,12 @@
       "context": ""
     },
     {
+      "from": "马尔可夫链归因",
+      "to": "马尔可夫链",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
       "from": "马尔可夫随机场",
       "to": "raw/columns/机器学习40讲/30 无向图模型：马尔可夫随机场",
       "relation": "cites",
@@ -9085,7 +9181,7 @@
   ],
   "stats": {
     "totalNodes": 500,
-    "totalEdges": 1050,
+    "totalEdges": 1066,
     "byType": {
       "concept": 196,
       "entity": 10,

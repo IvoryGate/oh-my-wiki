@@ -9,7 +9,7 @@ type: concept
 domain: 增长与营销
 description: 第三方归因解决方案
 created: 2026-04-18
-updated: 2026-04-22
+updated: 2026-10-11
 sources:
   - [[raw/articles/关于归因你可能不知道的那些事(一）.md]]
   - [[raw/articles/出海投放基础知识之归因（一）.md]]
@@ -74,6 +74,7 @@ MMP (Mobile Measurement Partner) 归因是第三方归因公司提供的移动�
 - [[SKAN-Attribution]]
 - [[Last-Click-Rule]]
 - [[Attribution-Gap]]
+- [[Duplicate-Attribution]]
 
 ## 来源
 

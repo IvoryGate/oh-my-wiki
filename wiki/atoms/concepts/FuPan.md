@@ -1,7 +1,7 @@
 ---
 title: 复盘
 created: 2026-04-19
-updated: 2026-04-19
+updated: 2026-10-11
 type: concept
 domain: 复盘与方法论
 description: 复盘方法论：通过对过去的分析优化未来
@@ -95,7 +95,7 @@ status: active
 - **特点**: 既优化细节也优化战略,可复制性强
 - **优势**: 弥补PDCA和PDF的局限
 - **适合**: VUCA时代,多人协作环境
-- **提出者**: 张鹏
+- **提出者**: [[ZhangPeng|张鹏]]
 - **实践框架**: [[OPTM-Framework]]
 
 #### [[AAR-Model]] - 任务后检视
