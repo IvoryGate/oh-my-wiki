@@ -5,6 +5,15 @@
 
 ---
 
+## [2026-10-11] ingest | AI智能体系列结构化：5 概念页 + 13 页归纳 + 1 主题页，50 篇 manifest 置 done
+
+- 新概念页：AI Agent（基础枢纽页，00/01/02/04/05 五篇汇聚）、MCP（←44）、多模态Agent（←45）、Loop Engineering（←30，与 Harness-Engineering 成对）、Vibe Coding（←31+15，域/Agent-First开发，链 Karpathy）
+- 归纳补充 13 页：Agent-Loop←10/14/36/41（+4）、RAG←12/27/42（并补 GraphRAG 小节）、大语言模型←06/09、ACI←37/44、Prompt工程←08、多模态←07、向量数据库←11、Context-Engineering←13、Memory-System←38、Multi-Agent-Organization←43、Agent-Evaluation←46、Harness-Engineering←28、Workflow-vs-Agent←22
+- 主题页：wiki/synthesis/topics/Agent开发与工程.md（七层全景 + 三条工程主线），大模型应用技术栈 v1.1 补回链
+- 留档 21 篇：产品教程（DuMate/OpenClaw/QoderWork 等 8）、框架安装（CrewAI/LangChain/LangGraph/Deep Agents 4）、操作实践（术语/Blender/环境/部署/场景/HF 等 9）
+- manifest：菜鸟教程AI智能体 50 条 pending→done；三系列 101 篇至此全部处理完，manifest 202 done / 76 pending（余量为历史积压）
+- gen-graph：500 节点 / 1050 边（概念 191→196、主题 13→14）；lint 通过，孤页基线 16
+
 ## [2026-10-11] ingest | AI 系列结构化：10 概念页 + 1 主题页，30 篇 manifest 置 done
 
 - 新概念页（域/LLM）：大语言模型（含 27 篇 Scaling Law/MoE 归纳）、Prompt工程（04+10）、微调、RLHF、向量数据库、AGI、多模态、提示词注入、LLM评测（29 篇，无法归纳故新建）；卷积神经网络（25 篇，域/机器学习）

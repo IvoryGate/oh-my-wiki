@@ -8,8 +8,9 @@ type: concept
 domain: Agent 架构与工程
 description: Agent 评测体系
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-10-11
 sources:
+  - [[raw/columns/菜鸟教程AI智能体/46 Agent 评估、安全与对齐.md]]
   - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
 tags:
   - 域/Agent架构与工程
@@ -78,3 +79,4 @@ Prompt → Response → 判断对错
 ## 来源
 
 - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]] §8
+- [[raw/columns/菜鸟教程AI智能体/46 Agent 评估、安全与对齐.md]]

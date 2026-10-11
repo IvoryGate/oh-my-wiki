@@ -8,8 +8,9 @@ type: concept
 domain: Agent 架构与工程
 description: 工作流与智能体的核心区别
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-10-11
 sources:
+  - [[raw/columns/菜鸟教程AI智能体/22 AI 工作流.md]]
   - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
 tags:
   - 域/Agent架构与工程
@@ -46,3 +47,4 @@ Anthropic 对这两类系统的区分标准：
 ## 来源
 
 - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]] §1
+- [[raw/columns/菜鸟教程AI智能体/22 AI 工作流.md]]

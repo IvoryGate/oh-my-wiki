@@ -7,6 +7,9 @@ domain: LLM
 description: 检索增强生成技术
 tags: [域/LLM]
 sources:
+  - [[raw/columns/菜鸟教程AI智能体/12 RAG 与知识检索.md]]
+  - [[raw/columns/菜鸟教程AI智能体/27 GraphRAG 入门教程.md]]
+  - [[raw/columns/菜鸟教程AI智能体/42 Python 实现 RAG 与知识检索.md]]
   - [[raw/columns/菜鸟教程AI/12 RAG 检索增强生成.md]]
   - [[raw/articles/llm-wiki.md]]
 status: active
@@ -35,6 +38,10 @@ RAG 让 LLM 在生成回答前先检索相关文档，将检索到的内容作�
 - 跨文档推理困难
 - 查询之间不存在持续构建的持久化结构
 
+## GraphRAG
+
+针对上述"跨文档推理困难、无持久结构"的局限，GraphRAG 给出图增强方案：先将文档构建成知识图谱并做社区检测，检索时结合图结构与社区摘要回答全局性问题（如"这批文档的共同主题是什么"），而非只取相似片段。详见 [[raw/columns/菜鸟教程AI智能体/27 GraphRAG 入门教程.md]]。
+
 ## 与 LLM Wiki 的对比
 
 参见 [[LLM-Wiki]]
@@ -50,4 +57,7 @@ RAG 让 LLM 在生成回答前先检索相关文档，将检索到的内容作�
 
 - [[raw/articles/llm-wiki.md]]
 - [[raw/columns/菜鸟教程AI/12 RAG 检索增强生成.md]]
+- [[raw/columns/菜鸟教程AI智能体/12 RAG 与知识检索.md]]
+- [[raw/columns/菜鸟教程AI智能体/27 GraphRAG 入门教程.md]]
+- [[raw/columns/菜鸟教程AI智能体/42 Python 实现 RAG 与知识检索.md]]
 

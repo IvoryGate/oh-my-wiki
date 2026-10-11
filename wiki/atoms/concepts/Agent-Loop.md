@@ -11,6 +11,10 @@ description: Agent 核心循环模式：感知-决策-行动-反馈
 created: 2026-04-18
 updated: 2026-10-11
 sources:
+  - [[raw/columns/菜鸟教程AI智能体/10 推理与规划.md]]
+  - [[raw/columns/菜鸟教程AI智能体/14 Agent 架构.md]]
+  - [[raw/columns/菜鸟教程AI智能体/36 Python 实现 AI Agent.md]]
+  - [[raw/columns/菜鸟教程AI智能体/41 Python 实现推理与规划.md]]
   - [[raw/columns/菜鸟教程AI/13 AI 智能体.md]]
   - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
 tags:
@@ -79,3 +83,7 @@ while (true) {
 
 - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]] §1
 - [[raw/columns/菜鸟教程AI/13 AI 智能体.md]]
+- [[raw/columns/菜鸟教程AI智能体/10 推理与规划.md]]
+- [[raw/columns/菜鸟教程AI智能体/14 Agent 架构.md]]
+- [[raw/columns/菜鸟教程AI智能体/36 Python 实现 AI Agent.md]]
+- [[raw/columns/菜鸟教程AI智能体/41 Python 实现推理与规划.md]]

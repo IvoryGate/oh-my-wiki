@@ -9,8 +9,9 @@ type: concept
 domain: Agent 架构与工程
 description: 验收基础设施：测试、验证与约束
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-10-11
 sources:
+  - [[raw/columns/菜鸟教程AI智能体/28 Harness Engineering.md]]
   - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
   - [[raw/articles/工程技术：在智能体优先的世界中利用 Codex.md]]
 tags:
@@ -66,3 +67,4 @@ Harness 是指围绕 Agent 构建的 **测试、验证与约束基础设施**。
 
 - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]] §2
 - [[raw/articles/工程技术：在智能体优先的世界中利用 Codex.md]]
+- [[raw/columns/菜鸟教程AI智能体/28 Harness Engineering.md]]

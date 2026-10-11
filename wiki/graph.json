@@ -18,6 +18,11 @@
       "path": "wiki/atoms/concepts/AGI.md"
     },
     {
+      "id": "AI Agent",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/AI Agent.md"
+    },
+    {
       "id": "Ad-Fraud",
       "type": "concept",
       "path": "wiki/atoms/concepts/Ad-Fraud.md"
@@ -46,6 +51,11 @@
       "id": "Agent-Tracing",
       "type": "concept",
       "path": "wiki/atoms/concepts/Agent-Tracing.md"
+    },
+    {
+      "id": "Agent开发与工程",
+      "type": "topic",
+      "path": "wiki/synthesis/topics/Agent开发与工程.md"
     },
     {
       "id": "Architecture-Constraints",
@@ -228,9 +238,19 @@
       "path": "wiki/atoms/concepts/Long-Task-Management.md"
     },
     {
+      "id": "Loop Engineering",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Loop Engineering.md"
+    },
+    {
       "id": "MCMC",
       "type": "concept",
       "path": "wiki/atoms/concepts/MCMC.md"
+    },
+    {
+      "id": "MCP",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/MCP.md"
     },
     {
       "id": "MECE",
@@ -451,6 +471,11 @@
       "id": "VC维",
       "type": "concept",
       "path": "wiki/atoms/concepts/VC维.md"
+    },
+    {
+      "id": "Vibe Coding",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Vibe Coding.md"
     },
     {
       "id": "Word2Vec",
@@ -2301,6 +2326,11 @@
       "path": "wiki/atoms/concepts/多模态.md"
     },
     {
+      "id": "多模态Agent",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/多模态Agent.md"
+    },
+    {
       "id": "多触点归因",
       "type": "concept",
       "path": "wiki/atoms/concepts/多触点归因.md"
@@ -2801,6 +2831,18 @@
       "context": ""
     },
     {
+      "from": "ACI-Agent-Computer-Interface",
+      "to": "raw/columns/菜鸟教程AI智能体/37 工具调用",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "ACI-Agent-Computer-Interface",
+      "to": "raw/columns/菜鸟教程AI智能体/44 AI Agent 工具与外部集成",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "AGI",
       "to": "GPT",
       "relation": "links_to",
@@ -2814,6 +2856,78 @@
     },
     {
       "from": "AGI",
+      "to": "大语言模型",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "AI Agent",
+      "to": "ACI-Agent-Computer-Interface",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "AI Agent",
+      "to": "Agent-Loop",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "AI Agent",
+      "to": "Context-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "AI Agent",
+      "to": "MCP",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "AI Agent",
+      "to": "Memory-System",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "AI Agent",
+      "to": "Multi-Agent-Organization",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "AI Agent",
+      "to": "Workflow-vs-Agent",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "AI Agent",
+      "to": "raw/columns/菜鸟教程AI智能体/01 AI Agent 简介",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "AI Agent",
+      "to": "raw/columns/菜鸟教程AI智能体/02 AI Agent 核心组件",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "AI Agent",
+      "to": "raw/columns/菜鸟教程AI智能体/04 AI Agent 工作原理",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "AI Agent",
+      "to": "raw/columns/菜鸟教程AI智能体/05 AI 底层架构",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "AI Agent",
       "to": "大语言模型",
       "relation": "links_to",
       "context": ""
@@ -2921,6 +3035,12 @@
       "context": ""
     },
     {
+      "from": "Agent-Evaluation",
+      "to": "raw/columns/菜鸟教程AI智能体/46 Agent 评估、安全与对齐",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Agent-First-Development",
       "to": "Architecture-Constraints",
       "relation": "requires",
@@ -2999,6 +3119,30 @@
       "context": ""
     },
     {
+      "from": "Agent-Loop",
+      "to": "raw/columns/菜鸟教程AI智能体/10 推理与规划",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Agent-Loop",
+      "to": "raw/columns/菜鸟教程AI智能体/14 Agent 架构",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Agent-Loop",
+      "to": "raw/columns/菜鸟教程AI智能体/36 Python 实现 AI Agent",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Agent-Loop",
+      "to": "raw/columns/菜鸟教程AI智能体/41 Python 实现推理与规划",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Agent-Tracing",
       "to": "Agent-Evaluation",
       "relation": "links_to",
@@ -3014,6 +3158,144 @@
       "from": "Agent-Tracing",
       "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
       "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "AAR-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "ACI-Agent-Computer-Interface",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "AI Agent",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "Agent-Evaluation",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "Agent-First-Development",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "Agent-Loop",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "Context-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "Harness-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "Long-Task-Management",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "Loop Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "MCP",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "Memory-System",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "Multi-Agent-Organization",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "Pacing-Model",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "Skills-System",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "Vibe Coding",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "Workflow-vs-Agent",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "raw/columns/菜鸟教程AI智能体/00 AI Agent(智能体) 教程",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "raw/columns/菜鸟教程AI智能体/02 AI Agent 核心组件",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "raw/columns/菜鸟教程AI智能体/14 Agent 架构",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "raw/columns/菜鸟教程AI智能体/28 Harness Engineering",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "多模态Agent",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Agent开发与工程",
+      "to": "大模型应用技术栈",
+      "relation": "links_to",
       "context": ""
     },
     {
@@ -3461,6 +3743,12 @@
       "context": ""
     },
     {
+      "from": "Context-Engineering",
+      "to": "raw/columns/菜鸟教程AI智能体/13 Agent 上下文工程",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "DAU-Retention-Rate",
       "to": "Cohort-Analysis",
       "relation": "links_to",
@@ -3713,6 +4001,12 @@
       "context": ""
     },
     {
+      "from": "Harness-Engineering",
+      "to": "raw/columns/菜鸟教程AI智能体/28 Harness Engineering",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "High-Value-Channel",
       "to": "Channel-Launch-Strategy",
       "relation": "requires",
@@ -3935,8 +4229,56 @@
       "context": ""
     },
     {
+      "from": "Loop Engineering",
+      "to": "AI Agent",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Loop Engineering",
+      "to": "Agent-Loop",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Loop Engineering",
+      "to": "Harness-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Loop Engineering",
+      "to": "raw/columns/菜鸟教程AI智能体/30 Loop Engineering",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "MCMC",
       "to": "raw/columns/机器学习40讲/37 随机近似推断：MCMC",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "MCP",
+      "to": "ACI-Agent-Computer-Interface",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MCP",
+      "to": "AI Agent",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MCP",
+      "to": "Skills-System",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "MCP",
+      "to": "raw/columns/菜鸟教程AI智能体/44 AI Agent 工具与外部集成",
       "relation": "cites",
       "context": ""
     },
@@ -4049,6 +4391,12 @@
       "context": ""
     },
     {
+      "from": "Memory-System",
+      "to": "raw/columns/菜鸟教程AI智能体/38 记忆系统",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Multi-Agent-Organization",
       "to": "Agent-Control-Patterns",
       "relation": "links_to",
@@ -4063,6 +4411,12 @@
     {
       "from": "Multi-Agent-Organization",
       "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Multi-Agent-Organization",
+      "to": "raw/columns/菜鸟教程AI智能体/43 多智能体系统（Multi-Agent System）",
       "relation": "cites",
       "context": ""
     },
@@ -5106,6 +5460,12 @@
     },
     {
       "from": "Prompt工程",
+      "to": "raw/columns/菜鸟教程AI智能体/08 提示词工程",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Prompt工程",
       "to": "大语言模型",
       "relation": "links_to",
       "context": ""
@@ -5215,6 +5575,24 @@
     {
       "from": "RAG",
       "to": "raw/columns/菜鸟教程AI/12 RAG 检索增强生成",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "RAG",
+      "to": "raw/columns/菜鸟教程AI智能体/12 RAG 与知识检索",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "RAG",
+      "to": "raw/columns/菜鸟教程AI智能体/27 GraphRAG 入门教程",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "RAG",
+      "to": "raw/columns/菜鸟教程AI智能体/42 Python 实现 RAG 与知识检索",
       "relation": "cites",
       "context": ""
     },
@@ -5705,6 +6083,36 @@
       "context": ""
     },
     {
+      "from": "Vibe Coding",
+      "to": "Agent-First-Development",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Vibe Coding",
+      "to": "Harness-Engineering",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Vibe Coding",
+      "to": "Karpathy",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Vibe Coding",
+      "to": "raw/columns/菜鸟教程AI智能体/15 第一个 AI Agent",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Vibe Coding",
+      "to": "raw/columns/菜鸟教程AI智能体/31 Vibe Coding 入门教程",
+      "relation": "cites",
+      "context": ""
+    },
+    {
       "from": "Word2Vec",
       "to": "raw/columns/菜鸟教程AI/26 NLP 进阶技术",
       "relation": "cites",
@@ -5749,6 +6157,12 @@
     {
       "from": "Workflow-vs-Agent",
       "to": "raw/articles/你不知道的 Agent：原理、架构与工程实践",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Workflow-vs-Agent",
+      "to": "raw/columns/菜鸟教程AI智能体/22 AI 工作流",
       "relation": "cites",
       "context": ""
     },
@@ -6582,6 +6996,12 @@
     },
     {
       "from": "向量数据库",
+      "to": "raw/columns/菜鸟教程AI智能体/11 向量数据库",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "向量数据库",
       "to": "大语言模型",
       "relation": "links_to",
       "context": ""
@@ -6684,6 +7104,36 @@
     },
     {
       "from": "多模态",
+      "to": "raw/columns/菜鸟教程AI智能体/07 大模型多模态",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "多模态",
+      "to": "大语言模型",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "多模态Agent",
+      "to": "AI Agent",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "多模态Agent",
+      "to": "raw/columns/菜鸟教程AI智能体/45 多模态 Agent",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "多模态Agent",
+      "to": "多模态",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "多模态Agent",
       "to": "大语言模型",
       "relation": "links_to",
       "context": ""
@@ -6727,6 +7177,12 @@
     {
       "from": "大模型应用技术栈",
       "to": "Agent-Loop",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "大模型应用技术栈",
+      "to": "Agent开发与工程",
       "relation": "links_to",
       "context": ""
     },
@@ -6859,6 +7315,18 @@
     {
       "from": "大语言模型",
       "to": "raw/columns/菜鸟教程AI/27 前沿研究动态",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "大语言模型",
+      "to": "raw/columns/菜鸟教程AI智能体/06 大语言模型基础",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "大语言模型",
+      "to": "raw/columns/菜鸟教程AI智能体/09 Token (词元)",
       "relation": "cites",
       "context": ""
     },
@@ -8616,14 +9084,14 @@
     }
   ],
   "stats": {
-    "totalNodes": 494,
-    "totalEdges": 977,
+    "totalNodes": 500,
+    "totalEdges": 1050,
     "byType": {
-      "concept": 191,
+      "concept": 196,
       "entity": 10,
       "howto": 2,
       "source": 278,
-      "topic": 13
+      "topic": 14
     }
   }
 }

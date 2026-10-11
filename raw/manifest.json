@@ -2280,252 +2280,391 @@
   {
    "path": "columns/菜鸟教程AI智能体/00 AI Agent(智能体) 教程.md",
    "size": 6593,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/synthesis/topics/Agent开发与工程.md",
+    "wiki/atoms/concepts/AI Agent.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/01 AI Agent 简介.md",
    "size": 14789,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/AI Agent.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/02 AI Agent 核心组件.md",
    "size": 17164,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/AI Agent.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/03 AI Agent 术语.md",
    "size": 11520,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/04 AI Agent 工作原理.md",
    "size": 19418,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/AI Agent.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/05 AI 底层架构.md",
    "size": 19213,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/AI Agent.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/06 大语言模型基础.md",
    "size": 16919,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/大语言模型.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/07 大模型多模态.md",
    "size": 18110,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/多模态.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/08 提示词工程.md",
    "size": 37384,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Prompt工程.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/09 Token (词元).md",
    "size": 4414,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/大语言模型.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/10 推理与规划.md",
    "size": 8229,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Agent-Loop.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/11 向量数据库.md",
    "size": 23377,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/向量数据库.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/12 RAG 与知识检索.md",
    "size": 10195,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/RAG.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/13 Agent 上下文工程.md",
    "size": 9689,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Context-Engineering.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/14 Agent 架构.md",
    "size": 27087,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Agent-Loop.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/15 第一个 AI Agent.md",
    "size": 4293,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Vibe Coding.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/16 AI 智能体.md",
    "size": 5575,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/17 OpenClaw (Clawdbot) 教程.md",
    "size": 18588,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/18 OpenClaw 快速上手.md",
    "size": 7792,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/19 QoderWork 教程.md",
    "size": 7238,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/20 QoderWake 教程.md",
    "size": 14856,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/21 WorkBuddy 入门教程.md",
    "size": 16289,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/22 AI 工作流.md",
    "size": 34805,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Workflow-vs-Agent.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/23 CrewAI 构建智能体.md",
    "size": 20133,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/24 LangChain 制作智能体.md",
    "size": 28060,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/25 LangGraph 入门教程.md",
    "size": 43885,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/26 Deep Agents 入门教程.md",
    "size": 30834,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/27 GraphRAG 入门教程.md",
    "size": 24546,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/RAG.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/28 Harness Engineering.md",
    "size": 11323,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Harness-Engineering.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/29 Hermes Agent.md",
    "size": 17917,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/30 Loop Engineering.md",
    "size": 24008,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Loop Engineering.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/31 Vibe Coding 入门教程.md",
    "size": 19861,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Vibe Coding.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/32 Dify 入门教程.md",
    "size": 34704,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/33 n8n 入门教程.md",
    "size": 40599,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/34 Pi Coding Agent.md",
    "size": 32026,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/35 AI 3D (Blender).md",
    "size": 10316,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/36 Python 实现 AI Agent.md",
    "size": 27408,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Agent-Loop.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/37 工具调用.md",
    "size": 27315,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/ACI-Agent-Computer-Interface.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/38 记忆系统.md",
    "size": 35400,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Memory-System.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/39 Python 智能体环境配置.md",
    "size": 25707,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/40 AI Agent 问答实例.md",
    "size": 12736,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/41 Python 实现推理与规划.md",
    "size": 26992,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Agent-Loop.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/42 Python 实现 RAG 与知识检索.md",
    "size": 25408,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/RAG.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/43 多智能体系统（Multi-Agent System）.md",
    "size": 20831,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Multi-Agent-Organization.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/44 AI Agent 工具与外部集成.md",
    "size": 18545,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/MCP.md",
+    "wiki/atoms/concepts/ACI-Agent-Computer-Interface.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/45 多模态 Agent.md",
    "size": 11866,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/多模态Agent.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/46 Agent 评估、安全与对齐.md",
    "size": 24368,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00",
+   "producedPages": [
+    "wiki/atoms/concepts/Agent-Evaluation.md"
+   ]
   },
   {
    "path": "columns/菜鸟教程AI智能体/47 AI Agent 生产部署与工程化.md",
    "size": 15517,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/48 AI Agent 垂直应用场景.md",
    "size": 17865,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   },
   {
    "path": "columns/菜鸟教程AI智能体/49 Hugging Face Transformers.md",
    "size": 26896,
-   "status": "pending"
+   "status": "done",
+   "compiledAt": "2026-10-11T23:30:00+08:00"
   }
  ],
  "stats": {

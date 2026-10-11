@@ -7,6 +7,7 @@ domain: LLM
 description: 提示结构、示例与思维链的提示设计方法。
 tags: [域/LLM]
 sources:
+  - [[raw/columns/菜鸟教程AI智能体/08 提示词工程.md]]
   - [[raw/columns/菜鸟教程AI/04 Prompt 提示词.md]]
   - [[raw/columns/菜鸟教程AI/10 Prompt 工程进阶.md]]
 status: active
@@ -65,3 +66,4 @@ Prompt（提示词）是输入给 AI 的文字内容，可以是一个问题、�
 
 - [[raw/columns/菜鸟教程AI/04 Prompt 提示词.md]]
 - [[raw/columns/菜鸟教程AI/10 Prompt 工程进阶.md]]
+- [[raw/columns/菜鸟教程AI智能体/08 提示词工程.md]]

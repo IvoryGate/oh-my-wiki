@@ -8,8 +8,9 @@ type: concept
 domain: Agent 架构与工程
 description: 多 Agent 组织与协作模式
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-10-11
 sources:
+  - [[raw/columns/菜鸟教程AI智能体/43 多智能体系统（Multi-Agent System）.md]]
   - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
 tags:
   - 域/Agent架构与工程
@@ -82,3 +83,4 @@ return summarize(result); // 主 Agent 上下文里只有这一行
 ## 来源
 
 - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]] §7
+- [[raw/columns/菜鸟教程AI智能体/43 多智能体系统（Multi-Agent System）.md]]

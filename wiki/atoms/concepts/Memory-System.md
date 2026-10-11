@@ -10,6 +10,7 @@ description: Agent 记忆系统：四种记忆类型
 created: 2026-04-18
 updated: 2026-10-11
 sources:
+  - [[raw/columns/菜鸟教程AI智能体/38 记忆系统.md]]
   - [[raw/columns/菜鸟教程AI/13 AI 智能体.md]]
   - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
 tags:
@@ -68,3 +69,4 @@ tokenUsage / maxTokens >= 0.5  → 触发整合
 
 - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]] §5
 - [[raw/columns/菜鸟教程AI/13 AI 智能体.md]]
+- [[raw/columns/菜鸟教程AI智能体/38 记忆系统.md]]

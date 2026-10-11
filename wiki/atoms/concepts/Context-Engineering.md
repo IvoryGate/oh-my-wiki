@@ -8,8 +8,9 @@ type: concept
 domain: Agent 架构与工程
 description: 上下文工程：防止 Context Rot
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-10-11
 sources:
+  - [[raw/columns/菜鸟教程AI智能体/13 Agent 上下文工程.md]]
   - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
 tags:
   - 域/Agent架构与工程
@@ -65,3 +66,4 @@ Transformer 的注意力复杂度是 O(n²)，上下文越长，关键信号越�
 ## 来源
 
 - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]] §3
+- [[raw/columns/菜鸟教程AI智能体/13 Agent 上下文工程.md]]

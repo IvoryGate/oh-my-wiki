@@ -11,6 +11,8 @@ description: Agent-Computer Interface：工具设计原则
 created: 2026-04-18
 updated: 2026-10-11
 sources:
+  - [[raw/columns/菜鸟教程AI智能体/37 工具调用.md]]
+  - [[raw/columns/菜鸟教程AI智能体/44 AI Agent 工具与外部集成.md]]
   - [[raw/columns/菜鸟教程AI/13 AI 智能体.md]]
   - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]]
 tags:
@@ -98,3 +100,5 @@ const updateTool = betaZodTool({
 
 - [[raw/articles/你不知道的 Agent：原理、架构与工程实践.md]] §4
 - [[raw/columns/菜鸟教程AI/13 AI 智能体.md]]
+- [[raw/columns/菜鸟教程AI智能体/37 工具调用.md]]
+- [[raw/columns/菜鸟教程AI智能体/44 AI Agent 工具与外部集成.md]]
