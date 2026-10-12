@@ -1069,3 +1069,10 @@
 - 来源：https://liftoff.ai/blog/q5-opportunities-for-mobile-game-marketers/
 - 来源：https://cas.ai/blog/january-as-strong-as-black-friday-record-ua-efficiency-at-cas-ai/
 - 本次仅在对话回答并记录查询日志，未修改workspace或raw正文，未新增页面，图谱无需重建。
+
+## [2026-10-12] query | 广告投放核心指标计算与面试回答
+
+- 定向阅读日活与留存率、队列分析、会话统计、ROAS数据对齐、广告投放问答及写作规范。
+- 对话整理DAU、WAU、MAU、队列留存、漏斗成本、IAA变现、LTV、ROAS和回本周期的公式、示例及统计边界。
+- 指出库内旧笔记的DAU除以总体用户数不适用于队列留存，Session ID不可直接作为用户去重键；留存与比率汇总需按原始分子分母计算。
+- 仅交付对话参考，未修改workspace或raw正文，未新增页面，图谱无需重建。
