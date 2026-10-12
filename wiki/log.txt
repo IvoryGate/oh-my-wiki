@@ -1076,3 +1076,11 @@
 - 对话整理DAU、WAU、MAU、队列留存、漏斗成本、IAA变现、LTV、ROAS和回本周期的公式、示例及统计边界。
 - 指出库内旧笔记的DAU除以总体用户数不适用于队列留存，Session ID不可直接作为用户去重键；留存与比率汇总需按原始分子分母计算。
 - 仅交付对话参考，未修改workspace或raw正文，未新增页面，图谱无需重建。
+
+## [2026-10-12] query | 七个平台的流量特征与投放差异
+
+- 结合用户Google、Meta、TikTok截图、主流广告平台对比、受众定义、渠道认知差及渠道不起量原文，核对各平台当前官方应用投放资料。
+- 按展示场景、流量供给、素材与价值信号比较Google、Meta、TikTok、Mintegral、Unity、AppLovin、Moloco；将优化建议与已验证平台功能分开。
+- 核对AppLovin应用IAA及混合ROAS当前文档要求MAX；Unity使用Creative Pack和显式事件回传；Mintegral支持视频与试玩及目标ROAS；Moloco以开放应用生态和CPA/ROAS优化为重点，当前亦接入自有SDK，不能绝对称为无SDK纯DSP。
+- 未将截图的成本排名、学习速度、年龄限制，或库内历史定向权限当作当前普遍结论。未修改workspace或raw正文，未新增页面，图谱无需重建。
+- 官方来源：Google应用广告系列简介；Meta Blueprint Advantage+应用课程；TikTok Smart+应用与Spark Ads文档；Unity UA工作流；Mintegral AppGrowth帮助中心；AppLovin应用扩量指南；Moloco用户获取产品页。
