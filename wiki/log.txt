@@ -1084,3 +1084,10 @@
 - 核对AppLovin应用IAA及混合ROAS当前文档要求MAX；Unity使用Creative Pack和显式事件回传；Mintegral支持视频与试玩及目标ROAS；Moloco以开放应用生态和CPA/ROAS优化为重点，当前亦接入自有SDK，不能绝对称为无SDK纯DSP。
 - 未将截图的成本排名、学习速度、年龄限制，或库内历史定向权限当作当前普遍结论。未修改workspace或raw正文，未新增页面，图谱无需重建。
 - 官方来源：Google应用广告系列简介；Meta Blueprint Advantage+应用课程；TikTok Smart+应用与Spark Ads文档；Unity UA工作流；Mintegral AppGrowth帮助中心；AppLovin应用扩量指南；Moloco用户获取产品页。
+
+## [2026-10-14] lint | 写作批次收尾校验
+
+- 运行 check.py：222 页、标签 40/40 在词表、graph.json 一致（500 节点 / 1066 边）。
+- 断链 4 处，均为既有问题：workspace/Doing/出海增长.md 与 workspace/Doing/字符集和字符编码.md 的 attachments 图片链接失效（与本批写作无关，workspace 正文不动）。
+- 孤页 1 个：Tmux（既有，无入链）。
+- 本批产出（主流广告平台对比、广告投放问答、User-App-Pair 等 11 个概念页）的内部链接全部有效；本批页面已随写作提交入库，图谱无需重建。
