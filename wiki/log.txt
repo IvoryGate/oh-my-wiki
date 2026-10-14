@@ -1091,3 +1091,12 @@
 - 断链 4 处，均为既有问题：workspace/Doing/出海增长.md 与 workspace/Doing/字符集和字符编码.md 的 attachments 图片链接失效（与本批写作无关，workspace 正文不动）。
 - 孤页 1 个：Tmux（既有，无入链）。
 - 本批产出（主流广告平台对比、广告投放问答、User-App-Pair 等 11 个概念页）的内部链接全部有效；本批页面已随写作提交入库，图谱无需重建。
+
+## [2026-10-15] writing | UA系列撰写大纲与知识缺口补全
+
+- 用户口述面试提纲（42 条），剥离面试策略、个人案例与个人产品判断后，重组为《海外游戏广告投放知识体系》20 篇系列大纲，保存为 workspace/topics/UserAcquisition/大纲.md；每篇映射已有 wiki 页面与 raw 来源，标注缺口；写作时用户参与定稿，变现侧（第 2、19 篇）等高质量资料再补。
+- 新增 wiki/atoms/concepts/Mediation-Platform.md：从 raw/articles/广告作弊Ad Fraud（一）提取聚合平台定义、常见聚合（AdMob/MAX/LevelPlay/Helium）、买量变现同源误区。
+- 归因模型笔记（单次授权）：frontmatter sources 挂接《广告归因8种模型》《三种主流归因模型全解析》两篇未引用 raw，正文增「待整理来源」段。
+- _tracker.md 更新：完成项移位（attribution/DSP/马尔可夫），新增变现侧与 re-engagement 待研究，记录大纲入口。
+- 10 个归因/受众类概念页补 status: active 字段（Attribution-Gap 等）。
+- gen-graph 重建（501 节点/1069 边）；lint 通过（遗留 4 处附件断链为既有问题）。

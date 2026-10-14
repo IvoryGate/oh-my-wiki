@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-15",
   "nodes": [
     {
       "id": "AAR-Model",
@@ -266,6 +266,11 @@
       "id": "MVCC",
       "type": "concept",
       "path": "wiki/atoms/concepts/MVCC.md"
+    },
+    {
+      "id": "Mediation-Platform",
+      "type": "concept",
+      "path": "wiki/atoms/concepts/Mediation-Platform.md"
     },
     {
       "id": "Memory-System",
@@ -4369,6 +4374,24 @@
     {
       "from": "MVCC",
       "to": "间隙锁",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Mediation-Platform",
+      "to": "Ad-Fraud",
+      "relation": "links_to",
+      "context": ""
+    },
+    {
+      "from": "Mediation-Platform",
+      "to": "raw/articles/广告作弊Ad Fraud（一）",
+      "relation": "cites",
+      "context": ""
+    },
+    {
+      "from": "Mediation-Platform",
+      "to": "程序化广告",
       "relation": "links_to",
       "context": ""
     },
@@ -9180,10 +9203,10 @@
     }
   ],
   "stats": {
-    "totalNodes": 500,
-    "totalEdges": 1066,
+    "totalNodes": 501,
+    "totalEdges": 1069,
     "byType": {
-      "concept": 196,
+      "concept": 197,
       "entity": 10,
       "howto": 2,
       "source": 278,

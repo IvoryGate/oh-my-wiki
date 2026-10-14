@@ -14,6 +14,7 @@ sources:
   - [[raw/articles/如何定义受众-正篇.md]]
 tags:
   - 域/增长与营销
+status: active
 ---
 
 ## 定义
