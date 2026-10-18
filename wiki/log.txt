@@ -1100,3 +1100,5 @@
 - _tracker.md 更新：完成项移位（attribution/DSP/马尔可夫），新增变现侧与 re-engagement 待研究，记录大纲入口。
 - 10 个归因/受众类概念页补 status: active 字段（Attribution-Gap 等）。
 - gen-graph 重建（501 节点/1069 边）；lint 通过（遗留 4 处附件断链为既有问题）。
+
+- 2026-10-18 系列 03《从展示到安装：买量的几个基础指标》定稿（status done，updated 2026-10-18）。逐节打磨收官：CPM 三因素按「主张-依据-范围」重整；季节性证据修正为真实出处（AppsFlyer 电商报告 2023 版新闻稿，CPI 2022-11 见顶，弃用夸大的 30% 回落口径）；竞争段引 AppsFlyer State of Gaming 2026（2025 展示量 +20%、付费安装占比 +10%）；广告质量以 Meta About ad quality + Google About Ad Rank 双官方文档为据。参考区对账：保留 10 条（均有正文引用），删 5 条未引用（Google Display、Meta CPM 定义、Adjust 2026、广告竞价（一）、渠道不起量）。素材附录附 A 中"Q1 回落 30%"为已弃用旧口径，后续篇目引用注意。
