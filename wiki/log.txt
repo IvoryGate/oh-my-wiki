@@ -1119,3 +1119,9 @@
 - 程序化广告页更新 updated；大纲同步素材位置、保留源文件的例外与迁移记录，其他文章正文未修改。
 - gen-graph 重建并校验一致（501 节点、1069 边）；未发现指向旧笔记的内部链接。lint 仍有既有 4 处附件断链，位于出海增长与字符集和字符编码，及 Tmux 孤页；本次未新增断链。
 - 本次仅提交迁移目标、旧文件删除、大纲、日志及派生图谱，未推送。
+
+## [2026-11-08] writing | 创建 IAA 投放系列第一篇
+
+- 按用户明确要求创建 workspace/topics/UserAcquisition/notes/IAA游戏投放在做什么.md，仅填写 frontmatter 和一级标题，未写入对话草稿。
+- title 为 IAA 游戏投放在做什么，type 为 note，status 为 doing，created/updated 为 2026-11-08，tags 为域/增长与营销。
+- gen-graph 重建，节点与边保持 501/1069；本次只提交新文件和操作日志，其他文章及 Obsidian 设置不纳入，未推送。
