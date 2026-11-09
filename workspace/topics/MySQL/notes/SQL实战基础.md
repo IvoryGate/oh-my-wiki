@@ -13,15 +13,87 @@ tags: [域/数据库]
 
 ## 开篇
 
-- [ ] 从 Sakila 的电影租赁场景引出本章。读者从一条单表查询开始，最后能独立查询、汇总、连接和修改练习数据，并核对结果。
-- [ ] 介绍练习用到的三张表。`film` 的一行是一部电影，`inventory` 的一行是一份库存副本，`rental` 的一行是一次租借。
-- [ ] 补上 Navicat 连接实际对应的服务端版本。待运行 `SELECT VERSION()` 核对。
+第一次在 Navicat 打开电影表时，我看到电影编号从 1 往下排，以为查询结果也会默认按编号排列。后来我查片长最长的 5 部电影，把排序条件里的电影编号去掉，返回的结果就变了。两条语句都能运行，却规定了不同的排序规则。
+
+写 SQL 时，先把问题说具体。以「查出片长超过 120 分钟的电影中最长的 5 部」为例，我需要确定查哪张表、显示哪些字段、怎样筛选，以及片长相同的电影该怎么排。规则写清楚之后，还要拿几条记录核对结果。
+
+本章用 Sakila 的电影租赁数据练习。`film` 的一行是一部电影，`inventory` 的一行是一份门店库存副本，`rental` 的一行是一次租借。我们先从电影表选出符合条件的记录，再把查询扩展到多表统计。最后在练习库中修改数据，并用执行计划观察 MySQL 怎样取得查询结果。[Sakila 库存表](https://dev.mysql.com/doc/sakila/en/sakila-structure-tables-inventory.html)、[Sakila 租借表](https://dev.mysql.com/doc/sakila/en/sakila-structure-tables-rental.html)
+
+<!-- 实验环境待在 Navicat 的实际连接中运行 SELECT VERSION() 后补入。 -->
 
 ## 单表查询
 
-- [ ] 从「找出片长超过 120 分钟的电影」讲 `SELECT`、`FROM`、列名和 `WHERE`，再用实际问题补条件组合、范围、文本匹配、去重和 `NULL`。
-- [ ] 用 `ORDER BY` 和 `LIMIT` 写出「最长的 5 部电影」。对照片长相同的记录，解释第二个排序字段如何决定先后。
-- 按片长降序、编号升序取前 5 部，实测返回编号 141、182、212、349、426，片长均为 185 分钟。用这组数据引出并列排序。
+### 选出需要的行和列
+
+先查一个简单的问题。**片长超过 120 分钟的电影中，编号最小的 5 部是什么？** 结果里一行对应一部电影，只需要显示电影编号、片名和片长。
+
+```sql
+SELECT film_id, title, length
+FROM sakila.film
+WHERE length > 120
+ORDER BY film_id ASC
+LIMIT 5;
+```
+
+`FROM` 指定数据来源，`sakila.film` 表示 Sakila 数据库里的电影表。`SELECT` 列出要显示的字段。想让列名显示单位时，可以写 `length AS length_minutes`，这个名字用于当前查询的输出。
+
+`WHERE length > 120` 只保留片长超过 120 分钟的记录。`ORDER BY film_id ASC` 将这些记录按编号升序排列，`LIMIT 5` 取排在最前面的 5 条。实测结果如下。
+
+| 电影编号 | 片名 | 片长（分钟） |
+|---:|---|---:|
+| 5 | AFRICAN EGG | 130 |
+| 6 | AGENT TRUMAN | 169 |
+| 11 | ALAMO VIDEOTAPE | 126 |
+| 12 | ALASKA PHANTOM | 136 |
+| 13 | ALI FOREVER | 150 |
+
+编号 1～5 中只有编号 5 的电影超过 120 分钟，结果还出现了编号 6、11、12 和 13。这能帮助我们核对需求。这里取的是**符合条件的记录中排在最前面的 5 条**。
+
+### 把筛选条件写清楚
+
+如果还要求电影分级为 `PG` 或 `PG-13`，就用 `AND` 连接片长和分级要求，用括号把两个分级选项放在一起。
+
+```sql
+WHERE length > 120
+  AND (rating = 'PG' OR rating = 'PG-13')
+```
+
+同一列有多个允许值时，可以把括号里的条件写成 `rating IN ('PG', 'PG-13')`。这样看一眼就能知道两个分级都要满足前面的片长要求。
+
+范围条件要写清端点。例如「至少 120 分钟、不到 150 分钟」写作 `length >= 120 AND length < 150`。查片名以 `A` 开头，可以用 `title LIKE 'A%'`，其中 `%` 匹配零个或多个字符。
+
+有时要筛选某一列尚未记录的值。比如查未归还的租借，在 `sakila.rental` 中用 `WHERE return_date IS NULL`。`NULL` 表示归还时间缺失，`IS NULL` 专门检查这一状态。[MySQL 空值说明](https://dev.mysql.com/doc/refman/8.0/en/problems-with-null.html)
+
+### 让排序和业务问题一致
+
+把问题换成「最长的 5 部电影」，排序的第一项就应改为片长。片长相同时，再按电影编号升序排列。
+
+```sql
+SELECT film_id, title, length
+FROM sakila.film
+WHERE length > 120
+ORDER BY length DESC, film_id ASC
+LIMIT 5;
+```
+
+实测返回的电影编号是 141、182、212、349 和 426，片长都是 185 分钟。第一项排序在这些记录之间分不出先后，第二项排序才决定编号小的排在前面。只按片长排序时，同片长记录的顺序由执行过程决定。如果并列跨过第 5 条，入选的电影也可能变化。[MySQL LIMIT 优化说明](https://dev.mysql.com/doc/refman/8.0/en/limit-optimization.html)
+
+### 用 DISTINCT 列出不同的值
+
+如果问题是「片长超过 120 分钟的电影有哪些分级」，结果里一行就应该代表一种分级。查询只选 `rating`，再用 `DISTINCT` 合并重复结果。
+
+```sql
+SELECT DISTINCT rating
+FROM sakila.film
+WHERE length > 120
+ORDER BY rating;
+```
+
+`DISTINCT` 按 `SELECT` 中列出的值去重。如果同时选了 `rating` 和 `film_id`，就会按这两个值的组合去重。一种分级可以对应多个电影编号，因此仍可能出现多行相同的分级。[MySQL SELECT 手册](https://dev.mysql.com/doc/refman/8.0/en/select.html)
+
+### 单表查询练习
+
+独立写一条 SQL，找出分级为 `PG` 或 `PG-13`、片长在 120～150 分钟之间（含两端）的电影。显示编号、片名和片长，按片长降序取 5 部，片长相同则按编号升序。运行后用几条原始记录核对筛选边界和排序规则。
 
 ## 分组与汇总
 
