@@ -19,7 +19,7 @@ tags: [域/数据库]
 
 本章用 Sakila 的电影租赁数据练习。`film` 的一行是一部电影，`inventory` 的一行是一份门店库存副本，`rental` 的一行是一次租借。我们先从电影表选出符合条件的记录，再把查询扩展到多表统计。最后在练习库中修改数据，并用执行计划观察 MySQL 怎样取得查询结果。[Sakila 库存表](https://dev.mysql.com/doc/sakila/en/sakila-structure-tables-inventory.html)、[Sakila 租借表](https://dev.mysql.com/doc/sakila/en/sakila-structure-tables-rental.html)
 
-<!-- 实验环境待在 Navicat 的实际连接中运行 SELECT VERSION() 后补入。 -->
+本节在本机 MySQL 8.0.34 上通过命令行客户端复现。每个完整查询后附终端表格，方便核对输入和输出。
 
 ## 单表查询
 
@@ -35,17 +35,21 @@ ORDER BY film_id ASC
 LIMIT 5;
 ```
 
+```text
++---------+-----------------+--------+
+| film_id | title           | length |
++---------+-----------------+--------+
+|       5 | AFRICAN EGG     |    130 |
+|       6 | AGENT TRUMAN    |    169 |
+|      11 | ALAMO VIDEOTAPE |    126 |
+|      12 | ALASKA PHANTOM  |    136 |
+|      13 | ALI FOREVER     |    150 |
++---------+-----------------+--------+
+```
+
 `FROM` 指定数据来源，`sakila.film` 表示 Sakila 数据库里的电影表。`SELECT` 列出要显示的字段。想让列名显示单位时，可以写 `length AS length_minutes`，这个名字用于当前查询的输出。
 
-`WHERE length > 120` 只保留片长超过 120 分钟的记录。`ORDER BY film_id ASC` 将这些记录按编号升序排列，`LIMIT 5` 取排在最前面的 5 条。实测结果如下。
-
-| 电影编号 | 片名 | 片长（分钟） |
-|---:|---|---:|
-| 5 | AFRICAN EGG | 130 |
-| 6 | AGENT TRUMAN | 169 |
-| 11 | ALAMO VIDEOTAPE | 126 |
-| 12 | ALASKA PHANTOM | 136 |
-| 13 | ALI FOREVER | 150 |
+`WHERE length > 120` 只保留片长超过 120 分钟的记录。`ORDER BY film_id ASC` 将这些记录按编号升序排列，`LIMIT 5` 取排在最前面的 5 条。
 
 编号 1～5 中只有编号 5 的电影超过 120 分钟，结果还出现了编号 6、11、12 和 13。这能帮助我们核对需求。这里取的是**符合条件的记录中排在最前面的 5 条**。
 
@@ -54,8 +58,24 @@ LIMIT 5;
 如果还要求电影分级为 `PG` 或 `PG-13`，就用 `AND` 连接片长和分级要求，用括号把两个分级选项放在一起。
 
 ```sql
+SELECT film_id, title, length, rating
+FROM sakila.film
 WHERE length > 120
   AND (rating = 'PG' OR rating = 'PG-13')
+ORDER BY film_id ASC
+LIMIT 5;
+```
+
+```text
++---------+-----------------------------+--------+--------+
+| film_id | title                       | length | rating |
++---------+-----------------------------+--------+--------+
+|       6 | AGENT TRUMAN                |    169 | PG     |
+|      12 | ALASKA PHANTOM              |    136 | PG     |
+|      13 | ALI FOREVER                 |    150 | PG     |
+|      33 | APOLLO TEEN                 |    153 | PG-13  |
+|      35 | ARACHNOPHOBIA ROLLERCOASTER |    147 | PG-13  |
++---------+-----------------------------+--------+--------+
 ```
 
 同一列有多个允许值时，可以把括号里的条件写成 `rating IN ('PG', 'PG-13')`。这样看一眼就能知道两个分级都要满足前面的片长要求。
@@ -63,6 +83,26 @@ WHERE length > 120
 范围条件要写清端点。例如「至少 120 分钟、不到 150 分钟」写作 `length >= 120 AND length < 150`。查片名以 `A` 开头，可以用 `title LIKE 'A%'`，其中 `%` 匹配零个或多个字符。
 
 有时要筛选某一列尚未记录的值。比如查未归还的租借，在 `sakila.rental` 中用 `WHERE return_date IS NULL`。`NULL` 表示归还时间缺失，`IS NULL` 专门检查这一状态。[MySQL 空值说明](https://dev.mysql.com/doc/refman/8.0/en/problems-with-null.html)
+
+```sql
+SELECT rental_id, return_date
+FROM sakila.rental
+WHERE return_date IS NULL
+ORDER BY rental_id ASC
+LIMIT 5;
+```
+
+```text
++-----------+-------------+
+| rental_id | return_date |
++-----------+-------------+
+|     11496 | NULL        |
+|     11541 | NULL        |
+|     11563 | NULL        |
+|     11577 | NULL        |
+|     11593 | NULL        |
++-----------+-------------+
+```
 
 ### 让排序和业务问题一致
 
@@ -76,7 +116,19 @@ ORDER BY length DESC, film_id ASC
 LIMIT 5;
 ```
 
-实测返回的电影编号是 141、182、212、349 和 426，片长都是 185 分钟。第一项排序在这些记录之间分不出先后，第二项排序才决定编号小的排在前面。只按片长排序时，同片长记录的顺序由执行过程决定。如果并列跨过第 5 条，入选的电影也可能变化。[MySQL LIMIT 优化说明](https://dev.mysql.com/doc/refman/8.0/en/limit-optimization.html)
+```text
++---------+----------------+--------+
+| film_id | title          | length |
++---------+----------------+--------+
+|     141 | CHICAGO NORTH  |    185 |
+|     182 | CONTROL ANTHEM |    185 |
+|     212 | DARN FORRESTER |    185 |
+|     349 | GANGS PRIDE    |    185 |
+|     426 | HOME PITY      |    185 |
++---------+----------------+--------+
+```
+
+这 5 部电影的片长都是 185 分钟，第二项排序决定编号小的排在前面。只按片长排序时，同片长记录的顺序由执行过程决定。如果并列跨过第 5 条，入选的电影也可能变化。[MySQL LIMIT 优化说明](https://dev.mysql.com/doc/refman/8.0/en/limit-optimization.html)
 
 ### 用 DISTINCT 列出不同的值
 
@@ -87,6 +139,18 @@ SELECT DISTINCT rating
 FROM sakila.film
 WHERE length > 120
 ORDER BY rating;
+```
+
+```text
++--------+
+| rating |
++--------+
+| G      |
+| PG     |
+| PG-13  |
+| R      |
+| NC-17  |
++--------+
 ```
 
 `DISTINCT` 按 `SELECT` 中列出的值去重。如果同时选了 `rating` 和 `film_id`，就会按这两个值的组合去重。一种分级可以对应多个电影编号，因此仍可能出现多行相同的分级。[MySQL SELECT 手册](https://dev.mysql.com/doc/refman/8.0/en/select.html)
