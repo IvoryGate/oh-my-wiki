@@ -11,23 +11,13 @@ tags: [域/数据库]
 
 > MySQL 学习系列第 1 篇。章节目标与验收题见 [[workspace/topics/MySQL/大纲|系列大纲]]。
 
-## 开篇
+## 实验环境
 
-第一次在 Navicat 打开电影表时，我看到电影编号从 1 往下排，以为查询结果也会默认按编号排列。后来我查片长最长的 5 部电影，把排序条件里的电影编号去掉，返回的结果就变了。两条语句都能运行，却规定了不同的排序规则。
+查询在本机的 Sakila 样例库中执行。`film` 的一行是一部电影，`inventory` 的一行是一份库存副本，`rental` 的一行是一次租借。[Sakila 库存表](https://dev.mysql.com/doc/sakila/en/sakila-structure-tables-inventory.html)、[Sakila 租借表](https://dev.mysql.com/doc/sakila/en/sakila-structure-tables-rental.html)
 
-写 SQL 时，先把问题说具体。以「查出片长超过 120 分钟的电影中最长的 5 部」为例，我需要确定查哪张表、显示哪些字段、怎样筛选，以及片长相同的电影该怎么排。规则写清楚之后，还要拿几条记录核对结果。
+建表、增删改和删表在独立练习库中执行。每段 SQL 后是命令行实测输出。多个语句的输出按执行顺序排列，执行计划只保留树形部分。
 
-本章用 Sakila 的电影租赁数据练习。`film` 的一行是一部电影，`inventory` 的一行是一份门店库存副本，`rental` 的一行是一次租借。我们先从电影表选出符合条件的记录，再把查询扩展到多表统计。最后在练习库中修改数据，并用执行计划观察 MySQL 怎样取得查询结果。[Sakila 库存表](https://dev.mysql.com/doc/sakila/en/sakila-structure-tables-inventory.html)、[Sakila 租借表](https://dev.mysql.com/doc/sakila/en/sakila-structure-tables-rental.html)
-
-本章在本机 MySQL 8.0.34 的命令行客户端实跑。SQL 块保留可复制的语句，文本块保留实际输出。一个 SQL 块有多条语句时，输出按执行顺序排列。执行计划单独摘出树形内容，便于阅读。
-
-查询使用现有 Sakila 数据。建表、增删改和删除操作从新建练习库开始，最后清理练习对象。实验中的耗时会随运行环境和缓存状态变化。
-
-语法范围参考菜鸟教程。本章按 MySQL 8.0 的写法组织，例如用 `LIMIT` 取前几行、用 `CHAR_LENGTH` 数字符，并在需要存下查询结果时用 `CREATE TABLE ... SELECT`。[菜鸟教程 SQL 目录](https://www.runoob.com/sql/sql-tutorial.html)
-
-### 核对实验环境
-
-先核对实际连接的服务端版本。查询示例使用本机的 Sakila 数据。
+服务端版本通过以下语句确认。
 
 ```sql
 SELECT VERSION() AS mysql_version;
